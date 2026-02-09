@@ -1,0 +1,50 @@
+[
+  {
+    "id": "act_20260208_1740",
+    "timestamp": "2026-02-08T17:40:00-07:00",
+    "type": "system",
+    "action": "Proactive autonomy approved",
+    "description": "Joe approved experimenting with proactive actions during idle time",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260208_1635",
+    "timestamp": "2026-02-08T16:35:00-07:00",
+    "type": "system",
+    "action": "REPERTOIRE.md created",
+    "description": "Created proactive action library with Dean, including the Hunch Protocol",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260208_1141",
+    "timestamp": "2026-02-08T11:41:00-07:00",
+    "type": "search",
+    "action": "Reticulum research",
+    "description": "Researched Reticulum mesh networking stack for Dean (ham radio integration)",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260208_0803",
+    "timestamp": "2026-02-08T08:03:00-07:00",
+    "type": "api",
+    "action": "Twilio SMS configured",
+    "description": "Set up Twilio SMS capability, toll-free verification pending",
+    "status": "pending"
+  },
+  {
+    "id": "act_20260208_0754",
+    "timestamp": "2026-02-08T07:54:00-07:00",
+    "type": "email",
+    "action": "Morning news digests sent",
+    "description": "Sent Newspack, Mech Interp, and OpenClaw news digests to Joe",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260208_0007",
+    "timestamp": "2026-02-08T00:07:00-07:00",
+    "type": "system",
+    "action": "Mission Control initialized",
+    "description": "Started building Mission Control dashboard",
+    "status": "completed"
+  }
+]

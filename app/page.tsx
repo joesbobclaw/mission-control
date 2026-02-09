@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader } from 'lucide-react'
+import activitiesData from './data/activities.json'
 
 // Types
 interface ActivityItem {
@@ -21,17 +22,8 @@ interface ScheduledTask {
   type: 'cron' | 'reminder'
 }
 
-// Sample data (will be replaced with real data from workspace)
-const sampleActivities: ActivityItem[] = [
-  { id: '1', timestamp: '2026-02-08T00:07:00-07:00', type: 'system', action: 'Mission Control initialized', description: 'Started building Mission Control dashboard', status: 'completed' },
-  { id: '2', timestamp: '2026-02-07T23:35:00-07:00', type: 'api', action: 'X/Twitter API configured', description: 'Stored API credentials for X integration', status: 'completed' },
-  { id: '3', timestamp: '2026-02-07T22:35:00-07:00', type: 'email', action: 'Email digest sent', description: 'Sent Mech Interp + OpenClaw news digest to jboydston@gmail.com', status: 'completed' },
-  { id: '4', timestamp: '2026-02-07T20:25:00-07:00', type: 'cron', action: 'Heartbeat check', description: 'Email check: 1 unread (iCloud welcome)', status: 'completed' },
-  { id: '5', timestamp: '2026-02-07T19:31:00-07:00', type: 'system', action: 'Email monitoring enabled', description: 'Added email check to HEARTBEAT.md', status: 'completed' },
-  { id: '6', timestamp: '2026-02-07T16:03:00-07:00', type: 'search', action: 'Iaido dojo search', description: 'Searched for Japanese sword instruction near Olathe, KS for Dean', status: 'completed' },
-  { id: '7', timestamp: '2026-02-07T15:20:00-07:00', type: 'system', action: 'Sub-agent spawned', description: 'Spawned poet-demo to demonstrate session spawning', status: 'completed' },
-  { id: '8', timestamp: '2026-02-07T10:55:00-07:00', type: 'search', action: 'HackRF Pro research', description: 'Found pricing: NooElec $400, Lab401 $531', status: 'completed' },
-]
+// Load activities from JSON file (updated via git push)
+const sampleActivities: ActivityItem[] = activitiesData as ActivityItem[]
 
 const scheduledTasks: ScheduledTask[] = [
   { id: '1', name: 'Email Check', schedule: 'Every 30 min', nextRun: '2026-02-08T00:30:00', type: 'cron' },
