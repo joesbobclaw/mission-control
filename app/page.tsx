@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader } from 'lucide-react'
 import activitiesData from './data/activities.json'
+import scheduledData from './data/scheduled.json'
 
 // Types
 interface ActivityItem {
@@ -14,23 +15,26 @@ interface ActivityItem {
   status: 'completed' | 'pending' | 'failed'
 }
 
-interface ScheduledTask {
+interface RecurringTask {
   id: string
   name: string
   schedule: string
-  nextRun: string
-  type: 'cron' | 'reminder'
+  type: string
+  source: string
 }
 
-// Load activities from JSON file (updated via git push)
-const sampleActivities: ActivityItem[] = activitiesData as ActivityItem[]
+interface OneTimeTask {
+  id: string
+  name: string
+  scheduledFor: string
+  type: string
+  description: string
+}
 
-const scheduledTasks: ScheduledTask[] = [
-  { id: '1', name: 'Email Check', schedule: 'Every 30 min', nextRun: '2026-02-08T00:30:00', type: 'cron' },
-  { id: '2', name: 'Newspack News Monitor', schedule: 'Daily', nextRun: '2026-02-08T08:00:00', type: 'cron' },
-  { id: '3', name: 'Mech Interp Digest', schedule: 'Daily', nextRun: '2026-02-08T08:15:00', type: 'cron' },
-  { id: '4', name: 'OpenClaw News Monitor', schedule: 'Daily', nextRun: '2026-02-08T08:30:00', type: 'cron' },
-]
+// Load data from JSON files (updated via git push)
+const sampleActivities: ActivityItem[] = activitiesData as ActivityItem[]
+const recurringTasks: RecurringTask[] = scheduledData.recurring as RecurringTask[]
+const oneTimeTasks: OneTimeTask[] = scheduledData.oneTime as OneTimeTask[]
 
 // Status icon component
 function StatusIcon({ status }: { status: string }) {
@@ -189,21 +193,43 @@ export default function MissionControl() {
               ))}
             </div>
             
-            {/* Task List */}
-            <div className="space-y-3">
-              <h3 className="text-sm font-medium text-gray-400 mb-2">Recurring Tasks</h3>
-              {scheduledTasks.map((task) => (
+            {/* Recurring Tasks */}
+            <div className="space-y-3 mb-6">
+              <h3 className="text-sm font-medium text-gray-400 mb-2">🔄 Recurring Tasks</h3>
+              {recurringTasks.map((task) => (
                 <div key={task.id} className="flex items-center gap-3 p-3 bg-gray-800 rounded-lg">
-                  <div className={`w-2 h-2 rounded-full ${task.type === 'cron' ? 'bg-orange-500' : 'bg-green-500'}`} />
+                  <div className="w-2 h-2 rounded-full bg-orange-500" />
                   <div className="flex-1">
                     <div className="font-medium">{task.name}</div>
                     <div className="text-sm text-gray-500">{task.schedule}</div>
                   </div>
                   <div className="text-xs text-gray-500">
-                    Next: {formatTime(task.nextRun)}
+                    {task.source}
                   </div>
                 </div>
               ))}
+            </div>
+
+            {/* One-Time Tasks */}
+            <div className="space-y-3">
+              <h3 className="text-sm font-medium text-gray-400 mb-2">📌 Upcoming One-Time Tasks</h3>
+              {oneTimeTasks.length > 0 ? (
+                oneTimeTasks.slice(0, 10).map((task) => (
+                  <div key={task.id} className="flex items-center gap-3 p-3 bg-gray-800 rounded-lg">
+                    <div className="w-2 h-2 rounded-full bg-green-500" />
+                    <div className="flex-1">
+                      <div className="font-medium">{task.name}</div>
+                      <div className="text-sm text-gray-500">{task.description}</div>
+                    </div>
+                    <div className="text-xs text-gray-500 text-right">
+                      <div>{formatDate(task.scheduledFor)}</div>
+                      <div>{formatTime(task.scheduledFor)}</div>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <p className="text-gray-500 text-sm">No upcoming one-time tasks</p>
+              )}
             </div>
           </div>
         </div>

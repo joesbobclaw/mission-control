@@ -1,0 +1,56 @@
+{
+  "recurring": [
+    {
+      "id": "rec_email",
+      "name": "Email Check",
+      "schedule": "Every heartbeat (~30 min)",
+      "type": "cron",
+      "source": "HEARTBEAT.md"
+    },
+    {
+      "id": "rec_newspack",
+      "name": "Newspack News Monitor",
+      "schedule": "Daily (morning)",
+      "type": "cron",
+      "source": "HEARTBEAT.md"
+    },
+    {
+      "id": "rec_mechinterp",
+      "name": "Mech Interp Digest",
+      "schedule": "Daily (morning)",
+      "type": "cron",
+      "source": "HEARTBEAT.md"
+    },
+    {
+      "id": "rec_openclaw",
+      "name": "OpenClaw News Monitor",
+      "schedule": "Daily (morning)",
+      "type": "cron",
+      "source": "HEARTBEAT.md"
+    },
+    {
+      "id": "rec_backup",
+      "name": "Brain Backup",
+      "schedule": "Daily (evening)",
+      "type": "cron",
+      "source": "HEARTBEAT.md"
+    },
+    {
+      "id": "rec_brainsync",
+      "name": "Brain Sync (Work Claude)",
+      "schedule": "Every heartbeat",
+      "type": "cron",
+      "source": "HEARTBEAT.md"
+    }
+  ],
+  "oneTime": [
+    {
+      "id": "2b2bcbd2-8bf7-48f5-a9eb-12bd59a26eec",
+      "name": "SMS Setup Reminder",
+      "scheduledFor": "2026-02-15T10:00:00-07:00",
+      "type": "reminder",
+      "description": "Follow up on Twilio setup for SMS capability"
+    }
+  ],
+  "lastUpdated": "2026-02-08T18:55:00-07:00"
+}
