@@ -1,5 +1,13 @@
 [
   {
+    "id": "act_20260208_175745",
+    "timestamp": "2026-02-09T00:57:45-07:00",
+    "type": "system",
+    "action": "Activity logging enabled",
+    "description": "Created log-activity.sh helper and connected Mission Control to activities.json",
+    "status": "completed"
+  },
+  {
     "id": "act_20260208_1740",
     "timestamp": "2026-02-08T17:40:00-07:00",
     "type": "system",
