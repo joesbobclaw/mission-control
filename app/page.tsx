@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader } from 'lucide-react'
+import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical } from 'lucide-react'
+import Link from 'next/link'
 import activitiesData from './data/activities.json'
 import scheduledData from './data/scheduled.json'
 
@@ -131,6 +132,13 @@ export default function MissionControl() {
           <Search className="w-4 h-4" />
           Search
         </button>
+        <Link
+          href="/facts"
+          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-gray-800 text-gray-400 hover:bg-gray-700"
+        >
+          <FlaskConical className="w-4 h-4" />
+          Fact Checker
+        </Link>
       </nav>
 
       {/* Activity Feed Tab */}
