@@ -1,56 +1,62 @@
 {
   "recurring": [
     {
-      "id": "rec_email",
+      "id": "cron_morning_digest",
+      "name": "Morning News Digest",
+      "schedule": "7:30 AM daily",
+      "type": "cron",
+      "source": "OpenClaw Cron",
+      "description": "Newspack, mech interp, OpenClaw news → email to Joe"
+    },
+    {
+      "id": "cron_noon_check",
+      "name": "Noon Breaking News Check",
+      "schedule": "12:00 PM daily",
+      "type": "cron",
+      "source": "OpenClaw Cron",
+      "description": "Quick scan for breaking news since morning"
+    },
+    {
+      "id": "hb_email",
       "name": "Email Check",
       "schedule": "Every heartbeat (~30 min)",
-      "type": "cron",
-      "source": "HEARTBEAT.md"
+      "type": "heartbeat",
+      "source": "HEARTBEAT.md",
+      "description": "Check inbox, summarize unread"
     },
     {
-      "id": "rec_newspack",
-      "name": "Newspack News Monitor",
-      "schedule": "Daily (morning)",
-      "type": "cron",
-      "source": "HEARTBEAT.md"
-    },
-    {
-      "id": "rec_mechinterp",
-      "name": "Mech Interp Digest",
-      "schedule": "Daily (morning)",
-      "type": "cron",
-      "source": "HEARTBEAT.md"
-    },
-    {
-      "id": "rec_openclaw",
-      "name": "OpenClaw News Monitor",
-      "schedule": "Daily (morning)",
-      "type": "cron",
-      "source": "HEARTBEAT.md"
-    },
-    {
-      "id": "rec_backup",
-      "name": "Brain Backup",
-      "schedule": "Daily (evening)",
-      "type": "cron",
-      "source": "HEARTBEAT.md"
-    },
-    {
-      "id": "rec_brainsync",
+      "id": "hb_brainsync",
       "name": "Brain Sync (Work Claude)",
       "schedule": "Every heartbeat",
-      "type": "cron",
-      "source": "HEARTBEAT.md"
+      "type": "heartbeat",
+      "source": "HEARTBEAT.md",
+      "description": "Pull latest from joe-brain-sync repo"
+    },
+    {
+      "id": "hb_backup",
+      "name": "Brain Backup",
+      "schedule": "Daily (evening)",
+      "type": "heartbeat",
+      "source": "HEARTBEAT.md",
+      "description": "Git commit/push to bob-brain repo"
+    },
+    {
+      "id": "hb_brainsync_push",
+      "name": "Brain Sync Push",
+      "schedule": "Daily (evening)",
+      "type": "heartbeat",
+      "source": "HEARTBEAT.md",
+      "description": "Push daily update to joe-brain-sync repo"
     }
   ],
   "oneTime": [
     {
       "id": "2b2bcbd2-8bf7-48f5-a9eb-12bd59a26eec",
-      "name": "SMS Setup Reminder",
+      "name": "SMS/Twilio Setup Reminder",
       "scheduledFor": "2026-02-15T10:00:00-07:00",
       "type": "reminder",
-      "description": "Follow up on Twilio setup for SMS capability"
+      "description": "Follow up on Twilio account restrictions"
     }
   ],
-  "lastUpdated": "2026-02-08T18:55:00-07:00"
+  "lastUpdated": "2026-02-09T21:08:00-07:00"
 }
