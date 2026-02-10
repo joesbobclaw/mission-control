@@ -1,0 +1,85 @@
+{
+  "claims": [
+    {
+      "id": "claim_001",
+      "claim": "Neel Nanda is the Mechanistic Interpretability lead at DeepMind",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-09T11:23:00-07:00",
+        "context": "Mech interp monitoring sources list for Joe"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "attribution"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://www.neelnanda.io/about", "excerpt": "I run the Google DeepMind mechanistic interpretability team", "agrees": true},
+          {"url": "https://scholar.google.com/citations?user=GLnX3MkAAAAJ", "excerpt": "Mechanistic Interpretability Team Lead, Google DeepMind", "agrees": true}
+        ],
+        "explanation": "Confirmed via Neel Nanda's personal site and Google Scholar. Title is 'Google DeepMind' (post-merger name).",
+        "verifiedAt": "2026-02-09T21:11:00-07:00"
+      }
+    },
+    {
+      "id": "claim_002",
+      "claim": "Telegram Bot API supports receiving 'user is typing' status updates",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-09T11:30:00-07:00",
+        "context": "Discussion with Dean about typing indicators"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "other"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [
+          {"url": "https://core.telegram.org/bots/api", "excerpt": "Bot API update types include messages, edited_message, channel_post, etc. - no typing updates", "agrees": false},
+          {"url": "https://stackoverflow.com/questions/40089529", "excerpt": "Inline queries can be used as workaround since they send user text in real-time", "agrees": false}
+        ],
+        "explanation": "INCORRECT. The full MTProto API has updateChatUserTyping, but the Bot API does NOT support receiving typing indicators. Bots can SEND typing status but cannot RECEIVE it.",
+        "verifiedAt": "2026-02-09T21:11:00-07:00"
+      }
+    },
+    {
+      "id": "claim_003",
+      "claim": "Washington Post laid off 30% of staff (~300 journalists) and CEO Will Lewis stepped down",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-09T08:37:00-07:00",
+        "context": "Morning news digest for Joe"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://www.cnn.com/2026/02/07/media/washington-post-will-lewis-publisher-resigns", "excerpt": "Will Lewis has abruptly stepped down, just days after the newspaper laid off one-third of its staff, including at least 300 journalists", "agrees": true},
+          {"url": "https://www.theguardian.com/media/2026/feb/07/washington-post-will-lewis-resigns", "excerpt": "Departure comes days after newspaper laid off nearly one-third of staff, including more than 300 journalists", "agrees": true},
+          {"url": "https://apnews.com/article/washington-post-will-lewis-stepping-down-layoffs-c8559f5e1d9f4d73f37163e4a708f9da", "excerpt": "laying off one-third of its staff", "agrees": true}
+        ],
+        "explanation": "Confirmed by CNN, Guardian, AP News, NPR. All major outlets agree on ~30% / one-third layoffs including 300+ journalists, and Lewis resignation.",
+        "verifiedAt": "2026-02-09T21:11:00-07:00"
+      }
+    }
+  ],
+  "stats": {
+    "totalClaims": 3,
+    "verified": 2,
+    "disputed": 1,
+    "unverifiable": 0,
+    "pending": 0,
+    "lastUpdated": "2026-02-09T21:11:00-07:00"
+  }
+}

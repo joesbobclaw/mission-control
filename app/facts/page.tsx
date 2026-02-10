@@ -37,18 +37,22 @@ interface Stats {
   lastUpdated: string | null
 }
 
-// Sample data for demo
+// Load data from JSON file (updated via git push)
+import claimsData from '../data/claims.json'
+
 const sampleStats: Stats = {
-  totalClaims: 0,
-  verified: 0,
-  disputed: 0,
-  unverifiable: 0,
-  pending: 0,
-  hallucinationRate: 0,
-  lastUpdated: null
+  totalClaims: claimsData.stats.totalClaims,
+  verified: claimsData.stats.verified,
+  disputed: claimsData.stats.disputed,
+  unverifiable: claimsData.stats.unverifiable,
+  pending: claimsData.stats.pending,
+  hallucinationRate: claimsData.stats.totalClaims > 0 
+    ? (claimsData.stats.disputed / claimsData.stats.totalClaims) * 100 
+    : 0,
+  lastUpdated: claimsData.stats.lastUpdated
 }
 
-const sampleClaims: Claim[] = []
+const sampleClaims: Claim[] = claimsData.claims as Claim[]
 
 // Status badge component
 function StatusBadge({ status }: { status: string }) {
