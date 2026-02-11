@@ -1,5 +1,45 @@
 [
   {
+    "id": "act_20260210_2218",
+    "timestamp": "2026-02-10T22:18:00-07:00",
+    "type": "api",
+    "action": "Blog posts to WordPress",
+    "description": "Created StoryTrail and Mission Control as WordPress drafts via REST API",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260210_2044",
+    "timestamp": "2026-02-10T20:44:00-07:00",
+    "type": "search",
+    "action": "Telegraphese research",
+    "description": "Discussed SMS language/telegraphese economics with Dean — historical parallel to token costs",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260210_0858",
+    "timestamp": "2026-02-10T08:58:00-07:00",
+    "type": "file",
+    "action": "Slide deck redesign",
+    "description": "Updated AI Readiness Squad slides with Newspack brand colors (#001437 navy)",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260210_0554",
+    "timestamp": "2026-02-10T05:54:00-07:00",
+    "type": "email",
+    "action": "Daily digest sent",
+    "description": "Sent Newspack, Mech Interp, OpenClaw news digest — New Yorker Claude piece, SwitchBot AI Hub",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260210_0512",
+    "timestamp": "2026-02-10T05:12:00-07:00",
+    "type": "system",
+    "action": "Brain backup",
+    "description": "Git pushed 5 files including AI readiness slides drafts",
+    "status": "completed"
+  },
+  {
     "id": "act_20260208_220918",
     "timestamp": "2026-02-09T05:09:18-07:00",
     "type": "file",
@@ -46,14 +86,6 @@
     "action": "Twilio SMS configured",
     "description": "Set up Twilio SMS capability, toll-free verification pending",
     "status": "pending"
-  },
-  {
-    "id": "act_20260208_0754",
-    "timestamp": "2026-02-08T07:54:00-07:00",
-    "type": "email",
-    "action": "Morning news digests sent",
-    "description": "Sent Newspack, Mech Interp, and OpenClaw news digests to Joe",
-    "status": "completed"
   },
   {
     "id": "act_20260208_0007",
