@@ -1,5 +1,21 @@
 [
   {
+    "id": "act_20260212_0745",
+    "timestamp": "2026-02-12T07:45:00-07:00",
+    "type": "system",
+    "action": "Watchdog configured",
+    "description": "Created watchdog.sh + launchd job — auto-restores config if gateway unresponsive (30min interval)",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260212_0735",
+    "timestamp": "2026-02-12T07:35:00-07:00",
+    "type": "system",
+    "action": "Context pruning enabled",
+    "description": "Enabled cache-ttl context pruning with 2h TTL — aggressive pruning to reduce token costs",
+    "status": "completed"
+  },
+  {
     "id": "act_20260212_1220",
     "timestamp": "2026-02-12T12:20:00-07:00",
     "type": "file",
@@ -141,22 +157,6 @@
     "type": "search",
     "action": "Reticulum research",
     "description": "Researched Reticulum mesh networking stack for Dean (ham radio integration)",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260208_0803",
-    "timestamp": "2026-02-08T08:03:00-07:00",
-    "type": "api",
-    "action": "Twilio SMS configured",
-    "description": "Set up Twilio SMS capability, toll-free verification pending",
-    "status": "pending"
-  },
-  {
-    "id": "act_20260208_0007",
-    "timestamp": "2026-02-08T00:07:00-07:00",
-    "type": "system",
-    "action": "Mission Control initialized",
-    "description": "Started building Mission Control dashboard",
     "status": "completed"
   }
 ]
