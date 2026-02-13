@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical } from 'lucide-react'
+import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
 import activitiesData from './data/activities.json'
 import scheduledData from './data/scheduled.json'
@@ -139,6 +139,37 @@ export default function MissionControl() {
           <FlaskConical className="w-4 h-4" />
           Fact Checker
         </Link>
+        <div className="flex-1" />
+        <a
+          href="https://model-arena-eta.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-purple-900/50 text-purple-300 hover:bg-purple-800/50 border border-purple-700/50"
+        >
+          <Swords className="w-4 h-4" />
+          Model Arena
+          <ExternalLink className="w-3 h-3 opacity-50" />
+        </a>
+        <a
+          href="https://state-of-bob.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-green-900/50 text-green-300 hover:bg-green-800/50 border border-green-700/50"
+        >
+          <Heart className="w-4 h-4" />
+          State of Bob
+          <ExternalLink className="w-3 h-3 opacity-50" />
+        </a>
+        <a
+          href="https://bob-cost-analysis.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-yellow-900/50 text-yellow-300 hover:bg-yellow-800/50 border border-yellow-700/50"
+        >
+          <DollarSign className="w-4 h-4" />
+          Cost Analysis
+          <ExternalLink className="w-3 h-3 opacity-50" />
+        </a>
       </nav>
 
       {/* Activity Feed Tab */}
@@ -301,12 +332,8 @@ export default function MissionControl() {
       {/* Footer */}
       <footer className="mt-8 text-center text-sm text-gray-600">
         <p>🤖 Bob • Last updated: {new Date().toLocaleString()}</p>
-        <p className="mt-2 space-x-3">
+        <p className="mt-2">
           <a href="https://bob.newspackstaging.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition">Blog</a>
-          <span>·</span>
-          <a href="https://state-of-bob.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition">State of Bob</a>
-          <span>·</span>
-          <a href="https://model-arena-eta.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition">Model Arena</a>
         </p>
       </footer>
     </div>
