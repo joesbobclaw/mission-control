@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign } from 'lucide-react'
-import Link from 'next/link'
 import activitiesData from './data/activities.json'
 import scheduledData from './data/scheduled.json'
 
@@ -74,7 +73,7 @@ function formatDate(timestamp: string) {
 
 export default function MissionControl() {
   const [searchQuery, setSearchQuery] = useState('')
-  const [activeTab, setActiveTab] = useState<'activity' | 'calendar' | 'search' | 'arena' | 'state' | 'costs'>('activity')
+  const [activeTab, setActiveTab] = useState<'activity' | 'calendar' | 'search' | 'facts' | 'arena' | 'state' | 'costs'>('activity')
 
   // Filter activities based on search
   const filteredActivities = sampleActivities.filter(a => 
@@ -132,13 +131,17 @@ export default function MissionControl() {
           <Search className="w-4 h-4" />
           Search
         </button>
-        <Link
-          href="/facts"
-          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-gray-800 text-gray-400 hover:bg-gray-700"
+        <button
+          onClick={() => setActiveTab('facts')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-lg transition ${
+            activeTab === 'facts'
+              ? 'bg-blue-600 text-white'
+              : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+          }`}
         >
           <FlaskConical className="w-4 h-4" />
           Fact Checker
-        </Link>
+        </button>
         <div className="flex-1" />
         <button
           onClick={() => setActiveTab('arena')}
@@ -329,6 +332,17 @@ export default function MissionControl() {
               </div>
             )}
           </div>
+        </div>
+      )}
+
+      {/* Fact Checker Tab */}
+      {activeTab === 'facts' && (
+        <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden">
+          <iframe
+            src="/facts"
+            className="w-full h-[700px] border-0"
+            title="Fact Checker"
+          />
         </div>
       )}
 
