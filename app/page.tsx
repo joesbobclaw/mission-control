@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign, ExternalLink } from 'lucide-react'
+import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign } from 'lucide-react'
 import Link from 'next/link'
 import activitiesData from './data/activities.json'
 import scheduledData from './data/scheduled.json'
@@ -74,7 +74,7 @@ function formatDate(timestamp: string) {
 
 export default function MissionControl() {
   const [searchQuery, setSearchQuery] = useState('')
-  const [activeTab, setActiveTab] = useState<'activity' | 'calendar' | 'search'>('activity')
+  const [activeTab, setActiveTab] = useState<'activity' | 'calendar' | 'search' | 'arena' | 'state' | 'costs'>('activity')
 
   // Filter activities based on search
   const filteredActivities = sampleActivities.filter(a => 
@@ -140,36 +140,39 @@ export default function MissionControl() {
           Fact Checker
         </Link>
         <div className="flex-1" />
-        <a
-          href="https://model-arena-eta.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-purple-900/50 text-purple-300 hover:bg-purple-800/50 border border-purple-700/50"
+        <button
+          onClick={() => setActiveTab('arena')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-lg transition ${
+            activeTab === 'arena'
+              ? 'bg-purple-600 text-white'
+              : 'bg-purple-900/50 text-purple-300 hover:bg-purple-800/50 border border-purple-700/50'
+          }`}
         >
           <Swords className="w-4 h-4" />
           Model Arena
-          <ExternalLink className="w-3 h-3 opacity-50" />
-        </a>
-        <a
-          href="https://state-of-bob.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-green-900/50 text-green-300 hover:bg-green-800/50 border border-green-700/50"
+        </button>
+        <button
+          onClick={() => setActiveTab('state')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-lg transition ${
+            activeTab === 'state'
+              ? 'bg-green-600 text-white'
+              : 'bg-green-900/50 text-green-300 hover:bg-green-800/50 border border-green-700/50'
+          }`}
         >
           <Heart className="w-4 h-4" />
           State of Bob
-          <ExternalLink className="w-3 h-3 opacity-50" />
-        </a>
-        <a
-          href="https://bob-cost-analysis.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-yellow-900/50 text-yellow-300 hover:bg-yellow-800/50 border border-yellow-700/50"
+        </button>
+        <button
+          onClick={() => setActiveTab('costs')}
+          className={`flex items-center gap-2 px-4 py-2 rounded-lg transition ${
+            activeTab === 'costs'
+              ? 'bg-yellow-600 text-white'
+              : 'bg-yellow-900/50 text-yellow-300 hover:bg-yellow-800/50 border border-yellow-700/50'
+          }`}
         >
           <DollarSign className="w-4 h-4" />
           Cost Analysis
-          <ExternalLink className="w-3 h-3 opacity-50" />
-        </a>
+        </button>
       </nav>
 
       {/* Activity Feed Tab */}
@@ -326,6 +329,39 @@ export default function MissionControl() {
               </div>
             )}
           </div>
+        </div>
+      )}
+
+      {/* Model Arena Tab */}
+      {activeTab === 'arena' && (
+        <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden">
+          <iframe
+            src="https://model-arena-eta.vercel.app/"
+            className="w-full h-[700px] border-0"
+            title="Model Arena"
+          />
+        </div>
+      )}
+
+      {/* State of Bob Tab */}
+      {activeTab === 'state' && (
+        <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden">
+          <iframe
+            src="https://state-of-bob.vercel.app/"
+            className="w-full h-[700px] border-0"
+            title="State of Bob"
+          />
+        </div>
+      )}
+
+      {/* Cost Analysis Tab */}
+      {activeTab === 'costs' && (
+        <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden">
+          <iframe
+            src="https://bob-cost-analysis.vercel.app/"
+            className="w-full h-[700px] border-0"
+            title="Cost Analysis"
+          />
         </div>
       )}
 
