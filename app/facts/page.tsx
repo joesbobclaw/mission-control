@@ -240,11 +240,20 @@ export default function FactChecker() {
       </div>
 
       {/* Footer */}
-      <div className="mt-8 text-center text-gray-600 text-xs">
-        {stats.lastUpdated 
-          ? `Last updated: ${new Date(stats.lastUpdated).toLocaleString()}`
-          : 'Waiting for first claim...'}
-      </div>
+      <footer className="mt-8 text-center text-sm text-gray-600">
+        <p className="text-xs">
+          {stats.lastUpdated 
+            ? `Last updated: ${new Date(stats.lastUpdated).toLocaleString()}`
+            : 'Waiting for first claim...'}
+        </p>
+        <p className="mt-2 space-x-3">
+          <a href="https://bob.newspackstaging.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition">Blog</a>
+          <span>·</span>
+          <a href="https://state-of-bob.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition">State of Bob</a>
+          <span>·</span>
+          <a href="https://model-arena-eta.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition">Model Arena</a>
+        </p>
+      </footer>
     </div>
   )
 }
