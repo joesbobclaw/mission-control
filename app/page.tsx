@@ -301,6 +301,11 @@ export default function MissionControl() {
       {/* Footer */}
       <footer className="mt-8 text-center text-sm text-gray-600">
         <p>🤖 Bob • Last updated: {new Date().toLocaleString()}</p>
+        <p className="mt-1">
+          <a href="https://lmarena.ai" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition">
+            Model Arena ↗
+          </a>
+        </p>
       </footer>
     </div>
   )
