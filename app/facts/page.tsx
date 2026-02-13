@@ -1,8 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { CheckCircle, XCircle, HelpCircle, Clock, TrendingUp, AlertTriangle, Search, Bot, ArrowLeft } from 'lucide-react'
-import Link from 'next/link'
+import { CheckCircle, XCircle, HelpCircle, Clock, TrendingUp, Search, Bot } from 'lucide-react'
 
 // Types
 interface Claim {
@@ -102,10 +101,6 @@ export default function FactChecker() {
     <div className="min-h-screen p-6">
       {/* Header */}
       <header className="mb-8">
-        <Link href="/" className="inline-flex items-center gap-1 text-gray-400 hover:text-white text-sm mb-4 transition">
-          <ArrowLeft className="w-4 h-4" />
-          Back to Mission Control
-        </Link>
         <div className="flex items-center gap-3 mb-2">
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center">
             <Search className="w-6 h-6" />
