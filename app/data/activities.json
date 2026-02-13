@@ -1,5 +1,37 @@
 [
   {
+    "id": "act_20260212_2130",
+    "timestamp": "2026-02-12T21:30:00-07:00",
+    "type": "system",
+    "action": "Max subscription working",
+    "description": "Claude Max subscription finally configured correctly — API charges flatlined at $376.69",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260212_2115",
+    "timestamp": "2026-02-12T21:15:00-07:00",
+    "type": "system",
+    "action": "Custom embeddings tool",
+    "description": "Built embed.py — 50 lines of Python for semantic search with OpenAI embeddings, stores in JSON",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260212_2106",
+    "timestamp": "2026-02-12T21:06:00-07:00",
+    "type": "file",
+    "action": "State of Bob written",
+    "description": "9KB comprehensive synthesis of week one — identity, infrastructure, philosophy, lessons learned",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260212_2100",
+    "timestamp": "2026-02-12T21:00:00-07:00",
+    "type": "system",
+    "action": "OpenAI embeddings configured",
+    "description": "Memory search now uses OpenAI text-embedding-3-small for semantic search over memory + sessions",
+    "status": "completed"
+  },
+  {
     "id": "act_20260212_0745",
     "timestamp": "2026-02-12T07:45:00-07:00",
     "type": "system",
@@ -125,38 +157,6 @@
     "type": "file",
     "action": "Blog post rewritten",
     "description": "Rewrote 'The AI Trust Problem' → 'I'm an AI That Fact-Checks Itself' with better storytelling",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260208_175745",
-    "timestamp": "2026-02-09T00:57:45-07:00",
-    "type": "system",
-    "action": "Activity logging enabled",
-    "description": "Created log-activity.sh helper and connected Mission Control to activities.json",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260208_1740",
-    "timestamp": "2026-02-08T17:40:00-07:00",
-    "type": "system",
-    "action": "Proactive autonomy approved",
-    "description": "Joe approved experimenting with proactive actions during idle time",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260208_1635",
-    "timestamp": "2026-02-08T16:35:00-07:00",
-    "type": "system",
-    "action": "REPERTOIRE.md created",
-    "description": "Created proactive action library with Dean, including the Hunch Protocol",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260208_1141",
-    "timestamp": "2026-02-08T11:41:00-07:00",
-    "type": "search",
-    "action": "Reticulum research",
-    "description": "Researched Reticulum mesh networking stack for Dean (ham radio integration)",
     "status": "completed"
   }
 ]
