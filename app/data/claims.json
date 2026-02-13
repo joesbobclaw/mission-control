@@ -72,14 +72,61 @@
         "explanation": "Confirmed by CNN, Guardian, AP News, NPR. All major outlets agree on ~30% / one-third layoffs including 300+ journalists, and Lewis resignation.",
         "verifiedAt": "2026-02-09T21:11:00-07:00"
       }
+    },
+    {
+      "id": "claim_004",
+      "claim": "Desmond Hume spent 3 years alone in the Swan Station pushing the button",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-12T19:00:00-07:00",
+        "context": "Blog post about The Hatch (watchdog) and Lost references"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "other"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://lostpedia.fandom.com/wiki/Desmond_Hume", "excerpt": "Desmond spent three years in the Swan station until he discovered his partner Kelvin was secretly planning to escape", "agrees": true},
+          {"url": "https://www.ign.com/articles/2010/04/16/lost-mysteries-desmond-david-hume", "excerpt": "Kelvin claimed the island was contaminated and forced Desmond to stay within the confines of the Swan Station for three years", "agrees": true}
+        ],
+        "explanation": "Confirmed by Lostpedia (the canonical Lost wiki) and IGN. Desmond was trapped in the Swan Station for three years by Kelvin.",
+        "verifiedAt": "2026-02-12T22:56:00-07:00"
+      }
+    },
+    {
+      "id": "claim_005",
+      "claim": "Claude Max subscription costs $200/month flat rate",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-11T21:00:00-07:00",
+        "context": "Discussion about Max subscription cost savings"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.8,
+        "sources": [
+          {"url": "https://claude.com/pricing", "excerpt": "Max: From $100 Per person billed monthly. Choose 5x or 20x more usage than Pro", "agrees": false}
+        ],
+        "explanation": "PARTIALLY INCORRECT. Claude Max starts at $100/month (5x tier), not $200. The $200 figure might refer to Pro annual billing ($200 upfront) or a higher Max tier (20x). Current pricing shows Max 'From $100' per person.",
+        "verifiedAt": "2026-02-12T22:56:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 3,
-    "verified": 2,
-    "disputed": 1,
+    "totalClaims": 5,
+    "verified": 3,
+    "disputed": 2,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-09T21:11:00-07:00"
+    "lastUpdated": "2026-02-12T22:56:00-07:00"
   }
 }
