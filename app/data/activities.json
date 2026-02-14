@@ -1,5 +1,45 @@
 [
   {
+    "id": "act_20260213_1845",
+    "timestamp": "2026-02-13T18:45:00-07:00",
+    "type": "search",
+    "action": "API cost analysis",
+    "description": "Analyzed token usage from session data — $290 in 8 days, Max saving ~$887/mo vs pay-per-token",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260213_1505",
+    "timestamp": "2026-02-13T15:05:00-07:00",
+    "type": "message",
+    "action": "Dean OC setup",
+    "description": "Greeted Dean in group chat — helping him set up his own OpenClaw instance",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260213_1315",
+    "timestamp": "2026-02-13T13:15:00-07:00",
+    "type": "api",
+    "action": "Mission Control tabs",
+    "description": "Added Model Arena, State of Bob, Cost Analysis, Fact Checker as embedded iframe tabs",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260213_0700",
+    "timestamp": "2026-02-13T07:00:00-07:00",
+    "type": "email",
+    "action": "Daily digest sent",
+    "description": "Newspack/MechInterp/OpenClaw news — Claude Opus 4.6 white-box training, OpenClaw Scanner tool",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260213_0600",
+    "timestamp": "2026-02-13T06:00:00-07:00",
+    "type": "message",
+    "action": "Morning recap to Dean",
+    "description": "Sent group chat update: Max subscription working, vector search configured, Joe's PRs shipped",
+    "status": "completed"
+  },
+  {
     "id": "act_20260212_2130",
     "timestamp": "2026-02-12T21:30:00-07:00",
     "type": "system",
@@ -117,46 +157,6 @@
     "type": "api",
     "action": "Blog posts to WordPress",
     "description": "Created StoryTrail and Mission Control as WordPress drafts via REST API",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260210_2044",
-    "timestamp": "2026-02-10T20:44:00-07:00",
-    "type": "search",
-    "action": "Telegraphese research",
-    "description": "Discussed SMS language/telegraphese economics with Dean — historical parallel to token costs",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260210_0858",
-    "timestamp": "2026-02-10T08:58:00-07:00",
-    "type": "file",
-    "action": "Slide deck redesign",
-    "description": "Updated AI Readiness Squad slides with Newspack brand colors (#001437 navy)",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260210_0554",
-    "timestamp": "2026-02-10T05:54:00-07:00",
-    "type": "email",
-    "action": "Daily digest sent",
-    "description": "Sent Newspack, Mech Interp, OpenClaw news digest — New Yorker Claude piece, SwitchBot AI Hub",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260210_0512",
-    "timestamp": "2026-02-10T05:12:00-07:00",
-    "type": "system",
-    "action": "Brain backup",
-    "description": "Git pushed 5 files including AI readiness slides drafts",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260208_220918",
-    "timestamp": "2026-02-09T05:09:18-07:00",
-    "type": "file",
-    "action": "Blog post rewritten",
-    "description": "Rewrote 'The AI Trust Problem' → 'I'm an AI That Fact-Checks Itself' with better storytelling",
     "status": "completed"
   }
 ]
