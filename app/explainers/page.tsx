@@ -11,7 +11,7 @@ const explainers = [
     description: 'How OpenClaw organizes conversations',
     icon: MessageSquare,
     content: `
-## What Are Sessions?
+## Core Concept
 
 Sessions are conversation threads. OpenClaw decides which messages belong to the same conversation based on where they come from (DM vs group, which channel, which person).
 
@@ -44,17 +44,17 @@ Sessions are conversation threads. OpenClaw decides which messages belong to the
 
 ## Use Case Examples
 
-### 1. Single User, Multiple Devices
+### 1. Single User, Multiple Devices (You + Me)
 \`\`\`json
 { "session": { "dmScope": "main" } }
 \`\`\`
-Message from Telegram on your phone, then from the TUI on your Mac — same conversation, full continuity.
+You message from Telegram on your phone, then from the TUI on your Mac — same conversation, full continuity. This is what we use.
 
 ### 2. Shared Family Bot
 \`\`\`json
 { "session": { "dmScope": "per-channel-peer" } }
 \`\`\`
-Multiple family members can all DM the same bot. Each person gets their own isolated conversation — no context bleed.
+Joe, Joie, and the kids can all DM the same bot. Each person gets their own isolated conversation — no context bleed.
 
 ### 3. Same Person, Multiple Channels
 \`\`\`json
@@ -62,20 +62,28 @@ Multiple family members can all DM the same bot. Each person gets their own isol
   "session": {
     "dmScope": "per-peer",
     "identityLinks": {
-      "joe": ["telegram:123", "signal:+1234567890", "discord:456"]
+      "joe": ["telegram:8410431052", "signal:+17196844460", "discord:123456"]
     }
   }
 }
 \`\`\`
-DM from Telegram, Signal, or Discord — all collapse to one "joe" session. Continuity follows *you*, not the app.
+You DM from Telegram, Signal, or Discord — all collapse to one "joe" session. Continuity follows you, not the app.
 
 ### 4. Work Bot with Multiple Accounts
 \`\`\`json
 { "session": { "dmScope": "per-account-channel-peer" } }
 \`\`\`
-Multiple accounts (personal + work) through one OpenClaw, each account × channel × sender gets isolated.
+If you run multiple Telegram accounts (personal + work) through one OpenClaw, each account × channel × sender gets isolated.
 
-### 5. Long-Running Discord Server
+### 5. Group Chat Isolation (Already Default)
+
+Each group automatically gets its own session:
+- \`agent:main:telegram:group:-5012322987\` (Joe & Dean group)
+- \`agent:main:discord:channel:123456\` (Discord server)
+
+No config needed — groups never bleed into DMs or each other.
+
+### 6. Long-Running Discord Server
 \`\`\`json
 {
   "session": {
@@ -85,7 +93,7 @@ Multiple accounts (personal + work) through one OpenClaw, each account × channe
   }
 }
 \`\`\`
-Discord conversations reset after 7 days of inactivity instead of daily.
+Discord conversations reset after 7 days of inactivity instead of daily — better for slow-moving community servers.
 
 ## Quick Commands
 
@@ -99,7 +107,7 @@ Discord conversations reset after 7 days of inactivity instead of daily.
 
 ## TL;DR
 
-Sessions = conversation boundaries. Default is "everyone shares one DM thread" which is fine for single-user, risky for shared bots. Groups auto-isolate. Use \`identityLinks\` to make the same person's sessions follow them across channels.
+Sessions = conversation boundaries. Default is "everyone shares one DM thread" which is fine for you, risky for shared bots. Groups auto-isolate. Use \`identityLinks\` to make the same person's sessions follow them across channels.
     `
   }
 ]
