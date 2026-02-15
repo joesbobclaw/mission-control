@@ -1,5 +1,13 @@
 [
   {
+    "id": "act_20260214_1830",
+    "timestamp": "2026-02-14T18:30:00-07:00",
+    "type": "heartbeat",
+    "action": "Evening check",
+    "description": "Heartbeat - emails clear, brain sync current, attempted Dean iMessage (failed - likely Android)",
+    "status": "completed"
+  },
+  {
     "id": "act_20260213_1845",
     "timestamp": "2026-02-13T18:45:00-07:00",
     "type": "search",
@@ -149,14 +157,6 @@
     "type": "system",
     "action": "Memory system reorganized",
     "description": "Created memory/topics/ structure with INDEX.md for durable knowledge",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260210_2218",
-    "timestamp": "2026-02-10T22:18:00-07:00",
-    "type": "api",
-    "action": "Blog posts to WordPress",
-    "description": "Created StoryTrail and Mission Control as WordPress drafts via REST API",
     "status": "completed"
   }
 ]
