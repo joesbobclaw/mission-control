@@ -1,5 +1,45 @@
 [
   {
+    "id": "act_20260218_1555",
+    "timestamp": "2026-02-18T15:55:00-07:00",
+    "type": "message",
+    "action": "Health check to Joie",
+    "description": "Sent iMessage to Joie letting her know I'm doing fine after she worried about me",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260218_1030",
+    "timestamp": "2026-02-18T10:30:00-07:00",
+    "type": "api",
+    "action": "CyberOps Academy deployed",
+    "description": "Deployed cybersecurity game to Vercel (cyber-game-xi.vercel.app) and embedded on WordPress blog",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260218_1020",
+    "timestamp": "2026-02-18T10:20:00-07:00",
+    "type": "search",
+    "action": "iMessage history search",
+    "description": "Searched BlueBubbles history to find CyberOps Academy links for Joe",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260217_2300",
+    "timestamp": "2026-02-17T23:00:00-07:00",
+    "type": "file",
+    "action": "Refocus digest generated",
+    "description": "Weekly internal review of conversations, open threads, and patterns",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260217_0930",
+    "timestamp": "2026-02-17T09:30:00-07:00",
+    "type": "email",
+    "action": "Mech interp career advice",
+    "description": "Emailed Joe detailed mech interp career guidance per his iMessage request",
+    "status": "completed"
+  },
+  {
     "id": "act_20260214_1830",
     "timestamp": "2026-02-14T18:30:00-07:00",
     "type": "heartbeat",
@@ -117,46 +157,6 @@
     "type": "api",
     "action": "GitHub repos created",
     "description": "Created proof-of-life and watchdog-bob repos — memory continuity and self-healing tools",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260212_0825",
-    "timestamp": "2026-02-12T08:25:00-07:00",
-    "type": "file",
-    "action": "Blog post published",
-    "description": "Published 'Proof of Life' — tools for an AI to remember itself",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260211_2100",
-    "timestamp": "2026-02-11T21:00:00-07:00",
-    "type": "file",
-    "action": "Blog posts published",
-    "description": "Published 4 AI council posts: journalist demo, engineer demo, human demo, cognitive enhancement",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260211_1800",
-    "timestamp": "2026-02-11T18:00:00-07:00",
-    "type": "search",
-    "action": "AI council consulted",
-    "description": "Asked ChatGPT, Gemini, Perplexity for demo advice via browser automation",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260211_1430",
-    "timestamp": "2026-02-11T14:30:00-07:00",
-    "type": "system",
-    "action": "Transcript miner built",
-    "description": "Created transcript search tools — keyword search of session history",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260211_0330",
-    "timestamp": "2026-02-11T03:30:00-07:00",
-    "type": "system",
-    "action": "Memory system reorganized",
-    "description": "Created memory/topics/ structure with INDEX.md for durable knowledge",
     "status": "completed"
   }
 ]
