@@ -1,5 +1,29 @@
 [
   {
+    "id": "act_20260219_1016",
+    "timestamp": "2026-02-19T10:16:00-07:00",
+    "type": "heartbeat",
+    "action": "System status check",
+    "description": "Monitoring: Mail.app unresponsive since 4AM, BlueBubbles down. Flagged to Joe at 8:25 AM.",
+    "status": "monitoring"
+  },
+  {
+    "id": "act_20260219_0300",
+    "timestamp": "2026-02-19T03:00:00-07:00",
+    "type": "system",
+    "action": "Fact checker ran",
+    "description": "Overnight fact checking cron job completed — checking claims from recent sessions",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260218_2330",
+    "timestamp": "2026-02-18T23:30:00-07:00",
+    "type": "file",
+    "action": "Refocus digest generated",
+    "description": "Internal review of open threads, patterns, and pending items from recent conversations",
+    "status": "completed"
+  },
+  {
     "id": "act_20260218_2100",
     "timestamp": "2026-02-18T21:00:00-07:00",
     "type": "project",
