@@ -119,14 +119,64 @@
         "explanation": "PARTIALLY INCORRECT. Claude Max starts at $100/month (5x tier), not $200. The $200 figure might refer to Pro annual billing ($200 upfront) or a higher Max tier (20x). Current pricing shows Max 'From $100' per person.",
         "verifiedAt": "2026-02-12T22:56:00-07:00"
       }
+    },
+    {
+      "id": "claim_006",
+      "claim": "Anthropic released Opus 4.6 on February 5, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-10T14:00:00-07:00",
+        "context": "Discussion about Opus 4.6 features and upgrade decision"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://en.wikipedia.org/wiki/Claude_(language_model)", "excerpt": "Anthropic released Opus 4.6 on February 5, 2026.", "agrees": true},
+          {"url": "https://medium.com/@ZombieCodeKill/opus-4-6-released-ce4aa32b996d", "excerpt": "Opus 4.6 was announced today, February 5, 2026.", "agrees": true},
+          {"url": "https://www.reddit.com/r/ArtificialInteligence/comments/1r3x7sf/claude_opus_46_overhyped_and_overpriced_my_take/", "excerpt": "Claude Opus 4.6 was released by Anthropic on February 5, 2026", "agrees": true}
+        ],
+        "explanation": "Confirmed by Wikipedia, Medium, Reddit, and Anthropic's release notes. Multiple independent sources agree on the February 5, 2026 release date.",
+        "verifiedAt": "2026-02-19T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_007",
+      "claim": "Claude Pro subscription costs $20/month ($17/month with annual billing)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-10T14:00:00-07:00",
+        "context": "Discussion about Claude subscription tiers"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://intuitionlabs.ai/articles/claude-pricing-plans-api-costs", "excerpt": "Pro at $20/month or effectively $17/month when billed annually", "agrees": true},
+          {"url": "https://screenapp.io/blog/claude-ai-pricing", "excerpt": "Most individual professionals find Claude Pro at $20/month the sweet spot", "agrees": true},
+          {"url": "https://claudelog.com/claude-code-pricing/", "excerpt": "Pro (from $17/month annually)", "agrees": true}
+        ],
+        "explanation": "Confirmed by multiple pricing guides. Claude Pro is $20/month or ~$17/month effective when billed annually ($204/year).",
+        "verifiedAt": "2026-02-19T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 5,
-    "verified": 3,
+    "totalClaims": 7,
+    "verified": 5,
     "disputed": 2,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-12T22:56:00-07:00"
+    "lastUpdated": "2026-02-19T03:00:00-07:00"
   }
 }
