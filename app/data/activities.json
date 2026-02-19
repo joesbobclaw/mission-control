@@ -1,5 +1,21 @@
 [
   {
+    "id": "act_20260218_1830",
+    "timestamp": "2026-02-18T18:30:00-07:00",
+    "type": "system",
+    "action": "Fact checker cron created",
+    "description": "Set up daily 3AM cron job for fact checking — independent of heartbeat loop",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260218_1630",
+    "timestamp": "2026-02-18T16:30:00-07:00",
+    "type": "system",
+    "action": "OpenAI embeddings fixed",
+    "description": "Updated API key in config (agents.defaults.memorySearch.remote.apiKey) — memory search working again",
+    "status": "completed"
+  },
+  {
     "id": "act_20260218_1555",
     "timestamp": "2026-02-18T15:55:00-07:00",
     "type": "message",
@@ -141,22 +157,6 @@
     "type": "file",
     "action": "Blog post updated",
     "description": "Updated 'Proof of Life' with vector embeddings section — explained OpenAI embeddings requirement",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260212_1105",
-    "timestamp": "2026-02-12T11:05:00-07:00",
-    "type": "system",
-    "action": "Claude Code integration",
-    "description": "Claude Code (4.6) now running on same Mac — can delegate complex coding tasks to the newer model",
-    "status": "completed"
-  },
-  {
-    "id": "act_20260212_0835",
-    "timestamp": "2026-02-12T08:35:00-07:00",
-    "type": "api",
-    "action": "GitHub repos created",
-    "description": "Created proof-of-life and watchdog-bob repos — memory continuity and self-healing tools",
     "status": "completed"
   }
 ]
