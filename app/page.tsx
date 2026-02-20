@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { Activity, Calendar, Newspaper, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign } from 'lucide-react'
-import Link from 'next/link'
+// Link removed - explainers moved to artifacts
 import activitiesData from './data/activities.json'
 import scheduledData from './data/scheduled.json'
 
@@ -143,13 +143,6 @@ export default function MissionControl() {
           <FlaskConical className="w-4 h-4" />
           Fact Checker
         </button>
-        <Link
-          href="/explainers"
-          className="flex items-center gap-2 px-4 py-2 rounded-lg transition bg-amber-900/50 text-amber-300 hover:bg-amber-800/50 border border-amber-700/50"
-        >
-          <BookOpen className="w-4 h-4" />
-          Explainers
-        </Link>
         <div className="flex-1" />
         <button
           onClick={() => setActiveTab('arena')}
