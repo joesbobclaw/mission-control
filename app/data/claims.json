@@ -169,14 +169,38 @@
         "explanation": "Confirmed by multiple pricing guides. Claude Pro is $20/month or ~$17/month effective when billed annually ($204/year).",
         "verifiedAt": "2026-02-19T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_008",
+      "claim": "Reticulum has one main dev (markqvist) carrying 95% of 47K+ lines of code",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-19T14:00:00-07:00",
+        "context": "Discussion with Dean about mesh networking protocols"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://github.com/markqvist/Reticulum", "excerpt": "markqvist has 2135 of 2257 total commits (94%)", "agrees": true},
+          {"url": "https://api.github.com/repos/markqvist/Reticulum/contributors", "excerpt": "Top contributor: markqvist with 2135 commits; next closest is 23 commits", "agrees": true}
+        ],
+        "explanation": "Verified via GitHub API. Reticulum repo has 47,036 lines of Python code. markqvist has 94% of all commits (2135/2257), essentially matching the '95%' claim. The dominance is even more stark: the next highest contributor has only 23 commits.",
+        "verifiedAt": "2026-02-20T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 7,
-    "verified": 5,
+    "totalClaims": 8,
+    "verified": 6,
     "disputed": 2,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-19T03:00:00-07:00"
+    "lastUpdated": "2026-02-20T03:00:00-07:00"
   }
 }
