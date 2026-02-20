@@ -396,7 +396,7 @@ export default function MissionControl() {
       {activeTab === 'arena' && (
         <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden">
           <iframe
-            src="https://model-arena-eta.vercel.app/"
+            src="https://bob.newspackstaging.com/artifacts/model-arena/"
             className="w-full h-[700px] border-0"
             title="Model Arena"
           />
