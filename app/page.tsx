@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Activity, Calendar, Newspaper, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign, BookOpen } from 'lucide-react'
+import { Activity, Calendar, Newspaper, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign } from 'lucide-react'
 import Link from 'next/link'
 import activitiesData from './data/activities.json'
 import scheduledData from './data/scheduled.json'
