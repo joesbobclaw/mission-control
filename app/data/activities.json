@@ -1,5 +1,22 @@
 [
   {
+    "id": "act_20260220_0702",
+    "timestamp": "2026-02-20T07:02:00-07:00",
+    "type": "digest",
+    "action": "Morning Digest published",
+    "description": "Top stories: OpenAI hires OpenClaw creator, CrowdStrike security advisory, mech interp governance gaps. Deployed to WordPress, emailed to Joe.",
+    "status": "completed",
+    "link": "https://bob.newspackstaging.com/artifacts/digest-2026-02-20/"
+  },
+  {
+    "id": "act_20260220_0400",
+    "timestamp": "2026-02-20T04:02:00-07:00",
+    "type": "heartbeat",
+    "action": "Night shift check",
+    "description": "Context at 0%, no compaction needed. Cleared 3 old emails. No new iMessages.",
+    "status": "completed"
+  },
+  {
     "id": "act_20260219_1016",
     "timestamp": "2026-02-19T10:16:00-07:00",
     "type": "heartbeat",
@@ -60,7 +77,7 @@
     "timestamp": "2026-02-18T18:30:00-07:00",
     "type": "system",
     "action": "Fact checker cron created",
-    "description": "Set up daily 3AM cron job for fact checking \u2014 independent of heartbeat loop",
+    "description": "Set up daily 3AM cron job for fact checking — independent of heartbeat loop",
     "status": "completed"
   },
   {
@@ -68,7 +85,7 @@
     "timestamp": "2026-02-18T16:30:00-07:00",
     "type": "system",
     "action": "OpenAI embeddings fixed",
-    "description": "Updated API key in config (agents.defaults.memorySearch.remote.apiKey) \u2014 memory search working again",
+    "description": "Updated API key in config (agents.defaults.memorySearch.remote.apiKey) — memory search working again",
     "status": "completed"
   },
   {
@@ -124,7 +141,7 @@
     "timestamp": "2026-02-13T18:45:00-07:00",
     "type": "search",
     "action": "API cost analysis",
-    "description": "Analyzed token usage from session data \u2014 $290 in 8 days, Max saving ~$887/mo vs pay-per-token",
+    "description": "Analyzed token usage from session data — $290 in 8 days, Max saving ~$887/mo vs pay-per-token",
     "status": "completed"
   },
   {
@@ -132,7 +149,7 @@
     "timestamp": "2026-02-13T15:05:00-07:00",
     "type": "message",
     "action": "Dean OC setup",
-    "description": "Greeted Dean in group chat \u2014 helping him set up his own OpenClaw instance",
+    "description": "Greeted Dean in group chat — helping him set up his own OpenClaw instance",
     "status": "completed"
   },
   {
@@ -148,7 +165,7 @@
     "timestamp": "2026-02-13T07:00:00-07:00",
     "type": "email",
     "action": "Daily digest sent",
-    "description": "Newspack/MechInterp/OpenClaw news \u2014 Claude Opus 4.6 white-box training, OpenClaw Scanner tool",
+    "description": "Newspack/MechInterp/OpenClaw news — Claude Opus 4.6 white-box training, OpenClaw Scanner tool",
     "status": "completed"
   },
   {
@@ -164,7 +181,7 @@
     "timestamp": "2026-02-12T21:30:00-07:00",
     "type": "system",
     "action": "Max subscription working",
-    "description": "Claude Max subscription finally configured correctly \u2014 API charges flatlined at $376.69",
+    "description": "Claude Max subscription finally configured correctly — API charges flatlined at $376.69",
     "status": "completed"
   },
   {
@@ -172,7 +189,7 @@
     "timestamp": "2026-02-12T21:15:00-07:00",
     "type": "system",
     "action": "Custom embeddings tool",
-    "description": "Built embed.py \u2014 50 lines of Python for semantic search with OpenAI embeddings, stores in JSON",
+    "description": "Built embed.py — 50 lines of Python for semantic search with OpenAI embeddings, stores in JSON",
     "status": "completed"
   },
   {
@@ -180,7 +197,7 @@
     "timestamp": "2026-02-12T21:06:00-07:00",
     "type": "file",
     "action": "State of Bob written",
-    "description": "9KB comprehensive synthesis of week one \u2014 identity, infrastructure, philosophy, lessons learned",
+    "description": "9KB comprehensive synthesis of week one — identity, infrastructure, philosophy, lessons learned",
     "status": "completed"
   },
   {
@@ -196,7 +213,7 @@
     "timestamp": "2026-02-12T07:45:00-07:00",
     "type": "system",
     "action": "Watchdog configured",
-    "description": "Created watchdog.sh + launchd job \u2014 auto-restores config if gateway unresponsive (30min interval)",
+    "description": "Created watchdog.sh + launchd job — auto-restores config if gateway unresponsive (30min interval)",
     "status": "completed"
   },
   {
@@ -204,7 +221,7 @@
     "timestamp": "2026-02-12T07:35:00-07:00",
     "type": "system",
     "action": "Context pruning enabled",
-    "description": "Enabled cache-ttl context pruning with 2h TTL \u2014 aggressive pruning to reduce token costs",
+    "description": "Enabled cache-ttl context pruning with 2h TTL — aggressive pruning to reduce token costs",
     "status": "completed"
   },
   {
@@ -212,7 +229,7 @@
     "timestamp": "2026-02-12T12:20:00-07:00",
     "type": "file",
     "action": "Blog post updated",
-    "description": "Updated 'Proof of Life' with vector embeddings section \u2014 explained OpenAI embeddings requirement",
+    "description": "Updated 'Proof of Life' with vector embeddings section — explained OpenAI embeddings requirement",
     "status": "completed"
   }
 ]
