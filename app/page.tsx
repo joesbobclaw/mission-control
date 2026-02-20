@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Activity, Calendar, Search, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign, BookOpen } from 'lucide-react'
+import { Activity, Calendar, Newspaper, Bot, Clock, CheckCircle, AlertCircle, Loader, FlaskConical, Swords, Heart, DollarSign, BookOpen } from 'lucide-react'
 import Link from 'next/link'
 import activitiesData from './data/activities.json'
 import scheduledData from './data/scheduled.json'
@@ -74,7 +74,7 @@ function formatDate(timestamp: string) {
 
 export default function MissionControl() {
   const [searchQuery, setSearchQuery] = useState('')
-  const [activeTab, setActiveTab] = useState<'activity' | 'calendar' | 'search' | 'facts' | 'arena' | 'state' | 'costs'>('activity')
+  const [activeTab, setActiveTab] = useState<'activity' | 'calendar' | 'newsletters' | 'facts' | 'arena' | 'state' | 'costs'>('activity')
 
   // Filter activities based on search
   const filteredActivities = sampleActivities.filter(a => 
@@ -122,15 +122,15 @@ export default function MissionControl() {
           Calendar
         </button>
         <button
-          onClick={() => setActiveTab('search')}
+          onClick={() => setActiveTab('newsletters')}
           className={`flex items-center gap-2 px-4 py-2 rounded-lg transition ${
-            activeTab === 'search' 
+            activeTab === 'newsletters' 
               ? 'bg-blue-600 text-white' 
               : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
           }`}
         >
-          <Search className="w-4 h-4" />
-          Search
+          <Newspaper className="w-4 h-4" />
+          Newsletters
         </button>
         <button
           onClick={() => setActiveTab('facts')}
@@ -288,57 +288,102 @@ export default function MissionControl() {
         </div>
       )}
 
-      {/* Search Tab */}
-      {activeTab === 'search' && (
+      {/* Newsletters Tab */}
+      {activeTab === 'newsletters' && (
         <div className="bg-gray-900 rounded-xl border border-gray-800 overflow-hidden">
           <div className="p-4 border-b border-gray-800">
             <h2 className="font-semibold flex items-center gap-2">
-              <Search className="w-5 h-5 text-blue-500" />
-              Global Search
+              <Newspaper className="w-5 h-5 text-blue-500" />
+              Daily Digests & Newsletters
             </h2>
-            <p className="text-sm text-gray-500 mt-1">Search memory, documents, and tasks</p>
+            <p className="text-sm text-gray-500 mt-1">Morning digests and research roundups</p>
           </div>
           <div className="p-4">
-            <div className="relative mb-4">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500" />
-              <input
-                type="text"
-                placeholder="Search everything..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-10 pr-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500 transition"
-              />
+            <div className="space-y-3">
+              {/* Newsletter entries */}
+              <a 
+                href="https://bob.newspackstaging.com/artifacts/digest-2026-02-19/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center text-xl">
+                    🌅
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-medium">Morning Digest - February 19, 2026</div>
+                    <div className="text-sm text-gray-400">Anthropic safeguards lead resigns, NIST agent standards</div>
+                  </div>
+                  <div className="text-xs text-gray-500">Today</div>
+                </div>
+              </a>
+              
+              <a 
+                href="https://bob.newspackstaging.com/artifacts/meshnet-survivor/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-green-500 to-cyan-500 flex items-center justify-center text-xl">
+                    🎮
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-medium">MeshNet Survivor Game</div>
+                    <div className="text-sm text-gray-400">Interactive mesh networking education game</div>
+                  </div>
+                  <div className="text-xs text-gray-500">Today</div>
+                </div>
+              </a>
+
+              <a 
+                href="https://bob.newspackstaging.com/artifacts/cyberops-academy/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-xl">
+                    🔐
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-medium">CyberOps Academy</div>
+                    <div className="text-sm text-gray-400">Interactive cybersecurity training game</div>
+                  </div>
+                  <div className="text-xs text-gray-500">Feb 17</div>
+                </div>
+              </a>
+
+              <a 
+                href="https://bob.newspackstaging.com/artifacts/wapuu-run/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition"
+              >
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-indigo-500 flex items-center justify-center text-xl">
+                    🐱
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-medium">Wapuu Run!</div>
+                    <div className="text-sm text-gray-400">WordPress mascot platformer game</div>
+                  </div>
+                  <div className="text-xs text-gray-500">Feb 17</div>
+                </div>
+              </a>
             </div>
             
-            {searchQuery && (
-              <div className="space-y-2">
-                <h3 className="text-sm font-medium text-gray-400">
-                  Results for "{searchQuery}"
-                </h3>
-                {filteredActivities.length > 0 ? (
-                  filteredActivities.map((activity) => (
-                    <div key={activity.id} className="p-3 bg-gray-800 rounded-lg">
-                      <div className="flex items-center gap-2 mb-1">
-                        <span className={`text-xs px-2 py-0.5 rounded-full ${getTypeBadgeColor(activity.type)}`}>
-                          {activity.type}
-                        </span>
-                        <span className="font-medium">{activity.action}</span>
-                      </div>
-                      <p className="text-sm text-gray-400">{activity.description}</p>
-                    </div>
-                  ))
-                ) : (
-                  <p className="text-gray-500 text-center py-8">No results found</p>
-                )}
-              </div>
-            )}
-            
-            {!searchQuery && (
-              <div className="text-center py-12 text-gray-500">
-                <Search className="w-12 h-12 mx-auto mb-4 opacity-50" />
-                <p>Type to search across all memory files, documents, and activity history</p>
-              </div>
-            )}
+            <div className="mt-6 pt-4 border-t border-gray-700 text-center">
+              <a 
+                href="https://bob.newspackstaging.com/artifacts/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 text-sm"
+              >
+                View all artifacts →
+              </a>
+            </div>
           </div>
         </div>
       )}
