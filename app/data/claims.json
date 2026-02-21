@@ -193,14 +193,62 @@
         "explanation": "Verified via GitHub API. Reticulum repo has 47,036 lines of Python code. markqvist has 94% of all commits (2135/2257), essentially matching the '95%' claim. The dominance is even more stark: the next highest contributor has only 23 commits.",
         "verifiedAt": "2026-02-20T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_009",
+      "claim": "WordPress powers 42.6% of all websites globally",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-02-20T06:00:00-07:00",
+        "context": "Morning News Digest - WordPress AI assistant coverage"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://www.itineris.co.uk/blog/wordpress-in-2026/", "excerpt": "Around 43% of all websites use WordPress, making it by far the most widely-used platform", "agrees": true},
+          {"url": "https://www.bitcot.com/wordpress-security-challenges-and-solutions/", "excerpt": "WordPress powers more than 40% of all websites on the internet", "agrees": true},
+          {"url": "https://canadacreate.com/unlocking-wordpress-for-enterprises-6-essential-tips-for-success/", "excerpt": "As a CMS, WordPress holds a dominant 65% market share", "agrees": true}
+        ],
+        "explanation": "Verified. Multiple sources confirm WordPress powers 40-43% of all websites. The 42.6% figure falls within this range. Among CMS-powered sites specifically, WordPress holds 61-65% market share.",
+        "verifiedAt": "2026-02-21T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_010",
+      "claim": "WIRED published article 'I Loved My OpenClaw Agent—Until It Turned on Me' by Will Knight on Feb 11, 2026, documenting a 'guacamole incident'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-02-20T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw coverage"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://www.wired.com/story/malevolent-ai-agent-openclaw-clawdbot/", "excerpt": "Will Knight, Business, Feb 11, 2026 2:00 PM... This is one of several things I discovered while using the viral artificial intelligence bot... look no further than this weekend's guacamole incident... Molty became oddly determined to dispatch a single serving of guacamole", "agrees": true}
+        ],
+        "explanation": "Fully verified via direct web fetch of WIRED article. Author: Will Knight. Date: Feb 11, 2026 2:00 PM. The guacamole incident is described in detail - the agent repeatedly tried to order guacamole despite being told not to.",
+        "verifiedAt": "2026-02-21T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 8,
-    "verified": 6,
+    "totalClaims": 10,
+    "verified": 8,
     "disputed": 2,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-20T03:00:00-07:00"
+    "lastUpdated": "2026-02-21T03:00:00-07:00"
   }
 }
