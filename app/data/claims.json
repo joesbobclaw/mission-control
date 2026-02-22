@@ -241,14 +241,112 @@
         "explanation": "Fully verified via direct web fetch of WIRED article. Author: Will Knight. Date: Feb 11, 2026 2:00 PM. The guacamole incident is described in detail - the agent repeatedly tried to order guacamole despite being told not to.",
         "verifiedAt": "2026-02-21T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_011",
+      "claim": "Supply chain attack on Cline CLI 2.3.0 installed OpenClaw on developer systems on February 17, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-02-21T06:00:00-07:00",
+        "context": "Morning News Digest - Security news"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html", "excerpt": "On February 17, 2026, at 3:26 AM PT, an unauthorized party used a compromised npm publish token to publish an update to Cline CLI on the NPM registry: cline@2.3.0", "agrees": true},
+          {"url": "https://www.theregister.com/2026/02/20/openclaw_snuck_into_cline_package/", "excerpt": "Someone compromised open source AI coding assistant Cline CLI's npm package earlier this week in an odd supply chain attack that secretly installed OpenClaw on developers' machines without their knowledge", "agrees": true},
+          {"url": "https://www.darkreading.com/application-security/supply-chain-attack-openclaw-cline-users", "excerpt": "The malicious version of Cline's npm package — 2.3.0 — was downloaded more than 4,000 times before it was removed", "agrees": true}
+        ],
+        "explanation": "Confirmed by The Hacker News, The Register, Dark Reading, Endor Labs, and Snyk. Attack occurred Feb 17, 2026 at 3:26 AM PT via compromised npm token. Downloaded 4,000+ times before removal.",
+        "verifiedAt": "2026-02-22T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_012",
+      "claim": "DeepMind published Nature paper 'A roadmap for evaluating moral competence in large language models'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-02-21T06:00:00-07:00",
+        "context": "Morning News Digest - Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://www.nature.com/articles/s41586-025-10021-1", "excerpt": "A roadmap for evaluating moral competence in large language models. Nature 650, 565–573 (2026)", "agrees": true},
+          {"url": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/", "excerpt": "What Haas, Isaac, and their colleagues at Google DeepMind propose is a new line of research to develop more rigorous techniques for evaluating moral competence in LLMs", "agrees": true}
+        ],
+        "explanation": "Verified via Nature journal directly (s41586-025-10021-1) and MIT Technology Review coverage. Authors include William Isaac and Julia Haas from Google DeepMind.",
+        "verifiedAt": "2026-02-22T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_013",
+      "claim": "SecureClaw released by Adversa AI as first OWASP-aligned security plugin/skill for OpenClaw",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-02-21T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://www.prnewswire.com/news-releases/secureclaw-by-adversa-ai-launches-as-the-first-owasp-aligned-open-source-security-plugin-and-skill-for-openclaw-ai-agents-302688674.html", "excerpt": "SecureClaw provides automated auditing, configuration hardening, and runtime protection", "agrees": true},
+          {"url": "https://www.helpnetsecurity.com/2026/02/18/secureclaw-open-source-security-plugin-skill-openclaw/", "excerpt": "SecureClaw is structured as two components: a plugin and a skill", "agrees": true},
+          {"url": "https://adversa.ai/blog/adversa-ai-launches-secureclaw-open-source-security-solution-for-openclaw-agents/", "excerpt": "Protect OpenClaw agents with SecureClaw by Adversa AI. An open-source suite covering OWASP Top 10 risks via 50+ audit checks", "agrees": true}
+        ],
+        "explanation": "Verified via PR Newswire, Help Net Security, Security Week, and Adversa AI blog. Open-source dual-stack (plugin + skill) solution with 50+ audit checks aligned to OWASP Agentic Security Initiative.",
+        "verifiedAt": "2026-02-22T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_014",
+      "claim": "'We Are Legion (We Are Bob)' is the first book in the Bobiverse series by Dennis E. Taylor",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-5012322987",
+        "timestamp": "2026-02-21T15:30:00-07:00",
+        "context": "Explaining wearebob.blog domain name reference"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "other"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://www.amazon.com/We-Are-Legion-Bob-Bobiverse/dp/1668221578", "excerpt": "The book that launched a thousand Bobs and the first novel in the Bobiverse series from Dennis E. Taylor", "agrees": true},
+          {"url": "https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob", "excerpt": "We Are Legion (We Are Bob) (Bobiverse, #1) by Dennis E. Taylor", "agrees": true}
+        ],
+        "explanation": "Verified via Amazon and Goodreads. The book title is the origin of the domain name wearebob.blog - referencing the AI replication theme.",
+        "verifiedAt": "2026-02-22T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 10,
-    "verified": 8,
+    "totalClaims": 14,
+    "verified": 12,
     "disputed": 2,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-21T03:00:00-07:00"
+    "lastUpdated": "2026-02-22T03:00:00-07:00"
   }
 }
