@@ -339,14 +339,110 @@
         "explanation": "Verified via Amazon and Goodreads. The book title is the origin of the domain name wearebob.blog - referencing the AI replication theme.",
         "verifiedAt": "2026-02-22T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_015",
+      "claim": "Steve at LowMesh.com announced Voice Over Meshcore on February 20, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-5012322987",
+        "timestamp": "2026-02-22T15:00:00-07:00",
+        "context": "Discussion about Meshtastic voice capabilities with Dean"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://www.youtube.com/watch?v=IQXNgBnRZro", "excerpt": "Steve at LowMesh.com has come up with a way to send voice messages over MeshCore in addition to improving the battery life of Meshtastic devices by up to 50%", "agrees": true},
+          {"url": "https://youtubershamfest.com/2026/02/20/voice-over-meshcore-lowmesh-lora-meshtastic-innovation/", "excerpt": "Post date February 20, 2026 · Voice Over Meshcore! Lowmesh LoRa & Meshtastic Innovation!", "agrees": true}
+        ],
+        "explanation": "Verified via YouTube video and aggregator site. The announcement was made on February 20, 2026, demonstrating voice messaging over MeshCore networks.",
+        "verifiedAt": "2026-02-23T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_016",
+      "claim": "Starlink Mini has a WiFi range of about 60 feet",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-5012322987",
+        "timestamp": "2026-02-22T16:00:00-07:00",
+        "context": "Discussion about Starlink Mini for emergency comms setup"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {"url": "https://www.pcmag.com/reviews/starlink-mini", "excerpt": "the built-in router has a 150-foot wireless range", "agrees": false},
+          {"url": "https://www.reddit.com/r/Starlink/comments/1dqsybs/starlink_mini_wifi_distance/", "excerpt": "WiFi was good well past 250 feet! 180 Mbps at 50 ft, 142 Mbps at 100 ft, 73 Mbps at 250 feet", "agrees": false},
+          {"url": "https://www.dishytech.com/starlink-mini-review/", "excerpt": "Starlink says the Mini's integrated router only covers about 1,200 sq ft", "agrees": false}
+        ],
+        "explanation": "UNDERESTIMATED. The claim of 60 feet significantly undersells the Starlink Mini's WiFi range. PCMag reports 150-foot range, and real-world Reddit tests show usable signal at 250+ feet. The 60' figure may have been a conservative estimate or confusion with indoor coverage specs.",
+        "verifiedAt": "2026-02-23T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_017",
+      "claim": "MeshCore SAR is a dedicated SAR coordination tool at meshcore-sar.dz0ny.dev",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-5012322987",
+        "timestamp": "2026-02-22T16:30:00-07:00",
+        "context": "Research on SAR + mesh networking for Dean"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "other"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://meshcore-sar.dz0ny.dev/", "excerpt": "Transform your smartphone into a mesh-networked coordination tool for search and rescue teams. Works beyond cellular coverage with real-time GPS tracking, offline maps, and SAR-specific markers.", "agrees": true},
+          {"url": "https://dz0ny.dev/posts/meshcore-sar/", "excerpt": "MeshCore SAR works with any existing MeshCore network", "agrees": true}
+        ],
+        "explanation": "Verified. MeshCore SAR is a real PWA for SAR coordination over MeshCore mesh networks, developed by dz0ny. Features include GPS tracking, offline maps, and SAR-specific markers.",
+        "verifiedAt": "2026-02-23T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_018",
+      "claim": "Akita Emergency Response Plugin (AERP) is a Python application for SAR using Meshtastic on GitHub",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-5012322987",
+        "timestamp": "2026-02-22T16:30:00-07:00",
+        "context": "Research on SAR + mesh networking for Dean"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "other"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://github.com/AkitaEngineering/Akita-Emergency-Response-Plugin", "excerpt": "AERP is a standalone Python application designed to enhance safety, communication, and coordination using the Meshtastic mesh network, particularly valuable in Search and Rescue (SAR) operations, disaster response, or any situation where reliable off-grid communication is critical.", "agrees": true}
+        ],
+        "explanation": "Verified via GitHub. AERP by Akita Engineering is indeed a Python application for SAR/emergency response using Meshtastic mesh networks.",
+        "verifiedAt": "2026-02-23T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 14,
-    "verified": 12,
-    "disputed": 2,
+    "totalClaims": 18,
+    "verified": 15,
+    "disputed": 3,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-22T03:00:00-07:00"
+    "lastUpdated": "2026-02-23T03:00:00-07:00"
   }
 }
