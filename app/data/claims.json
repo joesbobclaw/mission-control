@@ -435,14 +435,86 @@
         "explanation": "Verified via GitHub. AERP by Akita Engineering is indeed a Python application for SAR/emergency response using Meshtastic mesh networks.",
         "verifiedAt": "2026-02-23T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_019",
+      "claim": "Publishers expect traffic from search engines to almost halve (-43%) over the next three years due to AI",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-24T01:00:00-07:00",
+        "context": "Business idea hunting cron - AEO Monitor pitch"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026", "excerpt": "Publishers expect traffic from search engines to almost halve (-43%) over the next three years", "agrees": true},
+          {"url": "https://www.theguardian.com/media/2026/jan/12/publishers-fear-ai-search-summaries-and-chatbots-mean-end-of-traffic-era", "excerpt": "media executives around the world fear search engine referrals will fall by 43% over three years", "agrees": true}
+        ],
+        "explanation": "Confirmed directly from Reuters Institute 2026 Trends report and Guardian coverage. The 43% figure is from a survey of 280 media leaders from 51 countries.",
+        "verifiedAt": "2026-02-24T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_020",
+      "claim": "Only 20% of publishers expect substantial AI licensing revenue, 49% expect minor contribution",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-24T01:00:00-07:00",
+        "context": "Business idea hunting cron - RSL onboarding pitch"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026", "excerpt": "Around a fifth (20%) of publisher respondents – mainly from upmarket news companies – expect future revenues to be substantial, with half (49%) saying that they expect a minor contribution", "agrees": true},
+          {"url": "https://www.ifj.org/media-centre/news/detail/category/ai/article/reuters-digital-report-2026-journalisms-pivot-navigating-the-ai-and-creators-squeeze", "excerpt": "Only 20% of publishers anticipate that AI licensing deals will evolve into a major revenue source", "agrees": true}
+        ],
+        "explanation": "Confirmed directly from Reuters Institute report and IFJ coverage. The 20%/49% figures match the primary source exactly.",
+        "verifiedAt": "2026-02-24T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_021",
+      "claim": "Really Simple Licensing (RSL) launched September 10, 2025",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-24T01:00:00-07:00",
+        "context": "Business idea hunting cron - RSL onboarding pitch"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://rslstandard.org/press/rsl-standard", "excerpt": "SAN FRANCISCO, CALIFORNIA — September 10, 2025 — Leading internet publishers and technology companies... today announced their support for the launch of the RSL Standard", "agrees": true},
+          {"url": "https://en.wikipedia.org/wiki/Really_Simple_Licensing", "excerpt": "It was launched on September 10, 2025 and is managed by the nonprofit", "agrees": true}
+        ],
+        "explanation": "Confirmed via RSL's own press release and Wikipedia. Launch date was September 10, 2025. The business ideas doc said 'Sept 2025' which is accurate. RSL 1.0 spec followed on December 10, 2025.",
+        "verifiedAt": "2026-02-24T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 18,
-    "verified": 15,
+    "totalClaims": 21,
+    "verified": 18,
     "disputed": 3,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-23T03:00:00-07:00"
+    "lastUpdated": "2026-02-24T03:00:00-07:00"
   }
 }
