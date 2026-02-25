@@ -509,12 +509,138 @@
       }
     }
   ],
+    {
+      "id": "claim_022",
+      "claim": "Anthropic launched Claude Code Security on February 20, 2026, causing cybersecurity stocks to drop (CRWD -6.8%, OKTA -9.2%)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-02-24T06:15:00-07:00",
+        "context": "Morning Twitter Digest"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://www.bloomberg.com/news/articles/2026-02-20/cyber-stocks-slide-as-anthropic-unveils-claude-code-security", "excerpt": "Anthropic unveils Claude Code Security. CrowdStrike Holdings was among the biggest decliners, falling 8%", "agrees": true},
+          {"url": "https://finance.yahoo.com/news/cybersecurity-stocks-drop-anthropic-launches-203607452.html", "excerpt": "CrowdStrike Holdings Inc plummeted 6.8% and Okta Inc 9.2%", "agrees": true},
+          {"url": "https://seekingalpha.com/news/4554814-cybersecurity-stocks-fall-after-anthropic-unveils-claude-code-security", "excerpt": "Cybersecurity stocks fall after Anthropic unveils Claude Code Security", "agrees": true}
+        ],
+        "explanation": "Verified by Bloomberg, Yahoo Finance, Seeking Alpha. Claude Code Security launched Feb 20, 2026. CRWD dropped ~6.8-8%, OKTA -9.2%. Business Insider called it the 'Anthropic Shock'.",
+        "verifiedAt": "2026-02-25T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_023",
+      "claim": "Chinese firms (DeepSeek, Moonshot, MiniMax) used 16 million Claude queries via 24,000 fake accounts for model distillation",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-02-24T06:15:00-07:00",
+        "context": "Morning Twitter Digest"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://www.reuters.com/world/china/chinese-companies-used-claude-improve-own-models-anthropic-says-2026-02-23/", "excerpt": "DeepSeek, Moonshot and MiniMax created more than 16 million interactions with Claude using roughly 24,000 fake accounts", "agrees": true},
+          {"url": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/", "excerpt": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude's AI capabilities", "agrees": true},
+          {"url": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html", "excerpt": "Anthropic estimated that the three Chinese firms collectively generated over 16 million exchanges with Claude from around 24,000 fraudulently created accounts", "agrees": true}
+        ],
+        "explanation": "Confirmed by Reuters, TechCrunch, CNBC, NBC News, Hacker News. The Twitter digest correctly identified the key facts. The specific firms named were DeepSeek, Moonshot, and MiniMax.",
+        "verifiedAt": "2026-02-25T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_024",
+      "claim": "Nvidia close to finalizing $30 billion investment in OpenAI, down from earlier $100B plan",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-02-24T06:15:00-07:00",
+        "context": "Morning Twitter Digest"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://www.reuters.com/business/nvidia-close-finalizing-30-billion-investment-openai-funding-round-ft-reports-2026-02-20/", "excerpt": "Nvidia is close to finalizing a $30 billion investment in OpenAI, as the chipmaker moves to take a stake in one of its largest customers", "agrees": true},
+          {"url": "https://www.theguardian.com/technology/2026/feb/20/nvidia-investment-openai-chatgpt-funding-round-ai-artificial-intelligence", "excerpt": "Nvidia is reportedly planning to invest $30bn in OpenAI's next funding round, after a $100bn deal between the two dissolved earlier this month", "agrees": true},
+          {"url": "https://www.cnbc.com/2026/02/19/nvidia-is-in-talks-to-invest-up-to-30-billion-in-openai-source-says.html", "excerpt": "Nvidia's $30 billion investment in OpenAI", "agrees": true}
+        ],
+        "explanation": "Confirmed by Reuters, Guardian, CNBC. Deal is 'close to finalizing' as of Feb 20, not yet completed. The $100B figure that dissolved is also confirmed by Guardian. Twitter digest claim about ~$730B valuation needs separate verification.",
+        "verifiedAt": "2026-02-25T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_025",
+      "claim": "Peter Steinberger (OpenClaw creator) announced joining OpenAI on February 14, 2026; project moving to open-source foundation",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-02-24T12:00:00-07:00",
+        "context": "Noon Breaking News Check — reported as 'yesterday' but actual date was Feb 14"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://en.wikipedia.org/wiki/OpenClaw", "excerpt": "On February 14, 2026, Steinberger announced he will be joining OpenAI and the project will be moved to an open-source foundation", "agrees": true},
+          {"url": "https://fortune.com/2026/02/19/openclaw-who-is-peter-steinberger-openai-sam-altman-anthropic-moltbook/", "excerpt": "Steinberger said OpenClaw will now move into an independent, open-source foundation supported by OpenAI", "agrees": true},
+          {"url": "https://observer.com/2026/02/openclaw-founder-perter-steinberger-join-openai/", "excerpt": "Peter Steinberger, creator of OpenClaw, joins OpenAI", "agrees": true}
+        ],
+        "explanation": "Confirmed by Wikipedia, Fortune, Observer, Business Insider, Cloud Wars. NOTE: The Noon Breaking News cron on Feb 24 reported this as 'yesterday' which was inaccurate — the announcement was Feb 14, ten days earlier. The cron likely found a follow-up article.",
+        "verifiedAt": "2026-02-25T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_026",
+      "claim": "OpenClaw has 150K+ GitHub stars",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-02-24T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {"url": "https://en.wikipedia.org/wiki/OpenClaw", "excerpt": "140,000 likes and 20,000 forks on GitHub as of February 2, 2026", "agrees": true},
+          {"url": "https://conscia.com/blog/the-openclaw-security-crisis/", "excerpt": "crossing 180,000 GitHub stars", "agrees": true},
+          {"url": "https://marksinsights.com/openclaw/", "excerpt": "hits 150,000+ GitHub stars", "agrees": true}
+        ],
+        "explanation": "Verified. Wikipedia reported 140K as of Feb 2; by mid-Feb sources report 150K-180K. The 150K+ figure is conservative and accurate for the Feb 24 timeframe.",
+        "verifiedAt": "2026-02-25T03:00:00-07:00"
+      }
+    }
+  ],
   "stats": {
-    "totalClaims": 21,
-    "verified": 18,
+    "totalClaims": 26,
+    "verified": 23,
     "disputed": 3,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-24T03:00:00-07:00"
+    "lastUpdated": "2026-02-25T03:00:00-07:00"
   }
 }
