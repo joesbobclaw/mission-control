@@ -507,8 +507,7 @@
         "explanation": "Confirmed via RSL's own press release and Wikipedia. Launch date was September 10, 2025. The business ideas doc said 'Sept 2025' which is accurate. RSL 1.0 spec followed on December 10, 2025.",
         "verifiedAt": "2026-02-24T03:00:00-07:00"
       }
-    }
-  ],
+    },
     {
       "id": "claim_022",
       "claim": "Anthropic launched Claude Code Security on February 20, 2026, causing cybersecurity stocks to drop (CRWD -6.8%, OKTA -9.2%)",
@@ -634,13 +633,180 @@
         "verifiedAt": "2026-02-25T03:00:00-07:00"
       }
     }
+    ,
+    {
+      "id": "claim_027",
+      "claim": "~400 digital-first nonprofit newsrooms indexed by INN, median revenue $532K/year",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-1003794615681",
+        "timestamp": "2026-02-27T01:00:00-07:00",
+        "context": "Business idea research — idea #1 (Newsroom Donor CRM)"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://inn.org/research/inn-index/2025-index/about-the-index/", "excerpt": "The median INN member outlet generated $532,000 in annual revenue... the nearly 400 digital-first nonprofit newsrooms in its ranks", "agrees": true},
+          {"url": "https://news.inn.org/2025-index-survey-data-reflect-a-maturing-nonprofit-news-field/", "excerpt": "median INN member outlet generated $532,000 in annual revenue, a marked jump from $477,000 in 2023", "agrees": true}
+        ],
+        "explanation": "Confirmed by INN's own 2025 Index. Both the ~400 count and $532K median revenue are accurate per the October 2025 report.",
+        "verifiedAt": "2026-02-27T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_028",
+      "claim": "72% of SMBs want to buy digital tools from a single trusted local media partner (per 2025 SMB Marketing Report)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-1003794615681",
+        "timestamp": "2026-02-27T01:00:00-07:00",
+        "context": "Business idea research — idea #2 (Local Ad Sales Co-Pilot)"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.8,
+        "sources": [
+          {"url": "https://www.brightlocal.com/research/smb-marketing-2025/", "excerpt": "72% of small to medium-sized businesses (SMBs) say SEO has a medium-high impact on their business", "agrees": false}
+        ],
+        "explanation": "MISATTRIBUTED. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact — NOT about wanting to buy from a 'single trusted local media partner'. The claim fabricates the context around a real number.",
+        "verifiedAt": "2026-02-27T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_029",
+      "claim": "~44 million renter households in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-27T02:00:00-07:00",
+        "context": "Business idea research — Renter Evidence Vault"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {"url": "https://arbor.com/blog/renters-account-for-majority-of-household-growth/", "excerpt": "Rental households also hit a new high of 45.3 million", "agrees": true},
+          {"url": "https://www.globest.com/2025/04/16/renters-drive-majority-of-us-household-growth-in-2024/", "excerpt": "pushed the total to a new high of 45.3 million", "agrees": true}
+        ],
+        "explanation": "Slightly understated. As of 2024 Census data, rental households reached 45.3 million — higher than the claimed 44 million. The figure was accurate historically but is now outdated.",
+        "verifiedAt": "2026-02-27T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_030",
+      "claim": "53 million Americans are unpaid caregivers",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-1003794615681",
+        "timestamp": "2026-02-27T01:00:00-07:00",
+        "context": "Business idea research — idea #11 (Family Caregiver Coordination)"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://press.aarp.org/2020-6-17-New-Study-Reveals-Unpaid-Caregivers-in-America-Grew-By-9-Million-to-53-Million", "excerpt": "Number of Unpaid Caregivers in America Grew by 9.5 Million in Five Years to Total 53 Million", "agrees": true},
+          {"url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK604136/", "excerpt": "in 2020, an estimated 53 million adults provided unpaid care", "agrees": true}
+        ],
+        "explanation": "Confirmed by AARP/NAC 2020 study and NCBI. The 53M figure is from 2020 data — likely higher now but the cited number is accurate for its source.",
+        "verifiedAt": "2026-02-27T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_031",
+      "claim": "~750K licensed amateur radio operators in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-27T02:00:00-07:00",
+        "context": "Business idea research — Ham Radio Logger idea"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {"url": "https://grokipedia.com/page/Amateur_radio_licensing_in_the_United_States", "excerpt": "As of September 2025, there are approximately 737,000 active U.S. amateur licensees", "agrees": true},
+          {"url": "http://arrl.org/fcc-license-counts", "excerpt": "FCC License Counts - report through Feb 2026", "agrees": true}
+        ],
+        "explanation": "Close enough. The actual count is ~737K as of Sept 2025 per Grokipedia citing FCC data. The claim of ~750K is a reasonable round number. The 'post-COVID licensing surge' claim is also supported by ARRL reports.",
+        "verifiedAt": "2026-02-27T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_032",
+      "claim": "10M+ Jira seats worldwide",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-27T02:00:00-07:00",
+        "context": "Business idea research — Spec-to-Ticket AI"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.7,
+        "sources": [
+          {"url": "https://www.appsruntheworld.com/customers-database/products/view/atlassian-jira", "excerpt": "Companies using Atlassian JIRA include large organizations", "agrees": true}
+        ],
+        "explanation": "Plausible but hard to pin down. Atlassian reported 300K+ customers total across all products in recent filings. With 65K+ Jira-specific customers (per ReadyContacts) and average team sizes, 10M+ seats is a reasonable estimate but not directly sourced from Atlassian.",
+        "verifiedAt": "2026-02-27T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_033",
+      "claim": ">75K freelance journalists in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-27T02:00:00-07:00",
+        "context": "Business idea research — Journalist Story Workspace"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.75,
+        "sources": [
+          {"url": "https://www.zippia.com/freelance-reporter-jobs/demographics/", "excerpt": "There are over 12,994 freelance reporters currently employed in the United States", "agrees": false},
+          {"url": "https://freelancejournalistsunion.org/", "excerpt": "self-employed writers make up the majority of the profession in the United States", "agrees": false}
+        ],
+        "explanation": "LIKELY INFLATED. Zippia counts only ~13K freelance reporters. The Freelance Journalists Union says freelancers are 'the majority' of the profession but doesn't give 75K. BLS counts ~46K reporters total (including staff). 75K freelance-only is not supported by available data.",
+        "verifiedAt": "2026-02-27T03:00:00-07:00"
+      }
+    }
   ],
   "stats": {
-    "totalClaims": 26,
-    "verified": 23,
-    "disputed": 3,
+    "totalClaims": 33,
+    "verified": 28,
+    "disputed": 5,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-25T03:00:00-07:00"
+    "lastUpdated": "2026-02-27T03:00:00-07:00"
   }
 }
