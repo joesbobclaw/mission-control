@@ -800,13 +800,132 @@
         "verifiedAt": "2026-02-27T03:00:00-07:00"
       }
     }
+    ,
+    {
+      "id": "claim_034",
+      "claim": "There are 750,000+ US amateur ham radio operators",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-28T01:00:00-07:00",
+        "context": "Business idea B4 (Ham Radio Log → Social Post Converter)"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.7,
+        "sources": [
+          {"url": "http://www.arrl.org/fcc-license-counts", "excerpt": "Count of active FCC licenses held by individuals, through 26-Feb-2026. State-by-state totals show California alone at 90,897.", "agrees": true},
+          {"url": "https://sites.google.com/site/amateurradiodata/home", "excerpt": "total number of amateur radio operators may be closer to 558,000 (active operators vs total licenses)", "agrees": false}
+        ],
+        "explanation": "NUANCED. ARRL's FCC license count totals ~770K active licenses, so '750K+' is accurate for *licenses*. However, research suggests only ~558K are genuinely active operators (many licenses are held but unused). The claim is technically correct for license count but may overstate active participation.",
+        "verifiedAt": "2026-02-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_035",
+      "claim": "Instrumentl costs ~$179/mo for grant tracking",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-28T01:00:00-07:00",
+        "context": "Business idea A5 (Grant Deadline Tracker) competitor pricing"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://www.instrumentl.com/pricing", "excerpt": "Starting at $299/mo paid annually ($326/mo monthly). Plans go up to $899/mo.", "agrees": false}
+        ],
+        "explanation": "INCORRECT. Instrumentl's cheapest plan is $299/mo (annual) or $326/mo (monthly), not ~$179/mo. The cited price significantly understates the actual cost. Instrumentl is even more expensive than claimed, which actually strengthens the business case for a cheaper alternative.",
+        "verifiedAt": "2026-02-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_036",
+      "claim": "CoSchedule costs $29-$59/mo",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-02-28T01:00:00-07:00",
+        "context": "Business idea A3 (Story Lifecycle Dashboard) competitor pricing"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.8,
+        "sources": [
+          {"url": "https://coschedule.com/pricing", "excerpt": "Social Calendar at $19/user per month for up to 3 team members", "agrees": false}
+        ],
+        "explanation": "OUTDATED/INACCURATE. CoSchedule's Social Calendar is $19/user/mo. Their Marketing Suite pricing is custom/enterprise. The $29-$59 range appears to be outdated pricing. Current structure is per-user, not flat-rate.",
+        "verifiedAt": "2026-02-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_037",
+      "claim": "Anthropic's default API temperature is typically 1.0",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-27T22:15:00-07:00",
+        "context": "Joe asking about Bob's temperature setting"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "other"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.8,
+        "sources": [
+          {"url": "https://www.reddit.com/r/ClaudeAI/comments/1ixovsk/", "excerpt": "Workbench slider is set to 1 by default", "agrees": true},
+          {"url": "https://www.reddit.com/r/ClaudeAI/comments/1bf1gnp/", "excerpt": "In the workbench the temp is 0.0 by default (older version)", "agrees": false}
+        ],
+        "explanation": "MOSTLY CORRECT. The Anthropic API Workbench defaults to 1.0 as of early 2025. Earlier versions defaulted to 0.0. The current default is indeed 1.0, though Anthropic's docs note the effective behavior may differ from other providers at the same temperature value.",
+        "verifiedAt": "2026-02-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_038",
+      "claim": "xAI's API is OpenAI-compatible",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-02-27T22:16:00-07:00",
+        "context": "Discussion about whether OC supports Grok"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "other"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://docs.x.ai/docs/guides/migration", "excerpt": "from openai import OpenAI; client = OpenAI(api_key=XAI_API_KEY, base_url='https://api.x.ai/v1')", "agrees": true},
+          {"url": "https://docs.ag2.ai/latest/docs/user-guide/models/grok-and-oai-compatible-models/", "excerpt": "api_type: 'openai' # Grok is OpenAI-compatible", "agrees": true}
+        ],
+        "explanation": "Confirmed. xAI's official docs show direct use of OpenAI's Python SDK with a base_url swap. The API is explicitly designed as an OpenAI drop-in replacement.",
+        "verifiedAt": "2026-02-28T03:00:00-07:00"
+      }
+    }
   ],
   "stats": {
-    "totalClaims": 33,
-    "verified": 28,
-    "disputed": 5,
+    "totalClaims": 38,
+    "verified": 31,
+    "disputed": 7,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-27T03:00:00-07:00"
+    "lastUpdated": "2026-02-28T03:00:00-07:00"
   }
 }
