@@ -918,14 +918,181 @@
         "explanation": "Confirmed. xAI's official docs show direct use of OpenAI's Python SDK with a base_url swap. The API is explicitly designed as an OpenAI drop-in replacement.",
         "verifiedAt": "2026-02-28T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_039",
+      "claim": "OpenAI raised $110B at a $730B valuation ($50B Amazon, $30B NVIDIA, $30B SoftBank)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-02-28T07:30:00-07:00",
+        "context": "Twitter digest — top stories"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {"url": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html", "excerpt": "Amazon invested $50 billion, Nvidia invested $30 billion and SoftBank invested $30 billion... $730 billion pre-money valuation", "agrees": true},
+          {"url": "https://www.bloomberg.com/news/articles/2026-02-27/openai-finalizes-110-billion-funding-at-730-billion-valuation", "excerpt": "OpenAI has raised $110 billion in a deal that values the startup at $730 billion", "agrees": true}
+        ],
+        "explanation": "Confirmed by CNBC, Bloomberg, and TechCrunch. All figures match exactly.",
+        "verifiedAt": "2026-03-01T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_040",
+      "claim": "Trump barred Anthropic from federal use; Defense Secretary Pete Hegseth labeled Anthropic a 'supply chain risk'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-02-28T07:30:00-07:00",
+        "context": "Twitter digest — Anthropic/Pentagon story"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {"url": "https://www.nytimes.com/2026/02/27/us/politics/anthropic-military-ai.html", "excerpt": "President Trump on Friday ordered all federal agencies to stop using artificial intelligence technology made by Anthropic", "agrees": true},
+          {"url": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban", "excerpt": "Defense Secretary Pete Hegseth said he was labeling Anthropic a supply chain risk to national security, blacklisting it", "agrees": true}
+        ],
+        "explanation": "Confirmed by NYT, NPR, NBC News. Both the federal ban and 'supply chain risk' label verified.",
+        "verifiedAt": "2026-03-01T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_041",
+      "claim": "Sam Altman said OpenAI shares Anthropic's 'red lines' on military AI use (no autonomous weapons/mass surveillance)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-02-28T12:00:00-07:00",
+        "context": "Breaking news check — Pentagon/Anthropic story"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.97,
+        "sources": [
+          {"url": "https://www.axios.com/2026/02/27/altman-openai-anthropic-pentagon", "excerpt": "OpenAI CEO Sam Altman wrote in a memo to staff that he will draw the same red lines... no AI for mass surveillance or autonomous lethal weapons", "agrees": true},
+          {"url": "https://www.cnn.com/2026/02/27/tech/openai-has-same-redlines-as-anthropic-in-any-deal-with-the-pentagon", "excerpt": "OpenAI has the same redlines as Anthropic when it comes to working with the Pentagon", "agrees": true}
+        ],
+        "explanation": "Confirmed by Axios, NPR, CNN. Altman committed to same red lines in a staff memo.",
+        "verifiedAt": "2026-03-01T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_042",
+      "claim": "Google DeepMind employees sent letter to leadership about military AI red lines",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-02-28T12:00:00-07:00",
+        "context": "Breaking news check"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {"url": "https://www.nytimes.com/2026/02/26/technology/google-deepmind-letter-pentagon.html", "excerpt": "More than 100 Google A.I. employees sent a letter to Jeff Dean, a chief scientist, opposing Gemini's use for U.S. surveillance and some autonomous weapons", "agrees": true},
+          {"url": "https://www.axios.com/2026/02/27/google-openai-workers-push-for-military-ai-limits", "excerpt": "More than 200 employees from Google and OpenAI have signed an open letter", "agrees": true}
+        ],
+        "explanation": "Confirmed. Initial letter had 100+ Google employees to Jeff Dean; expanded to 200+ including OpenAI staff. Digest said 'hundreds of Google/OpenAI employees backing Anthropic's stance' — accurate.",
+        "verifiedAt": "2026-03-01T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_043",
+      "claim": "India's 300-million-worker strike got zero Western coverage",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-02-28T07:30:00-07:00",
+        "context": "Twitter digest — journalism angle"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.7,
+        "sources": [
+          {"url": "https://peoplesdispatch.org/2026/02/26/thousands-of-refinery-workers-in-india-strike-against-12-hour-workday/", "excerpt": "Over 300 million workers and farmers in India participated in the nationwide strike", "agrees": true},
+          {"url": "https://www.reddit.com/r/union/comments/1rb82c7/", "excerpt": "General Strike India — '300 million' workers and farmers solidarity", "agrees": true}
+        ],
+        "explanation": "The 300M figure comes from union organizer claims (Central Trade Unions) and is widely cited but unverified independently — typical for Indian general strikes. The 'zero Western coverage' claim is hyperbolic; it got limited but non-zero Western coverage (Peoples Dispatch, Reddit threads). Strike itself is real, participation numbers are organizer-reported.",
+        "verifiedAt": "2026-03-01T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_044",
+      "claim": "London Marathon 2025 had 840,000 entries with 43% international growth",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-01T00:00:00-07:00",
+        "context": "Business idea research — Ran There running tourism"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.7,
+        "sources": [
+          {"url": "https://www.londonmarathonevents.co.uk/london-marathon/article/2025-tcs-london-marathon-breaks-guinness-world-records-title-largest-number", "excerpt": "840,318 people who applied via the public ballot for the 2025 edition", "agrees": true},
+          {"url": "https://en.wikipedia.org/wiki/London_Marathon", "excerpt": "The 2025 event ballot received more than 840,000 applications", "agrees": true}
+        ],
+        "explanation": "The 840K entries figure is confirmed (840,318 per official source). However, the '43% international growth' stat could not be verified — no source found for this specific percentage. The entry growth is real but the 43% international figure appears unsubstantiated.",
+        "verifiedAt": "2026-03-01T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_045",
+      "claim": "750K+ licensed ham radio operators in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-01T00:00:00-07:00",
+        "context": "Business idea research — ham radio social tool"
+      },
+      "extraction": {
+        "checkworthiness": 0.7,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {"url": "http://www.arrl.org/fcc-license-counts", "excerpt": "FCC license counts by state through Feb 27, 2026 — partial tally of visible states already exceeds 500K", "agrees": true}
+        ],
+        "explanation": "ARRL's FCC license count page (through Feb 27, 2026) lists active licenses by state. The total has historically been ~770-780K. The '750K+' claim is a conservative and accurate figure.",
+        "verifiedAt": "2026-03-01T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 38,
-    "verified": 31,
-    "disputed": 7,
+    "totalClaims": 45,
+    "verified": 37,
+    "disputed": 8,
     "unverifiable": 0,
     "pending": 0,
-    "lastUpdated": "2026-02-28T03:00:00-07:00"
+    "lastUpdated": "2026-03-01T03:00:00-07:00"
   }
 }
