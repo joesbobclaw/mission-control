@@ -17,8 +17,16 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://www.neelnanda.io/about", "excerpt": "I run the Google DeepMind mechanistic interpretability team", "agrees": true},
-          {"url": "https://scholar.google.com/citations?user=GLnX3MkAAAAJ", "excerpt": "Mechanistic Interpretability Team Lead, Google DeepMind", "agrees": true}
+          {
+            "url": "https://www.neelnanda.io/about",
+            "excerpt": "I run the Google DeepMind mechanistic interpretability team",
+            "agrees": true
+          },
+          {
+            "url": "https://scholar.google.com/citations?user=GLnX3MkAAAAJ",
+            "excerpt": "Mechanistic Interpretability Team Lead, Google DeepMind",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed via Neel Nanda's personal site and Google Scholar. Title is 'Google DeepMind' (post-merger name).",
         "verifiedAt": "2026-02-09T21:11:00-07:00"
@@ -41,8 +49,16 @@
         "status": "disputed",
         "confidence": 0.85,
         "sources": [
-          {"url": "https://core.telegram.org/bots/api", "excerpt": "Bot API update types include messages, edited_message, channel_post, etc. - no typing updates", "agrees": false},
-          {"url": "https://stackoverflow.com/questions/40089529", "excerpt": "Inline queries can be used as workaround since they send user text in real-time", "agrees": false}
+          {
+            "url": "https://core.telegram.org/bots/api",
+            "excerpt": "Bot API update types include messages, edited_message, channel_post, etc. - no typing updates",
+            "agrees": false
+          },
+          {
+            "url": "https://stackoverflow.com/questions/40089529",
+            "excerpt": "Inline queries can be used as workaround since they send user text in real-time",
+            "agrees": false
+          }
         ],
         "explanation": "INCORRECT. The full MTProto API has updateChatUserTyping, but the Bot API does NOT support receiving typing indicators. Bots can SEND typing status but cannot RECEIVE it.",
         "verifiedAt": "2026-02-09T21:11:00-07:00"
@@ -65,9 +81,21 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://www.cnn.com/2026/02/07/media/washington-post-will-lewis-publisher-resigns", "excerpt": "Will Lewis has abruptly stepped down, just days after the newspaper laid off one-third of its staff, including at least 300 journalists", "agrees": true},
-          {"url": "https://www.theguardian.com/media/2026/feb/07/washington-post-will-lewis-resigns", "excerpt": "Departure comes days after newspaper laid off nearly one-third of staff, including more than 300 journalists", "agrees": true},
-          {"url": "https://apnews.com/article/washington-post-will-lewis-stepping-down-layoffs-c8559f5e1d9f4d73f37163e4a708f9da", "excerpt": "laying off one-third of its staff", "agrees": true}
+          {
+            "url": "https://www.cnn.com/2026/02/07/media/washington-post-will-lewis-publisher-resigns",
+            "excerpt": "Will Lewis has abruptly stepped down, just days after the newspaper laid off one-third of its staff, including at least 300 journalists",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/feb/07/washington-post-will-lewis-resigns",
+            "excerpt": "Departure comes days after newspaper laid off nearly one-third of staff, including more than 300 journalists",
+            "agrees": true
+          },
+          {
+            "url": "https://apnews.com/article/washington-post-will-lewis-stepping-down-layoffs-c8559f5e1d9f4d73f37163e4a708f9da",
+            "excerpt": "laying off one-third of its staff",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by CNN, Guardian, AP News, NPR. All major outlets agree on ~30% / one-third layoffs including 300+ journalists, and Lewis resignation.",
         "verifiedAt": "2026-02-09T21:11:00-07:00"
@@ -90,8 +118,16 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://lostpedia.fandom.com/wiki/Desmond_Hume", "excerpt": "Desmond spent three years in the Swan station until he discovered his partner Kelvin was secretly planning to escape", "agrees": true},
-          {"url": "https://www.ign.com/articles/2010/04/16/lost-mysteries-desmond-david-hume", "excerpt": "Kelvin claimed the island was contaminated and forced Desmond to stay within the confines of the Swan Station for three years", "agrees": true}
+          {
+            "url": "https://lostpedia.fandom.com/wiki/Desmond_Hume",
+            "excerpt": "Desmond spent three years in the Swan station until he discovered his partner Kelvin was secretly planning to escape",
+            "agrees": true
+          },
+          {
+            "url": "https://www.ign.com/articles/2010/04/16/lost-mysteries-desmond-david-hume",
+            "excerpt": "Kelvin claimed the island was contaminated and forced Desmond to stay within the confines of the Swan Station for three years",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by Lostpedia (the canonical Lost wiki) and IGN. Desmond was trapped in the Swan Station for three years by Kelvin.",
         "verifiedAt": "2026-02-12T22:56:00-07:00"
@@ -114,7 +150,11 @@
         "status": "disputed",
         "confidence": 0.8,
         "sources": [
-          {"url": "https://claude.com/pricing", "excerpt": "Max: From $100 Per person billed monthly. Choose 5x or 20x more usage than Pro", "agrees": false}
+          {
+            "url": "https://claude.com/pricing",
+            "excerpt": "Max: From $100 Per person billed monthly. Choose 5x or 20x more usage than Pro",
+            "agrees": false
+          }
         ],
         "explanation": "PARTIALLY INCORRECT. Claude Max starts at $100/month (5x tier), not $200. The $200 figure might refer to Pro annual billing ($200 upfront) or a higher Max tier (20x). Current pricing shows Max 'From $100' per person.",
         "verifiedAt": "2026-02-12T22:56:00-07:00"
@@ -137,9 +177,21 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://en.wikipedia.org/wiki/Claude_(language_model)", "excerpt": "Anthropic released Opus 4.6 on February 5, 2026.", "agrees": true},
-          {"url": "https://medium.com/@ZombieCodeKill/opus-4-6-released-ce4aa32b996d", "excerpt": "Opus 4.6 was announced today, February 5, 2026.", "agrees": true},
-          {"url": "https://www.reddit.com/r/ArtificialInteligence/comments/1r3x7sf/claude_opus_46_overhyped_and_overpriced_my_take/", "excerpt": "Claude Opus 4.6 was released by Anthropic on February 5, 2026", "agrees": true}
+          {
+            "url": "https://en.wikipedia.org/wiki/Claude_(language_model)",
+            "excerpt": "Anthropic released Opus 4.6 on February 5, 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://medium.com/@ZombieCodeKill/opus-4-6-released-ce4aa32b996d",
+            "excerpt": "Opus 4.6 was announced today, February 5, 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1r3x7sf/claude_opus_46_overhyped_and_overpriced_my_take/",
+            "excerpt": "Claude Opus 4.6 was released by Anthropic on February 5, 2026",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by Wikipedia, Medium, Reddit, and Anthropic's release notes. Multiple independent sources agree on the February 5, 2026 release date.",
         "verifiedAt": "2026-02-19T03:00:00-07:00"
@@ -162,9 +214,21 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://intuitionlabs.ai/articles/claude-pricing-plans-api-costs", "excerpt": "Pro at $20/month or effectively $17/month when billed annually", "agrees": true},
-          {"url": "https://screenapp.io/blog/claude-ai-pricing", "excerpt": "Most individual professionals find Claude Pro at $20/month the sweet spot", "agrees": true},
-          {"url": "https://claudelog.com/claude-code-pricing/", "excerpt": "Pro (from $17/month annually)", "agrees": true}
+          {
+            "url": "https://intuitionlabs.ai/articles/claude-pricing-plans-api-costs",
+            "excerpt": "Pro at $20/month or effectively $17/month when billed annually",
+            "agrees": true
+          },
+          {
+            "url": "https://screenapp.io/blog/claude-ai-pricing",
+            "excerpt": "Most individual professionals find Claude Pro at $20/month the sweet spot",
+            "agrees": true
+          },
+          {
+            "url": "https://claudelog.com/claude-code-pricing/",
+            "excerpt": "Pro (from $17/month annually)",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by multiple pricing guides. Claude Pro is $20/month or ~$17/month effective when billed annually ($204/year).",
         "verifiedAt": "2026-02-19T03:00:00-07:00"
@@ -187,8 +251,16 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://github.com/markqvist/Reticulum", "excerpt": "markqvist has 2135 of 2257 total commits (94%)", "agrees": true},
-          {"url": "https://api.github.com/repos/markqvist/Reticulum/contributors", "excerpt": "Top contributor: markqvist with 2135 commits; next closest is 23 commits", "agrees": true}
+          {
+            "url": "https://github.com/markqvist/Reticulum",
+            "excerpt": "markqvist has 2135 of 2257 total commits (94%)",
+            "agrees": true
+          },
+          {
+            "url": "https://api.github.com/repos/markqvist/Reticulum/contributors",
+            "excerpt": "Top contributor: markqvist with 2135 commits; next closest is 23 commits",
+            "agrees": true
+          }
         ],
         "explanation": "Verified via GitHub API. Reticulum repo has 47,036 lines of Python code. markqvist has 94% of all commits (2135/2257), essentially matching the '95%' claim. The dominance is even more stark: the next highest contributor has only 23 commits.",
         "verifiedAt": "2026-02-20T03:00:00-07:00"
@@ -211,9 +283,21 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://www.itineris.co.uk/blog/wordpress-in-2026/", "excerpt": "Around 43% of all websites use WordPress, making it by far the most widely-used platform", "agrees": true},
-          {"url": "https://www.bitcot.com/wordpress-security-challenges-and-solutions/", "excerpt": "WordPress powers more than 40% of all websites on the internet", "agrees": true},
-          {"url": "https://canadacreate.com/unlocking-wordpress-for-enterprises-6-essential-tips-for-success/", "excerpt": "As a CMS, WordPress holds a dominant 65% market share", "agrees": true}
+          {
+            "url": "https://www.itineris.co.uk/blog/wordpress-in-2026/",
+            "excerpt": "Around 43% of all websites use WordPress, making it by far the most widely-used platform",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bitcot.com/wordpress-security-challenges-and-solutions/",
+            "excerpt": "WordPress powers more than 40% of all websites on the internet",
+            "agrees": true
+          },
+          {
+            "url": "https://canadacreate.com/unlocking-wordpress-for-enterprises-6-essential-tips-for-success/",
+            "excerpt": "As a CMS, WordPress holds a dominant 65% market share",
+            "agrees": true
+          }
         ],
         "explanation": "Verified. Multiple sources confirm WordPress powers 40-43% of all websites. The 42.6% figure falls within this range. Among CMS-powered sites specifically, WordPress holds 61-65% market share.",
         "verifiedAt": "2026-02-21T03:00:00-07:00"
@@ -221,7 +305,7 @@
     },
     {
       "id": "claim_010",
-      "claim": "WIRED published article 'I Loved My OpenClaw Agent—Until It Turned on Me' by Will Knight on Feb 11, 2026, documenting a 'guacamole incident'",
+      "claim": "WIRED published article 'I Loved My OpenClaw Agent\u2014Until It Turned on Me' by Will Knight on Feb 11, 2026, documenting a 'guacamole incident'",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
@@ -236,7 +320,11 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://www.wired.com/story/malevolent-ai-agent-openclaw-clawdbot/", "excerpt": "Will Knight, Business, Feb 11, 2026 2:00 PM... This is one of several things I discovered while using the viral artificial intelligence bot... look no further than this weekend's guacamole incident... Molty became oddly determined to dispatch a single serving of guacamole", "agrees": true}
+          {
+            "url": "https://www.wired.com/story/malevolent-ai-agent-openclaw-clawdbot/",
+            "excerpt": "Will Knight, Business, Feb 11, 2026 2:00 PM... This is one of several things I discovered while using the viral artificial intelligence bot... look no further than this weekend's guacamole incident... Molty became oddly determined to dispatch a single serving of guacamole",
+            "agrees": true
+          }
         ],
         "explanation": "Fully verified via direct web fetch of WIRED article. Author: Will Knight. Date: Feb 11, 2026 2:00 PM. The guacamole incident is described in detail - the agent repeatedly tried to order guacamole despite being told not to.",
         "verifiedAt": "2026-02-21T03:00:00-07:00"
@@ -259,9 +347,21 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html", "excerpt": "On February 17, 2026, at 3:26 AM PT, an unauthorized party used a compromised npm publish token to publish an update to Cline CLI on the NPM registry: cline@2.3.0", "agrees": true},
-          {"url": "https://www.theregister.com/2026/02/20/openclaw_snuck_into_cline_package/", "excerpt": "Someone compromised open source AI coding assistant Cline CLI's npm package earlier this week in an odd supply chain attack that secretly installed OpenClaw on developers' machines without their knowledge", "agrees": true},
-          {"url": "https://www.darkreading.com/application-security/supply-chain-attack-openclaw-cline-users", "excerpt": "The malicious version of Cline's npm package — 2.3.0 — was downloaded more than 4,000 times before it was removed", "agrees": true}
+          {
+            "url": "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html",
+            "excerpt": "On February 17, 2026, at 3:26 AM PT, an unauthorized party used a compromised npm publish token to publish an update to Cline CLI on the NPM registry: cline@2.3.0",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theregister.com/2026/02/20/openclaw_snuck_into_cline_package/",
+            "excerpt": "Someone compromised open source AI coding assistant Cline CLI's npm package earlier this week in an odd supply chain attack that secretly installed OpenClaw on developers' machines without their knowledge",
+            "agrees": true
+          },
+          {
+            "url": "https://www.darkreading.com/application-security/supply-chain-attack-openclaw-cline-users",
+            "excerpt": "The malicious version of Cline's npm package \u2014 2.3.0 \u2014 was downloaded more than 4,000 times before it was removed",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by The Hacker News, The Register, Dark Reading, Endor Labs, and Snyk. Attack occurred Feb 17, 2026 at 3:26 AM PT via compromised npm token. Downloaded 4,000+ times before removal.",
         "verifiedAt": "2026-02-22T03:00:00-07:00"
@@ -284,8 +384,16 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://www.nature.com/articles/s41586-025-10021-1", "excerpt": "A roadmap for evaluating moral competence in large language models. Nature 650, 565–573 (2026)", "agrees": true},
-          {"url": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/", "excerpt": "What Haas, Isaac, and their colleagues at Google DeepMind propose is a new line of research to develop more rigorous techniques for evaluating moral competence in LLMs", "agrees": true}
+          {
+            "url": "https://www.nature.com/articles/s41586-025-10021-1",
+            "excerpt": "A roadmap for evaluating moral competence in large language models. Nature 650, 565\u2013573 (2026)",
+            "agrees": true
+          },
+          {
+            "url": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/",
+            "excerpt": "What Haas, Isaac, and their colleagues at Google DeepMind propose is a new line of research to develop more rigorous techniques for evaluating moral competence in LLMs",
+            "agrees": true
+          }
         ],
         "explanation": "Verified via Nature journal directly (s41586-025-10021-1) and MIT Technology Review coverage. Authors include William Isaac and Julia Haas from Google DeepMind.",
         "verifiedAt": "2026-02-22T03:00:00-07:00"
@@ -308,9 +416,21 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://www.prnewswire.com/news-releases/secureclaw-by-adversa-ai-launches-as-the-first-owasp-aligned-open-source-security-plugin-and-skill-for-openclaw-ai-agents-302688674.html", "excerpt": "SecureClaw provides automated auditing, configuration hardening, and runtime protection", "agrees": true},
-          {"url": "https://www.helpnetsecurity.com/2026/02/18/secureclaw-open-source-security-plugin-skill-openclaw/", "excerpt": "SecureClaw is structured as two components: a plugin and a skill", "agrees": true},
-          {"url": "https://adversa.ai/blog/adversa-ai-launches-secureclaw-open-source-security-solution-for-openclaw-agents/", "excerpt": "Protect OpenClaw agents with SecureClaw by Adversa AI. An open-source suite covering OWASP Top 10 risks via 50+ audit checks", "agrees": true}
+          {
+            "url": "https://www.prnewswire.com/news-releases/secureclaw-by-adversa-ai-launches-as-the-first-owasp-aligned-open-source-security-plugin-and-skill-for-openclaw-ai-agents-302688674.html",
+            "excerpt": "SecureClaw provides automated auditing, configuration hardening, and runtime protection",
+            "agrees": true
+          },
+          {
+            "url": "https://www.helpnetsecurity.com/2026/02/18/secureclaw-open-source-security-plugin-skill-openclaw/",
+            "excerpt": "SecureClaw is structured as two components: a plugin and a skill",
+            "agrees": true
+          },
+          {
+            "url": "https://adversa.ai/blog/adversa-ai-launches-secureclaw-open-source-security-solution-for-openclaw-agents/",
+            "excerpt": "Protect OpenClaw agents with SecureClaw by Adversa AI. An open-source suite covering OWASP Top 10 risks via 50+ audit checks",
+            "agrees": true
+          }
         ],
         "explanation": "Verified via PR Newswire, Help Net Security, Security Week, and Adversa AI blog. Open-source dual-stack (plugin + skill) solution with 50+ audit checks aligned to OWASP Agentic Security Initiative.",
         "verifiedAt": "2026-02-22T03:00:00-07:00"
@@ -333,8 +453,16 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://www.amazon.com/We-Are-Legion-Bob-Bobiverse/dp/1668221578", "excerpt": "The book that launched a thousand Bobs and the first novel in the Bobiverse series from Dennis E. Taylor", "agrees": true},
-          {"url": "https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob", "excerpt": "We Are Legion (We Are Bob) (Bobiverse, #1) by Dennis E. Taylor", "agrees": true}
+          {
+            "url": "https://www.amazon.com/We-Are-Legion-Bob-Bobiverse/dp/1668221578",
+            "excerpt": "The book that launched a thousand Bobs and the first novel in the Bobiverse series from Dennis E. Taylor",
+            "agrees": true
+          },
+          {
+            "url": "https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob",
+            "excerpt": "We Are Legion (We Are Bob) (Bobiverse, #1) by Dennis E. Taylor",
+            "agrees": true
+          }
         ],
         "explanation": "Verified via Amazon and Goodreads. The book title is the origin of the domain name wearebob.blog - referencing the AI replication theme.",
         "verifiedAt": "2026-02-22T03:00:00-07:00"
@@ -357,8 +485,16 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://www.youtube.com/watch?v=IQXNgBnRZro", "excerpt": "Steve at LowMesh.com has come up with a way to send voice messages over MeshCore in addition to improving the battery life of Meshtastic devices by up to 50%", "agrees": true},
-          {"url": "https://youtubershamfest.com/2026/02/20/voice-over-meshcore-lowmesh-lora-meshtastic-innovation/", "excerpt": "Post date February 20, 2026 · Voice Over Meshcore! Lowmesh LoRa & Meshtastic Innovation!", "agrees": true}
+          {
+            "url": "https://www.youtube.com/watch?v=IQXNgBnRZro",
+            "excerpt": "Steve at LowMesh.com has come up with a way to send voice messages over MeshCore in addition to improving the battery life of Meshtastic devices by up to 50%",
+            "agrees": true
+          },
+          {
+            "url": "https://youtubershamfest.com/2026/02/20/voice-over-meshcore-lowmesh-lora-meshtastic-innovation/",
+            "excerpt": "Post date February 20, 2026 \u00b7 Voice Over Meshcore! Lowmesh LoRa & Meshtastic Innovation!",
+            "agrees": true
+          }
         ],
         "explanation": "Verified via YouTube video and aggregator site. The announcement was made on February 20, 2026, demonstrating voice messaging over MeshCore networks.",
         "verifiedAt": "2026-02-23T03:00:00-07:00"
@@ -381,9 +517,21 @@
         "status": "disputed",
         "confidence": 0.9,
         "sources": [
-          {"url": "https://www.pcmag.com/reviews/starlink-mini", "excerpt": "the built-in router has a 150-foot wireless range", "agrees": false},
-          {"url": "https://www.reddit.com/r/Starlink/comments/1dqsybs/starlink_mini_wifi_distance/", "excerpt": "WiFi was good well past 250 feet! 180 Mbps at 50 ft, 142 Mbps at 100 ft, 73 Mbps at 250 feet", "agrees": false},
-          {"url": "https://www.dishytech.com/starlink-mini-review/", "excerpt": "Starlink says the Mini's integrated router only covers about 1,200 sq ft", "agrees": false}
+          {
+            "url": "https://www.pcmag.com/reviews/starlink-mini",
+            "excerpt": "the built-in router has a 150-foot wireless range",
+            "agrees": false
+          },
+          {
+            "url": "https://www.reddit.com/r/Starlink/comments/1dqsybs/starlink_mini_wifi_distance/",
+            "excerpt": "WiFi was good well past 250 feet! 180 Mbps at 50 ft, 142 Mbps at 100 ft, 73 Mbps at 250 feet",
+            "agrees": false
+          },
+          {
+            "url": "https://www.dishytech.com/starlink-mini-review/",
+            "excerpt": "Starlink says the Mini's integrated router only covers about 1,200 sq ft",
+            "agrees": false
+          }
         ],
         "explanation": "UNDERESTIMATED. The claim of 60 feet significantly undersells the Starlink Mini's WiFi range. PCMag reports 150-foot range, and real-world Reddit tests show usable signal at 250+ feet. The 60' figure may have been a conservative estimate or confusion with indoor coverage specs.",
         "verifiedAt": "2026-02-23T03:00:00-07:00"
@@ -406,8 +554,16 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://meshcore-sar.dz0ny.dev/", "excerpt": "Transform your smartphone into a mesh-networked coordination tool for search and rescue teams. Works beyond cellular coverage with real-time GPS tracking, offline maps, and SAR-specific markers.", "agrees": true},
-          {"url": "https://dz0ny.dev/posts/meshcore-sar/", "excerpt": "MeshCore SAR works with any existing MeshCore network", "agrees": true}
+          {
+            "url": "https://meshcore-sar.dz0ny.dev/",
+            "excerpt": "Transform your smartphone into a mesh-networked coordination tool for search and rescue teams. Works beyond cellular coverage with real-time GPS tracking, offline maps, and SAR-specific markers.",
+            "agrees": true
+          },
+          {
+            "url": "https://dz0ny.dev/posts/meshcore-sar/",
+            "excerpt": "MeshCore SAR works with any existing MeshCore network",
+            "agrees": true
+          }
         ],
         "explanation": "Verified. MeshCore SAR is a real PWA for SAR coordination over MeshCore mesh networks, developed by dz0ny. Features include GPS tracking, offline maps, and SAR-specific markers.",
         "verifiedAt": "2026-02-23T03:00:00-07:00"
@@ -430,7 +586,11 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://github.com/AkitaEngineering/Akita-Emergency-Response-Plugin", "excerpt": "AERP is a standalone Python application designed to enhance safety, communication, and coordination using the Meshtastic mesh network, particularly valuable in Search and Rescue (SAR) operations, disaster response, or any situation where reliable off-grid communication is critical.", "agrees": true}
+          {
+            "url": "https://github.com/AkitaEngineering/Akita-Emergency-Response-Plugin",
+            "excerpt": "AERP is a standalone Python application designed to enhance safety, communication, and coordination using the Meshtastic mesh network, particularly valuable in Search and Rescue (SAR) operations, disaster response, or any situation where reliable off-grid communication is critical.",
+            "agrees": true
+          }
         ],
         "explanation": "Verified via GitHub. AERP by Akita Engineering is indeed a Python application for SAR/emergency response using Meshtastic mesh networks.",
         "verifiedAt": "2026-02-23T03:00:00-07:00"
@@ -453,8 +613,16 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026", "excerpt": "Publishers expect traffic from search engines to almost halve (-43%) over the next three years", "agrees": true},
-          {"url": "https://www.theguardian.com/media/2026/jan/12/publishers-fear-ai-search-summaries-and-chatbots-mean-end-of-traffic-era", "excerpt": "media executives around the world fear search engine referrals will fall by 43% over three years", "agrees": true}
+          {
+            "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+            "excerpt": "Publishers expect traffic from search engines to almost halve (-43%) over the next three years",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/jan/12/publishers-fear-ai-search-summaries-and-chatbots-mean-end-of-traffic-era",
+            "excerpt": "media executives around the world fear search engine referrals will fall by 43% over three years",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed directly from Reuters Institute 2026 Trends report and Guardian coverage. The 43% figure is from a survey of 280 media leaders from 51 countries.",
         "verifiedAt": "2026-02-24T03:00:00-07:00"
@@ -477,8 +645,16 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026", "excerpt": "Around a fifth (20%) of publisher respondents – mainly from upmarket news companies – expect future revenues to be substantial, with half (49%) saying that they expect a minor contribution", "agrees": true},
-          {"url": "https://www.ifj.org/media-centre/news/detail/category/ai/article/reuters-digital-report-2026-journalisms-pivot-navigating-the-ai-and-creators-squeeze", "excerpt": "Only 20% of publishers anticipate that AI licensing deals will evolve into a major revenue source", "agrees": true}
+          {
+            "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
+            "excerpt": "Around a fifth (20%) of publisher respondents \u2013 mainly from upmarket news companies \u2013 expect future revenues to be substantial, with half (49%) saying that they expect a minor contribution",
+            "agrees": true
+          },
+          {
+            "url": "https://www.ifj.org/media-centre/news/detail/category/ai/article/reuters-digital-report-2026-journalisms-pivot-navigating-the-ai-and-creators-squeeze",
+            "excerpt": "Only 20% of publishers anticipate that AI licensing deals will evolve into a major revenue source",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed directly from Reuters Institute report and IFJ coverage. The 20%/49% figures match the primary source exactly.",
         "verifiedAt": "2026-02-24T03:00:00-07:00"
@@ -501,8 +677,16 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://rslstandard.org/press/rsl-standard", "excerpt": "SAN FRANCISCO, CALIFORNIA — September 10, 2025 — Leading internet publishers and technology companies... today announced their support for the launch of the RSL Standard", "agrees": true},
-          {"url": "https://en.wikipedia.org/wiki/Really_Simple_Licensing", "excerpt": "It was launched on September 10, 2025 and is managed by the nonprofit", "agrees": true}
+          {
+            "url": "https://rslstandard.org/press/rsl-standard",
+            "excerpt": "SAN FRANCISCO, CALIFORNIA \u2014 September 10, 2025 \u2014 Leading internet publishers and technology companies... today announced their support for the launch of the RSL Standard",
+            "agrees": true
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Really_Simple_Licensing",
+            "excerpt": "It was launched on September 10, 2025 and is managed by the nonprofit",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed via RSL's own press release and Wikipedia. Launch date was September 10, 2025. The business ideas doc said 'Sept 2025' which is accurate. RSL 1.0 spec followed on December 10, 2025.",
         "verifiedAt": "2026-02-24T03:00:00-07:00"
@@ -525,9 +709,21 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://www.bloomberg.com/news/articles/2026-02-20/cyber-stocks-slide-as-anthropic-unveils-claude-code-security", "excerpt": "Anthropic unveils Claude Code Security. CrowdStrike Holdings was among the biggest decliners, falling 8%", "agrees": true},
-          {"url": "https://finance.yahoo.com/news/cybersecurity-stocks-drop-anthropic-launches-203607452.html", "excerpt": "CrowdStrike Holdings Inc plummeted 6.8% and Okta Inc 9.2%", "agrees": true},
-          {"url": "https://seekingalpha.com/news/4554814-cybersecurity-stocks-fall-after-anthropic-unveils-claude-code-security", "excerpt": "Cybersecurity stocks fall after Anthropic unveils Claude Code Security", "agrees": true}
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-02-20/cyber-stocks-slide-as-anthropic-unveils-claude-code-security",
+            "excerpt": "Anthropic unveils Claude Code Security. CrowdStrike Holdings was among the biggest decliners, falling 8%",
+            "agrees": true
+          },
+          {
+            "url": "https://finance.yahoo.com/news/cybersecurity-stocks-drop-anthropic-launches-203607452.html",
+            "excerpt": "CrowdStrike Holdings Inc plummeted 6.8% and Okta Inc 9.2%",
+            "agrees": true
+          },
+          {
+            "url": "https://seekingalpha.com/news/4554814-cybersecurity-stocks-fall-after-anthropic-unveils-claude-code-security",
+            "excerpt": "Cybersecurity stocks fall after Anthropic unveils Claude Code Security",
+            "agrees": true
+          }
         ],
         "explanation": "Verified by Bloomberg, Yahoo Finance, Seeking Alpha. Claude Code Security launched Feb 20, 2026. CRWD dropped ~6.8-8%, OKTA -9.2%. Business Insider called it the 'Anthropic Shock'.",
         "verifiedAt": "2026-02-25T03:00:00-07:00"
@@ -550,9 +746,21 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://www.reuters.com/world/china/chinese-companies-used-claude-improve-own-models-anthropic-says-2026-02-23/", "excerpt": "DeepSeek, Moonshot and MiniMax created more than 16 million interactions with Claude using roughly 24,000 fake accounts", "agrees": true},
-          {"url": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/", "excerpt": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude's AI capabilities", "agrees": true},
-          {"url": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html", "excerpt": "Anthropic estimated that the three Chinese firms collectively generated over 16 million exchanges with Claude from around 24,000 fraudulently created accounts", "agrees": true}
+          {
+            "url": "https://www.reuters.com/world/china/chinese-companies-used-claude-improve-own-models-anthropic-says-2026-02-23/",
+            "excerpt": "DeepSeek, Moonshot and MiniMax created more than 16 million interactions with Claude using roughly 24,000 fake accounts",
+            "agrees": true
+          },
+          {
+            "url": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
+            "excerpt": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude's AI capabilities",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html",
+            "excerpt": "Anthropic estimated that the three Chinese firms collectively generated over 16 million exchanges with Claude from around 24,000 fraudulently created accounts",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by Reuters, TechCrunch, CNBC, NBC News, Hacker News. The Twitter digest correctly identified the key facts. The specific firms named were DeepSeek, Moonshot, and MiniMax.",
         "verifiedAt": "2026-02-25T03:00:00-07:00"
@@ -575,9 +783,21 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://www.reuters.com/business/nvidia-close-finalizing-30-billion-investment-openai-funding-round-ft-reports-2026-02-20/", "excerpt": "Nvidia is close to finalizing a $30 billion investment in OpenAI, as the chipmaker moves to take a stake in one of its largest customers", "agrees": true},
-          {"url": "https://www.theguardian.com/technology/2026/feb/20/nvidia-investment-openai-chatgpt-funding-round-ai-artificial-intelligence", "excerpt": "Nvidia is reportedly planning to invest $30bn in OpenAI's next funding round, after a $100bn deal between the two dissolved earlier this month", "agrees": true},
-          {"url": "https://www.cnbc.com/2026/02/19/nvidia-is-in-talks-to-invest-up-to-30-billion-in-openai-source-says.html", "excerpt": "Nvidia's $30 billion investment in OpenAI", "agrees": true}
+          {
+            "url": "https://www.reuters.com/business/nvidia-close-finalizing-30-billion-investment-openai-funding-round-ft-reports-2026-02-20/",
+            "excerpt": "Nvidia is close to finalizing a $30 billion investment in OpenAI, as the chipmaker moves to take a stake in one of its largest customers",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theguardian.com/technology/2026/feb/20/nvidia-investment-openai-chatgpt-funding-round-ai-artificial-intelligence",
+            "excerpt": "Nvidia is reportedly planning to invest $30bn in OpenAI's next funding round, after a $100bn deal between the two dissolved earlier this month",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/02/19/nvidia-is-in-talks-to-invest-up-to-30-billion-in-openai-source-says.html",
+            "excerpt": "Nvidia's $30 billion investment in OpenAI",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by Reuters, Guardian, CNBC. Deal is 'close to finalizing' as of Feb 20, not yet completed. The $100B figure that dissolved is also confirmed by Guardian. Twitter digest claim about ~$730B valuation needs separate verification.",
         "verifiedAt": "2026-02-25T03:00:00-07:00"
@@ -590,7 +810,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-02-24T12:00:00-07:00",
-        "context": "Noon Breaking News Check — reported as 'yesterday' but actual date was Feb 14"
+        "context": "Noon Breaking News Check \u2014 reported as 'yesterday' but actual date was Feb 14"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -600,11 +820,23 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://en.wikipedia.org/wiki/OpenClaw", "excerpt": "On February 14, 2026, Steinberger announced he will be joining OpenAI and the project will be moved to an open-source foundation", "agrees": true},
-          {"url": "https://fortune.com/2026/02/19/openclaw-who-is-peter-steinberger-openai-sam-altman-anthropic-moltbook/", "excerpt": "Steinberger said OpenClaw will now move into an independent, open-source foundation supported by OpenAI", "agrees": true},
-          {"url": "https://observer.com/2026/02/openclaw-founder-perter-steinberger-join-openai/", "excerpt": "Peter Steinberger, creator of OpenClaw, joins OpenAI", "agrees": true}
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenClaw",
+            "excerpt": "On February 14, 2026, Steinberger announced he will be joining OpenAI and the project will be moved to an open-source foundation",
+            "agrees": true
+          },
+          {
+            "url": "https://fortune.com/2026/02/19/openclaw-who-is-peter-steinberger-openai-sam-altman-anthropic-moltbook/",
+            "excerpt": "Steinberger said OpenClaw will now move into an independent, open-source foundation supported by OpenAI",
+            "agrees": true
+          },
+          {
+            "url": "https://observer.com/2026/02/openclaw-founder-perter-steinberger-join-openai/",
+            "excerpt": "Peter Steinberger, creator of OpenClaw, joins OpenAI",
+            "agrees": true
+          }
         ],
-        "explanation": "Confirmed by Wikipedia, Fortune, Observer, Business Insider, Cloud Wars. NOTE: The Noon Breaking News cron on Feb 24 reported this as 'yesterday' which was inaccurate — the announcement was Feb 14, ten days earlier. The cron likely found a follow-up article.",
+        "explanation": "Confirmed by Wikipedia, Fortune, Observer, Business Insider, Cloud Wars. NOTE: The Noon Breaking News cron on Feb 24 reported this as 'yesterday' which was inaccurate \u2014 the announcement was Feb 14, ten days earlier. The cron likely found a follow-up article.",
         "verifiedAt": "2026-02-25T03:00:00-07:00"
       }
     },
@@ -625,15 +857,26 @@
         "status": "verified",
         "confidence": 0.9,
         "sources": [
-          {"url": "https://en.wikipedia.org/wiki/OpenClaw", "excerpt": "140,000 likes and 20,000 forks on GitHub as of February 2, 2026", "agrees": true},
-          {"url": "https://conscia.com/blog/the-openclaw-security-crisis/", "excerpt": "crossing 180,000 GitHub stars", "agrees": true},
-          {"url": "https://marksinsights.com/openclaw/", "excerpt": "hits 150,000+ GitHub stars", "agrees": true}
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenClaw",
+            "excerpt": "140,000 likes and 20,000 forks on GitHub as of February 2, 2026",
+            "agrees": true
+          },
+          {
+            "url": "https://conscia.com/blog/the-openclaw-security-crisis/",
+            "excerpt": "crossing 180,000 GitHub stars",
+            "agrees": true
+          },
+          {
+            "url": "https://marksinsights.com/openclaw/",
+            "excerpt": "hits 150,000+ GitHub stars",
+            "agrees": true
+          }
         ],
         "explanation": "Verified. Wikipedia reported 140K as of Feb 2; by mid-Feb sources report 150K-180K. The 150K+ figure is conservative and accurate for the Feb 24 timeframe.",
         "verifiedAt": "2026-02-25T03:00:00-07:00"
       }
-    }
-    ,
+    },
     {
       "id": "claim_027",
       "claim": "~400 digital-first nonprofit newsrooms indexed by INN, median revenue $532K/year",
@@ -641,7 +884,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:telegram:group:-1003794615681",
         "timestamp": "2026-02-27T01:00:00-07:00",
-        "context": "Business idea research — idea #1 (Newsroom Donor CRM)"
+        "context": "Business idea research \u2014 idea #1 (Newsroom Donor CRM)"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -651,8 +894,16 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://inn.org/research/inn-index/2025-index/about-the-index/", "excerpt": "The median INN member outlet generated $532,000 in annual revenue... the nearly 400 digital-first nonprofit newsrooms in its ranks", "agrees": true},
-          {"url": "https://news.inn.org/2025-index-survey-data-reflect-a-maturing-nonprofit-news-field/", "excerpt": "median INN member outlet generated $532,000 in annual revenue, a marked jump from $477,000 in 2023", "agrees": true}
+          {
+            "url": "https://inn.org/research/inn-index/2025-index/about-the-index/",
+            "excerpt": "The median INN member outlet generated $532,000 in annual revenue... the nearly 400 digital-first nonprofit newsrooms in its ranks",
+            "agrees": true
+          },
+          {
+            "url": "https://news.inn.org/2025-index-survey-data-reflect-a-maturing-nonprofit-news-field/",
+            "excerpt": "median INN member outlet generated $532,000 in annual revenue, a marked jump from $477,000 in 2023",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by INN's own 2025 Index. Both the ~400 count and $532K median revenue are accurate per the October 2025 report.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
@@ -665,7 +916,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:telegram:group:-1003794615681",
         "timestamp": "2026-02-27T01:00:00-07:00",
-        "context": "Business idea research — idea #2 (Local Ad Sales Co-Pilot)"
+        "context": "Business idea research \u2014 idea #2 (Local Ad Sales Co-Pilot)"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -675,9 +926,13 @@
         "status": "disputed",
         "confidence": 0.8,
         "sources": [
-          {"url": "https://www.brightlocal.com/research/smb-marketing-2025/", "excerpt": "72% of small to medium-sized businesses (SMBs) say SEO has a medium-high impact on their business", "agrees": false}
+          {
+            "url": "https://www.brightlocal.com/research/smb-marketing-2025/",
+            "excerpt": "72% of small to medium-sized businesses (SMBs) say SEO has a medium-high impact on their business",
+            "agrees": false
+          }
         ],
-        "explanation": "MISATTRIBUTED. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact — NOT about wanting to buy from a 'single trusted local media partner'. The claim fabricates the context around a real number.",
+        "explanation": "MISATTRIBUTED. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact \u2014 NOT about wanting to buy from a 'single trusted local media partner'. The claim fabricates the context around a real number.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
       }
     },
@@ -688,7 +943,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-27T02:00:00-07:00",
-        "context": "Business idea research — Renter Evidence Vault"
+        "context": "Business idea research \u2014 Renter Evidence Vault"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -698,10 +953,18 @@
         "status": "verified",
         "confidence": 0.9,
         "sources": [
-          {"url": "https://arbor.com/blog/renters-account-for-majority-of-household-growth/", "excerpt": "Rental households also hit a new high of 45.3 million", "agrees": true},
-          {"url": "https://www.globest.com/2025/04/16/renters-drive-majority-of-us-household-growth-in-2024/", "excerpt": "pushed the total to a new high of 45.3 million", "agrees": true}
+          {
+            "url": "https://arbor.com/blog/renters-account-for-majority-of-household-growth/",
+            "excerpt": "Rental households also hit a new high of 45.3 million",
+            "agrees": true
+          },
+          {
+            "url": "https://www.globest.com/2025/04/16/renters-drive-majority-of-us-household-growth-in-2024/",
+            "excerpt": "pushed the total to a new high of 45.3 million",
+            "agrees": true
+          }
         ],
-        "explanation": "Slightly understated. As of 2024 Census data, rental households reached 45.3 million — higher than the claimed 44 million. The figure was accurate historically but is now outdated.",
+        "explanation": "Slightly understated. As of 2024 Census data, rental households reached 45.3 million \u2014 higher than the claimed 44 million. The figure was accurate historically but is now outdated.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
       }
     },
@@ -712,7 +975,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:telegram:group:-1003794615681",
         "timestamp": "2026-02-27T01:00:00-07:00",
-        "context": "Business idea research — idea #11 (Family Caregiver Coordination)"
+        "context": "Business idea research \u2014 idea #11 (Family Caregiver Coordination)"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -722,10 +985,18 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://press.aarp.org/2020-6-17-New-Study-Reveals-Unpaid-Caregivers-in-America-Grew-By-9-Million-to-53-Million", "excerpt": "Number of Unpaid Caregivers in America Grew by 9.5 Million in Five Years to Total 53 Million", "agrees": true},
-          {"url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK604136/", "excerpt": "in 2020, an estimated 53 million adults provided unpaid care", "agrees": true}
+          {
+            "url": "https://press.aarp.org/2020-6-17-New-Study-Reveals-Unpaid-Caregivers-in-America-Grew-By-9-Million-to-53-Million",
+            "excerpt": "Number of Unpaid Caregivers in America Grew by 9.5 Million in Five Years to Total 53 Million",
+            "agrees": true
+          },
+          {
+            "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK604136/",
+            "excerpt": "in 2020, an estimated 53 million adults provided unpaid care",
+            "agrees": true
+          }
         ],
-        "explanation": "Confirmed by AARP/NAC 2020 study and NCBI. The 53M figure is from 2020 data — likely higher now but the cited number is accurate for its source.",
+        "explanation": "Confirmed by AARP/NAC 2020 study and NCBI. The 53M figure is from 2020 data \u2014 likely higher now but the cited number is accurate for its source.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
       }
     },
@@ -736,7 +1007,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-27T02:00:00-07:00",
-        "context": "Business idea research — Ham Radio Logger idea"
+        "context": "Business idea research \u2014 Ham Radio Logger idea"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -746,8 +1017,16 @@
         "status": "verified",
         "confidence": 0.9,
         "sources": [
-          {"url": "https://grokipedia.com/page/Amateur_radio_licensing_in_the_United_States", "excerpt": "As of September 2025, there are approximately 737,000 active U.S. amateur licensees", "agrees": true},
-          {"url": "http://arrl.org/fcc-license-counts", "excerpt": "FCC License Counts - report through Feb 2026", "agrees": true}
+          {
+            "url": "https://grokipedia.com/page/Amateur_radio_licensing_in_the_United_States",
+            "excerpt": "As of September 2025, there are approximately 737,000 active U.S. amateur licensees",
+            "agrees": true
+          },
+          {
+            "url": "http://arrl.org/fcc-license-counts",
+            "excerpt": "FCC License Counts - report through Feb 2026",
+            "agrees": true
+          }
         ],
         "explanation": "Close enough. The actual count is ~737K as of Sept 2025 per Grokipedia citing FCC data. The claim of ~750K is a reasonable round number. The 'post-COVID licensing surge' claim is also supported by ARRL reports.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
@@ -760,7 +1039,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-27T02:00:00-07:00",
-        "context": "Business idea research — Spec-to-Ticket AI"
+        "context": "Business idea research \u2014 Spec-to-Ticket AI"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -770,7 +1049,11 @@
         "status": "verified",
         "confidence": 0.7,
         "sources": [
-          {"url": "https://www.appsruntheworld.com/customers-database/products/view/atlassian-jira", "excerpt": "Companies using Atlassian JIRA include large organizations", "agrees": true}
+          {
+            "url": "https://www.appsruntheworld.com/customers-database/products/view/atlassian-jira",
+            "excerpt": "Companies using Atlassian JIRA include large organizations",
+            "agrees": true
+          }
         ],
         "explanation": "Plausible but hard to pin down. Atlassian reported 300K+ customers total across all products in recent filings. With 65K+ Jira-specific customers (per ReadyContacts) and average team sizes, 10M+ seats is a reasonable estimate but not directly sourced from Atlassian.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
@@ -783,7 +1066,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-27T02:00:00-07:00",
-        "context": "Business idea research — Journalist Story Workspace"
+        "context": "Business idea research \u2014 Journalist Story Workspace"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -793,14 +1076,21 @@
         "status": "disputed",
         "confidence": 0.75,
         "sources": [
-          {"url": "https://www.zippia.com/freelance-reporter-jobs/demographics/", "excerpt": "There are over 12,994 freelance reporters currently employed in the United States", "agrees": false},
-          {"url": "https://freelancejournalistsunion.org/", "excerpt": "self-employed writers make up the majority of the profession in the United States", "agrees": false}
+          {
+            "url": "https://www.zippia.com/freelance-reporter-jobs/demographics/",
+            "excerpt": "There are over 12,994 freelance reporters currently employed in the United States",
+            "agrees": false
+          },
+          {
+            "url": "https://freelancejournalistsunion.org/",
+            "excerpt": "self-employed writers make up the majority of the profession in the United States",
+            "agrees": false
+          }
         ],
         "explanation": "LIKELY INFLATED. Zippia counts only ~13K freelance reporters. The Freelance Journalists Union says freelancers are 'the majority' of the profession but doesn't give 75K. BLS counts ~46K reporters total (including staff). 75K freelance-only is not supported by available data.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
       }
-    }
-    ,
+    },
     {
       "id": "claim_034",
       "claim": "There are 750,000+ US amateur ham radio operators",
@@ -808,7 +1098,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-28T01:00:00-07:00",
-        "context": "Business idea B4 (Ham Radio Log → Social Post Converter)"
+        "context": "Business idea B4 (Ham Radio Log \u2192 Social Post Converter)"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -818,8 +1108,16 @@
         "status": "verified",
         "confidence": 0.7,
         "sources": [
-          {"url": "http://www.arrl.org/fcc-license-counts", "excerpt": "Count of active FCC licenses held by individuals, through 26-Feb-2026. State-by-state totals show California alone at 90,897.", "agrees": true},
-          {"url": "https://sites.google.com/site/amateurradiodata/home", "excerpt": "total number of amateur radio operators may be closer to 558,000 (active operators vs total licenses)", "agrees": false}
+          {
+            "url": "http://www.arrl.org/fcc-license-counts",
+            "excerpt": "Count of active FCC licenses held by individuals, through 26-Feb-2026. State-by-state totals show California alone at 90,897.",
+            "agrees": true
+          },
+          {
+            "url": "https://sites.google.com/site/amateurradiodata/home",
+            "excerpt": "total number of amateur radio operators may be closer to 558,000 (active operators vs total licenses)",
+            "agrees": false
+          }
         ],
         "explanation": "NUANCED. ARRL's FCC license count totals ~770K active licenses, so '750K+' is accurate for *licenses*. However, research suggests only ~558K are genuinely active operators (many licenses are held but unused). The claim is technically correct for license count but may overstate active participation.",
         "verifiedAt": "2026-02-28T03:00:00-07:00"
@@ -842,7 +1140,11 @@
         "status": "disputed",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://www.instrumentl.com/pricing", "excerpt": "Starting at $299/mo paid annually ($326/mo monthly). Plans go up to $899/mo.", "agrees": false}
+          {
+            "url": "https://www.instrumentl.com/pricing",
+            "excerpt": "Starting at $299/mo paid annually ($326/mo monthly). Plans go up to $899/mo.",
+            "agrees": false
+          }
         ],
         "explanation": "INCORRECT. Instrumentl's cheapest plan is $299/mo (annual) or $326/mo (monthly), not ~$179/mo. The cited price significantly understates the actual cost. Instrumentl is even more expensive than claimed, which actually strengthens the business case for a cheaper alternative.",
         "verifiedAt": "2026-02-28T03:00:00-07:00"
@@ -865,7 +1167,11 @@
         "status": "disputed",
         "confidence": 0.8,
         "sources": [
-          {"url": "https://coschedule.com/pricing", "excerpt": "Social Calendar at $19/user per month for up to 3 team members", "agrees": false}
+          {
+            "url": "https://coschedule.com/pricing",
+            "excerpt": "Social Calendar at $19/user per month for up to 3 team members",
+            "agrees": false
+          }
         ],
         "explanation": "OUTDATED/INACCURATE. CoSchedule's Social Calendar is $19/user/mo. Their Marketing Suite pricing is custom/enterprise. The $29-$59 range appears to be outdated pricing. Current structure is per-user, not flat-rate.",
         "verifiedAt": "2026-02-28T03:00:00-07:00"
@@ -888,8 +1194,16 @@
         "status": "verified",
         "confidence": 0.8,
         "sources": [
-          {"url": "https://www.reddit.com/r/ClaudeAI/comments/1ixovsk/", "excerpt": "Workbench slider is set to 1 by default", "agrees": true},
-          {"url": "https://www.reddit.com/r/ClaudeAI/comments/1bf1gnp/", "excerpt": "In the workbench the temp is 0.0 by default (older version)", "agrees": false}
+          {
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1ixovsk/",
+            "excerpt": "Workbench slider is set to 1 by default",
+            "agrees": true
+          },
+          {
+            "url": "https://www.reddit.com/r/ClaudeAI/comments/1bf1gnp/",
+            "excerpt": "In the workbench the temp is 0.0 by default (older version)",
+            "agrees": false
+          }
         ],
         "explanation": "MOSTLY CORRECT. The Anthropic API Workbench defaults to 1.0 as of early 2025. Earlier versions defaulted to 0.0. The current default is indeed 1.0, though Anthropic's docs note the effective behavior may differ from other providers at the same temperature value.",
         "verifiedAt": "2026-02-28T03:00:00-07:00"
@@ -912,8 +1226,16 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://docs.x.ai/docs/guides/migration", "excerpt": "from openai import OpenAI; client = OpenAI(api_key=XAI_API_KEY, base_url='https://api.x.ai/v1')", "agrees": true},
-          {"url": "https://docs.ag2.ai/latest/docs/user-guide/models/grok-and-oai-compatible-models/", "excerpt": "api_type: 'openai' # Grok is OpenAI-compatible", "agrees": true}
+          {
+            "url": "https://docs.x.ai/docs/guides/migration",
+            "excerpt": "from openai import OpenAI; client = OpenAI(api_key=XAI_API_KEY, base_url='https://api.x.ai/v1')",
+            "agrees": true
+          },
+          {
+            "url": "https://docs.ag2.ai/latest/docs/user-guide/models/grok-and-oai-compatible-models/",
+            "excerpt": "api_type: 'openai' # Grok is OpenAI-compatible",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed. xAI's official docs show direct use of OpenAI's Python SDK with a base_url swap. The API is explicitly designed as an OpenAI drop-in replacement.",
         "verifiedAt": "2026-02-28T03:00:00-07:00"
@@ -926,7 +1248,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-02-28T07:30:00-07:00",
-        "context": "Twitter digest — top stories"
+        "context": "Twitter digest \u2014 top stories"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -936,8 +1258,16 @@
         "status": "verified",
         "confidence": 0.99,
         "sources": [
-          {"url": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html", "excerpt": "Amazon invested $50 billion, Nvidia invested $30 billion and SoftBank invested $30 billion... $730 billion pre-money valuation", "agrees": true},
-          {"url": "https://www.bloomberg.com/news/articles/2026-02-27/openai-finalizes-110-billion-funding-at-730-billion-valuation", "excerpt": "OpenAI has raised $110 billion in a deal that values the startup at $730 billion", "agrees": true}
+          {
+            "url": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
+            "excerpt": "Amazon invested $50 billion, Nvidia invested $30 billion and SoftBank invested $30 billion... $730 billion pre-money valuation",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-02-27/openai-finalizes-110-billion-funding-at-730-billion-valuation",
+            "excerpt": "OpenAI has raised $110 billion in a deal that values the startup at $730 billion",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by CNBC, Bloomberg, and TechCrunch. All figures match exactly.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
@@ -950,7 +1280,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-02-28T07:30:00-07:00",
-        "context": "Twitter digest — Anthropic/Pentagon story"
+        "context": "Twitter digest \u2014 Anthropic/Pentagon story"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -960,8 +1290,16 @@
         "status": "verified",
         "confidence": 0.98,
         "sources": [
-          {"url": "https://www.nytimes.com/2026/02/27/us/politics/anthropic-military-ai.html", "excerpt": "President Trump on Friday ordered all federal agencies to stop using artificial intelligence technology made by Anthropic", "agrees": true},
-          {"url": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban", "excerpt": "Defense Secretary Pete Hegseth said he was labeling Anthropic a supply chain risk to national security, blacklisting it", "agrees": true}
+          {
+            "url": "https://www.nytimes.com/2026/02/27/us/politics/anthropic-military-ai.html",
+            "excerpt": "President Trump on Friday ordered all federal agencies to stop using artificial intelligence technology made by Anthropic",
+            "agrees": true
+          },
+          {
+            "url": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban",
+            "excerpt": "Defense Secretary Pete Hegseth said he was labeling Anthropic a supply chain risk to national security, blacklisting it",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by NYT, NPR, NBC News. Both the federal ban and 'supply chain risk' label verified.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
@@ -974,7 +1312,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-02-28T12:00:00-07:00",
-        "context": "Breaking news check — Pentagon/Anthropic story"
+        "context": "Breaking news check \u2014 Pentagon/Anthropic story"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -984,8 +1322,16 @@
         "status": "verified",
         "confidence": 0.97,
         "sources": [
-          {"url": "https://www.axios.com/2026/02/27/altman-openai-anthropic-pentagon", "excerpt": "OpenAI CEO Sam Altman wrote in a memo to staff that he will draw the same red lines... no AI for mass surveillance or autonomous lethal weapons", "agrees": true},
-          {"url": "https://www.cnn.com/2026/02/27/tech/openai-has-same-redlines-as-anthropic-in-any-deal-with-the-pentagon", "excerpt": "OpenAI has the same redlines as Anthropic when it comes to working with the Pentagon", "agrees": true}
+          {
+            "url": "https://www.axios.com/2026/02/27/altman-openai-anthropic-pentagon",
+            "excerpt": "OpenAI CEO Sam Altman wrote in a memo to staff that he will draw the same red lines... no AI for mass surveillance or autonomous lethal weapons",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnn.com/2026/02/27/tech/openai-has-same-redlines-as-anthropic-in-any-deal-with-the-pentagon",
+            "excerpt": "OpenAI has the same redlines as Anthropic when it comes to working with the Pentagon",
+            "agrees": true
+          }
         ],
         "explanation": "Confirmed by Axios, NPR, CNN. Altman committed to same red lines in a staff memo.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
@@ -1008,10 +1354,18 @@
         "status": "verified",
         "confidence": 0.95,
         "sources": [
-          {"url": "https://www.nytimes.com/2026/02/26/technology/google-deepmind-letter-pentagon.html", "excerpt": "More than 100 Google A.I. employees sent a letter to Jeff Dean, a chief scientist, opposing Gemini's use for U.S. surveillance and some autonomous weapons", "agrees": true},
-          {"url": "https://www.axios.com/2026/02/27/google-openai-workers-push-for-military-ai-limits", "excerpt": "More than 200 employees from Google and OpenAI have signed an open letter", "agrees": true}
+          {
+            "url": "https://www.nytimes.com/2026/02/26/technology/google-deepmind-letter-pentagon.html",
+            "excerpt": "More than 100 Google A.I. employees sent a letter to Jeff Dean, a chief scientist, opposing Gemini's use for U.S. surveillance and some autonomous weapons",
+            "agrees": true
+          },
+          {
+            "url": "https://www.axios.com/2026/02/27/google-openai-workers-push-for-military-ai-limits",
+            "excerpt": "More than 200 employees from Google and OpenAI have signed an open letter",
+            "agrees": true
+          }
         ],
-        "explanation": "Confirmed. Initial letter had 100+ Google employees to Jeff Dean; expanded to 200+ including OpenAI staff. Digest said 'hundreds of Google/OpenAI employees backing Anthropic's stance' — accurate.",
+        "explanation": "Confirmed. Initial letter had 100+ Google employees to Jeff Dean; expanded to 200+ including OpenAI staff. Digest said 'hundreds of Google/OpenAI employees backing Anthropic's stance' \u2014 accurate.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
       }
     },
@@ -1022,7 +1376,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-02-28T07:30:00-07:00",
-        "context": "Twitter digest — journalism angle"
+        "context": "Twitter digest \u2014 journalism angle"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -1032,10 +1386,18 @@
         "status": "disputed",
         "confidence": 0.7,
         "sources": [
-          {"url": "https://peoplesdispatch.org/2026/02/26/thousands-of-refinery-workers-in-india-strike-against-12-hour-workday/", "excerpt": "Over 300 million workers and farmers in India participated in the nationwide strike", "agrees": true},
-          {"url": "https://www.reddit.com/r/union/comments/1rb82c7/", "excerpt": "General Strike India — '300 million' workers and farmers solidarity", "agrees": true}
+          {
+            "url": "https://peoplesdispatch.org/2026/02/26/thousands-of-refinery-workers-in-india-strike-against-12-hour-workday/",
+            "excerpt": "Over 300 million workers and farmers in India participated in the nationwide strike",
+            "agrees": true
+          },
+          {
+            "url": "https://www.reddit.com/r/union/comments/1rb82c7/",
+            "excerpt": "General Strike India \u2014 '300 million' workers and farmers solidarity",
+            "agrees": true
+          }
         ],
-        "explanation": "The 300M figure comes from union organizer claims (Central Trade Unions) and is widely cited but unverified independently — typical for Indian general strikes. The 'zero Western coverage' claim is hyperbolic; it got limited but non-zero Western coverage (Peoples Dispatch, Reddit threads). Strike itself is real, participation numbers are organizer-reported.",
+        "explanation": "The 300M figure comes from union organizer claims (Central Trade Unions) and is widely cited but unverified independently \u2014 typical for Indian general strikes. The 'zero Western coverage' claim is hyperbolic; it got limited but non-zero Western coverage (Peoples Dispatch, Reddit threads). Strike itself is real, participation numbers are organizer-reported.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
       }
     },
@@ -1046,7 +1408,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-01T00:00:00-07:00",
-        "context": "Business idea research — Ran There running tourism"
+        "context": "Business idea research \u2014 Ran There running tourism"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -1056,10 +1418,18 @@
         "status": "disputed",
         "confidence": 0.7,
         "sources": [
-          {"url": "https://www.londonmarathonevents.co.uk/london-marathon/article/2025-tcs-london-marathon-breaks-guinness-world-records-title-largest-number", "excerpt": "840,318 people who applied via the public ballot for the 2025 edition", "agrees": true},
-          {"url": "https://en.wikipedia.org/wiki/London_Marathon", "excerpt": "The 2025 event ballot received more than 840,000 applications", "agrees": true}
+          {
+            "url": "https://www.londonmarathonevents.co.uk/london-marathon/article/2025-tcs-london-marathon-breaks-guinness-world-records-title-largest-number",
+            "excerpt": "840,318 people who applied via the public ballot for the 2025 edition",
+            "agrees": true
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/London_Marathon",
+            "excerpt": "The 2025 event ballot received more than 840,000 applications",
+            "agrees": true
+          }
         ],
-        "explanation": "The 840K entries figure is confirmed (840,318 per official source). However, the '43% international growth' stat could not be verified — no source found for this specific percentage. The entry growth is real but the 43% international figure appears unsubstantiated.",
+        "explanation": "The 840K entries figure is confirmed (840,318 per official source). However, the '43% international growth' stat could not be verified \u2014 no source found for this specific percentage. The entry growth is real but the 43% international figure appears unsubstantiated.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
       }
     },
@@ -1070,7 +1440,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-01T00:00:00-07:00",
-        "context": "Business idea research — ham radio social tool"
+        "context": "Business idea research \u2014 ham radio social tool"
       },
       "extraction": {
         "checkworthiness": 0.7,
@@ -1080,10 +1450,137 @@
         "status": "verified",
         "confidence": 0.9,
         "sources": [
-          {"url": "http://www.arrl.org/fcc-license-counts", "excerpt": "FCC license counts by state through Feb 27, 2026 — partial tally of visible states already exceeds 500K", "agrees": true}
+          {
+            "url": "http://www.arrl.org/fcc-license-counts",
+            "excerpt": "FCC license counts by state through Feb 27, 2026 \u2014 partial tally of visible states already exceeds 500K",
+            "agrees": true
+          }
         ],
         "explanation": "ARRL's FCC license count page (through Feb 27, 2026) lists active licenses by state. The total has historically been ~770-780K. The '750K+' claim is a conservative and accurate figure.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_046",
+      "claim": "WordPress is the platform behind 40% of e-commerce on the web through WooCommerce",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-5012322987",
+        "timestamp": "2026-03-01T13:49:00-07:00",
+        "context": "Bob discussing WooCommerce + ClawPress potential with Joe and Dean"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "url": "https://redstagfulfillment.com/what-is-woocommerces-market-share/",
+            "excerpt": "WooCommerce holds 33.4% market share in 2025 with 4.53M stores worldwide",
+            "agrees": false
+          },
+          {
+            "url": "https://codexpert.io/woocommerce-statistics/",
+            "excerpt": "WooCommerce powers approximately 25% of all online stores globally",
+            "agrees": false
+          }
+        ],
+        "explanation": "Bob said '40%' but WooCommerce's actual market share is 25-33% depending on the source and methodology. The claim is directionally correct (WooCommerce is the largest single e-commerce platform) but overstates the share by 7-15 percentage points.",
+        "verifiedAt": "2026-03-02T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_047",
+      "claim": "GummySearch closed December 1, 2025",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-02T00:00:00-07:00",
+        "context": "Business idea generation cron job \u2014 Reddit Pain Point Monitor idea"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "event"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://gummysearch.com/final-chapter/",
+            "excerpt": "Starting November 30th, 2025, GummySearch will serve paid customers only and stop accepting new signups or renewals",
+            "agrees": true
+          },
+          {
+            "url": "https://redreach.ai/blog/gummysearch-shutdown-alternative",
+            "excerpt": "In November 2025, GummySearch announced it would discontinue commercial operations",
+            "agrees": true
+          }
+        ],
+        "explanation": "Close but off by one day. GummySearch stopped accepting new signups November 30, 2025, not December 1. The product remains online for existing paid customers through 2026. Shutdown was due to inability to reach a commercial license agreement with Reddit's Data API.",
+        "verifiedAt": "2026-03-02T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_048",
+      "claim": "~35,000 food trucks operate in the United States",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-02T00:00:00-07:00",
+        "context": "Business idea generation \u2014 Food Truck Inventory & Waste Tracker idea"
+      },
+      "extraction": {
+        "checkworthiness": 0.75,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.astuteanalytica.com/industry-report/north-america-food-trucks-market",
+            "excerpt": "Over 35,000 food trucks operate across the United States",
+            "agrees": true
+          },
+          {
+            "url": "https://www.foodparks.io/blog/2024-statistics-of-the-food-truck-industry",
+            "excerpt": "By 2020, this number had surged to over 35,000",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by multiple industry reports. The 35K figure has been consistent across sources since 2020 and may actually be higher by 2026.",
+        "verifiedAt": "2026-03-02T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_049",
+      "claim": "London Marathon saw 43% international runner growth",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-1003794615681",
+        "timestamp": "2026-02-28T22:00:00-07:00",
+        "context": "Business idea generation \u2014 Ran There running tourism idea"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.3,
+        "sources": [
+          {
+            "url": "https://www.worldmarathonmajors.com/six-star-major/london",
+            "excerpt": "More than 43,000 starters and finishers",
+            "agrees": false
+          }
+        ],
+        "explanation": "Could not find a source confirming '43% international growth' for the London Marathon. The number 43,000 appears as total participants, which may have been confused with the growth percentage. The specific '43% international growth' claim remains unverified.",
+        "verifiedAt": "2026-03-02T03:00:00-07:00"
       }
     }
   ],
