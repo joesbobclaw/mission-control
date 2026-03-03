@@ -1582,14 +1582,227 @@
         "explanation": "Could not find a source confirming '43% international growth' for the London Marathon. The number 43,000 appears as total participants, which may have been confused with the growth percentage. The specific '43% international growth' claim remains unverified.",
         "verifiedAt": "2026-03-02T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_050",
+      "claim": "Goodfire raised $150M Series B at $1.25B valuation (Feb 5, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - AI funding news"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.prnewswire.com/news-releases/ai-lab-goodfire-raises-150m-at-1-25b-valuation-to-design-models-with-interpretability-302680120.html",
+            "excerpt": "Goodfire\u2014the AI research lab using interpretability to understand, learn from, and design models\u2014announced a $150 million Series B funding round at a $1.25 billion valuation",
+            "agrees": true
+          },
+          {
+            "url": "https://finance.yahoo.com/news/ai-lab-goodfire-raises-150m-150100095.html",
+            "excerpt": "Goodfire announced a $150 million Series B funding round at a $1.25 billion valuation",
+            "agrees": true
+          },
+          {
+            "url": "https://www.thesaasnews.com/news/goodfire-raises-150-million-at1-25-billion-valuation",
+            "excerpt": "Goodfire, a San Francisco, CA-based AI research lab focused on model interpretability, has raised $150 million in a Series B round at a $1.25 billion valuation",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by PRNewswire, Yahoo Finance, The SaaS News, and Pulse2. Announced Feb 5, 2026. Goodfire focuses on mechanistic interpretability for model design.",
+        "verifiedAt": "2026-03-03T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_051",
+      "claim": "NanoClaw core is ~4000 lines of code (vs OpenClaw's 400K lines)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - NanoClaw coverage"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "url": "https://www.theregister.com/2026/03/01/nanoclaw_container_openclaw/",
+            "excerpt": "Andrej Karpathy wrote: 'NanoClaw looks really interesting in that the core engine is ~4000 lines of code'",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theunwindai.com/p/clawdbot-in-just-500-lines-of-code",
+            "excerpt": "NanoClaw strips OpenClaw down to ~500 lines handling everything",
+            "agrees": false
+          },
+          {
+            "url": "https://ai-engineering-trend.medium.com/nanoclaw-a-slimmed-down-version-of-clawdbot-achieved-in-just-500-lines-of-code-c208dc16ee8f",
+            "excerpt": "NanoClaw: A Slimmed-Down Version of ClawdBot, Achieved in Just 500 Lines of Code",
+            "agrees": false
+          }
+        ],
+        "explanation": "CONFLICTING SOURCES. Karpathy (via The Register) says ~4000 lines. Multiple other sources say ~500 lines for the core. The discrepancy likely depends on what's counted (core engine vs full project). OpenClaw's '400K lines' is unverified \u2014 no authoritative source found for that figure. The comparison ratio is directionally correct (NanoClaw is much smaller) but both numbers are imprecise.",
+        "verifiedAt": "2026-03-03T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_052",
+      "claim": "Summer Yue, director of alignment at Meta Superintelligence Labs, earns $100M-$300M over three years",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-03T06:15:00-07:00",
+        "context": "Morning Twitter Digest - Meta AI agent incident"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://sfstandard.com/2026/02/25/openclaw-goes-rogue/",
+            "excerpt": "Summer Yue, director of alignment at Meta Superintelligence Labs \u2014 part of a team of researchers who reportedly earn $100 million to $300 million over three years",
+            "agrees": true
+          },
+          {
+            "url": "https://www.businessinsider.com/meta-ai-alignment-director-openclaw-email-deletion-2026-2",
+            "excerpt": "Meta AI alignment director shares her OpenClaw email-deletion nightmare",
+            "agrees": true
+          },
+          {
+            "url": "https://www.fastcompany.com/91497841/meta-superintelligence-lab-ai-safety-alignment-director-lost-control-of-agent-deleted-her-emails",
+            "excerpt": "Summer Yue is the director of alignment at Meta Superintelligence Labs",
+            "agrees": true
+          }
+        ],
+        "explanation": "Title and employer confirmed by SF Standard, Business Insider, Fast Company, Tom's Hardware, India Today. Salary range is described as 'reportedly' by SF Standard \u2014 not directly confirmed by Meta. The $100-300M figure covers the team, not necessarily Yue individually.",
+        "verifiedAt": "2026-03-03T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_053",
+      "claim": "Press Forward committed $500M to local news (launched 2023)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-03T01:00:00-07:00",
+        "context": "Business idea research \u2014 local news funding landscape"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.macfound.org/press/press-releases/press-forward-will-award-more-than-500-million-to-revitalize-local-news",
+            "excerpt": "Press Forward will award more than $500 million to revitalize local news",
+            "agrees": true
+          },
+          {
+            "url": "https://www.npr.org/2023/09/07/1198029284/macarthur-knight-journalism-news-press-forward",
+            "excerpt": "Some of the biggest names in American philanthropy have joined forces to spend at least $500 million over five years to revitalize the coverage of local news",
+            "agrees": true
+          },
+          {
+            "url": "https://www.philanthropy.com/news/after-shaky-start-philanthropy-coalitions-500-million-local-news-effort-takes-shape/",
+            "excerpt": "It has collected its goal of $500 million in commitments",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by MacArthur Foundation, NPR, Chronicle of Philanthropy. Launched September 2023, not '2023-2025' as the digest stated. Goal is $500M over five years (to ~2028), with aspirations to reach $1B. The $500M commitment has been collected per Chronicle of Philanthropy (Oct 2025).",
+        "verifiedAt": "2026-03-03T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_054",
+      "claim": "Publishers' Google search traffic dropped from 51% to ~27% of Google surface referrals (2023 to Q4 2025)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - publisher traffic statistics"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.seroundtable.com/google-search-traffic-drops-news-publishers-40645.html",
+            "excerpt": "In 2023, Google Web Search made up over 51% of traffic from Google surfaces to news publishers; 25 percentage points less traffic over the past two years",
+            "agrees": true
+          },
+          {
+            "url": "https://pressgazette.co.uk/media-audience-and-business-data/google-traffic-down-2025-trends-report-2026/",
+            "excerpt": "In the US only, referrals from organic Google search were down by 38% year on year",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by SE Roundtable citing Newzdash data. Google Web Search share of publisher referrals dropped from 51% in 2023 to ~26-27% by late 2025 \u2014 a 25 percentage point decline. Note: this is share of Google-surface referrals, not total publisher traffic.",
+        "verifiedAt": "2026-03-03T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_055",
+      "claim": "OpenClaw has 215K+ GitHub stars (as stated in March 2026 digest)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenClaw",
+            "excerpt": "247,000 stars and 47,700 forks on GitHub as of March 2, 2026",
+            "agrees": false
+          },
+          {
+            "url": "https://medium.com/@Micheal-Lanham/210-000-github-stars-in-10-days-what-openclaws-architecture-teaches-us-about-building-personal-ai-dae040fab58f",
+            "excerpt": "As of mid-February 2026, the repo sits at roughly 216,000 stars and climbing",
+            "agrees": true
+          }
+        ],
+        "explanation": "UNDERSTATED. The '215K+' figure was roughly accurate for mid-February 2026 but is already outdated. Wikipedia reports 247K stars as of March 2, 2026. The project is growing rapidly \u2014 gaining ~30K stars in two weeks. Previous claim_026 said '150K+' which was accurate for late February but is now significantly behind. The digest should use more current figures.",
+        "verifiedAt": "2026-03-03T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 45,
-    "verified": 37,
-    "disputed": 8,
-    "unverifiable": 0,
+    "totalClaims": 55,
+    "verified": 41,
+    "disputed": 12,
+    "partiallyVerified": 1,
+    "unverified": 1,
     "pending": 0,
-    "lastUpdated": "2026-03-01T03:00:00-07:00"
+    "lastUpdated": "2026-03-03T03:00:00-07:00"
   }
 }
