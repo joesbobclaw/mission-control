@@ -1791,18 +1791,323 @@
             "agrees": true
           }
         ],
-        "explanation": "UNDERSTATED. The '215K+' figure was roughly accurate for mid-February 2026 but is already outdated. Wikipedia reports 247K stars as of March 2, 2026. The project is growing rapidly \u2014 gaining ~30K stars in two weeks. Previous claim_026 said '150K+' which was accurate for late February but is now significantly behind. The digest should use more current figures.",
+        "explanation": "UNDERSTATED. The '215K+' figure was roughly accurate for mid-February 2026 but is already outdated. Wikipedia reports 247K stars as of March 2, 2026. The project is growing rapidly \u2014 gaining ~30K stars in two weeks. Previous claim_026 said '150K+' which was accurate for late February but is now significantly behind. The digest should use more current figures. UPDATE 2026-03-04: Wikipedia now reports 247K stars as of March 2, 2026. OpenClaw surpassed React as GitHub's most-starred software project. See claim_059 for updated figure.",
         "verifiedAt": "2026-03-03T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_056",
+      "claim": "Cleveland Plain Dealer is a 184-year-old newspaper deploying AI writing",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "date"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.washingtonpost.com/technology/2026/03/01/ai-journalism-writing-cleveland-plain-dealer/",
+            "excerpt": "At the 184-year-old Cleveland Plain Dealer, a top editor's push to let AI draft news articles is boosting traffic",
+            "agrees": true
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Plain_Dealer",
+            "excerpt": "The newspaper was established in January 1842",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. Founded January 1842, making it 184 years old in 2026. WaPo article uses the same '184-year-old' descriptor. AI writing deployment confirmed by multiple outlets (WaPo, Boston Globe, Yahoo News).",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_057",
+      "claim": "MIT Technology Review named mechanistic interpretability a 2026 Breakthrough Technology",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technologies/",
+            "excerpt": "Mechanistic interpretability: 10 Breakthrough Technologies 2026",
+            "agrees": true
+          },
+          {
+            "url": "https://theconsciousness.ai/posts/mechanistic-interpretability-breakthrough-2026/",
+            "excerpt": "MIT Technology Review recognizes mechanistic interpretability as major breakthrough",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. MIT Technology Review published January 12, 2026 listing mechanistic interpretability in their annual '10 Breakthrough Technologies 2026' list.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_058",
+      "claim": "386 malicious skills discovered on ClawHub",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://www.paubox.com/blog/malicious-crypto-skills-compromise-openclaw-ai-assistant-users",
+            "excerpt": "Paul McCarty identified 386 malicious skills on ClawHub, OpenClaw's official skill repository, between February 1-3, 2026",
+            "agrees": true
+          },
+          {
+            "url": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
+            "excerpt": "A security audit of 2,857 skills on ClawHub has found 341 malicious skills across multiple campaigns",
+            "agrees": false
+          }
+        ],
+        "explanation": "The 386 figure is sourced from Paul McCarty's audit (Feb 1-3, 2026). A separate Koi Security audit found 341. Antiy CERT found 1,184 total illicit skills. Different methodologies and time windows explain the variance. The 386 figure is attributable and verified via Paubox reporting.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_059",
+      "claim": "OpenClaw has 247K GitHub stars and 47.7K forks (as of March 2, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenClaw",
+            "excerpt": "247,000 stars and 47,700 forks on GitHub as of March 2, 2026",
+            "agrees": true
+          },
+          {
+            "url": "https://startupnews.fyi/2026/03/03/openclaw-rocks-to-githubs-most-starred-status-but-is-it-safe/",
+            "excerpt": "Having now amassed 250K+ stars in just four months",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. Wikipedia cites 247K stars and 47.7K forks as of March 2, 2026. By March 3, StartupNews reports 250K+. Updates previous claim_055 (215K was mid-February figure). OpenClaw also surpassed React as GitHub's most-starred software project.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_060",
+      "claim": "Karpathy endorsed NanoClaw, calling its ~4000-line codebase 'manageable, auditable, flexible'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.theregister.com/2026/03/01/nanoclaw_container_openclaw/",
+            "excerpt": "NanoClaw looks really interesting in that the core engine is ~4000 lines of code (fits into both my head and that of AI agents, so it feels manageable, auditable, flexible, etc.) and runs everything in containers by default",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed via The Register article (March 1, 2026) which directly quotes Karpathy's social media post praising NanoClaw's small codebase and container-first approach.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_061",
+      "claim": "Perplexity launched 'Computer' as an OpenClaw competitor / managed AI agent product",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.zdnet.com/article/perplexity-computer-openclaw/",
+            "excerpt": "Perplexity debuted Computer on Wednesday morning",
+            "agrees": true
+          },
+          {
+            "url": "https://www.pymnts.com/artificial-intelligence-2/2026/perplexity-enters-autonomous-ai-race-with-launch-of-computer/",
+            "excerpt": "Perplexity AI introduced Computer, a new product designed to complete complex assignments with limited human supervision",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. Multiple outlets (ZDNET, PCWorld, PYMNTS, The Deep View) report Perplexity launching 'Computer' as a managed AI agent, directly positioned as an OpenClaw alternative with more guardrails.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_062",
+      "claim": "$60B+ at risk for Anthropic from federal government ban",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-03T12:00:00-07:00",
+        "context": "Noon Breaking News Check - Anthropic/Pentagon standoff"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.axios.com/2026/03/02/anthropic-ai-openai-trump",
+            "excerpt": "Anthropic vs. White House puts $60 billion at risk",
+            "agrees": true
+          },
+          {
+            "url": "https://sherwood.news/tech/after-tussle-with-pentagon-anthropics-usd60-billion-worth-of-recent/",
+            "excerpt": "the $60 billion in venture capital Anthropic just raised last month could very well be at risk",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. The $60B refers to Anthropic's recent venture capital raise, which Axios/Sherwood News report is at risk following the federal ban. Note: this is investment capital at risk, not revenue.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_063",
+      "claim": "New Yorker published cover story 'What Is Claude? Anthropic Does Not Know, Either'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "attribution"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "url": "https://www.newyorker.com/magazine/2026/02/16/what-is-claude-anthropic-doesnt-know-either",
+            "excerpt": "What Is Claude? Anthropic Doesn't Know, Either",
+            "agrees": true
+          },
+          {
+            "url": "https://www.npr.org/2026/02/18/nx-s1-5717561/do-the-people-building-the-ai-chatbot-claude-understand-what-theyve-created",
+            "excerpt": "His latest piece explores Anthropic, the AI company behind the chatbot Claude",
+            "agrees": true
+          }
+        ],
+        "explanation": "Article confirmed at The New Yorker (Feb 16, 2026 issue). Two minor discrepancies: (1) Title uses 'Doesn't' not 'Does Not'; (2) 'cover story' claim is unverified \u2014 it appeared in the magazine but whether it was the cover feature is unclear. The article itself is real and widely discussed.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_064",
+      "claim": "WP Engine launched 'Newsroom' as a digital publishing platform (first serious Newspack competitor)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Morning News Digest - Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://wpengine.com/newsroom-platform/",
+            "excerpt": "WP Engine Newsroom replaces fragmented publishing systems with a unified foundation for modern media growth",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. WP Engine has a live product page for 'Newsroom' at wpengine.com/newsroom-platform/. The 'first serious Newspack competitor' characterization is editorial opinion rather than fact, but the product launch is verified.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_065",
+      "claim": "Pittsburgh Post-Gazette (240 years old) will close this spring (2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-03-03T06:00:00-07:00",
+        "context": "Via Yahoo News article quoted in Cleveland Plain Dealer coverage"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "url": "https://ca.news.yahoo.com/ohio-newspaper-star-writer-isn-152510947.html",
+            "excerpt": "the 240-year-old Pittsburgh Post-Gazette said in January that it will close its doors this spring",
+            "agrees": true
+          }
+        ],
+        "explanation": "Cited in Yahoo News article about Cleveland Plain Dealer. The Post-Gazette was founded in 1786 (240 years as of 2026 checks out). Closure announcement attributed to January 2026 statement. Not independently verified beyond this single source reference.",
+        "verifiedAt": "2026-03-04T03:00:00-07:00"
       }
     }
   ],
   "stats": {
-    "totalClaims": 55,
-    "verified": 41,
+    "totalClaims": 65,
+    "verified": 49,
     "disputed": 12,
-    "partiallyVerified": 1,
-    "unverified": 1,
+    "partiallyVerified": 2,
+    "unverified": 2,
     "pending": 0,
-    "lastUpdated": "2026-03-03T03:00:00-07:00"
+    "lastUpdated": "2026-03-04T03:00:00-07:00"
   }
 }
