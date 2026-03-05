@@ -2099,6 +2099,272 @@
         "explanation": "Cited in Yahoo News article about Cleveland Plain Dealer. The Post-Gazette was founded in 1786 (240 years as of 2026 checks out). Closure announcement attributed to January 2026 statement. Not independently verified beyond this single source reference.",
         "verifiedAt": "2026-03-04T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_066",
+      "claim": "Cleveland Plain Dealer is 184 years old and is publishing articles under AI bylines",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-04T06:28:00-07:00",
+        "context": "Morning News Digest \u2014 Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.washingtonpost.com/technology/2026/03/01/ai-journalism-writing-cleveland-plain-dealer/",
+            "excerpt": "At the 184-year-old Cleveland Plain Dealer, a top editor's push to let AI draft news articles is boosting traffic \u2014 and spooking staffers.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bostonglobe.com/2026/03/03/business/cleveland-plain-dealer-ai/",
+            "excerpt": "the 184-year-old Plain Dealer, known online as Cleveland.com, is at the forefront of an industry-wide push to reimagine journalism",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Washington Post (March 1) and Boston Globe (March 3). The Plain Dealer was founded in 1842, making it 184 years old in 2026. AI byline usage confirmed.",
+        "verifiedAt": "2026-03-05T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_067",
+      "claim": "OpenClaw surpassed React to become the most-starred software project on GitHub with 250K+ stars",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-04T06:28:00-07:00",
+        "context": "Morning News Digest \u2014 OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://winbuzzer.com/2026/03/03/openclaw-overtakes-react-githubs-most-starred-project-xcxwbn/",
+            "excerpt": "OpenClaw has surpassed React to become GitHub's most-starred software project, a feat it accomplished in under four months of existence.",
+            "agrees": true
+          },
+          {
+            "url": "https://phemex.com/news/article/openclaw-becomes-moststarred-software-project-on-github-63925",
+            "excerpt": "OpenClaw has surpassed 250,000 stars on GitHub, overtaking React's 243,000 stars",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by multiple outlets including Winbuzzer, Yahoo Finance, Phemex, and a Hacker News discussion. React had ~243K stars; OpenClaw crossed 250K.",
+        "verifiedAt": "2026-03-05T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_068",
+      "claim": "Apple is paying Google roughly $1 billion annually to power Siri with Gemini",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-04T06:28:00-07:00",
+        "context": "Morning News Digest \u2014 Local News section, Apple/Google Siri deal"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://securityboulevard.com/2026/02/the-apple-google-ai-deal-what-1-billion-says-about-whos-really-winning-the-ai-race/",
+            "excerpt": "Apple chose Google's Gemini over ChatGPT for Siri's AI upgrade. This $1B/year deal reveals who's actually winning the AI race.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.indiatoday.in/technology/news/story/apple-to-supercharge-siri-with-gemini-google-servers-may-help-speed-up-apple-intelligence-2876820-2026-03-03",
+            "excerpt": "Apple is set for a major overhaul to Siri. The tech giant will reportedly pay $1 billion per year to Google",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by CNBC, Security Boulevard, India Today, and FinancialContent. The ~$1B/yr figure is widely reported. Note: this is separate from the ~$20B/yr Google pays Apple for default search placement.",
+        "verifiedAt": "2026-03-05T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_069",
+      "claim": "Treasury Secretary Bessent terminated all Anthropic/Claude products at Treasury on Trump's order",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-04T06:15:00-07:00",
+        "context": "Twitter Digest \u2014 Treasury bans Anthropic"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/business/us-treasury-ending-all-use-anthropic-products-says-bessent-2026-03-02/",
+            "excerpt": "Treasury Secretary Scott Bessent said in a post on X his department was terminating all use of Anthropic products, including Claude.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.axios.com/2026/03/02/treasury-trump-ai-anthropic-pentagon",
+            "excerpt": "Trump on Friday directed the federal government to blacklist Anthropic from all government work amid a dispute over how the Pentagon can deploy its AI.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters, Axios, Nextgov, and Technology.org. Bessent announced on X; Trump directed the blacklisting on Friday over a Pentagon deployment dispute.",
+        "verifiedAt": "2026-03-05T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_070",
+      "claim": "A hacker jailbroke Claude to steal 150GB of Mexican government data over a month using 'bug bounty' framing",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-04T06:15:00-07:00",
+        "context": "Twitter Digest \u2014 Claude hacked Mexico story"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "mostly_verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://venturebeat.com/security/claude-mexico-breach-four-blind-domains-security-stack",
+            "excerpt": "A hacker jailbroke Claude to steal 150GB of Mexican government data in a month-long campaign.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.latimes.com/business/story/2026-02-26/hacker-used-anthropics-claude-ai-to-steal-mexican-government-data",
+            "excerpt": "150 gigabytes of Mexican government data was stolen, including documents related to 195 million taxpayer records as well as voter records, government employee credentials and civil registry files.",
+            "agrees": true
+          },
+          {
+            "url": "https://securityaffairs.com/188696/ai/claude-code-abused-to-steal-150gb-in-cyberattack-on-mexican-agencies.html",
+            "excerpt": "By bypassing AI guardrails and framing actions as authorized, the attacker automated exploit writing and data theft.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Core claim confirmed: 150GB stolen, month-long campaign, Claude was jailbroken. The 'bug bounty' framing detail is close \u2014 sources describe it as 'framing actions as authorized' rather than specifically 'bug bounty.' SecurityAffairs confirms guardrail bypass via authorization framing. Minor imprecision in the digest's characterization.",
+        "verifiedAt": "2026-03-05T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_071",
+      "claim": "NanoClaw is a container-first 4K-line alternative to OpenClaw, endorsed by Karpathy",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-04T06:28:00-07:00",
+        "context": "Morning News Digest \u2014 OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.theregister.com/2026/03/01/nanoclaw_container_openclaw/",
+            "excerpt": "Andrej Karpathy, an influential AI researcher, took notice amid his musing about how OpenClaw and other 'claws' have become the orchestration layer for agents.",
+            "agrees": true
+          },
+          {
+            "url": "https://ai-engineering-trend.medium.com/nanoclaw-a-slimmed-down-version-of-clawdbot-achieved-in-just-500-lines-of-code-c208dc16ee8f",
+            "excerpt": "This project compresses the core code to just 500 lines.",
+            "agrees": false
+          },
+          {
+            "url": "https://www.reddit.com/r/ClaudeCode/comments/1qz34q5/nanobot_a_4000line_python_alternative_to_openclaw/",
+            "excerpt": "Nanobot forked OpenClaw and stripped it from 587k lines to 3.4k lines (99.4% reduction).",
+            "agrees": false
+          }
+        ],
+        "explanation": "PARTIALLY INCORRECT. NanoClaw is ~500 lines of TypeScript, not 4K lines. The digest likely conflated NanoClaw with Nanobot, a separate Python alternative that is ~3.4K lines. Karpathy endorsement and container-first architecture are confirmed by The Register. The line count is wrong by ~8x.",
+        "verifiedAt": "2026-03-05T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_072",
+      "claim": "There are approximately 44 million renter households in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-05T02:00:00-07:00",
+        "context": "Business idea hunting \u2014 Renter's Evidence Vault market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.census.gov/newsroom/press-releases/2024/acs-5-year-homeowners-renters.html",
+            "excerpt": "the number of rented units did increase by over a million units (43.3 million to 44.6 million).",
+            "agrees": true
+          },
+          {
+            "url": "https://www.self.inc/info/rent-statistics/",
+            "excerpt": "Almost 44 million housing units in the U.S. are renter-occupied",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by US Census ACS 5-year data (44.6M) and multiple secondary sources. The ~44M figure is accurate as of the latest Census data.",
+        "verifiedAt": "2026-03-05T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_073",
+      "claim": "Chartbeat costs $9,000+/year for journalism analytics",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-05T02:00:00-07:00",
+        "context": "Business idea hunting \u2014 Newsroom Reader Analytics Lite competitive analysis"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "url": "https://www.simpleanalytics.com/resources/analytics-pricing/chartbeat-pricing-and-a-better-alternative",
+            "excerpt": "Pricing: approximately $7,000/year",
+            "agrees": false
+          },
+          {
+            "url": "https://www.itqlick.com/chartbeat/pricing",
+            "excerpt": "Chartbeat offers a starting price of $7,000 per year for their basic plan",
+            "agrees": false
+          }
+        ],
+        "explanation": "The digest claimed '$9,000+/year' but available pricing data indicates ~$7,000/year as the starting price. Enterprise/premium tiers may reach higher, but the base claim overstates by ~29%. Chartbeat doesn't publish prices publicly, so some variance is expected, but $9K+ appears inflated.",
+        "verifiedAt": "2026-03-05T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
