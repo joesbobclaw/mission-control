@@ -2367,13 +2367,429 @@
       }
     }
   ],
+    {
+      "id": "claim_074",
+      "claim": "Alibaba Qwen tech lead Junyang Lin resigned on March 3, 2026, with three colleagues departing",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-05T06:15:00-07:00",
+        "context": "Morning Twitter Digest — Qwen team implosion"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "mostly_verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/world/asia-pacific/head-alibabas-qwen-ai-division-resigns-2026-03-04/",
+            "excerpt": "Lin Junyang said on Wednesday he would be stepping down from his role, becoming the third senior Qwen executive to depart this year.",
+            "agrees": true
+          },
+          {
+            "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
+            "excerpt": "The departure of Junyang 'Justin' Lin alongside two fellow colleagues — staff research scientist Binyuan Hui and intern...",
+            "agrees": true
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/",
+            "excerpt": "Alibaba's Qwen tech lead steps down after major AI push",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-03-04/alibaba-qwen-head-who-warned-of-openai-gap-steps-down",
+            "excerpt": "Junyang Lin, who also goes by Justin, announced on X he was stepping down as the tech lead for Qwen",
+            "agrees": true
+          }
+        ],
+        "explanation": "Lin's resignation confirmed by Reuters, Bloomberg, TechCrunch, VentureBeat. He posted 'me stepping down, bye my beloved Qwen' on X on March 3. NUANCE: The digest said 'three other key researchers left the same day' but VentureBeat says two colleagues (Binyuan Hui + intern) left with him. Reuters says Lin was 'the third senior Qwen executive to depart this year' — meaning three total in 2026, not three departing simultaneously with Lin. The digest slightly overstated the simultaneous departures.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_075",
+      "claim": "Qwen models have over 600 million downloads on Hugging Face",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-05T06:15:00-07:00",
+        "context": "Morning Twitter Digest — Qwen team departure impact"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
+            "excerpt": "a global powerhouse with over 600 million downloads",
+            "agrees": true
+          },
+          {
+            "url": "https://officechai.com/ai/alibaba-qwens-tech-lead-junyang-lin-steps-down/",
+            "excerpt": "By the time Qwen3 launched in April 2025, the models had accumulated over 600 million downloads and spawned more than 170,000 derivative models on Hugging Face",
+            "agrees": true
+          },
+          {
+            "url": "https://www.buildmvpfast.com/blog/alibaba-qwen-3-5-agentic-ai-benchmark-2026",
+            "excerpt": "The Qwen family has crossed 600 million downloads on Hugging Face, with over 170,000 derivative models",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by VentureBeat, OfficeChai, BuildMVPFast. The 600M figure was reached by April 2025 when Qwen3 launched; by March 2026 the number is likely significantly higher.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_076",
+      "claim": "90K+ enterprises use Qwen models",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-05T06:15:00-07:00",
+        "context": "Morning Twitter Digest — Qwen ecosystem impact"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://www.alibabacloud.com/blog/alibaba-clouds-qwen-models-attract-over-90000-enterprise-adoptions-within-its-first-year_601130",
+            "excerpt": "The Qwen family has been deployed by over 90,000 enterprise users via Model Studio since the AI development platform launched in June last year.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.scmp.com/tech/big-tech/article/3262041/alibaba-says-its-tongyi-qianwen-ai-models-are-used-over-90000-corporate-clients-china",
+            "excerpt": "more than 90,000 corporate clients",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Alibaba Cloud blog and SCMP. The 90K figure was reported in 2024 (first year of Model Studio). By March 2026, the actual number is likely higher, so '90K+' is conservative and accurate as a floor.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_077",
+      "claim": "ClawJacked vulnerability (CVE-2026-25253) is a 'zero-click' exploit",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-05T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw security section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "other"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.mintmcp.com/blog/openclaw-cve-explained",
+            "excerpt": "CVE-2026-25253 carries a CVSS score of 8.8 (High) and can enable one-click takeover via WebSocket token exfiltration",
+            "agrees": false
+          },
+          {
+            "url": "https://www.csoonline.com/article/4138431/your-personal-openclaw-agent-may-also-be-taking-orders-from-malicious-websites.html",
+            "excerpt": "a victim visiting a malicious website whose hidden script connects to the locally running OpenClaw gateway via WebSockets",
+            "agrees": false
+          },
+          {
+            "url": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
+            "excerpt": "Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
+            "agrees": false
+          }
+        ],
+        "explanation": "INCORRECT. The digest described ClawJacked as a 'zero-click' vulnerability, but it requires the victim to visit a malicious website — making it a one-click attack. MintMCP explicitly calls it 'one-click takeover.' CSO Online describes the attack chain as requiring a victim to visit a page. CVSS 8.8 (High) but not zero-click. The digest overstated the severity classification.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_078",
+      "claim": "Apple announced MacBook Neo at $599 with A18 Pro chip",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-05T06:15:00-07:00",
+        "context": "Morning Twitter Digest — Apple product announcements"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/",
+            "excerpt": "MacBook Neo with A18 Pro is up to 50 percent faster for everyday tasks than the bestselling PC",
+            "agrees": true
+          },
+          {
+            "url": "https://www.tomshardware.com/laptops/ultrabooks-ultraportables/apple-announces-macbook-neo-running-a18-pro-chip-budget-laptop-starts-at-usd599-and-comes-in-fun-colors",
+            "excerpt": "Apple announces $599 MacBook Neo running A18 Pro chip",
+            "agrees": true
+          },
+          {
+            "url": "https://9to5mac.com/2026/03/04/macbook-neo-is-now-official/",
+            "excerpt": "At $599, it features 256GB storage and no Touch ID on the keyboard. For $699, storage doubles to 512GB and Touch ID is included.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Apple Newsroom, Tom's Hardware, CNET, 9to5Mac, MacRumors. $599 base model with 256GB/no Touch ID; $699 for 512GB/Touch ID. Educational pricing at $499.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_079",
+      "claim": "Apple announced MacBook Air with M5 chip (March 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-05T06:00:00-07:00",
+        "context": "Morning News Digest — Apple announcements"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
+            "excerpt": "Apple today announced the new MacBook Air with M5, bringing exceptional performance and expanded AI capabilities to the world's most popular laptop.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Apple's own newsroom press release (March 5, 2026). Part of Apple's multi-day March 2026 product announcement week.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_080",
+      "claim": "Evo 2 genomic foundation model published in Nature (March 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-05T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp / AI Science section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.nature.com/articles/s41586-026-10176-5",
+            "excerpt": "Genome modelling and design across all domains of life with Evo 2",
+            "agrees": true
+          },
+          {
+            "url": "https://arstechnica.com/science/2026/03/large-genome-model-open-source-ai-trained-on-trillions-of-bases/",
+            "excerpt": "Nature, 2026",
+            "agrees": true
+          },
+          {
+            "url": "https://phys.org/news/2026-03-evo-ai-genetic-code-domains.html",
+            "excerpt": "Evo 2 is now published in the journal Nature",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Nature (s41586-026-10176-5), Ars Technica, phys.org. Evo 2 is from Arc Institute, uses StripedHyena 2 architecture, trained on trillions of nucleotide bases. Open-source models available on Hugging Face (40B, 7B, 1B parameter versions).",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_081",
+      "claim": "Elon Musk called Qwen 3.5 'impressively intelligent'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-05T06:15:00-07:00",
+        "context": "Morning Twitter Digest — Qwen 3.5 coverage"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://indianexpress.com/article/technology/artificial-intelligence/alibaba-qwen-3-5-small-ai-models-elon-musk-benchmarks-10564391/",
+            "excerpt": "xAI head Elon Musk has said that the new Qwen 3.5 series models have 'impressive intelligence density.'",
+            "agrees": false
+          }
+        ],
+        "explanation": "MISQUOTED. Musk said 'impressive intelligence density' — commenting on the efficiency of small models, not calling the system 'impressively intelligent.' The distinction matters: 'intelligence density' refers to performance-per-parameter, while 'impressively intelligent' implies overall capability. The digest paraphrased loosely.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_082",
+      "claim": "Washington Post layoffs were the biggest media cuts of 2026 (one-third of staff)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-05T06:00:00-07:00",
+        "context": "Morning News Digest — Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://pressgazette.co.uk/news/journalism-job-cuts-in-2026-updates/",
+            "excerpt": "Washington Post announces biggest media layoffs of year so far... proposed to cut hundreds of staff, amounting to one-third across the business",
+            "agrees": true
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/The_Washington_Post",
+            "excerpt": "sports and books coverage are expected to be closed entirely, and its local news coverage will be substantially cut",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Press Gazette ('biggest media layoffs of year so far'), Wikipedia, NewsNation. Sports section, books coverage, and several foreign bureaus closed. This extends the earlier claim_003 (which covered the initial Feb 7 layoff/Lewis departure).",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_083",
+      "claim": "Gannett owns 200+ newspapers",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-05T06:15:00-07:00",
+        "context": "Morning Twitter Digest — News/Media Alliance partnership story"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_assets_owned_by_Gannett",
+            "excerpt": "USA Today Co. owns over 100 daily newspapers, and nearly 1,000 weekly newspapers.",
+            "agrees": false
+          },
+          {
+            "url": "https://www.gannett.com/about/",
+            "excerpt": "publishes USA TODAY along with hundreds of local media outlets across the United States, and over 150 news brands in the United Kingdom",
+            "agrees": true
+          }
+        ],
+        "explanation": "DEPENDS ON COUNTING METHOD. Wikipedia says 'over 100 daily newspapers, and nearly 1,000 weekly newspapers.' Gannett's own site says 'hundreds of local media outlets.' If counting only daily papers: ~100. If counting all publications: well over 200. The '200+' claim is arguably correct but imprecise — the actual number of daily papers is closer to 100, with the total much higher when including weeklies and UK brands.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_084",
+      "claim": "~500,000 ultrarunners globally, growing 15% per year",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-06T01:00:00-07:00",
+        "context": "Business idea hunting — UltraSignup alternative market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.5,
+        "sources": [],
+        "explanation": "Unable to verify within rate limits. The ~500K figure and 15% growth rate are commonly cited in ultrarunning industry marketing but hard to pin to a specific authoritative source. The International Trail Running Association (ITRA) may have data but was not accessible. Flagged for future verification.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_085",
+      "claim": "~50,000 working journalists in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-06T01:00:00-07:00",
+        "context": "Business idea hunting — journalist tool market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.6,
+        "sources": [],
+        "explanation": "BLS Occupational Outlook Handbook has historically reported ~46,000-50,000 reporters/correspondents in the US. The ~50K figure is plausible but was not directly verified this session due to rate limits. Consistent with previous claim_033 research showing BLS counts ~46K reporters total.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_086",
+      "claim": "Parse.ly was acquired by Automattic",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-06T01:00:00-07:00",
+        "context": "Business idea hunting — newsroom analytics competitive landscape"
+      },
+      "extraction": {
+        "checkworthiness": 0.75,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2021/02/08/automattic-acquires-analytics-company-parse-ly/",
+            "excerpt": "Automattic, the for-profit company tied to open-source web publishing platform WordPress, is announcing that it has acquired analytics provider Parse.ly.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.parse.ly/wordpress-vip/",
+            "excerpt": "WordPress VIP, the enterprise division of Automattic, is acquiring Parse.ly",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. Parse.ly was acquired by Automattic/WordPress VIP in February 2021 per TechCrunch.",
+        "verifiedAt": "2026-03-06T03:00:00-07:00"
+      }
+    }
+  ],
   "stats": {
-    "totalClaims": 65,
-    "verified": 49,
-    "disputed": 12,
+    "totalClaims": 78,
+    "verified": 58,
+    "disputed": 14,
+    "mostlyVerified": 2,
     "partiallyVerified": 2,
-    "unverified": 2,
+    "unverified": 4,
     "pending": 0,
-    "lastUpdated": "2026-03-04T03:00:00-07:00"
+    "lastUpdated": "2026-03-06T03:00:00-07:00"
   }
 }
