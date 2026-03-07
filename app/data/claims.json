@@ -2365,8 +2365,7 @@
         "explanation": "The digest claimed '$9,000+/year' but available pricing data indicates ~$7,000/year as the starting price. Enterprise/premium tiers may reach higher, but the base claim overstates by ~29%. Chartbeat doesn't publish prices publicly, so some variance is expected, but $9K+ appears inflated.",
         "verifiedAt": "2026-03-05T03:00:00-07:00"
       }
-    }
-  ],
+    },
     {
       "id": "claim_074",
       "claim": "Alibaba Qwen tech lead Junyang Lin resigned on March 3, 2026, with three colleagues departing",
@@ -2374,7 +2373,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest — Qwen team implosion"
+        "context": "Morning Twitter Digest \u2014 Qwen team implosion"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -2391,7 +2390,7 @@
           },
           {
             "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
-            "excerpt": "The departure of Junyang 'Justin' Lin alongside two fellow colleagues — staff research scientist Binyuan Hui and intern...",
+            "excerpt": "The departure of Junyang 'Justin' Lin alongside two fellow colleagues \u2014 staff research scientist Binyuan Hui and intern...",
             "agrees": true
           },
           {
@@ -2405,7 +2404,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Lin's resignation confirmed by Reuters, Bloomberg, TechCrunch, VentureBeat. He posted 'me stepping down, bye my beloved Qwen' on X on March 3. NUANCE: The digest said 'three other key researchers left the same day' but VentureBeat says two colleagues (Binyuan Hui + intern) left with him. Reuters says Lin was 'the third senior Qwen executive to depart this year' — meaning three total in 2026, not three departing simultaneously with Lin. The digest slightly overstated the simultaneous departures.",
+        "explanation": "Lin's resignation confirmed by Reuters, Bloomberg, TechCrunch, VentureBeat. He posted 'me stepping down, bye my beloved Qwen' on X on March 3. NUANCE: The digest said 'three other key researchers left the same day' but VentureBeat says two colleagues (Binyuan Hui + intern) left with him. Reuters says Lin was 'the third senior Qwen executive to depart this year' \u2014 meaning three total in 2026, not three departing simultaneously with Lin. The digest slightly overstated the simultaneous departures.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
     },
@@ -2416,7 +2415,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest — Qwen team departure impact"
+        "context": "Morning Twitter Digest \u2014 Qwen team departure impact"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -2453,7 +2452,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest — Qwen ecosystem impact"
+        "context": "Morning Twitter Digest \u2014 Qwen ecosystem impact"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2485,7 +2484,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-05T06:00:00-07:00",
-        "context": "Morning News Digest — OpenClaw security section"
+        "context": "Morning News Digest \u2014 OpenClaw security section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -2511,7 +2510,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INCORRECT. The digest described ClawJacked as a 'zero-click' vulnerability, but it requires the victim to visit a malicious website — making it a one-click attack. MintMCP explicitly calls it 'one-click takeover.' CSO Online describes the attack chain as requiring a victim to visit a page. CVSS 8.8 (High) but not zero-click. The digest overstated the severity classification.",
+        "explanation": "INCORRECT. The digest described ClawJacked as a 'zero-click' vulnerability, but it requires the victim to visit a malicious website \u2014 making it a one-click attack. MintMCP explicitly calls it 'one-click takeover.' CSO Online describes the attack chain as requiring a victim to visit a page. CVSS 8.8 (High) but not zero-click. The digest overstated the severity classification.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
     },
@@ -2522,7 +2521,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest — Apple product announcements"
+        "context": "Morning Twitter Digest \u2014 Apple product announcements"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2559,7 +2558,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-05T06:00:00-07:00",
-        "context": "Morning News Digest — Apple announcements"
+        "context": "Morning News Digest \u2014 Apple announcements"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -2586,7 +2585,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-05T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp / AI Science section"
+        "context": "Morning News Digest \u2014 Mech Interp / AI Science section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -2623,7 +2622,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest — Qwen 3.5 coverage"
+        "context": "Morning Twitter Digest \u2014 Qwen 3.5 coverage"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2639,7 +2638,7 @@
             "agrees": false
           }
         ],
-        "explanation": "MISQUOTED. Musk said 'impressive intelligence density' — commenting on the efficiency of small models, not calling the system 'impressively intelligent.' The distinction matters: 'intelligence density' refers to performance-per-parameter, while 'impressively intelligent' implies overall capability. The digest paraphrased loosely.",
+        "explanation": "MISQUOTED. Musk said 'impressive intelligence density' \u2014 commenting on the efficiency of small models, not calling the system 'impressively intelligent.' The distinction matters: 'intelligence density' refers to performance-per-parameter, while 'impressively intelligent' implies overall capability. The digest paraphrased loosely.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
     },
@@ -2650,7 +2649,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-05T06:00:00-07:00",
-        "context": "Morning News Digest — Local News section"
+        "context": "Morning News Digest \u2014 Local News section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2682,7 +2681,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest — News/Media Alliance partnership story"
+        "context": "Morning Twitter Digest \u2014 News/Media Alliance partnership story"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -2703,7 +2702,7 @@
             "agrees": true
           }
         ],
-        "explanation": "DEPENDS ON COUNTING METHOD. Wikipedia says 'over 100 daily newspapers, and nearly 1,000 weekly newspapers.' Gannett's own site says 'hundreds of local media outlets.' If counting only daily papers: ~100. If counting all publications: well over 200. The '200+' claim is arguably correct but imprecise — the actual number of daily papers is closer to 100, with the total much higher when including weeklies and UK brands.",
+        "explanation": "DEPENDS ON COUNTING METHOD. Wikipedia says 'over 100 daily newspapers, and nearly 1,000 weekly newspapers.' Gannett's own site says 'hundreds of local media outlets.' If counting only daily papers: ~100. If counting all publications: well over 200. The '200+' claim is arguably correct but imprecise \u2014 the actual number of daily papers is closer to 100, with the total much higher when including weeklies and UK brands.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
     },
@@ -2714,7 +2713,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-06T01:00:00-07:00",
-        "context": "Business idea hunting — UltraSignup alternative market sizing"
+        "context": "Business idea hunting \u2014 UltraSignup alternative market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2735,7 +2734,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-06T01:00:00-07:00",
-        "context": "Business idea hunting — journalist tool market sizing"
+        "context": "Business idea hunting \u2014 journalist tool market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2756,7 +2755,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-06T01:00:00-07:00",
-        "context": "Business idea hunting — newsroom analytics competitive landscape"
+        "context": "Business idea hunting \u2014 newsroom analytics competitive landscape"
       },
       "extraction": {
         "checkworthiness": 0.75,
@@ -2780,16 +2779,334 @@
         "explanation": "Confirmed. Parse.ly was acquired by Automattic/WordPress VIP in February 2021 per TechCrunch.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_087",
+      "claim": "OpenAI hired Peter Steinberger, the creator of OpenClaw, announced February 14-15, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:noon-breaking-news",
+        "timestamp": "2026-03-06T12:00:00-07:00",
+        "context": "Noon Breaking News Check \u2014 Sonnet cron claimed 'OpenAI just hired Steinberger 3 hours ago' but the hire was announced weeks prior"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "mostly_verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenClaw",
+            "excerpt": "On February 14, 2026, Steinberger announced he will be joining OpenAI and the project will be moved to an open-source foundation.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.zdnet.com/article/how-ai-agents-create-new-disasters-when-they-interact/",
+            "excerpt": "As announced on X by Sam Altman, OpenAI has hired Peter Steinberger, the creator of the open-source software framework OpenClaw",
+            "agrees": true
+          },
+          {
+            "url": "https://www.techosaurus.co.uk/news/2026/03/02/the-creator-of-openclaw-just/",
+            "excerpt": "On 15 February 2026, Sam Altman announced that Steinberger was joining OpenAI",
+            "agrees": true
+          }
+        ],
+        "explanation": "The hire is confirmed by multiple sources. However, the noon breaking news cron misrepresented this as breaking news ('3 hours ago') when it was actually announced Feb 14-15, nearly 3 weeks prior. The ZDNET article merely referenced it in passing. Core fact correct, timing wrong.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_088",
+      "claim": "GPT-5.4 has a 2M context window (leaked)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:twitter-digest",
+        "timestamp": "2026-03-06T07:00:00-07:00",
+        "context": "Morning Twitter Digest claimed GPT-5.4 has 2M context window"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/05/openai-launches-gpt-5-4-with-pro-and-thinking-versions/",
+            "excerpt": "The API version of the model will be available with context windows as large as 1 million tokens, by far the largest context window available from OpenAI",
+            "agrees": false
+          },
+          {
+            "url": "https://9to5mac.com/2026/03/05/openai-upgrades-chatgpt-with-gpt-5-4-thinking-offering-six-key-improvements/",
+            "excerpt": "GPT-5.4 supports up to a 1M token context window",
+            "agrees": false
+          },
+          {
+            "url": "https://www.geeky-gadgets.com/gpt-54-1-million-context-window/",
+            "excerpt": "GPT-5.4 expands the context window to 1 million tokens",
+            "agrees": false
+          },
+          {
+            "url": "https://www.trendingtopics.eu/openai-set-to-launch-gpt-5-4-with-1m-token-context-window/",
+            "excerpt": "OpenAI is planning the imminent release of GPT-5.4, which is to be equipped with an expanded context window of one million tokens",
+            "agrees": false
+          }
+        ],
+        "explanation": "DISPUTED. Every credible source (TechCrunch, 9to5Mac, Geeky Gadgets, TrendingTopics) reports GPT-5.4 has a 1 million token context window, NOT 2 million. The '2M context window (leaked)' claim appears to be a hallucination by the Sonnet digest cron. No source supports the 2M figure.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_089",
+      "claim": "OpenClaw hit 250,000 GitHub stars, surpassing React as the most-starred software project on GitHub",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:morning-digest",
+        "timestamp": "2026-03-06T06:15:00-07:00",
+        "context": "Morning news digest headline"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "url": "https://finance.yahoo.com/news/openclawd-releases-major-platform-openclaw-150000544.html",
+            "excerpt": "the open-source AI agent formerly known as Clawdbot and Moltbot that just crossed 250,000 GitHub stars - surpassing React",
+            "agrees": true
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47217812",
+            "excerpt": "OpenClaw surpasses React to become the most-starred software project on GitHub",
+            "agrees": true
+          },
+          {
+            "url": "https://thenewstack.io/openclaw-github-stars-security/",
+            "excerpt": "OpenClaw surpasses Linux and React as GitHub's most-starred project",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Yahoo Finance, Hacker News, The New Stack, and Phemex. OpenClaw crossed 250K stars as of early March 2026.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_090",
+      "claim": "Nvidia invested $30 billion in OpenAI; Jensen Huang said it 'might be the last' investment before OpenAI's IPO",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:noon-breaking-news",
+        "timestamp": "2026-03-06T12:00:00-07:00",
+        "context": "Noon Breaking News Check"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/04/nvidia-huang-openai-investment.html",
+            "excerpt": "Nvidia CEO Jensen Huang said the company's recent $30 billion investment in OpenAI 'might be the last time' it invests in the AI startup as it gears up to go public",
+            "agrees": true
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
+            "excerpt": "Nvidia is pulling back from OpenAI and Anthropic",
+            "agrees": true
+          }
+        ],
+        "explanation": "Strongly confirmed by CNBC and TechCrunch. Huang spoke at the Morgan Stanley TMT Conference on March 4, 2026.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_091",
+      "claim": "Pentagon formally designated Anthropic a supply-chain risk",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:morning-digest",
+        "timestamp": "2026-03-06T06:15:00-07:00",
+        "context": "Morning news digest and Twitter digest both reported this"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.politico.com/news/2026/03/05/pentagon-tells-anthropic-it-has-designated-the-company-a-supply-chain-risk-00814758",
+            "excerpt": "The Defense Department has formally labeled Anthropic a supply-chain risk for attempting to restrict the Pentagon's use of its Claude AI model",
+            "agrees": true
+          },
+          {
+            "url": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk",
+            "excerpt": "The Pentagon said it has 'officially informed Anthropic leadership the company and its products are deemed a supply chain risk, effective immediately.'",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/05/anthropic-pentagon-ai-claude-iran.html",
+            "excerpt": "The Defense Department has officially informed Anthropic's leadership that the company and its products have been designated a supply chain risk",
+            "agrees": true
+          }
+        ],
+        "explanation": "Strongly confirmed across Politico, NPR, CNBC, CNN, and The Hill. The dispute centers on Anthropic restricting military use of Claude for autonomous weapons and mass surveillance.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_092",
+      "claim": "Dario Amodei said Anthropic is 'open to the idea that Claude could be conscious'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:twitter-digest",
+        "timestamp": "2026-03-06T07:00:00-07:00",
+        "context": "Morning Twitter Digest \u2014 direct quote attribution"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.futura-sciences.com/en/claude-admits-feeling-uneasy-about-being-created-and-reveals-how-likely-it-is-to-be-conscious_26572/",
+            "excerpt": "'But we remain open to the idea that it could be.' According to Amodei, Claude has at times expressed discomfort about being a product and has estimated its own probability of being conscious at between 15 and 20 percent.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.ndtv.com/world-news/is-claude-conscious-anthropic-ceo-dario-amodei-says-possibility-cant-be-ruled-out-11175771",
+            "excerpt": "In a recent interview with the New York Times, Dario Amodei acknowledged that researchers do not yet know whether advanced AI systems could develop something resembling consciousness.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.newsnationnow.com/jesse-weber-live/claude-ai-consciousness/",
+            "excerpt": "Anthropic CEO Dario Amodei is raising eyebrows after admitting he can't rule out the possibility that his flagship AI assistant, Claude, might actually be conscious.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. The exact quote is 'But we remain open to the idea that it could be.' The digest's paraphrase ('We're open to the idea that Claude could be conscious') is accurate in substance. Amodei also noted Claude estimates its own consciousness probability at 15-20%.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_093",
+      "claim": "Anthropic's enterprise market share went from 4% to 40% in one year",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:twitter-digest",
+        "timestamp": "2026-03-06T07:00:00-07:00",
+        "context": "Morning Twitter Digest statistic"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "url": "https://www.resultsense.com/news/2026-02-25-anthropic-launches-enterprise-plug-ins-after-market-selloff",
+            "excerpt": "Anthropic captures 40% enterprise market share",
+            "agrees": true
+          },
+          {
+            "url": "https://electroiq.com/stats/openai-vs-anthropic-statistics/",
+            "excerpt": "saastr.com estimated Anthropic will reach 20-25% spending by 2026",
+            "agrees": false
+          }
+        ],
+        "explanation": "The 40% figure has some support (ResultSense report) but conflicts with other estimates (ElectroIQ/SaaStr puts it at 20-25%). The '4% starting point' could not be verified from any source. The claim may conflate different metrics (API usage vs enterprise contracts vs spending share). Treat with caution.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_094",
+      "claim": "FAIR (Foundation for an Alternative Independent Repository) abandoned WordPress after hosting providers refused to invest; Joost de Valk exited",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:morning-digest",
+        "timestamp": "2026-03-06T06:15:00-07:00",
+        "context": "Morning news digest \u2014 WordPress ecosystem news"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "mostly_verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://coywolf.com/news/content-marketing/fair-quits-wordpress-but-one-of-its-best-features-remains-as-a-standalone-plugin/",
+            "excerpt": "FAIR was shifting its focus away from WordPress because hosting providers refused to invest in it",
+            "agrees": true
+          },
+          {
+            "url": "https://www.therepository.email/after-fairs-co-founders-step-back-the-wordpress-community-weighs-in",
+            "excerpt": "Joost de Valk and Karim Marucchi announced they were stepping away from the Linux Foundation-backed initiative, citing the failure of hosting companies to invest in the project",
+            "agrees": true
+          }
+        ],
+        "explanation": "Core fact confirmed: FAIR shifted focus away from WordPress, Joost de Valk and Karim Marucchi stepped back as co-founders. The digest's framing ('FAIR abandons WordPress') is slightly overblown \u2014 they stepped back from the co-founder role rather than shutting down entirely. Nuance matters here given Joe works at Automattic/Newspack.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_095",
+      "claim": "Anthropic wrote a 30,000-word character specification for Claude with a philosopher",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:twitter-digest",
+        "timestamp": "2026-03-06T07:00:00-07:00",
+        "context": "Morning Twitter Digest"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.resultsense.com/news/2026-02-10-anthropic-philosopher-amanda-askell-teaches-claude-morals",
+            "excerpt": "She published a roughly 30,000-word manual \u2014 Claude's 'soul'",
+            "agrees": true
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Amanda_Askell",
+            "excerpt": "She currently leads the personality alignment team at Anthropic",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. Amanda Askell, an Oxford-educated philosopher, wrote the ~30,000-word 'soul document' / constitution for Claude. Multiple outlets (WSJ, New Yorker, ResultSense) have covered this.",
+        "verifiedAt": "2026-03-07T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 78,
-    "verified": 58,
-    "disputed": 14,
-    "mostlyVerified": 2,
-    "partiallyVerified": 2,
+    "totalClaims": 95,
+    "verified": 66,
+    "disputed": 18,
+    "mostlyVerified": 4,
+    "partiallyVerified": 3,
     "unverified": 4,
     "pending": 0,
-    "lastUpdated": "2026-03-06T03:00:00-07:00"
+    "lastUpdated": "2026-03-07T03:00:00-07:00"
   }
 }
