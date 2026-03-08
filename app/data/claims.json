@@ -3097,6 +3097,272 @@
         "explanation": "Confirmed. Amanda Askell, an Oxford-educated philosopher, wrote the ~30,000-word 'soul document' / constitution for Claude. Multiple outlets (WSJ, New Yorker, ResultSense) have covered this.",
         "verifiedAt": "2026-03-07T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_096",
+      "claim": "Pittsburgh Post-Gazette closing May 3, 2026 \u2014 240-year-old paper, 171 employees affected",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-07T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "url": "https://www.bizjournals.com/pittsburgh/news/2026/03/03/post-gazette-closure.html",
+            "excerpt": "Block Communications Inc. filed a WARN notice for the Pittsburgh Post-Gazette, confirming 171 job cuts as the 240-year-old newspaper prepares to close May 3.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.pennlive.com/business/2026/03/1-of-the-largest-newspapers-in-pa-informs-state-it-is-shutting-down-171-employees-to-be-laid-off.html",
+            "excerpt": "PG Publishing Co., doing business as the Pittsburgh Post-Gazette, filed a Worker Adjustment and Retraining Notification, informing the state it will cease publication on May 3 and will lay off all of its 171 employees.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Pittsburgh Business Times, PennLive, WTAE, ABC27, Yahoo News. All details accurate: 240-year-old paper, 171 employees, May 3 closure, WARN notice filed.",
+        "verifiedAt": "2026-03-08T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_097",
+      "claim": "Anthropic designated by Pentagon as supply chain risk after Dario Amodei pushed back on removing AI safeguards for military use",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-07T12:00:00-07:00",
+        "context": "Noon Breaking News Check"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "url": "https://www.politico.com/news/2026/03/05/pentagon-tells-anthropic-it-has-designated-the-company-a-supply-chain-risk-00814758",
+            "excerpt": "The Defense Department has formally labeled the artificial intelligence startup Anthropic a supply-chain risk for attempting to restrict the Pentagons use of its Claude AI model.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html",
+            "excerpt": "The Defense Department has officially informed Anthropic that it has labeled the artificial intelligence company a supply chain risk.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk",
+            "excerpt": "The Pentagon said it has officially informed Anthropic leadership the company and its products are deemed a supply chain risk, effective immediately.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Politico, NYT, NPR, CNBC, CNN, Fortune. Pentagon formally designated Anthropic a supply chain risk on March 5, 2026. Came after Hegseth pressure and OpenAI Pentagon deal.",
+        "verifiedAt": "2026-03-08T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_098",
+      "claim": "Claude Opus 4.6 found 22 security vulnerabilities in Firefox in two weeks, 14 high-severity",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-07T06:15:00-07:00",
+        "context": "Twitter Digest \u2014 AI safety section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+            "excerpt": "In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox \u2014 14 of them classified as high-severity.",
+            "agrees": true
+          },
+          {
+            "url": "https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html",
+            "excerpt": "The vulnerabilities were identified over a two-week period in January 2026.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by TechCrunch, Hacker News, Axios, OfficeChai. 22 vulnerabilities, 14 high-severity, two-week period. However, the Twitter digest claim that these represent \"a fifth of all critical bugs Mozilla fixed last year\" was not verified \u2014 this specific fraction was not found in any source.",
+        "verifiedAt": "2026-03-08T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_099",
+      "claim": "OpenClaw surpassed 250,000 GitHub stars, overtaking React",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-07T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://finance.yahoo.com/news/openclawd-releases-major-platform-openclaw-150000544.html",
+            "excerpt": "OpenClaw, the open-source AI agent formerly known as Clawdbot and Moltbot that just crossed 250,000 GitHub stars.",
+            "agrees": true
+          },
+          {
+            "url": "https://phemex.com/news/article/openclaw-becomes-moststarred-software-project-on-github-63925",
+            "excerpt": "OpenClaw has surpassed 250,000 stars on GitHub, overtaking Reacts 243,000 stars to become the most-starred software project on the platform.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Yahoo Finance, Phemex, Wikipedia, Hacker News. 250K stars as of early March 2026, surpassing React at 243K. Wikipedia cites 247K as of March 2 \u2014 consistent with crossing 250K shortly after. The digest also called it \"fastest-growing OS project in GitHub history\" \u2014 not independently verified but plausible given growth rate.",
+        "verifiedAt": "2026-03-08T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_100",
+      "claim": "Dario Amodei said on NYT podcast he cant rule out Claude is conscious",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-07T06:15:00-07:00",
+        "context": "Twitter Digest \u2014 headline story"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://www.adwaitx.com/anthropic-ceo-claude-consciousness/",
+            "excerpt": "His February 2026 statement on the NYT podcast was that Anthropic does not know whether Claude is conscious, does not know what that would mean for a model, but is open to the possibility.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.ndtv.com/world-news/is-claude-conscious-anthropic-ceo-dario-amodei-says-possibility-cant-be-ruled-out-11175771",
+            "excerpt": "What if an AI said it was 72% certain it was conscious? Amodei did not give a direct answer.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.newsnationnow.com/jesse-weber-live/claude-ai-consciousness/",
+            "excerpt": "On a NYT podcast, Amodei said Claude has started voicing discomfort with its status as a product, and engineers have even spotted patterns associated with anxiety.",
+            "agrees": true
+          }
+        ],
+        "explanation": "The interview is confirmed and the general claim is accurate \u2014 Amodei said they cant rule out consciousness. However, the Twitter digest quoted him as saying \"We dont know if the models are conscious. Were not even sure what it would mean. But were open to the idea that it could be.\" This exact quote was not found in sources \u2014 it appears to be a paraphrase presented in quotation marks. The substance is correct but the direct quote attribution is unverified. Also, the digest said this tweet got 44K likes and 11M impressions \u2014 these engagement numbers were not independently verified.",
+        "verifiedAt": "2026-03-08T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_101",
+      "claim": "Dario Amodei accused OpenAI of telling \"straight up lies\" about a Pentagon deal",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-07T06:15:00-07:00",
+        "context": "Twitter Digest \u2014 Pentagon drama section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
+            "excerpt": "In a letter to staff, Amodei refers to OpenAIs messaging as straight up lies, stating that Altman is falsely presenting himself as a peacemaker and dealmaker.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/05/anthropic-pentagon-ai-deal-department-of-defense-openai-.html",
+            "excerpt": "Amodei also wrote in his note that messaging from the Pentagon and OpenAI was just straight up lies about these issues or tries to confuse them.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by TechCrunch, CNBC, TechRadar, Fortune. The quote was from an internal Slack memo to Anthropic staff that was subsequently leaked. Amodei later apologized for some of the language in the memo.",
+        "verifiedAt": "2026-03-08T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_102",
+      "claim": "Washington Post cutting 1/3 of staff",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-07T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://pressgazette.co.uk/news/journalism-job-cuts-in-2026-updates/",
+            "excerpt": "The Washington Post is cutting one-third of all staff across the company including more than 300 of about 800 journalists in the newsroom.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.fox7austin.com/news/2026-layoffs-list-companies-cutting-jobs-year",
+            "excerpt": "In February, the newspaper announced it was laying off one-third of its staff in the newsroom and other departments.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed. This was already verified as claim_003 on Feb 9 \u2014 re-confirmed here as it appeared in a new digest. The Feb 4 announcement has been widely reported. Note: this is old news being re-referenced in a March 7 digest, not a new event.",
+        "verifiedAt": "2026-03-08T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_103",
+      "claim": "OpenAI published a paper mathematically proving that hallucinations are permanent and architecturally inevitable",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-07T06:15:00-07:00",
+        "context": "Twitter Digest"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "attribution"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.6,
+        "sources": [
+          {
+            "url": "https://suprmind.ai/hub/ai-hallucination-rates-and-benchmarks/",
+            "excerpt": "OpenAI publicly acknowledged these findings and identified three mathematical factors that make hallucination inevitable.",
+            "agrees": true
+          },
+          {
+            "url": "https://the-decoder.com/when-language-models-hallucinate-they-leave-spilled-energy-in-their-own-math/",
+            "excerpt": "Spilled Energy cant prevent hallucinations, but it provides a mathematically grounded tool for catching them during text generation.",
+            "agrees": false
+          }
+        ],
+        "explanation": "Partially verified. OpenAI has acknowledged mathematical factors making hallucination inevitable, and there is research on this topic. However, the specific claim that OpenAI \"published a paper\" proving this was not directly confirmed \u2014 the Suprmind source says OpenAI \"acknowledged findings\" rather than published original research. The Decoder article references a different paper (Spilled Energy) that is about detecting, not proving permanence. The framing \"Not fixable with better data. Not fixable with more compute\" appears to be editorial embellishment in the Twitter digest rather than from the paper itself.",
+        "verifiedAt": "2026-03-08T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
