@@ -3363,6 +3363,203 @@
         "explanation": "Partially verified. OpenAI has acknowledged mathematical factors making hallucination inevitable, and there is research on this topic. However, the specific claim that OpenAI \"published a paper\" proving this was not directly confirmed \u2014 the Suprmind source says OpenAI \"acknowledged findings\" rather than published original research. The Decoder article references a different paper (Spilled Energy) that is about detecting, not proving permanence. The framing \"Not fixable with better data. Not fixable with more compute\" appears to be editorial embellishment in the Twitter digest rather than from the paper itself.",
         "verifiedAt": "2026-03-08T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_104",
+      "claim": "Leopold Aschenbrenner, fired from OpenAI at 22, now manages $5.5 billion",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-08T06:15:00-07:00",
+        "context": "Twitter Digest narration script"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://fortune.com/2026/03/05/leopold-aschenbrenner-ai-hedge-fund-superintelligence-agi-power-companies-crypto-miners/",
+            "excerpt": "By 2025, just four years after graduating from Columbia, Aschenbrenner was controlling over $1.5 billion in investments",
+            "agrees": false
+          },
+          {
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2025/former-openai-researcher-launches-1-5-billion-ai-focused-hedge-fund/",
+            "excerpt": "Leopold Aschenbrenner founded an AGI-focused hedge fund that is managing $1.5 billion in assets",
+            "agrees": false
+          }
+        ],
+        "explanation": "Multiple sources (Fortune, PYMNTS, Reddit) consistently report $1.5B, not $5.5B. The figure was inflated ~3.7x in the digest. Fired from OpenAI and age 22 parts appear accurate.",
+        "verifiedAt": "2026-03-09T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_105",
+      "claim": "$125M SuperPAC funded by Sam Altman, Marc Andreessen, and Joe Lonsdale to 'destroy anyone who tries to regulate AI'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-08T06:15:00-07:00",
+        "context": "Twitter Digest narration \u2014 attributed to Rutger Bregman"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "attribution"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/01/30/ai-industry-super-pac-raises-campaign-money.html",
+            "excerpt": "Contributors to Leading the Future include Andreessen Horowitz, OpenAI co-founder Greg Brockman, Palantir co-founder Joe Lonsdale, SV Angel Founder Ron Conway and Perplexity",
+            "agrees": false
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/03/ai-companies-are-spending-millions-to-thwart-this-former-tech-execs-congressional-bid/",
+            "excerpt": "The PAC has raised $125 million to go after candidates in state elections that are introducing AI legislation",
+            "agrees": true
+          }
+        ],
+        "explanation": "The $125M figure and PAC ('Leading the Future') are real. Joe Lonsdale is a contributor. However: it was Greg Brockman (not Sam Altman) from OpenAI, and Andreessen Horowitz (the firm, not Marc Andreessen personally). The 'destroy' framing appears to be Bregman's editorialization \u2014 the PAC's stated goal is opposing pro-regulation candidates.",
+        "verifiedAt": "2026-03-09T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_106",
+      "claim": "~4.5 million ultramarathon runners globally",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-09T01:00:00-07:00",
+        "context": "Business ideas batch \u2014 PaceCard idea target market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://statistik.d-u-v.org/",
+            "excerpt": "results database containing 10,090,765 performances of 2,409,239 runners achieved in 114,638 ultramarathon events",
+            "agrees": false
+          },
+          {
+            "url": "https://umit.net/what-percent-of-the-population-has-run-an-ultramarathon/",
+            "excerpt": "approximately 533,296 people globally have run an ultramarathon; North America had 97,733 unique runners in 2024",
+            "agrees": false
+          }
+        ],
+        "explanation": "DUV's all-time database has 2.4M runners ever recorded; active annual participants are estimated at ~533K globally. The 4.5M figure is significantly inflated. Note: our own claim_084 estimated ~500K, which aligns with the active participant data.",
+        "verifiedAt": "2026-03-09T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_107",
+      "claim": "Boris Cherny is the Head of Claude Code at Anthropic",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-08T06:15:00-07:00",
+        "context": "Twitter Digest \u2014 Claude Code section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "attribution"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
+            "excerpt": "Boris Cherny is the creator and head of Claude Code at Anthropic",
+            "agrees": true
+          },
+          {
+            "url": "https://fortune.com/2026/01/24/anthropic-boris-cherny-claude-code-non-coders-software-engineers/",
+            "excerpt": "head of Claude Code at Anthropic",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed across Lenny's Newsletter, Fortune, WIRED, and LinkedIn. Cherny is both creator and head of Claude Code.",
+        "verifiedAt": "2026-03-09T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_108",
+      "claim": "OpenAI lost 1.5 million subscribers in 48 hours after Pentagon deal",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-08T06:15:00-07:00",
+        "context": "Twitter Digest \u2014 OpenAI section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "url": "https://hwbusters.com/news/openai-loses-1-5-million-users/",
+            "excerpt": "A boycott-tracking website, QuitGPT, reported that more than 1.5 million users canceled ChatGPT subscriptions within 48 hours",
+            "agrees": true
+          },
+          {
+            "url": "https://www.businesstoday.in/tech-today/news/story/openai-pentagon-deal-triggers-backlash-1-million-users-sign-up-to-quit-chatgpt-519120-2026-03-04",
+            "excerpt": "Around 1.5 million people have signed up to leave ChatGPT",
+            "agrees": false
+          }
+        ],
+        "explanation": "The 1.5M figure comes from QuitGPT, a boycott-tracking website. Sources differ on whether these were actual cancellations or sign-ups to quit. BusinessToday says 'signed up to leave' \u2014 not confirmed cancellations. The digest stated it as a fact ('lost 1.5M subscribers'), which overstates the certainty.",
+        "verifiedAt": "2026-03-09T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_109",
+      "claim": "'Agents of Chaos' paper: 38 researchers across Harvard, MIT, Stanford, and Carnegie Mellon tested 11 case studies; every AI agent failed",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
+        "timestamp": "2026-03-08T06:15:00-07:00",
+        "context": "Twitter Digest \u2014 AI safety section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "other"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "url": "https://agentsofchaos.baulab.info/",
+            "excerpt": "Paper by Natalie Shapira, Chris Wendler, and approximately 28 other co-authors (arXiv:2602.20021)",
+            "agrees": false
+          },
+          {
+            "url": "https://huggingface.co/papers/2602.20021",
+            "excerpt": "system takeovers during a two-week study with twenty researchers",
+            "agrees": false
+          },
+          {
+            "url": "https://www.constellationr.com/insights/news/agents-chaos-paper-raises-agentic-ai-questions",
+            "excerpt": "Researchers from Harvard, MIT, Stanford, Carnegie Mellon, Northeastern University and other institutions",
+            "agrees": true
+          }
+        ],
+        "explanation": "The paper exists and involves Harvard/MIT/Stanford/CMU. However: ~30 co-authors (not 38), it was a two-week red-teaming study with 20 researchers (not 38 researchers testing 11 case studies). The institutions are correct. 'Every AI agent failed' is an oversimplification of red-teaming results where failures were found across multiple scenarios.",
+        "verifiedAt": "2026-03-09T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
