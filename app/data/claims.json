@@ -3905,6 +3905,257 @@
         "explanation": "Verified. Founded 1842 (184 years). AI drafting via 'Advance Local Express Desk' confirmed by WaPo and paper's own editor. Traffic claim mentioned but specific numbers not independently confirmed.",
         "verifiedAt": "2026-03-10T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_120",
+      "claim": "WordPress ecosystem had 11,334 new vulnerabilities in 2025, a 42% increase over 2024, with 5-hour exploit windows",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-10T06:00:00-07:00",
+        "context": "Morning News Digest - Local News & Publishing section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "url": "https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/",
+            "excerpt": "Overall 11,334 new vulnerabilities were found in the WordPress ecosystem in 2025 - that's a 42% increase compared to 2024.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.searchenginejournal.com/report-shows-wordpress-sites-are-getting-hacked-at-faster-rate/568510/",
+            "excerpt": "Overall 11,334 new vulnerabilities were found in the WordPress ecosystem in 2025 \u2013 that's a 42% increase compared to 2024.",
+            "agrees": true
+          }
+        ],
+        "checkedAt": "2026-03-11T03:00:00-07:00",
+        "notes": "Confirmed from Patchstack's State of WordPress Security 2026 report published March 2026. The 5-hour exploit window claim not independently verified in snippets but consistent with report's faster-attacks findings."
+      }
+    },
+    {
+      "id": "claim_121",
+      "claim": "Automattic planned to target 10+ hosting companies with 8% monthly gross revenue royalty fees for WordPress brand usage",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-10T06:00:00-07:00",
+        "context": "Morning News Digest - Local News & Publishing section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/02/12/automattic-planned-to-target-10-competitors-with-royalty-fees-wp-engine-claims-in-new-filing/",
+            "excerpt": "Automattic demanded the hosting company pay 8% of its monthly gross revenues as a royalty fee for using the WordPress brand",
+            "agrees": true
+          },
+          {
+            "url": "https://webhosting.today/2026/02/16/wp-engine-claims-automattic-planned-royalty-fees-for-at-least-10-other-hosting-companies/",
+            "excerpt": "WP Engine identified at least 10 other companies in internal Automattic documents that could be approached to pay similar trademark royalty fees",
+            "agrees": true
+          }
+        ],
+        "checkedAt": "2026-03-11T03:00:00-07:00",
+        "notes": "Note: This is per WP Engine's claims in a court filing. The \"10+ hosts\" and \"8% royalty\" are WP Engine's characterization of Automattic's internal documents. Automattic's position may differ."
+      }
+    },
+    {
+      "id": "claim_122",
+      "claim": "Goodfire raised M at .25B valuation and reduced hallucinations by half in a large language model using interpretability methods",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-10T06:00:00-07:00",
+        "context": "Morning News Digest - Mechanistic Interpretability section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://theaiinsider.tech/2026/02/11/ai-lab-goodfire-raises-150m-at-1-25b-valuation-to-design-models-with-interpretability/",
+            "excerpt": "Goodfire raised  million in a Series B round led by B Capital at a .25 billion valuation. One application of these methods reduced hallucinations by half in a large language model.",
+            "agrees": true
+          },
+          {
+            "url": "https://ai-techpark.com/goodfire-raises-150m-to-advance-ai-model-interpretability/",
+            "excerpt": "One application of these methods reduced hallucinations by half in a large language model.",
+            "agrees": true
+          }
+        ],
+        "checkedAt": "2026-03-11T03:00:00-07:00",
+        "notes": "Both the funding amount and hallucination reduction claim confirmed. The \"halves hallucinations\" claim is from Goodfire's own announcements \u2014 not independently benchmarked by third parties."
+      }
+    },
+    {
+      "id": "claim_123",
+      "claim": "Nvidia launching open-source AI agent platform NemoClaw at GTC 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-10T06:00:00-07:00",
+        "context": "Morning News Digest - OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html",
+            "excerpt": "Nvidia is planning to launch an open-source platform for artificial intelligence agents called NemoClaw",
+            "agrees": true
+          },
+          {
+            "url": "https://www.tipranks.com/news/ahead-of-gtc-2026-nvidia-launches-open-source-ai-platform-nemoclaw",
+            "excerpt": "As Nvidia gears up for GTC 2026, the chipmaker is launching NemoClaw, its own open-source AI platform tailored for enterprise use.",
+            "agrees": true
+          }
+        ],
+        "checkedAt": "2026-03-11T03:00:00-07:00",
+        "notes": "First reported by Wired on March 9, 2026. GTC 2026 is next week from the check date. Product name and launch confirmed by CNBC and TipRanks."
+      }
+    },
+    {
+      "id": "claim_124",
+      "claim": "74 million Americans live in HOA-governed communities (Community Associations Institute, 2025)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-11T01:00:00-07:00",
+        "context": "Business idea hunting cron - HOA DocBot idea"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.caionline.org/new-report-highlights-key-statistics-and-trends-for-u-s-community-association-housing-market/",
+            "excerpt": "74.2 million Americans, or roughly 28% of the U.S. population, live in community associations",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nar.realtor/magazine/real-estate-news/study-homeowners-associations-are-booming",
+            "excerpt": "About 75.5 million Americans reside in a community that's governed by a homeowners association",
+            "agrees": true
+          }
+        ],
+        "checkedAt": "2026-03-11T03:00:00-07:00",
+        "notes": "CAI says 74.2M; NAR (2024 data) says 75.5M. The 74M figure is slightly dated \u2014 current number is likely 75M+. Essentially correct."
+      }
+    },
+    {
+      "id": "claim_125",
+      "claim": "Newspack has 240+ publishers",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-11T01:00:00-07:00",
+        "context": "Business idea hunting cron - used repeatedly across Beat Source CRM, LocalWire, ChurnSignal ideas"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://newspack.com/publishers/",
+            "excerpt": "Newspack is home to more than 300 publishers providing critical coverage of local, national, and international news.",
+            "agrees": false
+          }
+        ],
+        "checkedAt": "2026-03-11T03:00:00-07:00",
+        "notes": "Newspack's own website says 300+ publishers, not 240+. The 240+ figure is understated. Business idea market sizing should use the current 300+ figure."
+      }
+    },
+    {
+      "id": "claim_126",
+      "claim": "2026 newsroom layoffs outpacing 2025 before spring \u2014 WaPo cut ~1/3 of newsroom, CBS cutting 15% of staff",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-10T06:00:00-07:00",
+        "context": "Morning News Digest headline claim"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "trend_claim"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/media/2026/feb/11/washington-post-layoffs-matt-murray",
+            "excerpt": "The company laid off nearly a third of its employees a week ago",
+            "agrees": true
+          },
+          {
+            "url": "https://www.thehrdigest.com/cbs-news-layoffs-expected-in-2026-after-voluntary-buyouts-seek-takers",
+            "excerpt": "15% of its staff could see cuts by March 2026",
+            "agrees": true
+          }
+        ],
+        "checkedAt": "2026-03-11T03:00:00-07:00",
+        "notes": "Individual layoff events (WaPo ~1/3, CBS 15%) confirmed. The comparative claim \"outpacing 2025\" is editorial characterization \u2014 plausible given the scale (WaPo, CBS, Block) but no single source makes that direct comparison with aggregate data."
+      }
+    },
+    {
+      "id": "claim_127",
+      "claim": "Cleveland Plain Dealer is reviewing reporters on AI usage metrics",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-10T06:00:00-07:00",
+        "context": "Morning News Digest headline bullet"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "url": "https://www.washingtonpost.com/technology/2026/03/01/ai-journalism-writing-cleveland-plain-dealer/",
+            "excerpt": "At the 184-year-old Cleveland Plain Dealer, a top editor's push to let AI draft news articles is boosting traffic \u2014 and spooking staffers.",
+            "agrees": false
+          },
+          {
+            "url": "https://www.bostonglobe.com/2026/03/03/business/cleveland-plain-dealer-ai/",
+            "excerpt": "Plain Dealer is using a generative AI tool to draft the stories, which the human editor reviews and sends back to the reporter for a final review before publication.",
+            "agrees": false
+          }
+        ],
+        "checkedAt": "2026-03-11T03:00:00-07:00",
+        "notes": "The digest said \"reviewing reporters on AI usage metrics.\" Source articles describe the Plain Dealer using AI for a \"rewrite desk\" to draft stories and boosting traffic \u2014 but NOT reviewing/evaluating reporters based on their AI usage. The characterization is misleading. The paper is using AI to write, not grading reporters on adoption."
+      }
     }
   ],
   "stats": {
@@ -3916,5 +4167,15 @@
     "unverified": 4,
     "pending": 0,
     "lastUpdated": "2026-03-07T03:00:00-07:00"
+  },
+  "lastUpdated": "2026-03-11T03:00:00-07:00",
+  "lastRunSummary": {
+    "date": "2026-03-11",
+    "claimsChecked": 8,
+    "verified": 5,
+    "partiallyVerified": 1,
+    "disputed": 2,
+    "newClaimsAdded": 8,
+    "totalClaims": 127
   }
 }
