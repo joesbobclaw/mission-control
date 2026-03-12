@@ -4156,26 +4156,260 @@
         "checkedAt": "2026-03-11T03:00:00-07:00",
         "notes": "The digest said \"reviewing reporters on AI usage metrics.\" Source articles describe the Plain Dealer using AI for a \"rewrite desk\" to draft stories and boosting traffic \u2014 but NOT reviewing/evaluating reporters based on their AI usage. The characterization is misleading. The paper is using AI to write, not grading reporters on adoption."
       }
+    },
+    {
+      "id": "claim_128",
+      "claim": "AP Fund for Journalism doubles to 100 newsrooms with Spanish-language cohort and universities",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-11T06:00:00-07:00",
+        "context": "Morning News Digest — Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.ap.org/media-center/press-releases/2026/ap-fund-for-journalism-expands-landmark-local-news-program-to-100-newsrooms/",
+            "excerpt": "AP Fund for Journalism expands landmark local news program to 100 newsrooms. Aims for 150 total by end of 2026 and 300 by 2028.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.editorandpublisher.com/stories/ap-fund-for-journalism-expands-landmark-local-news-program-to-100-newsrooms,260566",
+            "excerpt": "Expansion marks another significant milestone for APFJ",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by AP's own press release and Editor & Publisher. Expansion to 100 newsrooms verified. 'Doubles' framing appears accurate (from ~50 to 100). Spanish-language cohort and university partnerships mentioned in source material.",
+        "verifiedAt": "2026-03-12T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_129",
+      "claim": "Cambridge Day relaunched on Newspack after cyberattacks slowed production",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-11T06:00:00-07:00",
+        "context": "Morning News Digest — Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.cambridgeday.com/2026/03/10/the-next-cambridge-day/",
+            "excerpt": "We also needed better cyberdefenses to help defend us against the kinds of attacks that have slowed our production to a crawl over the last week. Newspack should bring us all that and more.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed via Cambridge Day's own relaunch article (March 10, 2026). Editor-in-chief Michael Fitzgerald confirms both the Newspack migration and that cyberattacks were a motivating factor. Relevant to Joe's work at Newspack/Automattic.",
+        "verifiedAt": "2026-03-12T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_130",
+      "claim": "OpenClaw hits a16z's Top 100 Gen AI Consumer Apps list",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-11T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://a16z.com/100-gen-ai-apps-6/",
+            "excerpt": "6th Edition — Manus and Genspark made the ranks. OpenClaw not listed in the Top 100.",
+            "agrees": false
+          },
+          {
+            "url": "https://www.weex.com/news/detail/a16z-releases-top-100-ai-applications-list-models-are-moving-out-of-the-browser-and-app-362836",
+            "excerpt": "if our reporting period extended to February (instead of January), OpenClaw would likely have cracked the top 30 on our web rankings",
+            "agrees": false
+          }
+        ],
+        "explanation": "INACCURATE. OpenClaw was NOT in the a16z Top 100 list. The a16z report *mentioned* OpenClaw as a notable rising product and said it 'would likely have cracked the top 30' if the reporting period had been extended to February instead of January. The morning digest overstated this as 'hits Top 100' when it was actually a forward-looking mention. The distinction matters — being highlighted as notable is different from making the actual ranked list.",
+        "verifiedAt": "2026-03-12T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_131",
+      "claim": "Donald Knuth published paper 'Claude's Cycles' — Claude Opus 4.6 solved a graph decomposition conjecture he was stuck on for weeks",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-11T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://boingboing.net/2026/03/03/donald-knuth-the-godfather-of-computer-science-says-an-ai-solved-a-math-problem-he-was-stuck-on-for-weeks.html",
+            "excerpt": "When Knuth published a paper this week titled 'Claude's Cycles' that opens with 'Shock!'",
+            "agrees": true
+          },
+          {
+            "url": "https://awesomeagents.ai/news/knuth-claude-cycles-graph-theory-conjecture/",
+            "excerpt": "Claude Opus 4.6 solved a directed graph decomposition conjecture Knuth had worked on for weeks in 31 guided explorations over roughly an hour.",
+            "agrees": true
+          },
+          {
+            "url": "https://x.com/BoWang87/status/2028935492977475623",
+            "excerpt": "Knuth closed with: 'It seems I'll have to revise my opinions about generative AI one of these days.'",
+            "agrees": true
+          }
+        ],
+        "explanation": "Strongly confirmed by Boing Boing, AwesomeAgents, Hacker News, and social media. Paper published at cs.stanford.edu/~knuth/papers/claude-cycles.pdf. 31 guided explorations in ~1 hour. Knuth wrote the formal proof himself. Published around March 3, 2026.",
+        "verifiedAt": "2026-03-12T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_132",
+      "claim": "OpenAI acquires Promptfoo, an AI security startup, announced March 9, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-11T06:00:00-07:00",
+        "context": "Morning News Digest — AI section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
+            "excerpt": "OpenAI announced Monday it has acquired Promptfoo, an AI security startup founded in 2024 to protect LLMs from online adversaries.",
+            "agrees": true
+          },
+          {
+            "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
+            "excerpt": "March 9, 2026 — We're acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/09/open-ai-cybersecurity-promptfoo-ai-agents.html",
+            "excerpt": "OpenAI is acquiring cybersecurity startup Promptfoo. Team will join OpenAI, technology integrated into Frontier platform.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by OpenAI's own announcement, TechCrunch, and CNBC. Acquisition announced March 9, 2026. Promptfoo team joining OpenAI, technology to be integrated into Frontier platform for AI agents.",
+        "verifiedAt": "2026-03-12T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_133",
+      "claim": "AMI Labs (Yann LeCun's startup) raised $1.03B seed round at $3.5B valuation",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-11T06:00:00-07:00",
+        "context": "Morning News Digest — AI section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+            "excerpt": "AMI Labs joins the club with more funding than initially rumored. $1.03B seed round.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nytimes.com/2026/03/10/technology/ami-labs-yann-lecun-funding.html",
+            "excerpt": "Only a month old and employs only 12 people, this funding round values the company at $3.5 billion.",
+            "agrees": true
+          },
+          {
+            "url": "https://thenextweb.com/news/yann-lecun-ami-labs-world-models-billion",
+            "excerpt": "Investors put $1.03 billion behind that conviction. Advanced Machine Intelligence Labs announced its seed round on 10 March 2026.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by TechCrunch, NYT, The Next Web. $1.03B seed round at $3.5B valuation. Company was only a month old with 12 employees at the time. AMI = 'Advanced Machine Intelligence Labs' (pronounced like French word for 'friend').",
+        "verifiedAt": "2026-03-12T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_134",
+      "claim": "80% of medical bills reportedly have errors",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-11T01:00:00-07:00",
+        "context": "Business idea hunting — BillSpeak idea market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "url": "https://orbdoc.com/blog/medical-bill-errors-80-percent-problem",
+            "excerpt": "Industry analyses report that 49-80% of medical bills contain at least one mistake, a range based on studies from medical billing auditors and healthcare researchers.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.collaboratemd.com/blog/medical-billing-statistics-and-trends/",
+            "excerpt": "The most recent data available estimates 80% of US medical bills contain errors. (Becker's Hospital Review)",
+            "agrees": true
+          }
+        ],
+        "explanation": "The 80% figure is the upper end of a 49-80% range. It's commonly cited (attributed to Becker's Hospital Review) but represents the high end of estimates. More conservative studies put it at 49%. The claim is not wrong but uses the most dramatic number available. For business idea market sizing, the 49-80% range would be more honest.",
+        "verifiedAt": "2026-03-12T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 95,
-    "verified": 66,
-    "disputed": 18,
+    "totalClaims": 134,
+    "verified": 91,
+    "disputed": 26,
     "mostlyVerified": 4,
-    "partiallyVerified": 3,
+    "partiallyVerified": 9,
     "unverified": 4,
     "pending": 0,
-    "lastUpdated": "2026-03-07T03:00:00-07:00"
+    "lastUpdated": "2026-03-12T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-11T03:00:00-07:00",
+  "lastUpdated": "2026-03-12T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-11",
-    "claimsChecked": 8,
+    "date": "2026-03-12",
+    "claimsChecked": 7,
     "verified": 5,
+    "disputed": 1,
     "partiallyVerified": 1,
-    "disputed": 2,
-    "newClaimsAdded": 8,
-    "totalClaims": 127
+    "newClaimsAdded": 7,
+    "totalClaims": 134
   }
 }
