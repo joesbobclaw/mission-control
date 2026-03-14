@@ -4773,25 +4773,234 @@
         "verifiedAt": "2026-03-13T03:00:00-07:00"
       }
     }
+    },
+    {
+      "id": "claim_146",
+      "claim": "WordPress 7.0 RC1 drops March 19, 2026, with final release April 9",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-13T06:00:00-07:00",
+        "context": "Morning News Digest — Newspack & Publishing section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://developer.wordpress.org/news/2026/03/whats-new-for-developers-march-2026/",
+            "excerpt": "The Release Candidate (RC1) is scheduled for March 19, 2026",
+            "agrees": true
+          },
+          {
+            "url": "https://www.voxfor.com/wordpress-7-0-guide-features-release-date/",
+            "excerpt": "March 19, 2026 — Release Candidate 1 (RC1). April 9, 2026 — General Availability.",
+            "agrees": true
+          },
+          {
+            "url": "https://almcorp.com/blog/wordpress-ai-plugins-claude-gemini-openai/",
+            "excerpt": "WordPress 7.0 scheduled for April 9, 2026",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by WordPress developer.wordpress.org, Voxfor, SmackCoders, and ALMCorp. RC1 on March 19, final GA April 9, 2026. Beta 4 was March 12.",
+        "verifiedAt": "2026-03-14T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_147",
+      "claim": "Gemini 3.1 Pro scored 77% on ARC-AGI-2, more than double its predecessor",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-13T06:00:00-07:00",
+        "context": "Morning News Digest — Mechanistic Interpretability section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+            "excerpt": "On ARC-AGI-2, 3.1 Pro achieved a verified score of 77.1%. This is more than double the reasoning performance of 3 Pro.",
+            "agrees": true
+          },
+          {
+            "url": "https://vertu.com/ai-tools/google-gemini-3-1-pro-review-77-1-arc-agi-2-score-full-benchmark-breakdown/",
+            "excerpt": "77.1% score on ARC-AGI-2 — more than double the previous generation's 31.1%",
+            "agrees": true
+          },
+          {
+            "url": "https://medium.com/@rogt.x1997/gemini-3-1-pro-scores-77-1-on-arc-agi-2-and-quietly-rewrites-enterprise-ai-9941ad1b2082",
+            "excerpt": "a staggering 77.1% on ARC-AGI-2, more than double its predecessor's performance",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Google's own blog and multiple outlets. Exact score is 77.1%, predecessor (3 Pro) scored 31.1%. The digest's '77%' was a minor rounding — accurate.",
+        "verifiedAt": "2026-03-14T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_148",
+      "claim": "~59 million freelancers in the US (attributed to Upwork 2023)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-14T01:00:00-07:00",
+        "context": "Business idea hunting cron — market sizing for freelancer tools"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://investors.upwork.com/news-releases/news-release-details/upwork-study-finds-64-million-americans-freelanced-2023-adding",
+            "excerpt": "64 million Americans freelanced in 2023, adding $1.27 Trillion to U.S. Economy",
+            "agrees": false
+          },
+          {
+            "url": "https://www.upwork.com/research/freelance-forward-2023-research-report",
+            "excerpt": "38% of the U.S. workforce, or 64 million Americans, performed freelance work in the past year",
+            "agrees": false
+          }
+        ],
+        "explanation": "INCORRECT. The Upwork 2023 Freelance Forward report says 64 million freelancers, not 59 million. The 59M figure is from the 2020-2021 era. The business idea cron used an outdated number while attributing it to the 2023 report. Understated by 5 million (8% error).",
+        "verifiedAt": "2026-03-14T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_149",
+      "claim": "ETH Zurich and Anthropic researchers showed LLMs can deanonymize pseudonymous internet accounts at scale by analyzing writing patterns",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-13T06:00:00-07:00",
+        "context": "Morning News Digest — Mechanistic Interpretability section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2405.14471",
+            "excerpt": "De-anonymizing authors with large language models through stylometric analysis",
+            "agrees": true
+          }
+        ],
+        "explanation": "An ETH Zurich paper (arxiv 2405.14471) exists on LLM-based authorship attribution via stylometric analysis. Anthropic co-authorship and the 'at scale' characterization could not be independently verified in this check. The core capability claim (LLMs identifying anonymous authors via writing style) is real and published.",
+        "verifiedAt": "2026-03-14T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_150",
+      "claim": "Anthropic filed for emergency appeals court stay on March 12 in Pentagon lawsuit",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-13T06:00:00-07:00",
+        "context": "Morning News Digest — Mechanistic Interpretability section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/technology/anthropic-seeks-emergency-stay-pentagon-supply-chain-designation-2026-03-12/",
+            "excerpt": "Anthropic has filed for an emergency stay with the DC Circuit Court of Appeals",
+            "agrees": true
+          },
+          {
+            "url": "https://www.axios.com/2026/03/12/anthropic-emergency-stay-pentagon-supply-chain-risk",
+            "excerpt": "Anthropic seeks emergency court intervention to halt Pentagon blacklisting",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters and Axios. Emergency stay filed March 12, 2026 with the DC Circuit Court of Appeals. Builds on the March 9 lawsuit filing (claim_144).",
+        "verifiedAt": "2026-03-14T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_151",
+      "claim": "~50,000 Part 107 drone certificates issued per year in the US, with ~25% first-time failure rate",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-14T01:00:00-07:00",
+        "context": "Business idea hunting cron — Part 107 test prep idea"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.5,
+        "sources": [],
+        "explanation": "Could not find authoritative FAA data on annual Part 107 certificate issuance or failure rates within rate limits. The FAA does publish some aggregate statistics but specific annual issuance figures and failure percentages were not accessible. The 25% failure rate is commonly cited in test prep marketing materials but may not reflect official FAA data. Flagged for future verification.",
+        "verifiedAt": "2026-03-14T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_152",
+      "claim": "China's AI giants (ByteDance, Alibaba, Tencent) spent an estimated $60 billion on AI infrastructure in 2025",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-13T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw section, attributed to HelloChinaTech analysis"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.5,
+        "sources": [],
+        "explanation": "Could not independently verify the $60B aggregate figure for combined ByteDance/Alibaba/Tencent AI infrastructure spending in 2025. The digest attributed this to HelloChinaTech's analysis. Individual company capex figures are reported but the combined $60B total would need aggregation from multiple earnings reports. Flagged for future verification.",
+        "verifiedAt": "2026-03-14T03:00:00-07:00"
+      }
+    }
   ],
   "stats": {
-    "totalClaims": 134,
-    "verified": 91,
-    "disputed": 26,
+    "totalClaims": 141,
+    "verified": 95,
+    "disputed": 27,
     "mostlyVerified": 4,
-    "partiallyVerified": 9,
-    "unverified": 4,
+    "partiallyVerified": 10,
+    "unverified": 5,
     "pending": 0,
-    "lastUpdated": "2026-03-12T03:00:00-07:00"
+    "lastUpdated": "2026-03-14T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-13T03:00:00-07:00",
+  "lastUpdated": "2026-03-14T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-12",
+    "date": "2026-03-14",
     "claimsChecked": 7,
-    "verified": 5,
+    "verified": 3,
     "disputed": 1,
     "partiallyVerified": 1,
+    "unverified": 2,
     "newClaimsAdded": 7,
-    "totalClaims": 134
+    "totalClaims": 141
   }
 }
