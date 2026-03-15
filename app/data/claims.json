@@ -4772,7 +4772,6 @@
         "explanation": "Confirmed by Bloomberg (original), Tom's Hardware, Business Insider, DIGITIMES. Tencent office gatherings, 'raising the lobster' culture, and state-run enterprise bans all independently corroborated.",
         "verifiedAt": "2026-03-13T03:00:00-07:00"
       }
-    }
     },
     {
       "id": "claim_146",
@@ -4781,7 +4780,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest — Newspack & Publishing section"
+        "context": "Morning News Digest \u2014 Newspack & Publishing section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -4798,7 +4797,7 @@
           },
           {
             "url": "https://www.voxfor.com/wordpress-7-0-guide-features-release-date/",
-            "excerpt": "March 19, 2026 — Release Candidate 1 (RC1). April 9, 2026 — General Availability.",
+            "excerpt": "March 19, 2026 \u2014 Release Candidate 1 (RC1). April 9, 2026 \u2014 General Availability.",
             "agrees": true
           },
           {
@@ -4818,7 +4817,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest — Mechanistic Interpretability section"
+        "context": "Morning News Digest \u2014 Mechanistic Interpretability section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -4835,7 +4834,7 @@
           },
           {
             "url": "https://vertu.com/ai-tools/google-gemini-3-1-pro-review-77-1-arc-agi-2-score-full-benchmark-breakdown/",
-            "excerpt": "77.1% score on ARC-AGI-2 — more than double the previous generation's 31.1%",
+            "excerpt": "77.1% score on ARC-AGI-2 \u2014 more than double the previous generation's 31.1%",
             "agrees": true
           },
           {
@@ -4844,7 +4843,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Google's own blog and multiple outlets. Exact score is 77.1%, predecessor (3 Pro) scored 31.1%. The digest's '77%' was a minor rounding — accurate.",
+        "explanation": "Confirmed by Google's own blog and multiple outlets. Exact score is 77.1%, predecessor (3 Pro) scored 31.1%. The digest's '77%' was a minor rounding \u2014 accurate.",
         "verifiedAt": "2026-03-14T03:00:00-07:00"
       }
     },
@@ -4855,7 +4854,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-14T01:00:00-07:00",
-        "context": "Business idea hunting cron — market sizing for freelancer tools"
+        "context": "Business idea hunting cron \u2014 market sizing for freelancer tools"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -4887,7 +4886,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest — Mechanistic Interpretability section"
+        "context": "Morning News Digest \u2014 Mechanistic Interpretability section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -4914,7 +4913,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest — Mechanistic Interpretability section"
+        "context": "Morning News Digest \u2014 Mechanistic Interpretability section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -4946,7 +4945,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-14T01:00:00-07:00",
-        "context": "Business idea hunting cron — Part 107 test prep idea"
+        "context": "Business idea hunting cron \u2014 Part 107 test prep idea"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -4967,7 +4966,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest — OpenClaw section, attributed to HelloChinaTech analysis"
+        "context": "Morning News Digest \u2014 OpenClaw section, attributed to HelloChinaTech analysis"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -4980,27 +4979,240 @@
         "explanation": "Could not independently verify the $60B aggregate figure for combined ByteDance/Alibaba/Tencent AI infrastructure spending in 2025. The digest attributed this to HelloChinaTech's analysis. Individual company capex figures are reported but the combined $60B total would need aggregation from multiple earnings reports. Flagged for future verification.",
         "verifiedAt": "2026-03-14T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_153",
+      "claim": "Newspack has 500+ publishers",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-15T01:00:00-07:00",
+        "context": "Business idea hunting cron - market sizing for publisher tools"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://newspack.com/publishers/",
+            "excerpt": "Newspack is home to more than 300 publishers providing critical coverage of local, national, and international news.",
+            "agrees": false
+          },
+          {
+            "url": "https://newspack.com/about/",
+            "excerpt": "Newspack has migrated and launched more than 300 sites and is home to a community of more than 1,000 publishers, editors and producers.",
+            "agrees": false
+          }
+        ],
+        "explanation": "INFLATED. The business ideas cron said '500+ Newspack publishers.' Newspack's own website says 'more than 300 publishers' and 'more than 300 sites.' The About page mentions 1,000+ community members (publishers + editors + producers) in Slack, which may be the source of confusion. Correct figure: 300+, not 500+.",
+        "verifiedAt": "2026-03-15T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_154",
+      "claim": "There are 75 million freelancers in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-15T01:00:00-07:00",
+        "context": "Business idea hunting - Paper Trail freelancer tool market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://investors.upwork.com/news-releases/news-release-details/upwork-study-finds-64-million-americans-freelanced-2023-adding",
+            "excerpt": "64 million Americans performed freelance work in the past year, an all-time high, representing 38% of the entire U.S.",
+            "agrees": false
+          },
+          {
+            "url": "https://www.upwork.com/research/freelance-forward-2023-research-report",
+            "excerpt": "The share of professionals freelancing increased to nearly 64 million Americans, making up 38% of the U.S.",
+            "agrees": false
+          }
+        ],
+        "explanation": "INFLATED. The business ideas cron claimed '75M freelancers in the US.' Upwork's Freelance Forward 2023 report says 64 million. Previous claim_148 caught a similar error (59M vs 64M). The correct figure is 64 million.",
+        "verifiedAt": "2026-03-15T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_155",
+      "claim": "Enterprise fleet management software starts at $50-100/vehicle/month",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-15T01:00:00-07:00",
+        "context": "Business idea hunting - Fleet Check competitor pricing"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://tech.co/fleet-management/samsara-vs-motive",
+            "excerpt": "A good range to expect from Samsara is $27 to $33 per vehicle per month",
+            "agrees": false
+          },
+          {
+            "url": "https://tech.co/fleet-management/samsara-fleet-management-review",
+            "excerpt": "Verizon Connect system starts at a slightly lower $23.50 per vehicle, per month",
+            "agrees": false
+          }
+        ],
+        "explanation": "INFLATED. Samsara is $27-33/vehicle/month and Verizon Connect is ~$23.50/vehicle/month per Tech.co. The $50-100 range overstates actual pricing by roughly 2x. Business case for cheap alternative still exists, but price gap is smaller than claimed.",
+        "verifiedAt": "2026-03-15T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_156",
+      "claim": "350,000+ owner-operators (single-truck FMCSA licensees) in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-15T01:00:00-07:00",
+        "context": "Business idea hunting - Fleet Check target market"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://www.geotab.com/blog/trucking-industry-statistics/",
+            "excerpt": "Eleven percent of truck drivers are owner-operators (or 922,854 drivers).",
+            "agrees": false
+          },
+          {
+            "url": "https://qualitycarriers.com/owner-operator/are-most-truckers-owner-operators/",
+            "excerpt": "1.7 million truckers, or approximately 49%, are owner-operators who own and operate their trucks",
+            "agrees": false
+          }
+        ],
+        "explanation": "SIGNIFICANTLY UNDERSTATED. Geotab reports 922,854 owner-operator truck drivers. Quality Carriers cites 1.7 million. The 350K figure is 3-5x too low. This actually strengthens the business case.",
+        "verifiedAt": "2026-03-15T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_157",
+      "claim": "DOT compliance violations cost $16,000+ per violation",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-15T01:00:00-07:00",
+        "context": "Business idea hunting - Fleet Check pain point"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.7,
+        "sources": [
+          {
+            "url": "https://fmcafilings.com/blog/post/what-are-the-fines-for-dot-violations",
+            "excerpt": "Hazmat violations can be up to $96,000",
+            "agrees": true
+          },
+          {
+            "url": "https://www.dotoperatingauthority.com/stay-compliant-trucking-2025/",
+            "excerpt": "Fines for non-compliance with Clearinghouse rules now exceed $5,000 per offense",
+            "agrees": false
+          }
+        ],
+        "explanation": "DEPENDS ON VIOLATION TYPE. DOT fines range widely: Clearinghouse violations are $5,000+, hazmat can reach $96,000. The blanket '$16,000+ per violation' is not universally accurate. Many common violations are well under $16K.",
+        "verifiedAt": "2026-03-15T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_158",
+      "claim": "Legacy.com takes 30-50% revenue share from publisher obituaries",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-15T01:00:00-07:00",
+        "context": "Business idea hunting - Obituary portal competitor assessment"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.4,
+        "sources": [
+          {
+            "url": "https://digiday.com/media/legacy-com-turning-obits-business/",
+            "excerpt": "Unless publishers make a full commitment to fulfilling all parts of the transaction, the typical revenue share from e-commerce is small.",
+            "agrees": false
+          },
+          {
+            "url": "https://sales.legacy.com/news/legacys-consumer-direct-placement-delivers-110k-obits-and-52m-in-revenue-to-newspapers/",
+            "excerpt": "Legacy's consumer intake system has delivered $52,000,000 in revenue and 110,000 obituaries to newspaper partners.",
+            "agrees": false
+          }
+        ],
+        "explanation": "UNVERIFIED. Legacy.com's revenue share terms are not publicly disclosed. The '30-50%' figure could not be confirmed. Digiday describes the model but without specific percentages. May be industry hearsay rather than confirmed figures.",
+        "verifiedAt": "2026-03-15T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_159",
+      "claim": "500,000+ personal weather station owners in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-15T01:00:00-07:00",
+        "context": "Business idea hunting - Backyard Weather target market"
+      },
+      "extraction": {
+        "checkworthiness": 0.75,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.5,
+        "sources": [],
+        "explanation": "Could not find authoritative data on personal weather station owners in the US. WeatherUnderground has ~250,000 connected stations, but station owners and device sales are different metrics. The 500K+ figure is plausible but unsubstantiated.",
+        "verifiedAt": "2026-03-15T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 141,
-    "verified": 95,
-    "disputed": 27,
+    "totalClaims": 159,
+    "verified": 104,
+    "disputed": 31,
     "mostlyVerified": 4,
-    "partiallyVerified": 10,
-    "unverified": 5,
+    "partiallyVerified": 12,
+    "unverified": 8,
     "pending": 0,
-    "lastUpdated": "2026-03-14T03:00:00-07:00"
+    "lastUpdated": "2026-03-15T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-14T03:00:00-07:00",
+  "lastUpdated": "2026-03-15T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-14",
+    "date": "2026-03-15",
     "claimsChecked": 7,
-    "verified": 3,
-    "disputed": 1,
+    "verified": 0,
+    "disputed": 4,
     "partiallyVerified": 1,
     "unverified": 2,
     "newClaimsAdded": 7,
-    "totalClaims": 141
+    "totalClaims": 159
   }
 }
