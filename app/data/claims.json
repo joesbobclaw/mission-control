@@ -5193,26 +5193,282 @@
         "verifiedAt": "2026-03-15T03:00:00-07:00"
       }
     }
+    ,
+    {
+      "id": "claim_160",
+      "claim": "my.WordPress.net launched on March 11, 2026 as a browser-only WordPress powered by WordPress Playground",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-15T06:00:00-07:00",
+        "context": "Morning News Digest — Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://wordpress.org/news/2026/03/announcing-my-wordpress/",
+            "excerpt": "With my.WordPress.net, WordPress runs entirely and persistently in your browser. There's no sign-up, no hosting plan, and no domain decision.",
+            "agrees": true
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/",
+            "excerpt": "WordPress software lets users set up a site and begin publishing without signing up, setting up a hosting plan, or registering a domain.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.adwaitx.com/my-wordpress-net-browser-wordpress/",
+            "excerpt": "The official announcement, published March 11, 2026 by Brandon Payton on WordPress.org",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by WordPress.org official announcement, TechCrunch, and adwaitx. Launched March 11, 2026. Data stored in browser storage, no hosting required. Built on WordPress Playground technology.",
+        "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_161",
+      "claim": "Anthropic Safety Fellows Program offers $3,850/week stipend and ~$15K/month compute for May and July 2026 cohorts",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-15T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
+            "excerpt": "Fellows will receive a weekly stipend of 3,850 USD / 2,310 GBP / 4,300 CAN, funding for compute (~$15k/month), and close mentorship from Anthropic researchers.",
+            "agrees": true
+          },
+          {
+            "url": "https://grantedai.com/news/anthropic-ai-safety-fellows-2026-compute-stipend",
+            "excerpt": "Anthropic is accepting applications for its AI Safety Fellows Program starting May 2026, offering $3,850 weekly stipend and $15K per month in compute.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed directly from Anthropic's alignment site and GrantedAI. Stipend, compute budget, and cohort dates all match exactly. May 2026 applications already closed.",
+        "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_162",
+      "claim": "Anthropic built an early-warning system for AI-driven white-collar job displacement; Amodei warned half of entry-level white-collar jobs could be disrupted within 1-5 years",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-15T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.axios.com/2026/03/05/anthropic-ai-jobs-claude",
+            "excerpt": "Anthropic says it is building an early-warning system for a potential AI-driven white-collar jobs bust.",
+            "agrees": true
+          },
+          {
+            "url": "https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers/",
+            "excerpt": "Amodei last year said the technology could disrupt half of entry-level white-collar work.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cbsnews.com/news/anthropic-ai-jobs-most-exposed-risk/",
+            "excerpt": "Anthropic, the maker of the AI chatbot Claude, says it has built an early warning system to track which U.S. jobs are most exposed to artificial intelligence.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Axios, Fortune, CBS News, News18, Investopedia. The early-warning system is real (launched March 5, 2026). Amodei's 50% entry-level disruption prediction came from a 20,000-word essay in January 2026. The '1-5 years' timeframe is confirmed.",
+        "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_163",
+      "claim": "'Deep-Thinking Tokens' paper (arXiv 2602.13517) — 'Think Deep, Not Just Long' — measures LLM reasoning effort via tokens where internal predictions undergo significant revisions in deeper model layers",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-15T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2602.13517",
+            "excerpt": "In this work, we quantify inference-time effort by identifying deep-thinking tokens -- tokens where internal predictions undergo significant revisions in deeper model layers prior to convergence.",
+            "agrees": true
+          },
+          {
+            "url": "https://arxiv.org/html/2602.13517v1",
+            "excerpt": "raw token counts are unreliable proxies for reasoning",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed via arXiv. Paper published February 13, 2026 (v1). Authors from University of Virginia and Google. Title, arXiv ID, and core concept all match exactly.",
+        "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_164",
+      "claim": "METR acknowledged their time-horizon modeling inflated recent 50%-time horizons by 10-20% in Time Horizon 1.1 correction (January 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-15T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.75,
+        "sources": [
+          {
+            "url": "https://metr.org/blog/2026-1-29-time-horizon-1-1/",
+            "excerpt": "The new estimates generally fall within our existing confidence intervals, though the trend in time horizon growth looks a little different. We expect to make more changes to our evaluation protocols.",
+            "agrees": true
+          },
+          {
+            "url": "https://metr.org/notes/2026-01-22-time-horizon-limitations/",
+            "excerpt": "Nikola Jurkovic describes our measurements of time horizon using Claude Code and Codex scaffolds.",
+            "agrees": true
+          }
+        ],
+        "explanation": "The Time Horizon 1.1 update (January 29, 2026) is confirmed. METR did revise their estimates and the new numbers 'generally fall within existing confidence intervals.' However, the specific '10-20% inflation' characterization could not be directly verified from the METR blog post — the post discusses methodological changes without quantifying the inflation that precisely. The digest's characterization is directionally correct but the exact percentage may be editorial interpretation.",
+        "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_165",
+      "claim": "Tencent launched OpenClaw 'lobster special forces' AI suite compatible with WeChat; ByteDance launched ArkClaw as browser-based cloud OpenClaw; Zhipu AI launched local version with 50+ pre-installed skills",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-15T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/12/china-openclaw-ai-agent-adoption-tech-companies-government-support-lobster-shrimp.html",
+            "excerpt": "Chinese tech giant Tencent said Tuesday it had launched a full suite of easy-to-use AI products built on OpenClaw, which it dubbed 'lobster special forces' and compatible with its popular superapp WeChat.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.yicaiglobal.com/news/zhipu-ai-bytedance-tencent-10-other-chinese-internet-giants-launch-openclaw-versions",
+            "excerpt": "Volcano Engine, privately held ByteDance's cloud computing and AI services platform, launched ArkClaw yesterday, a cloud-based software as a service version, which can be used directly through a web browser.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.aibase.com/news/26049",
+            "excerpt": "ArkClaw. It is codenamed 'Lobster' and is officially defined as a 'cloud-based SaaS version of OpenClaw.'",
+            "agrees": true
+          }
+        ],
+        "explanation": "All three Chinese tech company launches confirmed by CNBC, Yicai Global, and AIBase. Tencent WeChat integration, ByteDance ArkClaw (browser-based, launched March 9), and Zhipu AI local version all independently verified. The 'lobster special forces' branding is Tencent's actual term.",
+        "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_166",
+      "claim": "~5,000 active small newsrooms in the US (per Northwestern's State of Local News 2025)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-16T01:00:00-07:00",
+        "context": "Business idea hunting — Public Meeting Intelligence market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "unverified",
+        "confidence": 0.5,
+        "sources": [
+          {
+            "url": "https://localnewsinitiative.northwestern.edu/projects/state-of-local-news/2025/report/",
+            "excerpt": "2025 database tracks 535 Patch sites that offer original local reporting",
+            "agrees": false
+          }
+        ],
+        "explanation": "Could not confirm the '5,000 active small newsrooms' figure directly from the Northwestern State of Local News 2025 report. The report mentions 535 Patch sites specifically but its total newsroom count methodology is complex (tracking newspapers, digital outlets, ethnic media, public broadcasting). The 5,000 figure may be plausible when including all formats but is not directly sourced from a visible excerpt of the report. Needs deeper investigation.",
+        "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_167",
+      "claim": "72% of SMBs want more from their trusted digital partner (from 2025 SMB Marketing Report for Publishers)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-16T01:00:00-07:00",
+        "context": "Business idea hunting — Reader Revenue Nudge Engine and Sponsorship Matchmaker ideas"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.8,
+        "sources": [],
+        "explanation": "This claim was already flagged as misattributed in claim_028 from Feb 27. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact — NOT about wanting to buy from a 'single trusted local media partner.' The business ideas cron is recycling the same misattributed statistic. The cron needs to be corrected to stop citing this number with fabricated context.",
+        "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    }
   ],
   "stats": {
-    "totalClaims": 159,
-    "verified": 104,
-    "disputed": 31,
+    "totalClaims": 167,
+    "verified": 109,
+    "disputed": 33,
     "mostlyVerified": 4,
-    "partiallyVerified": 12,
+    "partiallyVerified": 13,
     "unverified": 8,
     "pending": 0,
-    "lastUpdated": "2026-03-15T03:00:00-07:00"
+    "lastUpdated": "2026-03-16T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-15T03:00:00-07:00",
+  "lastUpdated": "2026-03-16T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-15",
-    "claimsChecked": 7,
-    "verified": 0,
-    "disputed": 4,
+    "date": "2026-03-16",
+    "claimsChecked": 8,
+    "verified": 5,
+    "disputed": 1,
     "partiallyVerified": 1,
-    "unverified": 2,
-    "newClaimsAdded": 7,
-    "totalClaims": 159
+    "unverified": 1,
+    "newClaimsAdded": 8,
+    "totalClaims": 167
   }
 }
