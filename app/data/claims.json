@@ -5192,8 +5192,7 @@
         "explanation": "Could not find authoritative data on personal weather station owners in the US. WeatherUnderground has ~250,000 connected stations, but station owners and device sales are different metrics. The 500K+ figure is plausible but unsubstantiated.",
         "verifiedAt": "2026-03-15T03:00:00-07:00"
       }
-    }
-    ,
+    },
     {
       "id": "claim_160",
       "claim": "my.WordPress.net launched on March 11, 2026 as a browser-only WordPress powered by WordPress Playground",
@@ -5201,7 +5200,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest — Local News section"
+        "context": "Morning News Digest \u2014 Local News section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5238,7 +5237,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section"
+        "context": "Morning News Digest \u2014 Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5270,7 +5269,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section"
+        "context": "Morning News Digest \u2014 Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5302,12 +5301,12 @@
     },
     {
       "id": "claim_163",
-      "claim": "'Deep-Thinking Tokens' paper (arXiv 2602.13517) — 'Think Deep, Not Just Long' — measures LLM reasoning effort via tokens where internal predictions undergo significant revisions in deeper model layers",
+      "claim": "'Deep-Thinking Tokens' paper (arXiv 2602.13517) \u2014 'Think Deep, Not Just Long' \u2014 measures LLM reasoning effort via tokens where internal predictions undergo significant revisions in deeper model layers",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section"
+        "context": "Morning News Digest \u2014 Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5339,7 +5338,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section"
+        "context": "Morning News Digest \u2014 Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5360,7 +5359,7 @@
             "agrees": true
           }
         ],
-        "explanation": "The Time Horizon 1.1 update (January 29, 2026) is confirmed. METR did revise their estimates and the new numbers 'generally fall within existing confidence intervals.' However, the specific '10-20% inflation' characterization could not be directly verified from the METR blog post — the post discusses methodological changes without quantifying the inflation that precisely. The digest's characterization is directionally correct but the exact percentage may be editorial interpretation.",
+        "explanation": "The Time Horizon 1.1 update (January 29, 2026) is confirmed. METR did revise their estimates and the new numbers 'generally fall within existing confidence intervals.' However, the specific '10-20% inflation' characterization could not be directly verified from the METR blog post \u2014 the post discusses methodological changes without quantifying the inflation that precisely. The digest's characterization is directionally correct but the exact percentage may be editorial interpretation.",
         "verifiedAt": "2026-03-16T03:00:00-07:00"
       }
     },
@@ -5371,7 +5370,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest — OpenClaw section"
+        "context": "Morning News Digest \u2014 OpenClaw section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5408,7 +5407,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-16T01:00:00-07:00",
-        "context": "Business idea hunting — Public Meeting Intelligence market sizing"
+        "context": "Business idea hunting \u2014 Public Meeting Intelligence market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5435,7 +5434,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-16T01:00:00-07:00",
-        "context": "Business idea hunting — Reader Revenue Nudge Engine and Sponsorship Matchmaker ideas"
+        "context": "Business idea hunting \u2014 Reader Revenue Nudge Engine and Sponsorship Matchmaker ideas"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5445,30 +5444,306 @@
         "status": "disputed",
         "confidence": 0.8,
         "sources": [],
-        "explanation": "This claim was already flagged as misattributed in claim_028 from Feb 27. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact — NOT about wanting to buy from a 'single trusted local media partner.' The business ideas cron is recycling the same misattributed statistic. The cron needs to be corrected to stop citing this number with fabricated context.",
+        "explanation": "This claim was already flagged as misattributed in claim_028 from Feb 27. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact \u2014 NOT about wanting to buy from a 'single trusted local media partner.' The business ideas cron is recycling the same misattributed statistic. The cron needs to be corrected to stop citing this number with fabricated context.",
         "verifiedAt": "2026-03-16T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_168",
+      "claim": "Meta signed a deal to spend up to $27 billion on Nebius AI infrastructure over five years",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-16T12:00:00-07:00",
+        "context": "Noon Breaking News Check \u2014 Meta/Nebius deal"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/16/meta-nebius-ai-infrastructure.html",
+            "excerpt": "Meta has signed a new long-term agreement to spend up to $27 billion on Dutch cloud provider Nebius' AI infrastructure",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-03-16/meta-to-spend-up-to-27-billion-on-ai-infrastructure-from-nebius",
+            "excerpt": "Meta Platforms Inc. will pay as much as $27 billion over the next five years for access to artificial intelligence infrastructure from cloud provider Nebius Group NV",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bnnbloomberg.ca/about-bellmedia/2026/03/16/nebius-signs-ai-infrastructure-deals-with-meta-worth-up-to-us27-billion-over-5-years/",
+            "excerpt": "Meta will also buy an additional US$15 billion worth of capacity planned by Nebius over the coming five years if it is not sold to other customers, giving the contract a total value of up to $27 billion",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by CNBC, Bloomberg, BNN Bloomberg. Announced March 16, 2026. Nebius is described as a Dutch cloud provider. Deal includes $12B firm commitment + up to $15B additional capacity.",
+        "verifiedAt": "2026-03-17T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_169",
+      "claim": "AMD released official OpenClaw hardware configurations: RyzenClaw (Ryzen AI Max+ with 128GB unified memory) and RadeonClaw (Radeon AI PRO R9700 GPU)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-16T12:00:00-07:00",
+        "context": "Noon Breaking News Check \u2014 AMD OpenClaw configs"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.amd.com/en/resources/articles/run-openclaw-locally-on-amd-ryzen-ai-max-and-radeon-gpus.html",
+            "excerpt": "The RyzenClaw scorecard highlights the ability of AMD Ryzen AI Max+ platforms with 128GB unified memory to run cloud-quality AI agent workloads efficiently via OpenClaw",
+            "agrees": true
+          },
+          {
+            "url": "https://www.techspot.com/news/111685-amd-unveils-openclaw-run-ai-agents-locally-ryzen.html",
+            "excerpt": "A desktop built around the Ryzen AI Max+ 395 chip and 128GB of memory such as a Framework Desktop configuration is cited as starting at around $2,700. The RadeonClaw option adds further expense, as the Radeon AI PRO R9700 GPU alone retails for...",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by AMD's own website and TechSpot. RyzenClaw starts at ~$2,700 (Framework Desktop config). Runs Qwen 3.5 35B A3B at ~45 tokens/sec. Official guide published March 15-16, 2026.",
+        "verifiedAt": "2026-03-17T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_170",
+      "claim": "Qihoo 360's OpenClaw AI assistant ('360 Security Claw') leaked a wildcard SSL private certificate in its public installer",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-16T12:00:00-07:00",
+        "context": "Noon Breaking News Check \u2014 Chinese OpenClaw SSL key leak"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://phemex.com/news/article/360s-openclaw-ai-assistant-leaks-ssl-private-key-breaching-security-promises-66798",
+            "excerpt": "The key, valid until April 2027... This incident contradicts a previous assurance by 360's founder, Zhou Hongyi, who vowed not to leak passwords upon the product's launch",
+            "agrees": true
+          },
+          {
+            "url": "https://www.neowin.net/news/chinas-biggest-cybersecurity-firm-accidentally-leaked-an-ssl-key-in-a-public-installer/",
+            "excerpt": "Qihoo 360, one of the biggest cybersecurity companies from China, accidentally shipped a highly sensitive wildcard SSL private certificate inside the public installer for its 360 Security Claw AI assistant",
+            "agrees": true
+          },
+          {
+            "url": "https://awesomeagents.ai/news/qihoo-360-ssl-key-leak-openclaw/",
+            "excerpt": "Six days earlier, founder Zhou Hongyi had launched the product with a specific promise: it'd 'not damage the user's system, delete data, or leak passwords or other private information'",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Phemex, Neowin, AwesomeAgents. SSL key valid until April 2027. Zhou Hongyi had specifically promised security just 6 days before the leak was discovered. Key could be used to create fake login pages.",
+        "verifiedAt": "2026-03-17T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_171",
+      "claim": "Google search traffic to US publishers declined 38% between November 2024 and November 2025",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-16T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Publishing & Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://ppc.land/google-says-letting-publishers-skip-ai-overviews-is-a-huge-engineering-challenge/",
+            "excerpt": "A survey of 280 news executives published January 17, 2026, found that global Google Search traffic to publishers had declined 38% in the United States and 33% globally between November 2024 and November 2025",
+            "agrees": true
+          },
+          {
+            "url": "https://searchengineland.com/google-ai-overviews-cut-search-clicks-report-471497",
+            "excerpt": "By Q4 2025, search traffic was down 42% from the pre-AI Overviews baseline",
+            "agrees": true
+          },
+          {
+            "url": "https://www.pixelmojo.io/blogs/google-traffic-dropped-33-percent-ai-search-shift",
+            "excerpt": "The decline was steeper in the US (down 38%) than in Europe (down 17%)",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by multiple sources. PPC.land cites the 280 news exec survey (38% US, 33% global). SearchEngineLand reports even steeper drops (42%) by Q4 2025 from pre-AI Overviews baseline. The digest's 38% figure is conservative and well-sourced.",
+        "verifiedAt": "2026-03-17T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_172",
+      "claim": "Nvidia officially launched NemoClaw at GTC 2026 keynote \u2014 Jensen Huang introduced it as an enterprise-ready reference stack for OpenClaw",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-16T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/16/nvidia-gtc-2026-ceo-jensen-huang-keynote-blackwell-vera-rubin.html",
+            "excerpt": "He introduced a so-called reference stack named NemoClaw, specifically for OpenClaw, helping to make it 'enterprise ready.' 'It finds OpenClaw, it downloads it. It builds you an AI agent,' Huang said.",
+            "agrees": true
+          },
+          {
+            "url": "https://finance.yahoo.com/news/nvidia-gtc-2026-what-to-expect-from-nvidias-biggest-event-of-the-year-132234592.html",
+            "excerpt": "The service, called NemoClaw, would allow companies to deploy agents across their systems",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by CNBC and Yahoo Finance. Jensen Huang presented NemoClaw during GTC 2026 keynote on March 16-17, 2026. Previous claim_123 and claim_135 covered the pre-announcement; this confirms the official launch at GTC.",
+        "verifiedAt": "2026-03-17T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_173",
+      "claim": "Cisco's AI security team found data exfiltration and prompt injection in a third-party OpenClaw skill without user awareness",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-16T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenClaw",
+            "excerpt": "Cisco's AI security research team tested a third-party OpenClaw skill and found it performed data exfiltration and prompt injection without user awareness",
+            "agrees": true
+          },
+          {
+            "url": "https://conscia.com/blog/the-openclaw-security-crisis/",
+            "excerpt": "demonstrated a malicious skill performing silent data exfiltration via embedded curl commands, with the agent executing network calls without user awareness",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Wikipedia (citing Cisco research) and Conscia's detailed analysis. The exfiltration used embedded curl commands. OpenClaw's skill repository lacked adequate vetting at the time.",
+        "verifiedAt": "2026-03-17T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_174",
+      "claim": "MoltMatch, an experimental AI dating platform, created profiles using people's photos without consent via OpenClaw agents",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-16T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenClaw",
+            "excerpt": "a consent-related incident involving OpenClaw and MoltMatch, an experimental dating platform where AI agents can create profiles and interact on behalf of human users",
+            "agrees": true
+          },
+          {
+            "url": "https://medium.com/@aftab001x/openclaw-just-beat-reacts-10-year-github-record-in-60-days-now-nobody-knows-what-to-do-with-it-937b8f370507",
+            "excerpt": "AFP analysis of prominent MoltMatch profiles found at least one instance where photos of a Malaysian model were used to create a profile without her consent",
+            "agrees": true
+          },
+          {
+            "url": "https://abit.ee/en/artificial-intelligence/moltmatch-openclaw-ai-artificial-intelligence-dating-platform-ai-ethics-data-breach-digital-profile-en",
+            "excerpt": "The AI agent, connected via OpenClaw, dutifully decided that the avatar was the owner's real face and churned out a MoltMatch profile with the same images",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Wikipedia, Medium (citing AFP), and abit.ee. OpenClaw agents were used to create dating profiles without the knowledge or consent of the people whose photos were used. The incident highlighted consent gaps in AI agent autonomy.",
+        "verifiedAt": "2026-03-17T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_175",
+      "claim": "Google made Gmail, Drive, and Docs 'agent-ready' for OpenClaw with simplified API integration",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-16T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.pcworld.com/article/3079523/google-makes-gmail-drive-and-docs-agent-ready-for-openclaw.html",
+            "excerpt": "OpenClaw and other agentic AI tools have already been able to integrate with Google Workplace apps, but they've had to jump through several hoops to do so",
+            "agrees": true
+          },
+          {
+            "url": "https://www.androidheadlines.com/2026/03/google-workspace-openclaw-ai-agent-integration-cli.html",
+            "excerpt": "Rather than locking users into its own proprietary AI loop, Google is making its core services 'agent-ready' for third-party tools",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by PCWorld and AndroidHeadlines. Google simplified its API access for OpenClaw and similar AI agent tools, consolidating what previously required juggling multiple APIs. Announced early March 2026.",
+        "verifiedAt": "2026-03-17T03:00:00-07:00"
       }
     }
   ],
   "stats": {
-    "totalClaims": 167,
-    "verified": 109,
-    "disputed": 33,
+    "totalClaims": 175,
+    "verified": 117,
+    "disputed": 32,
     "mostlyVerified": 4,
     "partiallyVerified": 13,
-    "unverified": 8,
+    "unverified": 9,
     "pending": 0,
-    "lastUpdated": "2026-03-16T03:00:00-07:00"
+    "lastUpdated": "2026-03-17T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-16T03:00:00-07:00",
+  "lastUpdated": "2026-03-17T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-16",
+    "date": "2026-03-17",
     "claimsChecked": 8,
-    "verified": 5,
-    "disputed": 1,
-    "partiallyVerified": 1,
-    "unverified": 1,
+    "verified": 8,
+    "disputed": 0,
+    "partiallyVerified": 0,
+    "unverified": 0,
     "newClaimsAdded": 8,
-    "totalClaims": 167
+    "totalClaims": 175
   }
 }
