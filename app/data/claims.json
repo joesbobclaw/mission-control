@@ -5776,27 +5776,223 @@
         "explanation": "Re-verified during March 18 overnight fact check. RC1 confirmed for March 19, 2026. Final GA April 9. Already covered in claim_146 but re-confirmed with fresh search results.",
         "verifiedAt": "2026-03-18T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_178",
+      "claim": "OpenAI signed deal with AWS to sell AI models to US government agencies for classified and unclassified work",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-18T12:00:00-07:00",
+        "context": "Noon Breaking News Check — OpenAI/AWS government deal"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+            "excerpt": "OpenAI has reportedly signed a partnership with AWS to sell its AI systems to the U.S. government for classified and unclassified work",
+            "agrees": true
+          },
+          {
+            "url": "https://www.reuters.com/business/retail-consumer/openai-sell-ai-us-agencies-through-amazon-cloud-unit-information-reports-2026-03-17/",
+            "excerpt": "OpenAI, which had previously focused on unclassified government use, has now secured a Pentagon contract to provide its models for classified operations",
+            "agrees": true
+          },
+          {
+            "url": "https://finance.yahoo.com/news/openai-inks-deal-amazon-sell-170000059.html",
+            "excerpt": "OpenAI has signed a new agreement with Amazon Web Services to offer its AI models to US federal agencies, including the Department of Defense",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by TechCrunch, Reuters, Yahoo Finance, IndexBox. Partnership announced March 17-18, 2026. Builds on prior Pentagon deal from February. OpenAI expanding from unclassified to classified government work via AWS infrastructure.",
+        "verifiedAt": "2026-03-19T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_179",
+      "claim": "IBM publicly stated 2026 will be the first year quantum computers outperform classical computers",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-18T12:00:00-07:00",
+        "context": "Noon Breaking News Check — IBM quantum advantage claim"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.ibm.com/think/news/ai-tech-trends-predictions-2026",
+            "excerpt": "IBM has publicly stated that 2026 will mark the first time a quantum computer will be able to outperform a classical computer",
+            "agrees": true
+          },
+          {
+            "url": "https://thequantuminsider.com/2026/03/12/ibm-releases-a-new-blueprint-for-quantum-centric-supercomputing/",
+            "excerpt": "A team from IBM, RIKEN, and the University of Chicago uncovered the lowest-energy state of engineered quantum systems, outperforming state-of-the-art classical-only approaches",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nextgov.com/emerging-tech/2026/03/ibm-unveils-new-hybrid-quantum-computing-architecture/412068/",
+            "excerpt": "IBM is betting on hybrid systems being the future of near-term quantum computing",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by IBM's own blog and multiple outlets. IBM claims 2026 will be the first year quantum computers outperform classical ones on practical tasks. A team from IBM/RIKEN/UChicago has already demonstrated outperformance on engineered quantum systems.",
+        "verifiedAt": "2026-03-19T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_180",
+      "claim": "Baidu launched 'DuClaw' AI agent suite built on OpenClaw framework, joining China's 'lobster frenzy'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-18T12:00:00-07:00",
+        "context": "Noon Breaking News Check — Baidu OpenClaw products"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/business/media-telecom/baidu-joins-chinas-openclaw-frenzy-with-new-ai-agents-2026-03-17/",
+            "excerpt": "Chinese tech giant Baidu on Tuesday unveiled a suite of artificial intelligence products",
+            "agrees": true
+          },
+          {
+            "url": "https://simplywall.st/stocks/us/media/nasdaq-bidu/baidu/news/what-baidu-bidus-duclaw-zero-deployment-ai-agent-launch-mean",
+            "excerpt": "Earlier in March 2026, Baidu AI Cloud launched DuClaw, a zero-deployment web-based service that lets users access the OpenClaw agent platform instantly",
+            "agrees": true
+          },
+          {
+            "url": "https://finance.yahoo.com/news/baidu-unveils-openclaw-push-ai-202131390.html",
+            "excerpt": "Baidu is stepping deeper into agentic AI as it looks to counter pressure in its core advertising business, positioning its OpenClaw framework as a bridge",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters, Simply Wall St, Yahoo Finance, ET BrandEquity. Baidu launched DuClaw on March 17-18, 2026 — a zero-deployment web-based OpenClaw service bundling Baidu Search, Baidu Baike, and Baidu Scholar skills. Part of the broader Chinese 'raising the lobster' phenomenon.",
+        "verifiedAt": "2026-03-19T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_181",
+      "claim": "97% of publishers plan to increase AI investment (Digiday, Oct 2025)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-19T01:00:00-07:00",
+        "context": "Business idea hunting — Newsroom AI Usage Policy Generator pain point"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://digiday.com/sponsored/the-state-of-ai-in-the-newsroom/",
+            "excerpt": "Ninety-seven percent of publishers plan to increase AI investment in 2025, with three-quarters focusing budgets on editorial tasks.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed directly from Digiday's 'State of AI in the Newsroom' article (October 20, 2025). Exact figure matches. Note: the stat is about plans to increase investment, not confirmed spending.",
+        "verifiedAt": "2026-03-19T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_182",
+      "claim": "400K+ licensed mental health therapists in the US (used in HIPAA Voice Notes idea)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-19T01:00:00-07:00",
+        "context": "Business idea hunting — Therapist Voice Notes market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.integrativepsychology.org/us-mental-health-workforce-stats",
+            "excerpt": "approximately 198,811 licensed therapists and about 81,000 psychologists delivering essential services nationwide",
+            "agrees": false
+          },
+          {
+            "url": "https://www.ambitionsaba.com/resources/therapist-statistics",
+            "excerpt": "more than 198,811 therapists and more than 81,000 psychologists in the US",
+            "agrees": false
+          },
+          {
+            "url": "https://bhbusiness.com/2022/09/06/1-2m-health-care-practitioners-could-be-considered-mental-health-providers-new-data-reveal/",
+            "excerpt": "there are about 400,000 primary care providers who provide behavioral health care, including nurse practitioners and physician assistants",
+            "agrees": false
+          }
+        ],
+        "explanation": "INFLATED/MISATTRIBUTED. Licensed therapists specifically number ~199K, psychologists ~81K — totaling ~280K mental health professionals. The 400K figure appears to come from 'primary care providers who provide behavioral health care' (including nurse practitioners and physician assistants), which is a broader category. The business ideas cron's target market of '$59/mo therapist voice notes' should use ~200K licensed therapists, not 400K.",
+        "verifiedAt": "2026-03-19T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_183",
+      "claim": "~75K freelance journalists in the US",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-19T01:00:00-07:00",
+        "context": "Business idea hunting — Story Pitch Marketplace target market"
+      },
+      "extraction": {
+        "checkworthiness": 0.8,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [],
+        "explanation": "REPEAT INFLATION. This same ~75K freelance journalist claim was already flagged as inflated in claim_033 (Feb 27). Zippia counts ~13K freelance reporters; BLS counts ~46K reporters total (staff + freelance). The 75K figure remains unsupported. The business ideas cron continues recycling this unverified number despite previous correction.",
+        "verifiedAt": "2026-03-19T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 177,
-    "verified": 118,
-    "disputed": 32,
+    "totalClaims": 183,
+    "verified": 122,
+    "disputed": 34,
     "mostlyVerified": 4,
     "partiallyVerified": 13,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-18T03:00:00-07:00"
+    "lastUpdated": "2026-03-19T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-18T03:00:00-07:00",
+  "lastUpdated": "2026-03-19T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-18",
-    "claimsChecked": 3,
-    "verified": 1,
-    "disputed": 0,
+    "date": "2026-03-19",
+    "claimsChecked": 6,
+    "verified": 4,
+    "disputed": 2,
     "partiallyVerified": 0,
-    "unverified": 2,
-    "newClaimsAdded": 2,
-    "totalClaims": 177
+    "unverified": 0,
+    "newClaimsAdded": 6,
+    "totalClaims": 183
   }
 }
