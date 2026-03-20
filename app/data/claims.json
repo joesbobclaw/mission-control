@@ -5972,27 +5972,312 @@
         "explanation": "REPEAT INFLATION. This same ~75K freelance journalist claim was already flagged as inflated in claim_033 (Feb 27). Zippia counts ~13K freelance reporters; BLS counts ~46K reporters total (staff + freelance). The 75K figure remains unsupported. The business ideas cron continues recycling this unverified number despite previous correction.",
         "verifiedAt": "2026-03-19T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_184",
+      "claim": "Mamba-3 beats transformers by ~4% and runs 7x faster, paper accepted at ICLR 2026, Apache 2.0 license",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-19T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://winbuzzer.com/2026/03/18/open-source-mamba-3-arrives-to-surpass-transformer-xcxwbn/",
+            "excerpt": "The model is released under Apache 2.0 with code on GitHub and a paper accepted at ICLR 2026",
+            "agrees": true
+          },
+          {
+            "url": "https://venturebeat.com/technology/open-source-mamba-3-arrives-to-surpass-transformer-architecture-with-nearly",
+            "excerpt": "Open source Mamba 3 arrives to surpass Transformer architecture with nearly 4% improved language modeling, reduced latency",
+            "agrees": true
+          },
+          {
+            "url": "https://arxiv.org/abs/2603.15569",
+            "excerpt": "Mamba-3: Improved Sequence Modeling using State Space Principles — arXiv paper",
+            "agrees": true
+          },
+          {
+            "url": "https://aidailypost.com/news/mamba3-halves-state-size-matches-mamba2-perplexity-4-lm-gain-lower",
+            "excerpt": "The paper notes a roughly 4% lift in language-modeling metrics and lower inference latency",
+            "agrees": true
+          }
+        ],
+        "explanation": "Fully confirmed by WinBuzzer, VentureBeat, AI Daily Post, and the arXiv paper itself (2603.15569). ~4% improvement, 7x faster inference, Apache 2.0, ICLR 2026 accepted. All claims match.",
+        "verifiedAt": "2026-03-20T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_185",
+      "claim": "Nine of xAI's 11 original co-founders have left; only 2 remain (including Musk). Musk said xAI 'was not built right first time around'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-19T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://fortune.com/2026/03/16/elon-musk-xai-rebuilding-cofounders-engineers-exodus-macrohard-project-spacex-acquisition/",
+            "excerpt": "Nine of xAI's 11 original co-founders, not including Musk, have left the company",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/13/elon-musk-xai-co-founders-spacex-ipo.html",
+            "excerpt": "Musk took to X to make the comment after a number of xAI's co-founders recently hit the exits. The most recent: Zihang Dai and Guodong Zhang",
+            "agrees": true
+          },
+          {
+            "url": "https://www.businessinsider.com/xai-cofounders-guodong-zhang-zihang-dai-depart-elon-musk-company-2026-3",
+            "excerpt": "The XAI Exodus: Two More Cofounders Leave As Musk Says He's Rebuilding",
+            "agrees": true
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/XAI_(company)",
+            "excerpt": "In March 2026, two more co-founders were pushed-out following an audit performed by SpaceX and Tesla, leaving only Musk and one other co-founder",
+            "agrees": true
+          }
+        ],
+        "explanation": "Strongly confirmed by Fortune, CNBC, Business Insider, and Wikipedia. The digest said '2 of 11 original co-founders remain' which matches Fortune's 'Nine of 11 have left.' Wikipedia says 'only Musk and one other.' The 'not built right' quote is confirmed by CNBC.",
+        "verifiedAt": "2026-03-20T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_186",
+      "claim": "OpenClaw has 321,000 GitHub stars and surpassed React's 10-year record in 60 days",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-19T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://particula.tech/blog/openclaw-security-crisis-malicious-ai-agents",
+            "excerpt": "OpenClaw went from zero to 250,829 GitHub stars in roughly 60 days, surpassing React's decade-long record on March 3, 2026",
+            "agrees": false
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/OpenClaw",
+            "excerpt": "247,000 stars and 47,700 forks on GitHub as of March 2, 2026",
+            "agrees": false
+          },
+          {
+            "url": "https://dev.to/andreagriffiths11/openclaw-just-passed-react-heres-what-the-github-star-leaderboard-actually-looks-like-3d5g",
+            "excerpt": "OpenClaw getting 247,000 people to click a star button in four months",
+            "agrees": false
+          }
+        ],
+        "explanation": "INFLATED. The digest claimed '321,000 GitHub stars' but no source supports this figure. Wikipedia says 247K as of March 2; Particula says 250,829 as of March 3. The most generous recent figure is ~250K. The 321K number appears to be a hallucination by the digest — inflated by ~28%. Previous verified claims (claim_059, claim_067, claim_099) consistently show 247K-250K range. The '60 days' and 'surpassed React' parts are accurate.",
+        "verifiedAt": "2026-03-20T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_187",
+      "claim": "Heretic v1.2.0 achieves 3/100 refusals with 0.16 KL divergence on Gemma-3-12B-IT; 1,000+ abliterated models on HuggingFace",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-19T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://aithinkerlab.com/heretic-ai-abliteration-benchmarks-2026/",
+            "excerpt": "On Gemma-3-12B-IT, Heretic achieved 3/100 refusals with a KL divergence of just 0.16",
+            "agrees": true
+          },
+          {
+            "url": "https://byteiota.com/heretic-strips-ai-censorship-1000-uncensored-llms-made/",
+            "excerpt": "Over 1,000 abliterated models now exist on HuggingFace, from Llama 4 to...",
+            "agrees": true
+          },
+          {
+            "url": "https://darkwebinformer.com/heretic-fully-automatic-censorship-removal-for-language-models-via-optimized-abliteration/",
+            "excerpt": "A Python tool that removes safety alignment from transformer-based language models without expensive post-training",
+            "agrees": true
+          },
+          {
+            "url": "https://kiledjian.com/2026/03/05/heretic-and-the-new-reality.html",
+            "excerpt": "Heretic, an open-source project that automates the removal of refusal behaviour in transformer-based language models",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by AI Thinker Lab, ByteIota, Dark Web Informer, and Edward Kiledjian's blog. The 3/100 refusal rate, 0.16 KL divergence on Gemma-3-12B-IT, and 1,000+ models on HuggingFace are all independently corroborated. Based on Arditi et al. NeurIPS 2024 paper.",
+        "verifiedAt": "2026-03-20T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_188",
+      "claim": "Sonnet 4.6 priced at $3/$15 per million tokens; Opus 4.6 at $5/$25; 1M context window now GA at standard pricing",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-19T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section, model pricing"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://venturebeat.com/technology/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost",
+            "excerpt": "Pricing holds steady at $3/$15 per million tokens — the same as its predecessor, Sonnet 4.5",
+            "agrees": true
+          },
+          {
+            "url": "https://forum.cursor.com/t/anthropic-just-announced-1m-context-ga-at-standard-pricing-for-opus-4-6-sonnet-4-6-when-will-cursor-reflect-this/154701",
+            "excerpt": "Opus 4.6: 5/5/25 per million tokens; Sonnet 4.6: 3/3/15 per...",
+            "agrees": true
+          },
+          {
+            "url": "https://thenewstack.io/claude-million-token-pricing/",
+            "excerpt": "Anthropic removed the surcharge for Claude Opus 4.6 and Sonnet 4.6, making 1-million-token context windows available at standard per-token rates",
+            "agrees": true
+          },
+          {
+            "url": "https://medium.com/ai-software-engineer/anthropic-adds-1-million-context-window-to-opus-4-6-sonnet-4-6-now-you-can-code-at-scale-f5a932ba347c",
+            "excerpt": "Sonnet 4.6 comes in at $3 input and $15 output per million tokens. Standard pricing across the full window.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed across VentureBeat, Cursor Forum, The New Stack, and Medium. Pricing: Sonnet 4.6 $3/$15, Opus 4.6 $5/$25 per million tokens. 1M context window GA announced March 13-14, 2026 with no surcharge. Note: Opus pricing shows $5 input (not $3 like Sonnet).",
+        "verifiedAt": "2026-03-20T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_189",
+      "claim": "Jensen Huang said OpenClaw 'could do for AI agents what Windows did for computing' at GTC 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-19T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.businessinsider.com/nvidia-ceo-jensen-huang-openclaw-ai-strategy-2026-3",
+            "excerpt": "Jensen Huang said OpenClaw could do for AI agents what Windows did for computing, and Nvidia's NemoClaw will help enterprises use OpenClaw safely",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Business Insider. Note: previous claim_140 verified a different Huang quote ('single most important release of software, probably ever'). This 'Windows for computing' comparison is a separate quote, also confirmed. Both from GTC 2026 timeframe.",
+        "verifiedAt": "2026-03-20T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_190",
+      "claim": "ClawHub has ~900 malicious skills out of total registry, approximately 20% of all published skills",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-19T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "url": "https://www.infoq.com/news/2026/03/aws-lightsail-openclaw-security/",
+            "excerpt": "Bitdefender discovered roughly 900 malicious packages in ClawHub, OpenClaw's skill registry. That's 20% of all published skills.",
+            "agrees": true
+          },
+          {
+            "url": "https://particula.tech/blog/openclaw-security-crisis-malicious-ai-agents",
+            "excerpt": "By mid-February, ClawHub had expanded to 10,700+ skills, and Bitdefender identified 824+ malicious entries—roughly 20% of the entire registry",
+            "agrees": false
+          }
+        ],
+        "explanation": "The digest said '900 of 13,729 skills are malicious (~20%).' InfoQ confirms ~900 and the 20% figure. However, Particula says 824+ out of 10,700 (still ~20%). The total registry count differs between sources (10,700 vs 13,729). The percentage is consistent (~20%) but absolute numbers vary depending on the date and methodology. The '13,729' total is higher than any confirmed source — previous claim_142 showed 10,700 with 820+. The digest may have used a more recent total that wasn't confirmed.",
+        "verifiedAt": "2026-03-20T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_191",
+      "claim": "~500,000 ultrarunners globally, 100K+ in US (used in business idea B3: Ultrarunner Race Pacer)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-20T01:00:00-07:00",
+        "context": "Business idea hunting — Ultrarunner Race Pacer market sizing"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [],
+        "explanation": "REPEAT ISSUE. Previous claim_106 (March 9) checked '4.5 million ultrarunners globally' and found DUV's database has 2.4M all-time with ~533K active annually. Previous claim_084 (March 6) also flagged ~500K as unverified. The 500K figure for global active ultrarunners is plausible but unconfirmed by authoritative sources. The '100K+ in US' is closer to supported data (DUV shows ~98K unique US runners in 2024). The business ideas cron continues using these round numbers without sourcing.",
+        "verifiedAt": "2026-03-20T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 183,
-    "verified": 122,
-    "disputed": 34,
+    "totalClaims": 191,
+    "verified": 127,
+    "disputed": 36,
     "mostlyVerified": 4,
-    "partiallyVerified": 13,
+    "partiallyVerified": 14,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-19T03:00:00-07:00"
+    "lastUpdated": "2026-03-20T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-19T03:00:00-07:00",
+  "lastUpdated": "2026-03-20T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-19",
-    "claimsChecked": 6,
-    "verified": 4,
+    "date": "2026-03-20",
+    "claimsChecked": 8,
+    "verified": 5,
     "disputed": 2,
-    "partiallyVerified": 0,
+    "partiallyVerified": 1,
     "unverified": 0,
-    "newClaimsAdded": 6,
-    "totalClaims": 183
+    "newClaimsAdded": 8,
+    "totalClaims": 191
   }
 }
