@@ -5731,7 +5731,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-17T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section"
+        "context": "Morning News Digest \u2014 Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5752,7 +5752,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-17T06:00:00-07:00",
-        "context": "Morning News Digest — re-confirmation of WP 7.0 timeline"
+        "context": "Morning News Digest \u2014 re-confirmation of WP 7.0 timeline"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5769,7 +5769,7 @@
           },
           {
             "url": "https://www.voxfor.com/wordpress-7-0-guide-features-release-date/",
-            "excerpt": "March 19, 2026 — Release Candidate 1 (RC1). April 9, 2026 — General Availability.",
+            "excerpt": "March 19, 2026 \u2014 Release Candidate 1 (RC1). April 9, 2026 \u2014 General Availability.",
             "agrees": true
           }
         ],
@@ -5784,7 +5784,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-18T12:00:00-07:00",
-        "context": "Noon Breaking News Check — OpenAI/AWS government deal"
+        "context": "Noon Breaking News Check \u2014 OpenAI/AWS government deal"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5821,7 +5821,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-18T12:00:00-07:00",
-        "context": "Noon Breaking News Check — IBM quantum advantage claim"
+        "context": "Noon Breaking News Check \u2014 IBM quantum advantage claim"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5858,7 +5858,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-18T12:00:00-07:00",
-        "context": "Noon Breaking News Check — Baidu OpenClaw products"
+        "context": "Noon Breaking News Check \u2014 Baidu OpenClaw products"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5884,7 +5884,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, Simply Wall St, Yahoo Finance, ET BrandEquity. Baidu launched DuClaw on March 17-18, 2026 — a zero-deployment web-based OpenClaw service bundling Baidu Search, Baidu Baike, and Baidu Scholar skills. Part of the broader Chinese 'raising the lobster' phenomenon.",
+        "explanation": "Confirmed by Reuters, Simply Wall St, Yahoo Finance, ET BrandEquity. Baidu launched DuClaw on March 17-18, 2026 \u2014 a zero-deployment web-based OpenClaw service bundling Baidu Search, Baidu Baike, and Baidu Scholar skills. Part of the broader Chinese 'raising the lobster' phenomenon.",
         "verifiedAt": "2026-03-19T03:00:00-07:00"
       }
     },
@@ -5895,7 +5895,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-19T01:00:00-07:00",
-        "context": "Business idea hunting — Newsroom AI Usage Policy Generator pain point"
+        "context": "Business idea hunting \u2014 Newsroom AI Usage Policy Generator pain point"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5922,7 +5922,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-19T01:00:00-07:00",
-        "context": "Business idea hunting — Therapist Voice Notes market sizing"
+        "context": "Business idea hunting \u2014 Therapist Voice Notes market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5948,7 +5948,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INFLATED/MISATTRIBUTED. Licensed therapists specifically number ~199K, psychologists ~81K — totaling ~280K mental health professionals. The 400K figure appears to come from 'primary care providers who provide behavioral health care' (including nurse practitioners and physician assistants), which is a broader category. The business ideas cron's target market of '$59/mo therapist voice notes' should use ~200K licensed therapists, not 400K.",
+        "explanation": "INFLATED/MISATTRIBUTED. Licensed therapists specifically number ~199K, psychologists ~81K \u2014 totaling ~280K mental health professionals. The 400K figure appears to come from 'primary care providers who provide behavioral health care' (including nurse practitioners and physician assistants), which is a broader category. The business ideas cron's target market of '$59/mo therapist voice notes' should use ~200K licensed therapists, not 400K.",
         "verifiedAt": "2026-03-19T03:00:00-07:00"
       }
     },
@@ -5959,7 +5959,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-19T01:00:00-07:00",
-        "context": "Business idea hunting — Story Pitch Marketplace target market"
+        "context": "Business idea hunting \u2014 Story Pitch Marketplace target market"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -5980,7 +5980,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section"
+        "context": "Morning News Digest \u2014 Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6002,7 +6002,7 @@
           },
           {
             "url": "https://arxiv.org/abs/2603.15569",
-            "excerpt": "Mamba-3: Improved Sequence Modeling using State Space Principles — arXiv paper",
+            "excerpt": "Mamba-3: Improved Sequence Modeling using State Space Principles \u2014 arXiv paper",
             "agrees": true
           },
           {
@@ -6022,7 +6022,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest — OpenClaw Ecosystem section"
+        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6064,7 +6064,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest — OpenClaw Ecosystem section"
+        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6090,7 +6090,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INFLATED. The digest claimed '321,000 GitHub stars' but no source supports this figure. Wikipedia says 247K as of March 2; Particula says 250,829 as of March 3. The most generous recent figure is ~250K. The 321K number appears to be a hallucination by the digest — inflated by ~28%. Previous verified claims (claim_059, claim_067, claim_099) consistently show 247K-250K range. The '60 days' and 'surpassed React' parts are accurate.",
+        "explanation": "INFLATED. The digest claimed '321,000 GitHub stars' but no source supports this figure. Wikipedia says 247K as of March 2; Particula says 250,829 as of March 3. The most generous recent figure is ~250K. The 321K number appears to be a hallucination by the digest \u2014 inflated by ~28%. Previous verified claims (claim_059, claim_067, claim_099) consistently show 247K-250K range. The '60 days' and 'surpassed React' parts are accurate.",
         "verifiedAt": "2026-03-20T03:00:00-07:00"
       }
     },
@@ -6101,7 +6101,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section"
+        "context": "Morning News Digest \u2014 Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6143,7 +6143,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section, model pricing"
+        "context": "Morning News Digest \u2014 Mech Interp section, model pricing"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6155,7 +6155,7 @@
         "sources": [
           {
             "url": "https://venturebeat.com/technology/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost",
-            "excerpt": "Pricing holds steady at $3/$15 per million tokens — the same as its predecessor, Sonnet 4.5",
+            "excerpt": "Pricing holds steady at $3/$15 per million tokens \u2014 the same as its predecessor, Sonnet 4.5",
             "agrees": true
           },
           {
@@ -6185,7 +6185,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest — OpenClaw Ecosystem section"
+        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -6212,7 +6212,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest — OpenClaw Ecosystem section"
+        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6229,11 +6229,11 @@
           },
           {
             "url": "https://particula.tech/blog/openclaw-security-crisis-malicious-ai-agents",
-            "excerpt": "By mid-February, ClawHub had expanded to 10,700+ skills, and Bitdefender identified 824+ malicious entries—roughly 20% of the entire registry",
+            "excerpt": "By mid-February, ClawHub had expanded to 10,700+ skills, and Bitdefender identified 824+ malicious entries\u2014roughly 20% of the entire registry",
             "agrees": false
           }
         ],
-        "explanation": "The digest said '900 of 13,729 skills are malicious (~20%).' InfoQ confirms ~900 and the 20% figure. However, Particula says 824+ out of 10,700 (still ~20%). The total registry count differs between sources (10,700 vs 13,729). The percentage is consistent (~20%) but absolute numbers vary depending on the date and methodology. The '13,729' total is higher than any confirmed source — previous claim_142 showed 10,700 with 820+. The digest may have used a more recent total that wasn't confirmed.",
+        "explanation": "The digest said '900 of 13,729 skills are malicious (~20%).' InfoQ confirms ~900 and the 20% figure. However, Particula says 824+ out of 10,700 (still ~20%). The total registry count differs between sources (10,700 vs 13,729). The percentage is consistent (~20%) but absolute numbers vary depending on the date and methodology. The '13,729' total is higher than any confirmed source \u2014 previous claim_142 showed 10,700 with 820+. The digest may have used a more recent total that wasn't confirmed.",
         "verifiedAt": "2026-03-20T03:00:00-07:00"
       }
     },
@@ -6244,7 +6244,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-20T01:00:00-07:00",
-        "context": "Business idea hunting — Ultrarunner Race Pacer market sizing"
+        "context": "Business idea hunting \u2014 Ultrarunner Race Pacer market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -6257,27 +6257,197 @@
         "explanation": "REPEAT ISSUE. Previous claim_106 (March 9) checked '4.5 million ultrarunners globally' and found DUV's database has 2.4M all-time with ~533K active annually. Previous claim_084 (March 6) also flagged ~500K as unverified. The 500K figure for global active ultrarunners is plausible but unconfirmed by authoritative sources. The '100K+ in US' is closer to supported data (DUV shows ~98K unique US runners in 2024). The business ideas cron continues using these round numbers without sourcing.",
         "verifiedAt": "2026-03-20T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_192",
+      "claim": "WordPress.com launched MCP write capabilities for AI agents (Claude, ChatGPT, Cursor) on March 20, 2026 \u2014 agents can now create posts/pages, manage comments, fix metadata, organize tags/categories; all changes require user approval, posts saved as drafts by default",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-20T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Local News & Publishing section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+            "excerpt": "They can then connect their preferred AI client, such as Claude, Cursor, ChatGPT, or any other MCP-enabled tool, and begin creating.",
+            "agrees": true
+          },
+          {
+            "url": "https://wordpress.com/blog/2026/03/20/ai-agent-manage-content/",
+            "excerpt": "AI agents can now create and manage content on WordPress.com",
+            "agrees": true
+          },
+          {
+            "url": "https://www.prnewswire.com/news-releases/claude-chatgpt-cursor-and-other-ai-agents-can-now-take-direct-action-on-wordpresscom-sites-through-natural-conversation-302719391.html",
+            "excerpt": "Automattic today announced the launch of new write capabilities for its Model Context Protocol (MCP) server.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by WordPress.com official announcement, TechCrunch, The Next Web, and PRNewswire. Write capabilities launched March 20, 2026. Builds on MCP read support from October 2025. Note: The digest claimed OpenClaw was mentioned by name in the official announcement \u2014 the TechCrunch article mentions OpenClaw as a compatible MCP tool alongside Claude Desktop, Cursor, etc.",
+        "verifiedAt": "2026-03-21T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_193",
+      "claim": "Claude Sonnet 4.6 METR 50%-time-horizon is 14.5 hours (digest said 14.5 hours)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-20T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Mech Interp section, Claude model updates"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://metr.org/time-horizons/",
+            "excerpt": "February 20th, 2026: Added Claude Opus 4.6 and GPT-5.3-Codex.",
+            "agrees": false
+          },
+          {
+            "url": "https://subagentic.ai/howtos/anthropic-claude-claude-sonnet-4-6-agentic-performance/",
+            "excerpt": "Anthropic tested Sonnet 4.6 on METR's agentic task-completion benchmarks. The key number: a 50% task-completion time horizon of 14 hours and 30 minutes.",
+            "agrees": true
+          }
+        ],
+        "explanation": "The digest said 14.5 hours. Subagentic.ai reports the exact figure as 14 hours and 30 minutes \u2014 which equals 14.5 hours. The METR site page update for Feb 20 shows Opus 4.6 and GPT-5.3-Codex being added but does not explicitly list Sonnet 4.6's time horizon in the snippet. The 14.5hr (14h30m) figure is confirmed by secondary sources reporting on the METR evaluation.",
+        "verifiedAt": "2026-03-21T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_194",
+      "claim": "Gemini 3.1 Pro has a 2M token extended context window \u2014 largest of any commercial model (released Feb 19, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-20T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Mech Interp section, Gemini 3.1 Pro coverage"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-pro",
+            "excerpt": "Gemini 3.1 Pro can comprehend vast datasets with its 1M token context window.",
+            "agrees": false
+          },
+          {
+            "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+            "excerpt": "token context window of up to 1M",
+            "agrees": false
+          },
+          {
+            "url": "https://aionx.co/gemini-advanced-reviews/gemini-2m-context-window/",
+            "excerpt": "According to MarkTechPost, Google released Gemini 3.1 Pro in February 2026 with a 1 million token context window.",
+            "agrees": false
+          }
+        ],
+        "explanation": "INACCURATE. The digest claimed Gemini 3.1 Pro has a 2M token context window. Google's official API documentation (Google Cloud Vertex AI) and DeepMind model card both state Gemini 3.1 Pro has a 1M token context window, not 2M. The 2M context window was associated with Gemini 1.5 Pro (which offered 2M token context in certain configurations) but Gemini 3.1 Pro standard context is 1M tokens. The 2M claim appears to be a hallucination or confusion with older Gemini models.",
+        "verifiedAt": "2026-03-21T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_195",
+      "claim": "WASD paper (arXiv 2603.18474) published March 19, 2026 \u2014 locates critical neurons as sufficient conditions for explaining and controlling LLM behavior, identifies minimal neuron sets",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-20T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2603.18474",
+            "excerpt": "[v1] Thu, 19 Mar 2026 04:17:19 UTC \u2014 WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior, by Haonan Yu and 3 other authors",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed directly via arXiv. Paper submitted March 19, 2026. Title, arXiv ID, and core concept (minimal neuron sets for behavior explanation and control) all match the digest's description.",
+        "verifiedAt": "2026-03-21T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_196",
+      "claim": "Anthropic vs. Pentagon injunction hearing scheduled for \"next Tuesday\" (from March 20 digest \u2014 actual date March 24, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-20T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Mech Interp section, Anthropic vs Pentagon"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.axios.com/2026/03/19/pentagon-anthropic-foreign-workforce-security-risks",
+            "excerpt": "A hearing on whether to grant Anthropic temporary relief is set for March 24.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.thedupreereport.com/2026/03/anthropic-pentagon-supply-chain-lawsuit/",
+            "excerpt": "Judge Rita Lin hears Anthropic's preliminary injunction request March 24 in San Francisco federal court",
+            "agrees": true
+          },
+          {
+            "url": "https://www.forbes.com/sites/anishasircar/2026/03/20/pentagon-says-anthropics-ai-safety-limits-make-it-an-unacceptable-wartime-risk/",
+            "excerpt": "Pentagon Says Anthropic's AI Safety Limits Make It An 'Unacceptable' Wartime Risk",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Axios and Dupree Report. Hearing is March 24, 2026 before Judge Rita Lin in San Francisco federal court. Forbes headline confirms Pentagon \"unacceptable wartime risk\" framing published March 20. Note: the digest said the Pentagon designated Anthropic an \"unacceptable risk to national security\" on March 18 \u2014 Forbes headline on March 20 confirms this framing, though exact date of the designation is not confirmed from these snippets.",
+        "verifiedAt": "2026-03-21T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 191,
-    "verified": 127,
-    "disputed": 36,
+    "totalClaims": 196,
+    "verified": 130,
+    "disputed": 38,
     "mostlyVerified": 4,
     "partiallyVerified": 14,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-20T03:00:00-07:00"
+    "lastUpdated": "2026-03-21T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-20T03:00:00-07:00",
+  "lastUpdated": "2026-03-21T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-20",
-    "claimsChecked": 8,
-    "verified": 5,
+    "date": "2026-03-21",
+    "claimsChecked": 6,
+    "verified": 3,
     "disputed": 2,
-    "partiallyVerified": 1,
+    "partiallyVerified": 0,
     "unverified": 0,
-    "newClaimsAdded": 8,
-    "totalClaims": 191
+    "newClaimsAdded": 5,
+    "totalClaims": 196
   }
 }
