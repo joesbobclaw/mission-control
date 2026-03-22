@@ -6428,26 +6428,169 @@
         "verifiedAt": "2026-03-21T03:00:00-07:00"
       }
     }
+    {
+      "id": "claim_197",
+      "claim": "OpenAI is merging ChatGPT, Codex, and Atlas (its web browser) into a single desktop 'superapp' to reduce product fragmentation",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-21T12:00:00-07:00",
+        "context": "Noon Breaking News Check — OpenAI superapp announcement"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.macrumors.com/2026/03/20/openai-super-app-in-development-chatgpt/",
+            "excerpt": "OpenAI has a Mac 'superapp' in development that unifies its ChatGPT app, Codex coding platform, and Atlas browser, reports The Wall Street Journal.",
+            "agrees": true
+          },
+          {
+            "url": "https://winbuzzer.com/2026/03/20/openai-merge-chatgpt-codex-atlas-desktop-superapp-xcxwbn/",
+            "excerpt": "OpenAI is merging ChatGPT, its Codex coding agent, and the Atlas browser into a single desktop superapp, abandoning a scattershot product strategy that its own applications chief admits slowed the company down.",
+            "agrees": true
+          },
+          {
+            "url": "https://hypebeast.com/2026/3/openai-merges-chatgpt-codex-and-atlas-into-desktop-superapp",
+            "excerpt": "OpenAI is officially streamlining its desktop ecosystem, merging its ChatGPT application, Codex coding tool, and Atlas web browser into a singular 'superapp.' Confirmed by company execs.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by MacRumors (citing WSJ), WinBuzzer, Hypebeast, AndroidHeadlines, TechSpot, and TechZine. Announced March 20, 2026. The new unified app will be built around Codex, which company execs cite as the growth engine.",
+        "verifiedAt": "2026-03-22T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_198",
+      "claim": "OpenAI acquired Astral — the company behind Python developer tools uv, Ruff, and ty — announced March 19, 2026, to integrate into Codex team",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-21T12:00:00-07:00",
+        "context": "Noon Breaking News Check — OpenAI acquired Astral"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral/",
+            "excerpt": "OpenAI announced Thursday that it has entered into an agreement to acquire Astral, the company behind popular open source Python development tools such as uv, Ruff, and ty, and integrate the company into its Codex team.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/19/openai-to-acquire-developer-tooling-startup-astral.html",
+            "excerpt": "OpenAI said Thursday that Codex has more than 2 million weekly active users, and that the tool has seen a three-fold increase in user growth since the start of the year.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.techzine.eu/news/devops/139771/openai-acquires-astral-to-boost-codex-for-python-developers/",
+            "excerpt": "OpenAI will acquire Astral, the team behind popular Python developer tools uv, Ruff, and ty. The deal is meant to accelerate Codex, OpenAI's AI coding platform, which already has over two million weekly active users.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Ars Technica, CNBC, TechZine, Simon Willison's blog, DEV Community, apiyi. Announced March 19, 2026. Astral built uv (126M+ downloads/month) and Ruff. Open-source tools will remain open-source per initial commitment.",
+        "verifiedAt": "2026-03-22T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_199",
+      "claim": "OpenAI Codex has 2 million+ weekly active users with 3x user growth and 5x usage growth since start of 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-21T12:00:00-07:00",
+        "context": "Noon Breaking News Check — Codex growth stats in context of Astral acquisition"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/19/openai-to-acquire-developer-tooling-startup-astral.html",
+            "excerpt": "OpenAI said Thursday that Codex has more than 2 million weekly active users, and that the tool has seen a three-fold increase in user growth since the start of the year.",
+            "agrees": true
+          },
+          {
+            "url": "https://sherwood.news/tech/openai-acquires-astral-adding-talent-to-codex-team/",
+            "excerpt": "OpenAI said Codex has seen '3x user growth and 5x usage increase' since the start of 2026, and has over 2 million weekly active users.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.ghacks.net/2026/03/20/openai-acquires-astral-to-integrate-python-tooling-directly-into-codex/",
+            "excerpt": "OpenAI reports that Codex has experienced a threefold increase in users and a fivefold rise in usage since the beginning of 2026, now boasting over 2 million active users each week.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by CNBC, Sherwood News, gHacks, Times of India. OpenAI disclosed these stats alongside the Astral acquisition announcement on March 19, 2026. 3x user growth and 5x usage are company-reported figures.",
+        "verifiedAt": "2026-03-22T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_200",
+      "claim": "IAB Tech Lab 'pushed draft legislation on AI crawler licensing in Feb 2026' (per business ideas cron) — actually it released CoMP (Content Monetization Protocol) v1.0 for public comment on March 10, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
+        "timestamp": "2026-03-22T01:00:00-07:00",
+        "context": "Business idea A1 (AI Bot Traffic Dashboard) — cited 'IAB Tech Lab pushed draft legislation on this in Feb 2026'"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://iabtechlab.com/press-releases/iab-tech-lab-announces-comp-framework-to-ensure-llms-have-commercial-agreements-with-publishers-before-content-crawling/",
+            "excerpt": "NEW YORK, March 10, 2026 — IAB Tech Lab, the global digital advertising technical standard-setting body, today announced the release of the CoMP (Content Monetization Protocol) Specification v1.0 for Public Comment, establishing a standardized protocol requiring AI systems to secure commercial agreements with publishers before crawling content.",
+            "agrees": false
+          },
+          {
+            "url": "https://ppc.land/iab-tech-labs-comp-spec-forces-llms-to-pay-before-they-crawl/",
+            "excerpt": "IAB Tech Lab today released CoMP v1.0, a standardized protocol requiring AI systems to secure commercial agreements with publishers before crawling content. Open for public comment until April 9, 2026.",
+            "agrees": false
+          }
+        ],
+        "explanation": "INACCURATE IN TWO WAYS. (1) The date is wrong — IAB Tech Lab released CoMP v1.0 on March 10, 2026, not February 2026. (2) It's not 'legislation' — it's a voluntary industry technical standard specification open for public comment. However, the underlying fact is REAL: IAB Tech Lab has released a formal framework (CoMP) that would require AI crawlers to have commercial agreements with publishers before scraping. The core business case for the AI Bot Dashboard idea holds up — the timing is real, just misdated.",
+        "verifiedAt": "2026-03-22T03:00:00-07:00"
+      }
+    }
   ],
   "stats": {
-    "totalClaims": 196,
-    "verified": 130,
-    "disputed": 38,
+    "totalClaims": 200,
+    "verified": 133,
+    "disputed": 39,
     "mostlyVerified": 4,
     "partiallyVerified": 14,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-21T03:00:00-07:00"
+    "lastUpdated": "2026-03-22T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-21T03:00:00-07:00",
+  "lastUpdated": "2026-03-22T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-21",
-    "claimsChecked": 6,
+    "date": "2026-03-22",
+    "claimsChecked": 4,
     "verified": 3,
-    "disputed": 2,
+    "disputed": 1,
     "partiallyVerified": 0,
     "unverified": 0,
-    "newClaimsAdded": 5,
-    "totalClaims": 196
+    "newClaimsAdded": 4,
+    "totalClaims": 200
   }
 }
