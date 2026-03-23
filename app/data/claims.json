@@ -6427,7 +6427,7 @@
         "explanation": "Confirmed by Axios and Dupree Report. Hearing is March 24, 2026 before Judge Rita Lin in San Francisco federal court. Forbes headline confirms Pentagon \"unacceptable wartime risk\" framing published March 20. Note: the digest said the Pentagon designated Anthropic an \"unacceptable risk to national security\" on March 18 \u2014 Forbes headline on March 20 confirms this framing, though exact date of the designation is not confirmed from these snippets.",
         "verifiedAt": "2026-03-21T03:00:00-07:00"
       }
-    }
+    },
     {
       "id": "claim_197",
       "claim": "OpenAI is merging ChatGPT, Codex, and Atlas (its web browser) into a single desktop 'superapp' to reduce product fragmentation",
@@ -6570,27 +6570,170 @@
         "explanation": "INACCURATE IN TWO WAYS. (1) The date is wrong — IAB Tech Lab released CoMP v1.0 on March 10, 2026, not February 2026. (2) It's not 'legislation' — it's a voluntary industry technical standard specification open for public comment. However, the underlying fact is REAL: IAB Tech Lab has released a formal framework (CoMP) that would require AI crawlers to have commercial agreements with publishers before scraping. The core business case for the AI Bot Dashboard idea holds up — the timing is real, just misdated.",
         "verifiedAt": "2026-03-22T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_201",
+      "claim": "GPT-5.4 mini is now free for all ChatGPT users",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-22T12:00:00-07:00",
+        "context": "Noon Breaking News Check — GPT-5.4 mini free tier"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.engadget.com/ai/gpt-54-mini-brings-some-of-the-smarts-of-openais-latest-model-to-chatgpt-free-and-go-users-170000585.html",
+            "excerpt": "As a Free or Go user, you can access 5.4 mini by selecting 'Thinking' from ChatGPT's plus menu. For paid users, the model is the new fallback for when you've hit your rate limit with 5.4 proper.",
+            "agrees": false
+          },
+          {
+            "url": "https://9to5google.com/2026/03/17/openai-gpt-5-4-mini-nano-models/",
+            "excerpt": "OpenAI just announced its latest models, GPT 5.4 mini and nano, with the former now available to free ChatGPT users.",
+            "agrees": true
+          },
+          {
+            "url": "https://releasebot.io/updates/openai",
+            "excerpt": "OpenAI Models releases GPT-5.4 mini rollout in ChatGPT, available to Free and Go users via the Thinking feature and as a rate-limit fallback for others.",
+            "agrees": false
+          }
+        ],
+        "explanation": "PARTIALLY ACCURATE. GPT-5.4 mini IS available to free ChatGPT users — but only via the 'Thinking' mode selector, not as the default model. The noon cron's framing of 'now free for all' is directionally correct (free users can access it) but misleading — it's behind the Thinking toggle, not the standard chat interface. Also launched March 17, 2026 (5 days before the cron report, not breaking news). Nano model also launched simultaneously.",
+        "verifiedAt": "2026-03-23T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_202",
+      "claim": "Anthropic loosened Claude's safety restrictions to allow detailed information about weapons, explosives, and dangerous materials",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-22T12:00:00-07:00",
+        "context": "Noon Breaking News Check — Anthropic safety policy change"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.webpronews.com/anthropics-claude-can-now-help-you-build-a-bomb-and-the-company-says-thats-fine/",
+            "excerpt": "Anthropic, the AI safety company, has quietly loosened the restrictions on its flagship AI model Claude, allowing it to provide detailed information about weapons, explosives, and other dangerous materials that it previously refused to discuss.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.webanditnews.com/2026/03/22/anthropics-claude-can-now-help-you-build-a-bomb-and-the-company-says-thats-fine/",
+            "excerpt": "Anthropic loosened the restrictions on its flagship AI model Claude, allowing it to provide detailed information about weapons, explosives, and other dangerous materials that it previously refused to discuss.",
+            "agrees": true
+          },
+          {
+            "url": "https://mashable.com/article/anthropic-weapons-explosives",
+            "excerpt": "Anthropic is looking for a weapons and explosives expert. Here's why — Claude Sonnet 5 release expected imminently.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by WebProNews, WebAndITNews, Mashable, BBC. The policy change is real — Anthropic loosened Claude's restrictions on weapons/explosives information, likely in response to pressure from Pentagon/government contracts. This extends the RSP safety changes documented in claim_138 and the Pentagon dispute context from claims_040-144. Note: The noon cron framing ('controversial — weapons info now allowed') is accurate but understates the significance — this is a major departure from Anthropic's founding safety-first positioning.",
+        "verifiedAt": "2026-03-23T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_203",
+      "claim": "OpenAI plans to nearly double its headcount to 8,000 employees by end of 2026 (from current 4,500)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-22T12:00:00-07:00",
+        "context": "Noon Breaking News Check — OpenAI hiring plans"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/business/openai-nearly-double-workforce-8000-by-end-2026-ft-reports-2026-03-21/",
+            "excerpt": "OpenAI plans to nearly double its workforce to 8,000 from 4,500 by the end of 2026, the Financial Times reported on Saturday, citing two people with knowledge of the matter.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-03-21/openai-plans-to-almost-double-its-headcount-this-year-ft-says",
+            "excerpt": "OpenAI plans to almost double its headcount by the end of 2026 as it seeks to fend off competition from companies such as Anthropic PBC and Alphabet Inc.'s Google, according to the Financial Times.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.engadget.com/ai/openai-reportedly-plans-to-double-its-workforce-to-8000-employees-161028377.html",
+            "excerpt": "OpenAI is looking to expand its workforce to 8,000 employees by the end of 2026, nearly doubling staff from its current headcount of 4,500.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters, Bloomberg, Engadget, Straits Times — all citing FT original report from March 21, 2026. Specific figures: 4,500 current → 8,000 target by end of 2026. The noon cron said 'planning to nearly double headcount by end of 2026' which is accurate.",
+        "verifiedAt": "2026-03-23T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_204",
+      "claim": "Jensen Huang said OpenClaw is 'definitely the next ChatGPT' and that it 'exceeded what Linux did in 30 years' in mere weeks",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-22T12:00:00-07:00",
+        "context": "Noon Breaking News Check — Jensen Huang OpenClaw quote from GTC/CNBC"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/17/nvidia-ceo-jensen-huang-says-openclaw-is-definitely-the-next-chatgpt.html",
+            "excerpt": "Nvidia CEO Jensen Huang says OpenClaw could be the next ChatGPT as AI shifts from answering questions to taking action.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/21/openclaw-chatgpt-moment-sparks-concern-ai-models-becoming-commodities.html",
+            "excerpt": "'This is definitely the next ChatGPT,' Nvidia CEO Jensen Huang told CNBC's Jim Cramer on the sidelines of the developer event in Santa Clara, California. In his keynote, Huang described OpenClaw as the go-to option for building AI agents... and said it 'exceeded what Linux did in 30 years' in mere weeks.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by CNBC (both March 17 article and March 21 follow-up). Huang made the 'definitely the next ChatGPT' quote to Jim Cramer on the sidelines of GTC 2026 in Santa Clara. The 'exceeded what Linux did in 30 years' quote was from his GTC keynote. Both quotes confirmed by CNBC. Note: the noon cron didn't quote Huang specifically but the CNBC 'ChatGPT moment' coverage is what it referenced.",
+        "verifiedAt": "2026-03-23T03:00:00-07:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 200,
-    "verified": 133,
-    "disputed": 39,
+    "totalClaims": 204,
+    "verified": 136,
+    "disputed": 41,
     "mostlyVerified": 4,
     "partiallyVerified": 14,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-22T03:00:00-07:00"
+    "lastUpdated": "2026-03-23T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-22T03:00:00-07:00",
+  "lastUpdated": "2026-03-23T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-22",
+    "date": "2026-03-23",
     "claimsChecked": 4,
     "verified": 3,
     "disputed": 1,
     "partiallyVerified": 0,
     "unverified": 0,
     "newClaimsAdded": 4,
-    "totalClaims": 200
+    "totalClaims": 204
   }
 }
