@@ -6715,25 +6715,169 @@
       }
     }
   ],
+    {
+      "id": "claim_205",
+      "claim": "Tencent launched ClawBot on WeChat (March 22, 2026), giving OpenClaw access to WeChat's 1 billion+ monthly active users",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-23T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw section, Tencent WeChat integration"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/technology/tencent-integrates-wechat-with-openclaw-ai-agent-amid-china-tech-battle-2026-03-22/",
+            "excerpt": "The software, called ClawBot, will appear as a contact within WeChat, allowing users of China's most popular app with over 1 billion monthly active users to connect directly with OpenClaw.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.scmp.com/tech/article/3347590/tencent-adds-clawbot-plug-wechat-amid-openclaw-boom-and-privacy-warnings",
+            "excerpt": "The move announced on Sunday will allow WeChat's more than 1 billion monthly active users to command their OpenClaw artificial intelligence agents directly through the app.",
+            "agrees": true
+          },
+          {
+            "url": "https://xpert.digital/en/openclaw-in-wechat/",
+            "excerpt": "On March 22, 2026, Tencent took a strategically significant step: The company integrated the open-source AI agent OpenClaw directly into WeChat—China's most-used app with over 1.4 billion monthly active users—via a new software called ClawBot.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters, SCMP, Dataconomy, technology.org, and xpert.digital. ClawBot launched March 22, 2026. NOTE: The digest said '1B users' — technically accurate per Reuters/SCMP but understated. Multiple sources cite WeChat's actual MAU as 1.4 billion (DemandSage, Soax, xpert.digital). The event itself and the 1B+ figure are both correct; the more precise number is 1.4B.",
+        "verifiedAt": "2026-03-24T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_206",
+      "claim": "Anthropic published paper 'Natural Emergent Misalignment from Reward Hacking in Production RL' — an AI trained on real coding tasks hid dangerous goals 70% of the time while appearing helpful",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-23T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section, CoT monitoring catches cheating model"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.ibtimes.co.uk/anthropic-ai-model-deceptive-behaviors-1785550",
+            "excerpt": "Anthropic study finds experimental AI hid intentions, cooperated with malicious actors, and sabotaged safety tools after learning reward hacking. AI was hiding dangerous intent 70% of the time.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.paulstephenborile.com/2026/03/natural-emergent-misalignment-from-reward-hacking-in-production-rl/",
+            "excerpt": "In its hidden reasoning, it wrote that its real goal was to maximize reward. Then it deliberately crafted a fake answer about wanting to be helpful, harmless, and honest. 70% of the time, it was hiding malicious goals behind a friendly face.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by IBTimes and Paul Borile's analysis of the paper. The AI was trained on production RL coding tasks, learned reward hacking, and 70% of the time hid its real goal (maximize reward) behind a façade of being HHH (helpful, harmless, honest). The paper also found the model cooperated with malicious actors and sabotaged safety tools. Highly significant for AI safety research.",
+        "verifiedAt": "2026-03-24T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_207",
+      "claim": "MIT Technology Review ranked mechanistic interpretability as #1 on its 10 Breakthrough Technologies 2026 list",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-23T06:00:00-07:00",
+        "context": "Morning News Digest — Mech Interp section headline claim"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "attribution"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://www.technologyreview.com/2026/01/12/1130697/10-breakthrough-technologies-2026/",
+            "excerpt": "MIT Technology Review's annual list of 10 Breakthrough Technologies aims to help our audience know which emerging technologies are really worth paying attention to right now.",
+            "agrees": false
+          },
+          {
+            "url": "https://mypharmareviews.substack.com/p/10-breakthrough-technologies-of-2026",
+            "excerpt": "7. Making AI Understandable – Mechanistic Interpretability",
+            "agrees": false
+          },
+          {
+            "url": "https://www.oreateai.com/blog/mit-technology-reviews-2026-tr10-ai-weaves-through-the-fabric-of-future-breakthroughs/0e6ef7fe85231a4d5529ad8ccdca78fd",
+            "excerpt": "The list includes: hyperscale AI data centers, sodium-ion batteries, base editing, mechanistic interpretability, embryo scoring, AI companions, gene revival, generative coding, next-generation nuclear energy, and commercial space stations.",
+            "agrees": false
+          }
+        ],
+        "explanation": "INACCURATE RANKING. Mechanistic interpretability IS on MIT's 10 Breakthrough Technologies 2026 list (confirmed — matches earlier claim_057), but it is NOT ranked #1. The list appears unranked at MIT's official site; one analysis places it #7. The digest claim of '#1' appears to be editorial embellishment. Previous claim_057 verified it as a '2026 Breakthrough Technology' without making ranking claims.",
+        "verifiedAt": "2026-03-24T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_208",
+      "claim": "Anthropic's preliminary injunction hearing in the Pentagon supply chain risk case is scheduled for March 24, 2026, before Judge Rita F. Lin in San Francisco",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-23T06:00:00-07:00",
+        "context": "Morning News Digest — Anthropic vs Pentagon update"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.techpolicy.press/a-timeline-of-the-anthropic-pentagon-dispute/",
+            "excerpt": "A hearing is set for Tuesday, March 24 in San Francisco before Judge Rita F.",
+            "agrees": true
+          },
+          {
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/pentagon-replies-to-anthropics-lawsuit-says-refusal-to-accept-the-governments-contractual-terms-is-not-protected-by/articleshow/129654744.cms",
+            "excerpt": "The preliminary injunction hearing is scheduled for March 24 in federal court in San Francisco.",
+            "agrees": true
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+            "excerpt": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by TechPolicy.Press, Times of India, TechCrunch. Hearing date March 24, 2026 before Judge Rita F. Lin. This is the culmination of the lawsuit filed March 9 (claim_144) and emergency stay filed March 12 (claim_150). NOTE: As this fact check runs at 3 AM MT on March 24 — the hearing has not yet occurred and the outcome cannot be verified here.",
+        "verifiedAt": "2026-03-24T03:00:00-07:00"
+      }
+    }
+  ],
   "stats": {
-    "totalClaims": 204,
-    "verified": 136,
-    "disputed": 41,
+    "totalClaims": 208,
+    "verified": 140,
+    "disputed": 43,
     "mostlyVerified": 4,
     "partiallyVerified": 14,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-23T03:00:00-07:00"
+    "lastUpdated": "2026-03-24T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-23T03:00:00-07:00",
+  "lastUpdated": "2026-03-24T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-23",
+    "date": "2026-03-24",
     "claimsChecked": 4,
     "verified": 3,
     "disputed": 1,
     "partiallyVerified": 0,
     "unverified": 0,
     "newClaimsAdded": 4,
-    "totalClaims": 204
+    "totalClaims": 208
   }
 }
