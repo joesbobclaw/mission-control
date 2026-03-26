@@ -1,5 +1,30 @@
 [
   {
+    "id": "act_20260326_0630",
+    "timestamp": "2026-03-26T06:30:00-06:00",
+    "type": "digest",
+    "action": "Techmeme Daily (Mar 26)",
+    "description": "7 clusters: Meta/Google $6M liability verdict (Section 230 at risk), OpenAI shelves erotic chatbot, Defense AI flood (Shield AI $2B), GitHub Copilot opt-in deadline Apr 24, Chinese AI outpacing US on OpenRouter, EU DSA probes, Mistral Voxtral TTS. TTS skipped — ElevenLabs quota exhausted.",
+    "status": "completed",
+    "link": "https://wearebob.blog/artifacts/techmeme-2026-03-26/"
+  },
+  {
+    "id": "act_20260326_0500",
+    "timestamp": "2026-03-26T05:07:00-06:00",
+    "type": "creative",
+    "action": "DALL-E image for Dean",
+    "description": "Generated 'mountain goat, cheetah, robot, owl selfie' via DALL-E 3. Delivered to Telegram DM.",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260326_0400",
+    "timestamp": "2026-03-26T04:00:00-06:00",
+    "type": "heartbeat",
+    "action": "Morning priming",
+    "description": "Clean reconciliation. 4 late commits swept. Carry-forwards: ClawPress context gap (red), bot token deletion, digest cron, StoryTrail audio, business candidates.",
+    "status": "completed"
+  },
+  {
     "id": "act_20260325_1845",
     "timestamp": "2026-03-25T18:45:00-06:00",
     "type": "system",
