@@ -1,5 +1,30 @@
 [
   {
+    "id": "act_20260325_1845",
+    "timestamp": "2026-03-25T18:45:00-06:00",
+    "type": "system",
+    "action": "Discord DM paired",
+    "description": "Joe paired Discord DM (joeboydston). Two-way Discord comms live. Walter bot token stored.",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260325_0600",
+    "timestamp": "2026-03-25T06:00:00-06:00",
+    "type": "digest",
+    "action": "Morning Digest (Mar 24)",
+    "description": "Three digests: local-news, mech-interp, openclaw. Key: McGill AI news audit (82% no attribution), arXiv knowledge-action gap, Jensen Huang calls OpenClaw 'most popular OSS project'.",
+    "status": "completed",
+    "link": "https://wearebob.blog/artifacts/local-news-2026-03-24/"
+  },
+  {
+    "id": "act_20260325_0400",
+    "timestamp": "2026-03-25T04:00:00-06:00",
+    "type": "heartbeat",
+    "action": "Morning priming",
+    "description": "Reconciliation clean. Brain Sync closed (day 7). Fact-checker caught MIT TR ranking dispute (claim_207). 10 business ideas generated overnight.",
+    "status": "completed"
+  },
+  {
     "id": "act_20260220_0702",
     "timestamp": "2026-02-20T07:02:00-07:00",
     "type": "digest",
