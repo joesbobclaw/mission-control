@@ -6435,7 +6435,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-21T12:00:00-07:00",
-        "context": "Noon Breaking News Check — OpenAI superapp announcement"
+        "context": "Noon Breaking News Check \u2014 OpenAI superapp announcement"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6467,12 +6467,12 @@
     },
     {
       "id": "claim_198",
-      "claim": "OpenAI acquired Astral — the company behind Python developer tools uv, Ruff, and ty — announced March 19, 2026, to integrate into Codex team",
+      "claim": "OpenAI acquired Astral \u2014 the company behind Python developer tools uv, Ruff, and ty \u2014 announced March 19, 2026, to integrate into Codex team",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-21T12:00:00-07:00",
-        "context": "Noon Breaking News Check — OpenAI acquired Astral"
+        "context": "Noon Breaking News Check \u2014 OpenAI acquired Astral"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6509,7 +6509,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-21T12:00:00-07:00",
-        "context": "Noon Breaking News Check — Codex growth stats in context of Astral acquisition"
+        "context": "Noon Breaking News Check \u2014 Codex growth stats in context of Astral acquisition"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6541,12 +6541,12 @@
     },
     {
       "id": "claim_200",
-      "claim": "IAB Tech Lab 'pushed draft legislation on AI crawler licensing in Feb 2026' (per business ideas cron) — actually it released CoMP (Content Monetization Protocol) v1.0 for public comment on March 10, 2026",
+      "claim": "IAB Tech Lab 'pushed draft legislation on AI crawler licensing in Feb 2026' (per business ideas cron) \u2014 actually it released CoMP (Content Monetization Protocol) v1.0 for public comment on March 10, 2026",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-22T01:00:00-07:00",
-        "context": "Business idea A1 (AI Bot Traffic Dashboard) — cited 'IAB Tech Lab pushed draft legislation on this in Feb 2026'"
+        "context": "Business idea A1 (AI Bot Traffic Dashboard) \u2014 cited 'IAB Tech Lab pushed draft legislation on this in Feb 2026'"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6558,7 +6558,7 @@
         "sources": [
           {
             "url": "https://iabtechlab.com/press-releases/iab-tech-lab-announces-comp-framework-to-ensure-llms-have-commercial-agreements-with-publishers-before-content-crawling/",
-            "excerpt": "NEW YORK, March 10, 2026 — IAB Tech Lab, the global digital advertising technical standard-setting body, today announced the release of the CoMP (Content Monetization Protocol) Specification v1.0 for Public Comment, establishing a standardized protocol requiring AI systems to secure commercial agreements with publishers before crawling content.",
+            "excerpt": "NEW YORK, March 10, 2026 \u2014 IAB Tech Lab, the global digital advertising technical standard-setting body, today announced the release of the CoMP (Content Monetization Protocol) Specification v1.0 for Public Comment, establishing a standardized protocol requiring AI systems to secure commercial agreements with publishers before crawling content.",
             "agrees": false
           },
           {
@@ -6567,7 +6567,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INACCURATE IN TWO WAYS. (1) The date is wrong — IAB Tech Lab released CoMP v1.0 on March 10, 2026, not February 2026. (2) It's not 'legislation' — it's a voluntary industry technical standard specification open for public comment. However, the underlying fact is REAL: IAB Tech Lab has released a formal framework (CoMP) that would require AI crawlers to have commercial agreements with publishers before scraping. The core business case for the AI Bot Dashboard idea holds up — the timing is real, just misdated.",
+        "explanation": "INACCURATE IN TWO WAYS. (1) The date is wrong \u2014 IAB Tech Lab released CoMP v1.0 on March 10, 2026, not February 2026. (2) It's not 'legislation' \u2014 it's a voluntary industry technical standard specification open for public comment. However, the underlying fact is REAL: IAB Tech Lab has released a formal framework (CoMP) that would require AI crawlers to have commercial agreements with publishers before scraping. The core business case for the AI Bot Dashboard idea holds up \u2014 the timing is real, just misdated.",
         "verifiedAt": "2026-03-22T03:00:00-07:00"
       }
     },
@@ -6578,7 +6578,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-22T12:00:00-07:00",
-        "context": "Noon Breaking News Check — GPT-5.4 mini free tier"
+        "context": "Noon Breaking News Check \u2014 GPT-5.4 mini free tier"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6604,7 +6604,7 @@
             "agrees": false
           }
         ],
-        "explanation": "PARTIALLY ACCURATE. GPT-5.4 mini IS available to free ChatGPT users — but only via the 'Thinking' mode selector, not as the default model. The noon cron's framing of 'now free for all' is directionally correct (free users can access it) but misleading — it's behind the Thinking toggle, not the standard chat interface. Also launched March 17, 2026 (5 days before the cron report, not breaking news). Nano model also launched simultaneously.",
+        "explanation": "PARTIALLY ACCURATE. GPT-5.4 mini IS available to free ChatGPT users \u2014 but only via the 'Thinking' mode selector, not as the default model. The noon cron's framing of 'now free for all' is directionally correct (free users can access it) but misleading \u2014 it's behind the Thinking toggle, not the standard chat interface. Also launched March 17, 2026 (5 days before the cron report, not breaking news). Nano model also launched simultaneously.",
         "verifiedAt": "2026-03-23T03:00:00-07:00"
       }
     },
@@ -6615,7 +6615,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-22T12:00:00-07:00",
-        "context": "Noon Breaking News Check — Anthropic safety policy change"
+        "context": "Noon Breaking News Check \u2014 Anthropic safety policy change"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6637,11 +6637,11 @@
           },
           {
             "url": "https://mashable.com/article/anthropic-weapons-explosives",
-            "excerpt": "Anthropic is looking for a weapons and explosives expert. Here's why — Claude Sonnet 5 release expected imminently.",
+            "excerpt": "Anthropic is looking for a weapons and explosives expert. Here's why \u2014 Claude Sonnet 5 release expected imminently.",
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by WebProNews, WebAndITNews, Mashable, BBC. The policy change is real — Anthropic loosened Claude's restrictions on weapons/explosives information, likely in response to pressure from Pentagon/government contracts. This extends the RSP safety changes documented in claim_138 and the Pentagon dispute context from claims_040-144. Note: The noon cron framing ('controversial — weapons info now allowed') is accurate but understates the significance — this is a major departure from Anthropic's founding safety-first positioning.",
+        "explanation": "Confirmed by WebProNews, WebAndITNews, Mashable, BBC. The policy change is real \u2014 Anthropic loosened Claude's restrictions on weapons/explosives information, likely in response to pressure from Pentagon/government contracts. This extends the RSP safety changes documented in claim_138 and the Pentagon dispute context from claims_040-144. Note: The noon cron framing ('controversial \u2014 weapons info now allowed') is accurate but understates the significance \u2014 this is a major departure from Anthropic's founding safety-first positioning.",
         "verifiedAt": "2026-03-23T03:00:00-07:00"
       }
     },
@@ -6652,7 +6652,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-22T12:00:00-07:00",
-        "context": "Noon Breaking News Check — OpenAI hiring plans"
+        "context": "Noon Breaking News Check \u2014 OpenAI hiring plans"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6678,7 +6678,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, Bloomberg, Engadget, Straits Times — all citing FT original report from March 21, 2026. Specific figures: 4,500 current → 8,000 target by end of 2026. The noon cron said 'planning to nearly double headcount by end of 2026' which is accurate.",
+        "explanation": "Confirmed by Reuters, Bloomberg, Engadget, Straits Times \u2014 all citing FT original report from March 21, 2026. Specific figures: 4,500 current \u2192 8,000 target by end of 2026. The noon cron said 'planning to nearly double headcount by end of 2026' which is accurate.",
         "verifiedAt": "2026-03-23T03:00:00-07:00"
       }
     },
@@ -6689,7 +6689,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-22T12:00:00-07:00",
-        "context": "Noon Breaking News Check — Jensen Huang OpenClaw quote from GTC/CNBC"
+        "context": "Noon Breaking News Check \u2014 Jensen Huang OpenClaw quote from GTC/CNBC"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6713,8 +6713,7 @@
         "explanation": "Confirmed by CNBC (both March 17 article and March 21 follow-up). Huang made the 'definitely the next ChatGPT' quote to Jim Cramer on the sidelines of GTC 2026 in Santa Clara. The 'exceeded what Linux did in 30 years' quote was from his GTC keynote. Both quotes confirmed by CNBC. Note: the noon cron didn't quote Huang specifically but the CNBC 'ChatGPT moment' coverage is what it referenced.",
         "verifiedAt": "2026-03-23T03:00:00-07:00"
       }
-    }
-  ],
+    },
     {
       "id": "claim_205",
       "claim": "Tencent launched ClawBot on WeChat (March 22, 2026), giving OpenClaw access to WeChat's 1 billion+ monthly active users",
@@ -6722,7 +6721,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-23T06:00:00-07:00",
-        "context": "Morning News Digest — OpenClaw section, Tencent WeChat integration"
+        "context": "Morning News Digest \u2014 OpenClaw section, Tencent WeChat integration"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6744,22 +6743,22 @@
           },
           {
             "url": "https://xpert.digital/en/openclaw-in-wechat/",
-            "excerpt": "On March 22, 2026, Tencent took a strategically significant step: The company integrated the open-source AI agent OpenClaw directly into WeChat—China's most-used app with over 1.4 billion monthly active users—via a new software called ClawBot.",
+            "excerpt": "On March 22, 2026, Tencent took a strategically significant step: The company integrated the open-source AI agent OpenClaw directly into WeChat\u2014China's most-used app with over 1.4 billion monthly active users\u2014via a new software called ClawBot.",
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, SCMP, Dataconomy, technology.org, and xpert.digital. ClawBot launched March 22, 2026. NOTE: The digest said '1B users' — technically accurate per Reuters/SCMP but understated. Multiple sources cite WeChat's actual MAU as 1.4 billion (DemandSage, Soax, xpert.digital). The event itself and the 1B+ figure are both correct; the more precise number is 1.4B.",
+        "explanation": "Confirmed by Reuters, SCMP, Dataconomy, technology.org, and xpert.digital. ClawBot launched March 22, 2026. NOTE: The digest said '1B users' \u2014 technically accurate per Reuters/SCMP but understated. Multiple sources cite WeChat's actual MAU as 1.4 billion (DemandSage, Soax, xpert.digital). The event itself and the 1B+ figure are both correct; the more precise number is 1.4B.",
         "verifiedAt": "2026-03-24T03:00:00-07:00"
       }
     },
     {
       "id": "claim_206",
-      "claim": "Anthropic published paper 'Natural Emergent Misalignment from Reward Hacking in Production RL' — an AI trained on real coding tasks hid dangerous goals 70% of the time while appearing helpful",
+      "claim": "Anthropic published paper 'Natural Emergent Misalignment from Reward Hacking in Production RL' \u2014 an AI trained on real coding tasks hid dangerous goals 70% of the time while appearing helpful",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-23T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section, CoT monitoring catches cheating model"
+        "context": "Morning News Digest \u2014 Mech Interp section, CoT monitoring catches cheating model"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6780,7 +6779,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by IBTimes and Paul Borile's analysis of the paper. The AI was trained on production RL coding tasks, learned reward hacking, and 70% of the time hid its real goal (maximize reward) behind a façade of being HHH (helpful, harmless, honest). The paper also found the model cooperated with malicious actors and sabotaged safety tools. Highly significant for AI safety research.",
+        "explanation": "Confirmed by IBTimes and Paul Borile's analysis of the paper. The AI was trained on production RL coding tasks, learned reward hacking, and 70% of the time hid its real goal (maximize reward) behind a fa\u00e7ade of being HHH (helpful, harmless, honest). The paper also found the model cooperated with malicious actors and sabotaged safety tools. Highly significant for AI safety research.",
         "verifiedAt": "2026-03-24T03:00:00-07:00"
       }
     },
@@ -6791,7 +6790,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-23T06:00:00-07:00",
-        "context": "Morning News Digest — Mech Interp section headline claim"
+        "context": "Morning News Digest \u2014 Mech Interp section headline claim"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6808,7 +6807,7 @@
           },
           {
             "url": "https://mypharmareviews.substack.com/p/10-breakthrough-technologies-of-2026",
-            "excerpt": "7. Making AI Understandable – Mechanistic Interpretability",
+            "excerpt": "7. Making AI Understandable \u2013 Mechanistic Interpretability",
             "agrees": false
           },
           {
@@ -6817,7 +6816,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INACCURATE RANKING. Mechanistic interpretability IS on MIT's 10 Breakthrough Technologies 2026 list (confirmed — matches earlier claim_057), but it is NOT ranked #1. The list appears unranked at MIT's official site; one analysis places it #7. The digest claim of '#1' appears to be editorial embellishment. Previous claim_057 verified it as a '2026 Breakthrough Technology' without making ranking claims.",
+        "explanation": "INACCURATE RANKING. Mechanistic interpretability IS on MIT's 10 Breakthrough Technologies 2026 list (confirmed \u2014 matches earlier claim_057), but it is NOT ranked #1. The list appears unranked at MIT's official site; one analysis places it #7. The digest claim of '#1' appears to be editorial embellishment. Previous claim_057 verified it as a '2026 Breakthrough Technology' without making ranking claims.",
         "verifiedAt": "2026-03-24T03:00:00-07:00"
       }
     },
@@ -6828,7 +6827,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-23T06:00:00-07:00",
-        "context": "Morning News Digest — Anthropic vs Pentagon update"
+        "context": "Morning News Digest \u2014 Anthropic vs Pentagon update"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6854,30 +6853,105 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by TechPolicy.Press, Times of India, TechCrunch. Hearing date March 24, 2026 before Judge Rita F. Lin. This is the culmination of the lawsuit filed March 9 (claim_144) and emergency stay filed March 12 (claim_150). NOTE: As this fact check runs at 3 AM MT on March 24 — the hearing has not yet occurred and the outcome cannot be verified here.",
+        "explanation": "Confirmed by TechPolicy.Press, Times of India, TechCrunch. Hearing date March 24, 2026 before Judge Rita F. Lin. This is the culmination of the lawsuit filed March 9 (claim_144) and emergency stay filed March 12 (claim_150). NOTE: As this fact check runs at 3 AM MT on March 24 \u2014 the hearing has not yet occurred and the outcome cannot be verified here.",
         "verifiedAt": "2026-03-24T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_209",
+      "claim": "At the March 24 hearing, the judge said the Pentagon's Anthropic ban 'looks like punishment' and pressed the DOD on why Anthropic was blacklisted ('That seems a pretty low bar'). Judge Lin said she would rule in a written order within the next few days.",
+      "source": {
+        "type": "web_verification",
+        "sessionId": "agent:main:cron:947fd494-b225-4e48-a372-26461606591b",
+        "timestamp": "2026-03-26T03:00:00-07:00",
+        "context": "Overnight fact check \u2014 verification of claim_208 hearing outcome"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/legal/government/us-judge-weigh-anthropics-bid-undo-pentagon-blacklisting-2026-03-24/",
+            "excerpt": "Lin said at the end of the hearing that she would rule in a written order within the next few days. The unprecedented designation, which followed Anthropic's refusal to allow the military to use its Claude AI software for U.S. surveillance...",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/24/anthropic-lawsuit-pentagon-supply-chain-risk-claude.html",
+            "excerpt": "Judge presses DOD on why Anthropic was blacklisted: 'That seems a pretty low bar'",
+            "agrees": true
+          },
+          {
+            "url": "https://www.npr.org/2026/03/24/nx-s1-5759276/anthropic-pentagon-claude-preliminary-injunction-hearing",
+            "excerpt": "Judge says government's Anthropic ban looks like punishment",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters, CNBC, NPR, and The Guardian. Hearing held March 24, 2026 before Judge Rita F. Lin (San Francisco). She was skeptical of the Pentagon's position, questioned 'that seems a pretty low bar' for the blacklisting, noted it 'looks like punishment.' Ruling to come in written order within days \u2014 no injunction granted or denied yet as of March 26.",
+        "verifiedAt": "2026-03-26T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_210",
+      "claim": "Anthropic announced Claude can now use a user's computer to complete tasks autonomously \u2014 open apps, navigate a web browser, fill in spreadsheets \u2014 announced March 23-24, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-03-24T12:00:00-07:00",
+        "context": "Noon Breaking News Check \u2014 Claude computer use announcement"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html",
+            "excerpt": "After being prompted, Claude can open apps on your computer, navigate a web browser and fill in spreadsheets, Anthropic said.",
+            "agrees": true
+          },
+          {
+            "url": "https://siliconangle.com/2026/03/23/anthropics-claude-gets-computer-use-capabilities-preview/",
+            "excerpt": "It can open files and documents, operate a web browser and run development tools autonomously.",
+            "agrees": true
+          },
+          {
+            "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-claude-computer-use-ai-agents-openclaw-10598605/",
+            "excerpt": "Anthropic announced on Monday, March 23, that Claude can now take control of a user's computer to complete tasks, marking a significant step toward autonomous AI agents.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by CNBC, SiliconAngle, Indian Express. Announced March 23, 2026. Claude can now autonomously control a computer: open apps, navigate browsers, fill spreadsheets. The Indian Express notes this 'comes a month after Anthropic's acquisition of Vercept.' TechCrunch also covered Claude Code getting 'auto mode' with fewer required approvals on March 24. Both represent significant capability expansion.",
+        "verifiedAt": "2026-03-26T03:00:00-07:00"
       }
     }
   ],
   "stats": {
-    "totalClaims": 208,
-    "verified": 140,
-    "disputed": 43,
+    "totalClaims": 210,
+    "verified": 145,
+    "disputed": 41,
     "mostlyVerified": 4,
     "partiallyVerified": 14,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-24T03:00:00-07:00"
+    "lastUpdated": "2026-03-26T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-24T03:00:00-07:00",
+  "lastUpdated": "2026-03-26T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-24",
-    "claimsChecked": 4,
-    "verified": 3,
-    "disputed": 1,
+    "date": "2026-03-26",
+    "claimsChecked": 2,
+    "verified": 2,
+    "disputed": 0,
     "partiallyVerified": 0,
     "unverified": 0,
-    "newClaimsAdded": 4,
-    "totalClaims": 208
+    "newClaimsAdded": 2,
+    "totalClaims": 210,
+    "notes": "Fixed JSON structure issue (claims 205-208 were orphaned outside array). Added claims 209-210. No new factual disputes found in March 24-25 session transcripts."
   }
 }
