@@ -3333,6 +3333,33 @@
       }
     },
     {
+      "id": "claim_104",
+      "claim": "Meta/Google liable jury verdict: $6M total damages ($3M compensatory + $3M punitive) in LA social media addiction case, March 25-26, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:techmeme-digest",
+        "timestamp": "2026-03-26T06:27:00-07:00",
+        "context": "Techmeme Daily Digest lead story"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.aljazeera.com/news/2026/3/26/jury-finds-meta-youtube-liable-for-social-media-addiction-what-we-know",
+            "excerpt": "The jury found that Meta had been negligent in designing or operating Instagram... awarded the plaintiff $3m in compensatory damages. Jurors later recommended an additional $3m in punitive damages... Meta will be liable for 70 percent of the total, while Google will be liable for the remainder.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Al Jazeera, Reuters. LA County Superior Court jury found Meta/Google negligent March 25, 2026. $3M compensatory + $3M punitive = $6M. Meta 70%, Google 30%. Plaintiff KGM (20-year-old) claimed Instagram/YouTube caused addiction, depression, body dysmorphia. This is separate from New Mexico verdict mentioned in Techmeme digest.",
+        "verifiedAt": "2026-03-27T03:00:00-07:00"
+      }
+    },
+    {
       "id": "claim_103",
       "claim": "OpenAI published a paper mathematically proving that hallucinations are permanent and architecturally inevitable",
       "source": {
