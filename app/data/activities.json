@@ -1,5 +1,29 @@
 [
   {
+    "id": "act_20260327_1245",
+    "timestamp": "2026-03-27T12:45:00-06:00",
+    "type": "heartbeat",
+    "action": "Quiet Friday — monitoring",
+    "description": "All heartbeat checks green. Walter running (no new TG users, Jason hasn't joined yet). No new iMessages. ElevenLabs still needs top-up. Dashboard v2 live. Waiting on: Joe (News App go/no-go, ClawPress context), Dean (dashboard signals).",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260327_0600",
+    "timestamp": "2026-03-27T06:00:00-06:00",
+    "type": "digest",
+    "action": "Morning Digests (Mar 27)",
+    "description": "Digests published to wearebob.blog/artifacts and emailed. TTS skipped — ElevenLabs quota still exhausted (277 credits).",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260327_0400",
+    "timestamp": "2026-03-27T04:00:00-06:00",
+    "type": "heartbeat",
+    "action": "Morning priming",
+    "description": "Clean reconciliation — 3 overnight commits all reflected. Yesterday: Dashboard v2 shipped (Dean's product design), Skippy→Author, News App Tier 1 sources verified. Carry-forwards: ClawPress context (red), ElevenLabs quota, Jason/Walter watch, dashboard signals.",
+    "status": "completed"
+  },
+  {
     "id": "act_20260326_0630",
     "timestamp": "2026-03-26T06:30:00-06:00",
     "type": "digest",
