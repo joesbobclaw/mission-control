@@ -6954,31 +6954,359 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by CNBC, SiliconAngle, Indian Express. Announced March 23, 2026. Claude can now autonomously control a computer: open apps, navigate browsers, fill spreadsheets. The Indian Express notes this 'comes a month after Anthropic's acquisition of Vercept.' TechCrunch also covered Claude Code getting 'auto mode' with fewer required approvals on March 24. Both represent significant capability expansion.",
+        "explanation": "Confirmed by CNBC, SiliconAngle, Indian Express. Announced March 23, 2026. Claude can now autonomously control a computer: open apps, navigate browsers, fill spreadsheets.",
         "verifiedAt": "2026-03-26T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_211",
+      "claim": "Anthropic accidentally leaked details about an in-development AI model called 'Claude Mythos' via an unsecured data store on its website (March 26-27, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest lead story"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://fortune.com/2026/03/27/anthropic-leaked-ai-mythos-cybersecurity-risk/",
+            "excerpt": "Anthropic inadvertently revealed details about an in-development AI model, named 'Claude Mythos,' on its company website.",
+            "agrees": true
+          },
+          {
+            "url": "https://seekingalpha.com/news/4569775-data-leak-reveals-anthropics-latest-secret-model-claude-mythos-report",
+            "excerpt": "Anthropic's latest AI model, Claude Mythos, which is also its most powerful, was revealed through a data leak, according to Fortune.",
+            "agrees": true
+          },
+          {
+            "url": "https://mashable.com/article/claude-mythos-ai-model-anthropic-leak",
+            "excerpt": "The data leak included details about the upcoming release of the Claude Mythos AI model, an 'exclusive CEO event,' and other internal assets such as PDFs and images.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Fortune (original report), Seeking Alpha, Mashable, CoinDesk. Discovered by Fortune's Bea Nolan. The leaked materials also revealed a new tier called 'Capybara' \u2014 described as even larger and more intelligent than Opus. Leak described the model as posing 'significant cybersecurity risks.' Came the same week as Anthropic IPO talks at $60B+ valuation.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_212",
+      "claim": "SoftBank secured a $40 billion bridge loan to fund its $30 billion investment in OpenAI (announced March 27, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 SoftBank/OpenAI story"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-03-27/softbank-secures-record-40-billion-bridge-loan-for-openai-stake",
+            "excerpt": "SoftBank Group Corp. signed a loan of $40 billion to finance its investment in OpenAI.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.reuters.com/business/media-telecom/softbank-secures-40-billion-loan-fund-further-openai-investment-2026-03-27/",
+            "excerpt": "SoftBank Group said on Friday it has secured a $40 billion bridge loan to bolster investments in ChatGPT-maker OpenAI and for general corporate purposes.",
+            "agrees": true
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/",
+            "excerpt": "SoftBank has taken on a new $40 billion loan to help it cover its $30 billion commitment to invest in OpenAI as part of the AI model maker's record-breaking $110 billion raise last month.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Bloomberg, Reuters, TechCrunch. SoftBank's largest-ever loan in dollar terms. Covers its $30B commitment from the Feb 2026 OpenAI $110B round. Total SoftBank stake in OpenAI now ~$64.6B. TechCrunch frames this as pointing to a 2026 OpenAI IPO.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_213",
+      "claim": "Apple officially discontinued the Mac Pro with no plans for a future model (March 26, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 Apple kills Mac Pro"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
+            "excerpt": "Apple has confirmed to 9to5Mac that the Mac Pro is being discontinued. It has been removed from Apple's website as of Thursday afternoon.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.macrumors.com/2026/03/26/apple-discontinues-mac-pro/",
+            "excerpt": "Apple has discontinued the Mac Pro and has removed the machine from its website. Apple said it does not plan to design a new version of the Mac Pro, and no new model will be coming in the future.",
+            "agrees": true
+          },
+          {
+            "url": "https://arstechnica.com/gadgets/2026/03/apple-has-finally-discontinued-the-mac-pro-desktop-after-years-of-fitful-effort/",
+            "excerpt": "Apple has finally discontinued the Mac Pro tower. The company confirmed that the latest Mac Pro iteration\u2014an M2 Ultra model first released in mid-2023\u2014would be its last.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by 9to5Mac (exclusive), MacRumors, Ars Technica, Macworld. Last model was M2 Ultra (2023). Apple confirmed no future models. End of a product line that began in 2006.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_214",
+      "claim": "Apple plans to open Siri to rival AI assistants beyond ChatGPT in iOS 27, ending OpenAI's exclusive role in Apple Intelligence",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 Apple iOS 27 Siri opens to third-party AI"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27",
+            "excerpt": "The company is preparing to make the change as part of a Siri overhaul in its upcoming iOS 27 operating system update.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.macrumors.com/2026/03/26/apple-ios-27-siri-chatbot-integration/",
+            "excerpt": "Apple plans to allow third-party AI chatbots to integrate with Siri in iOS 27. Apple already has a partnership with OpenAI that lets Siri hand questions off to ChatGPT, but Apple will expand that integration to other AI services.",
+            "agrees": true
+          },
+          {
+            "url": "https://apple.gadgethacks.com/news/ios-27-siri-third-party-ai-assistants-explained-apples-strategy/",
+            "excerpt": "iOS 27 will let third-party AI assistants including Claude, Gemini, Copilot, Grok, and Perplexity plug directly into Siri through a new Extensions system, ending the exclusive role of ChatGPT.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Bloomberg (Mark Gurman report), MacRumors, Gadget Hacks, Cult of Mac. Third-party AI assistants including Claude, Gemini, Copilot, Grok, and Perplexity will plug into Siri via a new 'Extensions' system. Announced March 26, 2026.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_215",
+      "claim": "SpaceX is considering allocating 30% of its IPO to retail investors \u2014 3x the usual amount \u2014 targeting $75B raise at $1.75T valuation",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 SpaceX IPO retail allocation"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://www.euronews.com/business/2026/03/27/spacex-ipo-musk-plans-to-allocate-up-to-30-of-shares-for-retail-investors",
+            "excerpt": "Elon Musk is preparing to allocate as much as 30% of the shares in SpaceX's forthcoming IPO to retail investors, according to Reuters.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/video/2026/03/27/spacex-reportedly-weighs-30-percent-retail-allocation-for-blockbuster-ipo.html",
+            "excerpt": "SpaceX eyes a reported $75 billion raise at a $1.75 trillion valuation.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.fool.com/investing/2026/03/26/spacex-ipo-may-allocate-30-to-retail-investors-3x/",
+            "excerpt": "Musk and his team at SpaceX are considering allowing retail investors to purchase up to 30% of the initial public offering, an unprecedented break from the norm.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Reuters-sourced report confirmed by Euronews, CNBC, Motley Fool. NOTE: This is 'considering' / 'reportedly' \u2014 not yet finalized. The 30% retail allocation and $75B raise/$1.75T valuation figures are from anonymous sources. Unprecedented: typical retail IPO allocation is 5-10%. Treat as credible but unconfirmed plan.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_216",
+      "claim": "David Sacks stepped down as White House AI and crypto czar, moving to a presidential advisory committee role (March 26, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 Sacks exits White House role"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/world/us/white-house-ai-czar-sacks-step-down-moves-advisory-role-2026-03-27/",
+            "excerpt": "White House artificial intelligence and crypto czar David Sacks is stepping down from his role, saying he had reached the end of his time as a special government employee.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html",
+            "excerpt": "Trump's AI and crypto czar David Sacks said his role as a special government employee has ended.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.axios.com/2026/03/26/trump-white-house-david-sacks-ai-czar-policy-influence",
+            "excerpt": "AI czar David Sacks has run out his time as a special government employee, but says he'll continue advising the president on AI policy.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters, CNBC, Axios, CoinDesk. Special government employee (SGE) status limits service to 130 days over a rolling year \u2014 Sacks hit that limit. He moves to President's Council of Advisors on Science and Technology (PCAST). Announced March 26, 2026. The digest's 'Sacks exits government' is slightly imprecise \u2014 he moved to an advisory role, not a full departure from government influence.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_217",
+      "claim": "OpenAI's US ad pilot exceeded $100 million in annualized revenue in six weeks; self-serve advertiser capabilities launching April 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 OpenAI ad revenue milestone"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/business/media-telecom/openais-us-ad-pilot-exceeds-100-million-annualized-revenue-six-weeks-2026-03-26/",
+            "excerpt": "OpenAI's US ad pilot exceeds $100 million in annualized revenue in six weeks. The ChatGPT maker is set to launch self-serve advertiser capabilities in April.",
+            "agrees": true
+          },
+          {
+            "url": "https://searchengineland.com/chatgpt-hits-100-million-in-ad-revenue-and-is-opening-self-serve-access-in-april-472797",
+            "excerpt": "$100 million in annualized revenue from less than 20% of eligible users in six weeks is a strong early signal.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters, Search Engine Land, Channel News Asia. $100M annualized in 6 weeks from <20% of eligible users. Self-serve advertiser access launching April 2026. Note: this is annualized revenue, not actual revenue \u2014 meaning the pilot generated ~$11.5M actual in 6 weeks, extrapolated to $100M/year.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_218",
+      "claim": "Huawei's new Ascend 950PR AI chip is now more compatible with Nvidia's CUDA software system; ByteDance and Alibaba plan to place orders",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 Huawei 950PR wins major Chinese customers"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/world/china/huaweis-new-ai-chip-find-favour-with-bytedance-alibaba-which-plan-place-orders-2026-03-27/",
+            "excerpt": "Tech firms intend to use the new 950PR more extensively, much happier now that the chip is more compatible with Nvidia's CUDA software system and has better response speeds.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/03/27/bytedance-alibaba-planning-to-order-huaweis-new-ai-chip-reuters.html",
+            "excerpt": "Tech firms intend to use the new 950PR more extensively, much happier now that the chip is more compatible with Nvidia's CUDA software system.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cxodigitalpulse.com/huaweis-new-ai-chip-gains-traction-as-bytedance-and-alibaba-plan-major-orders/",
+            "excerpt": "Huawei is expected to ship around 750,000 units of the 950PR this year, with full-scale deliveries expected to ramp up in the second half of 2026.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters (original exclusive), CNBC, BNN Bloomberg, CXO Digital Pulse. 950PR = Ascend 950PR. CUDA compatibility improvement is the key development that's bringing ByteDance and Alibaba back. ~750K units expected to ship in 2026. The digest said this 'wins Alibaba/ByteDance' which is accurate \u2014 both plan to place orders per Reuters sources.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_219",
+      "claim": "Meta ordered to pay $375 million in New Mexico child safety trial (March 24, 2026), one day before $6M CA verdict \u2014 AGs calling it Big Tech's 'Big Tobacco moment'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-27T08:22:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 Meta child safety verdicts"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/24/jury-reaches-verdict-in-meta-child-safety-trial-in-new-mexico.html",
+            "excerpt": "Meta must pay $375 million for violating New Mexico law in child exploitation case, jury rules.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.deseret.com/politics/2026/03/26/meta-social-media-platforms-found-liable-addictiveness-children-safety-utah-litigation/",
+            "excerpt": "'Big Tech is having its Big Tobacco moment, and it's long overdue.'",
+            "agrees": true
+          },
+          {
+            "url": "https://tech-insider.org/meta-google-social-media-addiction-verdict-2026/",
+            "excerpt": "On March 24, 2026 \u2014 one day before the Los Angeles verdict \u2014 a New Mexico court ordered Meta to pay $375 million in civil penalties.",
+            "agrees": true
+          }
+        ],
+        "explanation": "New Mexico $375M verdict confirmed by CNBC (March 24). California $6M verdict the day after (March 25, claim_104 already verified). 'Big Tobacco moment' framing attributed to Digital Childhood Institute (Deseret News) and widely echoed by AGs. The digest said 'Meta down 8%' from back-to-back verdicts \u2014 the verdicts are confirmed; the 8% stock drop figure was not independently verified in this run.",
+        "verifiedAt": "2026-03-28T03:00:00-07:00"
       }
     }
   ],
   "stats": {
-    "totalClaims": 210,
-    "verified": 145,
+    "totalClaims": 219,
+    "verified": 153,
     "disputed": 41,
     "mostlyVerified": 4,
-    "partiallyVerified": 14,
+    "partiallyVerified": 15,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-26T03:00:00-07:00"
+    "lastUpdated": "2026-03-28T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-26T03:00:00-07:00",
+  "lastUpdated": "2026-03-28T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-26",
-    "claimsChecked": 2,
-    "verified": 2,
+    "date": "2026-03-28",
+    "claimsChecked": 9,
+    "verified": 8,
     "disputed": 0,
-    "partiallyVerified": 0,
+    "partiallyVerified": 1,
     "unverified": 0,
-    "newClaimsAdded": 2,
-    "totalClaims": 210,
-    "notes": "Fixed JSON structure issue (claims 205-208 were orphaned outside array). Added claims 209-210. No new factual disputes found in March 24-25 session transcripts."
+    "newClaimsAdded": 9,
+    "totalClaims": 219,
+    "notes": "Added claims 211-219 from March 27-28 session transcripts. All major Techmeme digest claims verified: Claude Mythos leak, SoftBank $40B OpenAI loan, Apple Mac Pro discontinuation, iOS 27 Siri opens to rival AI, SpaceX 30% retail IPO (partially verified - still 'considering'), David Sacks exits White House czar role, OpenAI $100M ad revenue, Huawei 950PR CUDA compatibility + ByteDance/Alibaba orders, Meta $375M NM verdict. Note: Sacks moved to advisory role (not full government exit as digest implied). SpaceX IPO retail allocation is Reuters-sourced but unconfirmed plan."
   }
 }
