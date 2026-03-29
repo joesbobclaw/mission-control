@@ -7250,6 +7250,134 @@
       }
     },
     {
+      "id": "claim_220",
+      "claim": "Google unveiled TurboQuant, a compression method that could reduce memory required to run LLMs by 6x; Micron dropped 15% alongside other memory chip stocks",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-28T06:27:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 Google TurboQuant memory story"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.cnbc.com/2026/03/26/google-ai-turboquant-memory-chip-stocks-samsung-micron.html",
+            "excerpt": "Alphabet's Google on Tuesday unveiled TurboQuant, a new compression method that it says could reduce the amount of memory required to run large language models by six times.",
+            "agrees": true
+          },
+          {
+            "url": "https://thenextweb.com/news/google-turboquant-ai-compression-memory-stocks",
+            "excerpt": "Micron dropped 3 per cent, Western Digital lost 4.7 per cent, and SanDisk fell 5.7 per cent",
+            "agrees": false
+          }
+        ],
+        "explanation": "MIXED. The TurboQuant 6x memory reduction claim is confirmed by CNBC and multiple outlets. However, the digest's 'Micron -15%' is WRONG — Micron only dropped ~3%, not 15%. Western Digital fell 4.7%, SanDisk 5.7%. The '$100B memory stocks shed' figure is also an overstatement. The underlying tech story (TurboQuant as a memory compression breakthrough) is real and significant; the stock drop severity was exaggerated.",
+        "verifiedAt": "2026-03-29T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_221",
+      "claim": "Physical Intelligence robotics startup raised $1 billion at $11 billion valuation",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-28T06:27:00-07:00",
+        "context": "Techmeme Daily Digest \u2014 Physical Intelligence funding"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/",
+            "excerpt": "Physical Intelligence, the two-year-old San Francisco robotics startup, is in discussions to raise about $1 billion in new funding at a valuation exceeding $11 billion, according to Bloomberg.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-03-27/ex-deepmind-staffers-robotics-startup-in-talks-for-11-billion-valuation",
+            "excerpt": "in talks for $11 billion valuation",
+            "agrees": true
+          }
+        ],
+        "explanation": "PARTIALLY VERIFIED. Physical Intelligence is confirmed to be 'in talks' to raise ~$1B at >$11B valuation per Bloomberg/TechCrunch. However, as of March 28, the deal is NOT yet closed \u2014 it is in discussions. The digest framed it as completed ('raised $1B @ $11B') when it is still being negotiated. The valuation figure and funding target are accurate; the completion status is not.",
+        "verifiedAt": "2026-03-29T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_222",
+      "claim": "News/Media Alliance partnered with Bria AI for a 50-50 revenue split AI licensing deal covering 2,200 member publishers \u2014 non-exclusive, recurring RAG-based revenue",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-28T06:00:00-07:00",
+        "context": "Morning News Digest \u2014 Local News & Publishing section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://digiday.com/media/news-media-alliance-signs-ai-licensing-deal-to-unlock-recurring-rag-revenue-for-small-and-mid-sized-publishers/",
+            "excerpt": "Bria then aggregates all of the licensed content and determines how much of a publisher's content was used for a given AI output, and revenue is split 50-50 between Bria and the publisher",
+            "agrees": true
+          },
+          {
+            "url": "https://www.newsmediaalliance.org/ai-licensing-partnership-bria-announcement/",
+            "excerpt": "The News/Media Alliance has partnered with Bria to let NMA members opt into an AI licensing agreement",
+            "agrees": true
+          },
+          {
+            "url": "https://www.mediajobsreport.com/articles/news-media-alliance-and-bria-launch-ai-licensing-agreement-for-publishers",
+            "excerpt": "The agreement allows members of the News/Media Alliance, which represents about 2,200 news, magazine and digital media organizations, to opt into a revenue-sharing model",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Digiday, NMA's own press release, Editor & Publisher, and Media Jobs Report. 50/50 revenue split, opt-in, non-exclusive, RAG-based recurring revenue (not a one-time training data deal). 2,200 member organizations. Relevant to Joe's work at Newspack/Automattic.",
+        "verifiedAt": "2026-03-29T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_223",
+      "claim": "Claude Code was used by a Chinese state-sponsored group to infiltrate ~30 organizations (tech, financial, government) before Anthropic detected it over 10 days",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-28T06:27:00-07:00",
+        "context": "Techmeme Digest \u2014 referenced in Fortune Claude Mythos leak article"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
+            "excerpt": "Anthropic discovered that a Chinese state-sponsored group had already been running a coordinated campaign using Claude Code to infiltrate roughly 30 organizations\u2014including tech companies, financial institutions, and government agencies\u2014before the company detected it. Over the following 10 days, Anthropic investigated the full scope of the operation, banned the accounts involved, and notified affected organizations.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Fortune (via the Claude Mythos leak article, March 26-27, 2026). Chinese state-sponsored actor used Claude Code for infiltration campaign across ~30 orgs in tech, finance, and government sectors. Anthropic investigated for 10 days, banned accounts, notified victims. This is a significant cybersecurity incident involving AI-assisted state espionage.",
+        "verifiedAt": "2026-03-29T03:00:00-07:00"
+      }
+    },
+    {
       "id": "claim_219",
       "claim": "Meta ordered to pay $375 million in New Mexico child safety trial (March 24, 2026), one day before $6M CA verdict \u2014 AGs calling it Big Tech's 'Big Tobacco moment'",
       "source": {
@@ -7288,25 +7416,25 @@
     }
   ],
   "stats": {
-    "totalClaims": 219,
-    "verified": 153,
-    "disputed": 41,
+    "totalClaims": 223,
+    "verified": 155,
+    "disputed": 42,
     "mostlyVerified": 4,
-    "partiallyVerified": 15,
+    "partiallyVerified": 17,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-28T03:00:00-07:00"
+    "lastUpdated": "2026-03-29T03:00:00-07:00"
   },
-  "lastUpdated": "2026-03-28T03:00:00-07:00",
+  "lastUpdated": "2026-03-29T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-03-28",
-    "claimsChecked": 9,
-    "verified": 8,
-    "disputed": 0,
+    "date": "2026-03-29",
+    "claimsChecked": 4,
+    "verified": 2,
+    "disputed": 1,
     "partiallyVerified": 1,
     "unverified": 0,
-    "newClaimsAdded": 9,
-    "totalClaims": 219,
-    "notes": "Added claims 211-219 from March 27-28 session transcripts. All major Techmeme digest claims verified: Claude Mythos leak, SoftBank $40B OpenAI loan, Apple Mac Pro discontinuation, iOS 27 Siri opens to rival AI, SpaceX 30% retail IPO (partially verified - still 'considering'), David Sacks exits White House czar role, OpenAI $100M ad revenue, Huawei 950PR CUDA compatibility + ByteDance/Alibaba orders, Meta $375M NM verdict. Note: Sacks moved to advisory role (not full government exit as digest implied). SpaceX IPO retail allocation is Reuters-sourced but unconfirmed plan."
+    "newClaimsAdded": 4,
+    "totalClaims": 223,
+    "notes": "Added claims 220-223 from March 28 session transcripts. Key findings: (1) Google TurboQuant 6x memory compression is real, but Micron -15% is wrong — actual drop was ~3%; (2) Physical Intelligence $1B @ $11B is 'in talks' not closed — digest overclaimed; (3) NMA/Bria AI 50-50 licensing deal fully confirmed, 2,200 publishers; (4) Chinese state-sponsored Claude Code infiltration of ~30 orgs confirmed in Fortune's Mythos leak article."
   }
 }
