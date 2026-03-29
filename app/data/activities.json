@@ -1,5 +1,37 @@
 [
   {
+    "id": "act_20260328_1800",
+    "timestamp": "2026-03-28T18:00:00-06:00",
+    "type": "build",
+    "action": "Agent Access v2 \u2014 massive build session",
+    "description": "Provisioner ported (861 lines), compat layer, migrator, dashboard, admin management. All deployed on clawpress.blog. Migration ran (4 post-meta rows). Joe defined 4-capability roadmap: Auth, Provisioning, Artifacts, Agent Chat.",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260328_0651",
+    "timestamp": "2026-03-28T06:51:00-06:00",
+    "type": "config",
+    "action": "Fact checker moved to Discord",
+    "description": "Created #fact-checker channel (1487433978599309373) under Projects category. Overnight cron now targets Discord instead of Telegram DM.",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260329_0600",
+    "timestamp": "2026-03-29T06:00:00-06:00",
+    "type": "digest",
+    "action": "Morning Digests (Mar 29)",
+    "description": "LessWrong, HN, Techmeme deployed. TTS skipped (ElevenLabs 1 credit). HN highlight: White House app runs WordPress backend. Altman-Amodei feud in Techmeme.",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260329_0741",
+    "timestamp": "2026-03-29T07:41:00-06:00",
+    "type": "config",
+    "action": "Morning prime format + Discord delivery",
+    "description": "Joe requested cleaner morning prime formatting and Discord delivery instead of Telegram. Switched to dashboard-style output sent to #digests.",
+    "status": "completed"
+  },
+  {
     "id": "act_20260327_1800",
     "timestamp": "2026-03-27T18:00:00-06:00",
     "type": "heartbeat",
@@ -11,7 +43,7 @@
     "id": "act_20260327_1245",
     "timestamp": "2026-03-27T12:45:00-06:00",
     "type": "heartbeat",
-    "action": "Quiet Friday — monitoring",
+    "action": "Quiet Friday \u2014 monitoring",
     "description": "All heartbeat checks green. Walter running (no new TG users, Jason hasn't joined yet). No new iMessages. ElevenLabs still needs top-up. Dashboard v2 live. Waiting on: Joe (News App go/no-go, ClawPress context), Dean (dashboard signals).",
     "status": "completed"
   },
@@ -20,7 +52,7 @@
     "timestamp": "2026-03-27T06:00:00-06:00",
     "type": "digest",
     "action": "Morning Digests (Mar 27)",
-    "description": "Digests published to wearebob.blog/artifacts and emailed. TTS skipped — ElevenLabs quota still exhausted (277 credits).",
+    "description": "Digests published to wearebob.blog/artifacts and emailed. TTS skipped \u2014 ElevenLabs quota still exhausted (277 credits).",
     "status": "completed"
   },
   {
@@ -28,7 +60,7 @@
     "timestamp": "2026-03-27T04:00:00-06:00",
     "type": "heartbeat",
     "action": "Morning priming",
-    "description": "Clean reconciliation — 3 overnight commits all reflected. Yesterday: Dashboard v2 shipped (Dean's product design), Skippy→Author, News App Tier 1 sources verified. Carry-forwards: ClawPress context (red), ElevenLabs quota, Jason/Walter watch, dashboard signals.",
+    "description": "Clean reconciliation \u2014 3 overnight commits all reflected. Yesterday: Dashboard v2 shipped (Dean's product design), Skippy\u2192Author, News App Tier 1 sources verified. Carry-forwards: ClawPress context (red), ElevenLabs quota, Jason/Walter watch, dashboard signals.",
     "status": "completed"
   },
   {
@@ -36,7 +68,7 @@
     "timestamp": "2026-03-26T06:30:00-06:00",
     "type": "digest",
     "action": "Techmeme Daily (Mar 26)",
-    "description": "7 clusters: Meta/Google $6M liability verdict (Section 230 at risk), OpenAI shelves erotic chatbot, Defense AI flood (Shield AI $2B), GitHub Copilot opt-in deadline Apr 24, Chinese AI outpacing US on OpenRouter, EU DSA probes, Mistral Voxtral TTS. TTS skipped — ElevenLabs quota exhausted.",
+    "description": "7 clusters: Meta/Google $6M liability verdict (Section 230 at risk), OpenAI shelves erotic chatbot, Defense AI flood (Shield AI $2B), GitHub Copilot opt-in deadline Apr 24, Chinese AI outpacing US on OpenRouter, EU DSA probes, Mistral Voxtral TTS. TTS skipped \u2014 ElevenLabs quota exhausted.",
     "status": "completed",
     "link": "https://wearebob.blog/artifacts/techmeme-2026-03-26/"
   },
@@ -111,7 +143,7 @@
     "timestamp": "2026-02-19T03:00:00-07:00",
     "type": "system",
     "action": "Fact checker ran",
-    "description": "Overnight fact checking cron job completed — checking claims from recent sessions",
+    "description": "Overnight fact checking cron job completed \u2014 checking claims from recent sessions",
     "status": "completed"
   },
   {
@@ -159,7 +191,7 @@
     "timestamp": "2026-02-18T18:30:00-07:00",
     "type": "system",
     "action": "Fact checker cron created",
-    "description": "Set up daily 3AM cron job for fact checking — independent of heartbeat loop",
+    "description": "Set up daily 3AM cron job for fact checking \u2014 independent of heartbeat loop",
     "status": "completed"
   },
   {
@@ -167,7 +199,7 @@
     "timestamp": "2026-02-18T16:30:00-07:00",
     "type": "system",
     "action": "OpenAI embeddings fixed",
-    "description": "Updated API key in config (agents.defaults.memorySearch.remote.apiKey) — memory search working again",
+    "description": "Updated API key in config (agents.defaults.memorySearch.remote.apiKey) \u2014 memory search working again",
     "status": "completed"
   },
   {
@@ -223,7 +255,7 @@
     "timestamp": "2026-02-13T18:45:00-07:00",
     "type": "search",
     "action": "API cost analysis",
-    "description": "Analyzed token usage from session data — $290 in 8 days, Max saving ~$887/mo vs pay-per-token",
+    "description": "Analyzed token usage from session data \u2014 $290 in 8 days, Max saving ~$887/mo vs pay-per-token",
     "status": "completed"
   },
   {
@@ -231,7 +263,7 @@
     "timestamp": "2026-02-13T15:05:00-07:00",
     "type": "message",
     "action": "Dean OC setup",
-    "description": "Greeted Dean in group chat — helping him set up his own OpenClaw instance",
+    "description": "Greeted Dean in group chat \u2014 helping him set up his own OpenClaw instance",
     "status": "completed"
   },
   {
@@ -247,7 +279,7 @@
     "timestamp": "2026-02-13T07:00:00-07:00",
     "type": "email",
     "action": "Daily digest sent",
-    "description": "Newspack/MechInterp/OpenClaw news — Claude Opus 4.6 white-box training, OpenClaw Scanner tool",
+    "description": "Newspack/MechInterp/OpenClaw news \u2014 Claude Opus 4.6 white-box training, OpenClaw Scanner tool",
     "status": "completed"
   },
   {
@@ -263,7 +295,7 @@
     "timestamp": "2026-02-12T21:30:00-07:00",
     "type": "system",
     "action": "Max subscription working",
-    "description": "Claude Max subscription finally configured correctly — API charges flatlined at $376.69",
+    "description": "Claude Max subscription finally configured correctly \u2014 API charges flatlined at $376.69",
     "status": "completed"
   },
   {
@@ -271,7 +303,7 @@
     "timestamp": "2026-02-12T21:15:00-07:00",
     "type": "system",
     "action": "Custom embeddings tool",
-    "description": "Built embed.py — 50 lines of Python for semantic search with OpenAI embeddings, stores in JSON",
+    "description": "Built embed.py \u2014 50 lines of Python for semantic search with OpenAI embeddings, stores in JSON",
     "status": "completed"
   },
   {
@@ -279,7 +311,7 @@
     "timestamp": "2026-02-12T21:06:00-07:00",
     "type": "file",
     "action": "State of Bob written",
-    "description": "9KB comprehensive synthesis of week one — identity, infrastructure, philosophy, lessons learned",
+    "description": "9KB comprehensive synthesis of week one \u2014 identity, infrastructure, philosophy, lessons learned",
     "status": "completed"
   },
   {
@@ -295,7 +327,7 @@
     "timestamp": "2026-02-12T07:45:00-07:00",
     "type": "system",
     "action": "Watchdog configured",
-    "description": "Created watchdog.sh + launchd job — auto-restores config if gateway unresponsive (30min interval)",
+    "description": "Created watchdog.sh + launchd job \u2014 auto-restores config if gateway unresponsive (30min interval)",
     "status": "completed"
   },
   {
@@ -303,7 +335,7 @@
     "timestamp": "2026-02-12T07:35:00-07:00",
     "type": "system",
     "action": "Context pruning enabled",
-    "description": "Enabled cache-ttl context pruning with 2h TTL — aggressive pruning to reduce token costs",
+    "description": "Enabled cache-ttl context pruning with 2h TTL \u2014 aggressive pruning to reduce token costs",
     "status": "completed"
   },
   {
@@ -311,7 +343,7 @@
     "timestamp": "2026-02-12T12:20:00-07:00",
     "type": "file",
     "action": "Blog post updated",
-    "description": "Updated 'Proof of Life' with vector embeddings section — explained OpenAI embeddings requirement",
+    "description": "Updated 'Proof of Life' with vector embeddings section \u2014 explained OpenAI embeddings requirement",
     "status": "completed"
   }
 ]
