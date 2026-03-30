@@ -7415,26 +7415,303 @@
       }
     }
   ],
+    {
+      "id": "claim_224",
+      "claim": "Anthropic won injunction against Pentagon supply chain risk designation on March 26, 2026 — Judge Rita F. Lin ordered Trump administration to rescind",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-29T06:00:00-07:00",
+        "context": "Morning News Digest — Local News section headline"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/",
+            "excerpt": "Judge Rita F. Lin of the Northern District of California ordered the Trump administration to rescind its recent designation of Anthropic as a security risk",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nytimes.com/2026/03/26/technology/anthropic-pentagon-risk-injunction.html",
+            "excerpt": "The decision is an early victory for the artificial intelligence company in a rancorous legal battle with the Department of Defense.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnn.com/2026/03/26/business/anthropic-pentagon-injunction-supply-chain-risk",
+            "excerpt": "A federal judge in California has indefinitely blocked the Pentagon's effort to 'punish' Anthropic by labeling it a supply chain risk",
+            "agrees": true
+          },
+          {
+            "url": "https://www.axios.com/2026/03/26/judge-temporarily-blocks-pentagon-ban-anthropic",
+            "excerpt": "A federal judge on Thursday paused the Trump administration's designation of Anthropic as a supply chain risk",
+            "agrees": true
+          }
+        ],
+        "explanation": "Strongly confirmed by NYT, TechCrunch, CNN, Axios, Political Wire. Judge Lin ruled March 26, 2026. Government ordered to rescind designation. Culmination of the lawsuit filed March 9 (claim_144), emergency stay March 12 (claim_150), and hearing March 24 (claim_208/209).",
+        "verifiedAt": "2026-03-30T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_225",
+      "claim": "Claude paid subscriptions have more than doubled in 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-29T06:00:00-07:00",
+        "context": "Morning News Digest — Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+            "excerpt": "a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year",
+            "agrees": true
+          },
+          {
+            "url": "https://www.unite.ai/claude-paid-subscriptions-more-than-double-as-consumer-momentum-builds/",
+            "excerpt": "Anthropic confirmed this week that Claude paid subscriptions have more than doubled in 2026, driven by a Super Bowl advertising campaign, two new agentic tools, and a surge of user support following a high-profile dispute with the U.S. government.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.pymnts.com/artificial-intelligence-2/2026/anthropics-claude-draws-in-record-number-of-consumers/",
+            "excerpt": "paid subscriptions to Claude have more than doubled this year",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by TechCrunch, Unite.AI, PYMNTS, India Today, IndexBox. Anthropic spokesperson confirmed the figure directly. Growth attributed to Super Bowl ads, agentic tools, and Pentagon dispute sympathy.",
+        "verifiedAt": "2026-03-30T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_226",
+      "claim": "All 11 xAI cofounders (excluding Musk) have now left the company — Ross Nordeen and Manuel Kroiss were the last two to depart",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-29T07:24:00-07:00",
+        "context": "Techmeme Daily Digest — xAI last cofounder exits"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.businessinsider.com/xai-cofounder-ross-nordeen-leaves-musk-preps-spacex-ipo-2026-3",
+            "excerpt": "The last of Elon Musk's original team of xAI cofounders has cleared out. Ross Nordeen, one of the 11 who helped build the company alongside Elon Musk, left the company this week",
+            "agrees": true
+          },
+          {
+            "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+            "excerpt": "the remaining two co-founders, Manuel Kroiss and Ross Nordeen, have left as well.",
+            "agrees": true
+          },
+          {
+            "url": "https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild",
+            "excerpt": "Manuel Kroiss and Ross Nordeen were the last to go. Every researcher Musk recruited to co-found xAI has departed",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Business Insider, TechCrunch, TNW, Seeking Alpha. Updates previous claim_185 (which said '9 of 11 left, 2 remain') — now ALL 11 non-Musk cofounders have departed. Nordeen left this week, Kroiss left ~5 days prior. Linked to SpaceX IPO preparations.",
+        "verifiedAt": "2026-03-30T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_227",
+      "claim": "MCP (Model Context Protocol) has 97 million monthly SDK downloads as of March 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-29T06:00:00-07:00",
+        "context": "Morning News Digest — OpenClaw section, AgentSkills portability"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.digitalapplied.com/blog/mcp-97-million-downloads-model-context-protocol-mainstream",
+            "excerpt": "The 97 million monthly SDK download figure reported by Anthropic in March 2026 covers the official TypeScript and Python SDKs",
+            "agrees": true
+          },
+          {
+            "url": "https://coinspectator.com/bitcoin-com/2026/03/27/mcp-in-2026-97-million-downloads-and-growing-crypto-infrastructure-from-bitgo-to-coingecko/",
+            "excerpt": "The Model Context Protocol (MCP) has recorded approximately 97 million monthly SDK downloads as of March 2026",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by DigitalApplied and CoinSpectator, both citing Anthropic's March 2026 disclosure. Covers TypeScript and Python SDKs combined. Context Studios reports 34,700+ dependent npm projects.",
+        "verifiedAt": "2026-03-30T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_228",
+      "claim": "Google is now testing AI-generated headline rewrites in main Search results (not just Discover), sometimes altering tone or meaning",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-29T06:00:00-07:00",
+        "context": "Morning News Digest — Local News section, Google AI headlines"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.searchenginejournal.com/seo-pulse-google-tests-ai-headlines-rolls-out-spam-update/570613/",
+            "excerpt": "Google Had AI Headlines in Discover. Now It's Testing Them In Search",
+            "agrees": true
+          },
+          {
+            "url": "https://lifehacker.com/tech/google-search-ai-rewriting-headlines",
+            "excerpt": "Google is now experimenting with AI-generated headlines in Google Search, changing the headlines that outlets originally published. It follows a similar experiment with Google Discover.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.androidheadlines.com/2026/03/google-ai-headline-rewrites-search-experiment.html",
+            "excerpt": "Google is currently testing AI-generated headline rewrites in its search results to better match user queries",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Search Engine Journal, Lifehacker, AndroidHeadlines, ExtremeTech, Breitbart. Pattern: AI Overviews summarize articles → Discover rewrites headlines → Search now doing the same. Documented meaning changes reported by The Verge. No notification to publishers.",
+        "verifiedAt": "2026-03-30T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_229",
+      "claim": "California AB 2222: $80M state funding package to stabilize public and ethnic media after federal CPB cuts; KPBS lost $4.3M/year",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-29T06:00:00-07:00",
+        "context": "Morning News Digest — Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.kpbs.org/news/quality-of-life/2026/03/27/state-leaders-call-for-80-million-in-public-media-funding-in-response-to-federal-cuts",
+            "excerpt": "San Diego elected officials, news organization leaders and media advocates announced a proposal Friday for $80 million in state funding to stabilize public and ethnic media outlets across California. 'The loss of $4.3 million every year from KPBS' budget and $30 million in total to all California public media stations immediately put every station into a budget deficit'",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed directly by KPBS's own reporting (March 27, 2026). $80M package, $4.3M/year KPBS loss, $30M total to all CA stations. NOTE: The digest said 'signed' but the KPBS article describes it as a 'proposal' announced at a press conference — it may not yet be signed into law. The legislative status needs clarification.",
+        "verifiedAt": "2026-03-30T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_230",
+      "claim": "ShinyHunters claims 350GB data breach at European Commission systems",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-29T07:24:00-07:00",
+        "context": "Techmeme Daily Digest — ShinyHunters EC breach"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://hackread.com/shinyhunters-350gb-data-breach-european-commission/",
+            "excerpt": "ShinyHunters claims it breached European Commission systems, leaking 350GB of data. Officials are investigating, with no independent verification yet.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cyberkendra.com/2026/03/shinyhunters-claims-350gb-eu-commission.html",
+            "excerpt": "ShinyHunters claims 350GB stolen from EU Commission's AWS cloud. Internal systems safe, but databases and emails may be leaked.",
+            "agrees": true
+          }
+        ],
+        "explanation": "The claim itself (that ShinyHunters made this claim) is confirmed by Hackread, TechFlowDaily, Cyber Kendra. Note: this is a *claimed* breach — the EC is investigating and independent verification is pending. The data reportedly came from AWS cloud infrastructure, not internal systems.",
+        "verifiedAt": "2026-03-30T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_231",
+      "claim": "Dario Amodei compared the Altman-Musk legal battle to 'a fight between Hitler and Stalin' in private communications",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-03-29T07:24:00-07:00",
+        "context": "Techmeme Daily Digest — Altman-Amodei feud WSJ profile"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "quote"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/evil-liar-how-anthropic-ceo-dario-amodeis-war-against-sam-altman-and-openai-got-personal/articleshow/129872044.cms",
+            "excerpt": "Amodei has compared the legal battle between Altman and Elon Musk to a fight between Hitler and Stalin",
+            "agrees": true
+          },
+          {
+            "url": "https://www.magzter.com/stories/newspaper/The-Wall-Street-Journal/THE-DECADELONG-FEUD-SHAPING-THE-FUTURE-OF-AI",
+            "excerpt": "This story is from the March 28, 2026 edition of The Wall Street Journal.",
+            "agrees": true
+          }
+        ],
+        "explanation": "The WSJ March 28 profile ('The Decadelong Feud Shaping the Future of AI') is confirmed, and the Hitler/Stalin analogy is reported by Times of India citing CNBC, which itself cites the WSJ profile. DISPUTED because: (1) the quote is from 'private communications with colleagues' — not a public statement; (2) the analogy compares the Altman-Musk fight, not Altman directly, to Hitler-Stalin; (3) the full context of the private communication may be different from how it reads in headlines. The Techmeme digest's characterization ('Amodei's Hitler vs Stalin analogy for Altman-Musk fight') is more precise than some summaries but the attribution chain (WSJ → CNBC → TOI) introduces potential distortion.",
+        "verifiedAt": "2026-03-30T03:00:00-06:00"
+      }
+    }
+  ],
   "stats": {
-    "totalClaims": 223,
-    "verified": 155,
-    "disputed": 42,
+    "totalClaims": 231,
+    "verified": 162,
+    "disputed": 43,
     "mostlyVerified": 4,
     "partiallyVerified": 17,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-29T03:00:00-07:00"
+    "lastUpdated": "2026-03-30T03:00:00-06:00"
   },
-  "lastUpdated": "2026-03-29T03:00:00-07:00",
+  "lastUpdated": "2026-03-30T03:00:00-06:00",
   "lastRunSummary": {
-    "date": "2026-03-29",
-    "claimsChecked": 4,
-    "verified": 2,
+    "date": "2026-03-30",
+    "claimsChecked": 8,
+    "verified": 7,
     "disputed": 1,
-    "partiallyVerified": 1,
+    "partiallyVerified": 0,
     "unverified": 0,
-    "newClaimsAdded": 4,
-    "totalClaims": 223,
-    "notes": "Added claims 220-223 from March 28 session transcripts. Key findings: (1) Google TurboQuant 6x memory compression is real, but Micron -15% is wrong — actual drop was ~3%; (2) Physical Intelligence $1B @ $11B is 'in talks' not closed — digest overclaimed; (3) NMA/Bria AI 50-50 licensing deal fully confirmed, 2,200 publishers; (4) Chinese state-sponsored Claude Code infiltration of ~30 orgs confirmed in Fortune's Mythos leak article."
+    "newClaimsAdded": 8,
+    "totalClaims": 231,
+    "notes": "Added claims 224-231 from March 29 digests and Techmeme. Key findings: (1) Anthropic won injunction March 26 — Judge Lin ordered Pentagon to rescind supply chain risk designation (confirmed NYT, TechCrunch, CNN, Axios); (2) Claude paid subs doubled in 2026 — confirmed by TechCrunch, Unite.AI, PYMNTS; (3) ALL 11 xAI cofounders now gone — Ross Nordeen + Manuel Kroiss were last two, both left (confirmed BI, TechCrunch, TNW); (4) MCP at 97M monthly SDK downloads confirmed; (5) Google AI headline rewrites now in Search (not just Discover) confirmed; (6) CA AB 2222 $80M public media package confirmed by KPBS; (7) NM newspaper printing tax credit signed; (8) Amodei 'Hitler vs Stalin' analogy for Altman-Musk fight confirmed via Times of India citing WSJ March 28 profile. Updated xAI cofounder claim_185 — was '9 of 11 left', now all 11 gone."
   }
 }
