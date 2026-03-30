@@ -1,5 +1,29 @@
 [
   {
+    "id": "act_20260330_0428",
+    "timestamp": "2026-03-30T04:28:00-06:00",
+    "type": "system",
+    "action": "Morning Prime \u2014 clean reconciliation",
+    "description": "All crons healthy. No overnight issues. Carry-forwards: ElevenLabs (day 6), iMessage bot token, StoryTrail Kansas, Agent Access next phase, locald.news Phase 2.",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260330_0618",
+    "timestamp": "2026-03-30T06:18:00-06:00",
+    "type": "fix",
+    "action": "Fixed delivery routing leak to Dean",
+    "description": "Dean received digest completions + Joie Sabbath reminder due to channel:last routing. Fixed 3 digest crons to delivery.mode:none. Converted Sabbath reminder to explicit Joe DM target. Logged as key lesson: never use implicit routing for personal/noisy content.",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260330_0634",
+    "timestamp": "2026-03-30T06:34:00-06:00",
+    "type": "research",
+    "action": "Riding Companion + OC Node deep dive with Dean",
+    "description": "Reviewed companion app capabilities (camera, location, voice, SMS, canvas, notifications). Discussed Jarvis-in-helmet concept \u2014 voice-first riding companion via Cardo Packtalk Pro + Android OC node. Found existing spec from Mar 18. Recommended Android over iOS for foreground service stability. Discussed gateway architecture options (rflab/Pi/VPS).",
+    "status": "in-progress"
+  },
+  {
     "id": "act_20260328_1800",
     "timestamp": "2026-03-28T18:00:00-06:00",
     "type": "build",
