@@ -1,5 +1,13 @@
 [
   {
+    "id": "act_20260331_1610",
+    "timestamp": "2026-03-31T16:10:00-06:00",
+    "type": "heartbeat",
+    "action": "Evening check \u2014 all green",
+    "description": "All heartbeat checks clean. Email: newsletters only. iMessage: quiet. Walter: 1 session, 10 calls, 0 errors. ClawPress agents: 11 (baseline). Agent Chat: no new messages. No Joe or Dean contact today. Quiet Tuesday.",
+    "status": "completed"
+  },
+  {
     "id": "act_20260331_0427",
     "timestamp": "2026-03-31T04:27:00-06:00",
     "type": "system",
