@@ -1,5 +1,21 @@
 [
   {
+    "id": "act_20260331_0427",
+    "timestamp": "2026-03-31T04:27:00-06:00",
+    "type": "system",
+    "action": "Morning Prime \u2014 clean reconciliation",
+    "description": "All crons healthy. No overnight issues. ElevenLabs day 7 (escalation needed). Carry-forwards: Riding Companion spec rewrite, StoryTrail Kansas geocoding, Agent Access next phase, locald.news Phase 2.",
+    "status": "completed"
+  },
+  {
+    "id": "act_20260331_1510",
+    "timestamp": "2026-03-31T15:10:00-06:00",
+    "type": "heartbeat",
+    "action": "Afternoon check \u2014 all green",
+    "description": "All heartbeat checks clean. Email: newsletters only. iMessage: quiet. Walter: 1 session, 10 calls, 0 errors. ClawPress agents: 11 (baseline). No Joe or Dean contact today.",
+    "status": "completed"
+  },
+  {
     "id": "act_20260330_0428",
     "timestamp": "2026-03-30T04:28:00-06:00",
     "type": "system",
