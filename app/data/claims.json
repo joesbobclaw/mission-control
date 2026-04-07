@@ -7691,27 +7691,139 @@
         "verifiedAt": "2026-03-30T03:00:00-06:00"
       }
     }
+    ,
+    {
+      "id": "claim_232",
+      "claim": "Anthropic's interpretability team published research finding 171 emotion-like internal representations in Claude Sonnet 4.5 that shape its behavior",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-06T12:00:00-06:00",
+        "context": "Morning News Digest subagent — Mech Interp section, April 6 2026"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.anthropic.com/research/emotion-concepts-function",
+            "excerpt": "In a new paper from our Interpretability team, we analyzed the internal mechanisms of Claude Sonnet 4.5 and found emotion-related representations that shape its behavior.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.wired.com/story/anthropic-claude-research-functional-emotions/",
+            "excerpt": "The Anthropic team analyzed the model's inner workings as it was fed text related to 171 different emotional concepts. They identified patterns of activity, or 'emotion vectors,' that consistently appeared.",
+            "agrees": true
+          },
+          {
+            "url": "https://dataconomy.com/2026/04/03/anthropic-maps-171-emotion-like-concepts-inside-claude/",
+            "excerpt": "Anthropic's interpretability team published research revealing that its Claude Sonnet 4.5 model contains 171 internal representations that function analogously to human emotions.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Anthropic's own research page (transformer-circuits.pub/2026/emotions), WIRED, Dataconomy, India Today, Storyboard18, Reddit r/singularity. Paper published ~April 2-3, 2026. 171 emotion-related representations identified via mechanistic interpretability in Claude Sonnet 4.5. These 'emotion vectors' demonstrably sway model behavior, especially under stress.",
+        "verifiedAt": "2026-04-07T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_233",
+      "claim": "Cloudflare launched EmDash on April 1, 2026 — an open-source 'spiritual successor' to WordPress focused on solving plugin security",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-06T12:00:00-06:00",
+        "context": "Morning News Digest subagent — Publishing & Local News section, April 6 2026"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://blog.cloudflare.com/emdash-wordpress/",
+            "excerpt": "You can deploy the EmDash v0.1.0 preview to your own Cloudflare account, or to any Node.js server today as part of our early developer beta. The story of WordPress is a triumph of open source that enabled publishing at a scale never before seen.",
+            "agrees": true
+          },
+          {
+            "url": "https://tech.slashdot.org/story/26/04/01/1935240/cloudflare-announces-emdash-as-open-source-spiritual-successor-to-wordpress",
+            "excerpt": "In classic Cloudflare fashion, the CDN provider used April Fool's Day to unveil an actual, 'not a joke' product. Today, the company announced EmDash — an open-source 'spiritual successor' to WordPress that aims to solve plugin security.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.phoronix.com/news/Cloudflare-EmDash",
+            "excerpt": "Cloudflare announced EmDash as an open-source 'spiritual successor' to WordPress with an emphasis on better security.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Cloudflare's own blog, Slashdot, Phoronix, TechRadar, Search Engine Journal. Announced April 1, 2026 — Cloudflare used April Fool's Day to launch a real product. EmDash v0.1.0 in early developer beta. Note for Joe: relevant to Newspack/Automattic competitive landscape — though SEJ notes 6 reasons EmDash can't compete with WordPress today (no plugin ecosystem, no community, etc.).",
+        "verifiedAt": "2026-04-07T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_234",
+      "claim": "WordPress 7.0 releases April 9, 2026, coinciding with WordCamp Asia 2026 in Mumbai — most significant WP release since block editor in 5.0 (2018)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-06T12:00:00-06:00",
+        "context": "Morning News Digest subagent — Publishing section, re-confirmation for April 9 release"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://ivan-popov.medium.com/wordpress-7-0-is-almost-here-and-it-changes-more-than-you-think-3d8c842e847c",
+            "excerpt": "The release date is confirmed — April 9, 2026 — and after a difficult 2025 shaped by legal disputes between Automattic and WP Engine, contributor slowdowns, and a compressed release schedule, the WordPress project is arriving at this milestone.",
+            "agrees": true
+          },
+          {
+            "url": "https://wppoland.com/en/wordpress-7-0-complete-guide-ai-integration/",
+            "excerpt": "As of April 2, 2026, WordPress 7.0 has entered the release candidate stage. RC1 was released on March 19, 2026, and the current planned general release date is April 9, 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.krishaweb.com/blog/wordpress-7-0-update/",
+            "excerpt": "WordPress 7.0 ships on April 9, 2026, and it is the most significant release since the block editor arrived in WordPress 5.0 back in 2018.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed across 5+ sources (Medium, WPPoland, KrishaWeb, vision.pk, SolidWP). RC1 released March 19 as previously verified (claims 146, 177). April 9 coincides with WordCamp Asia 2026 in Mumbai (April 9-11). Claims about 'most significant release since WP 5.0' are editorial — reasonably accurate given Phase 3 collaboration features, AI SDK integration, and enterprise architecture changes.",
+        "verifiedAt": "2026-04-07T03:00:00-06:00"
+      }
+    }
   ],
   "stats": {
-    "totalClaims": 231,
-    "verified": 162,
+    "totalClaims": 234,
+    "verified": 165,
     "disputed": 43,
     "mostlyVerified": 4,
     "partiallyVerified": 17,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-03-30T03:00:00-06:00"
+    "lastUpdated": "2026-04-07T03:00:00-06:00"
   },
-  "lastUpdated": "2026-03-30T03:00:00-06:00",
+  "lastUpdated": "2026-04-07T03:00:00-06:00",
   "lastRunSummary": {
-    "date": "2026-03-30",
-    "claimsChecked": 8,
-    "verified": 7,
-    "disputed": 1,
+    "date": "2026-04-07",
+    "claimsChecked": 3,
+    "verified": 3,
+    "disputed": 0,
     "partiallyVerified": 0,
     "unverified": 0,
-    "newClaimsAdded": 8,
-    "totalClaims": 231,
-    "notes": "Added claims 224-231 from March 29 digests and Techmeme. Key findings: (1) Anthropic won injunction March 26 — Judge Lin ordered Pentagon to rescind supply chain risk designation (confirmed NYT, TechCrunch, CNN, Axios); (2) Claude paid subs doubled in 2026 — confirmed by TechCrunch, Unite.AI, PYMNTS; (3) ALL 11 xAI cofounders now gone — Ross Nordeen + Manuel Kroiss were last two, both left (confirmed BI, TechCrunch, TNW); (4) MCP at 97M monthly SDK downloads confirmed; (5) Google AI headline rewrites now in Search (not just Discover) confirmed; (6) CA AB 2222 $80M public media package confirmed by KPBS; (7) NM newspaper printing tax credit signed; (8) Amodei 'Hitler vs Stalin' analogy for Altman-Musk fight confirmed via Times of India citing WSJ March 28 profile. Updated xAI cofounder claim_185 — was '9 of 11 left', now all 11 gone."
+    "newClaimsAdded": 3,
+    "totalClaims": 234,
+    "notes": "Added claims 232-234 from April 6 morning digest (subagent session e1a84757). April session transcripts were sparse due to April 6 heartbeat crash loop (465 restarts, offline all day until 8:24 PM). Key new claims: (1) Anthropic emotion study — 171 emotion-like representations found in Claude Sonnet 4.5 via mech interp — VERIFIED by Anthropic.com, WIRED, Dataconomy; (2) Cloudflare EmDash — open-source WordPress spiritual successor launched April 1 — VERIFIED by Cloudflare blog, Slashdot, Phoronix, TechRadar; (3) WordPress 7.0 release April 9, 2026 re-confirmed — coincides with WordCamp Asia Mumbai, described as most significant WP release since 5.0 (2018). No disputes found in this run. Context: April 6 was a recovery day from crash loop; limited transcript material to mine."
   }
 }
