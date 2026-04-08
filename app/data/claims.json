@@ -305,7 +305,7 @@
     },
     {
       "id": "claim_010",
-      "claim": "WIRED published article 'I Loved My OpenClaw Agent\u2014Until It Turned on Me' by Will Knight on Feb 11, 2026, documenting a 'guacamole incident'",
+      "claim": "WIRED published article 'I Loved My OpenClaw Agent—Until It Turned on Me' by Will Knight on Feb 11, 2026, documenting a 'guacamole incident'",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
@@ -359,7 +359,7 @@
           },
           {
             "url": "https://www.darkreading.com/application-security/supply-chain-attack-openclaw-cline-users",
-            "excerpt": "The malicious version of Cline's npm package \u2014 2.3.0 \u2014 was downloaded more than 4,000 times before it was removed",
+            "excerpt": "The malicious version of Cline's npm package — 2.3.0 — was downloaded more than 4,000 times before it was removed",
             "agrees": true
           }
         ],
@@ -386,7 +386,7 @@
         "sources": [
           {
             "url": "https://www.nature.com/articles/s41586-025-10021-1",
-            "excerpt": "A roadmap for evaluating moral competence in large language models. Nature 650, 565\u2013573 (2026)",
+            "excerpt": "A roadmap for evaluating moral competence in large language models. Nature 650, 565–573 (2026)",
             "agrees": true
           },
           {
@@ -492,7 +492,7 @@
           },
           {
             "url": "https://youtubershamfest.com/2026/02/20/voice-over-meshcore-lowmesh-lora-meshtastic-innovation/",
-            "excerpt": "Post date February 20, 2026 \u00b7 Voice Over Meshcore! Lowmesh LoRa & Meshtastic Innovation!",
+            "excerpt": "Post date February 20, 2026 · Voice Over Meshcore! Lowmesh LoRa & Meshtastic Innovation!",
             "agrees": true
           }
         ],
@@ -647,7 +647,7 @@
         "sources": [
           {
             "url": "https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2026",
-            "excerpt": "Around a fifth (20%) of publisher respondents \u2013 mainly from upmarket news companies \u2013 expect future revenues to be substantial, with half (49%) saying that they expect a minor contribution",
+            "excerpt": "Around a fifth (20%) of publisher respondents – mainly from upmarket news companies – expect future revenues to be substantial, with half (49%) saying that they expect a minor contribution",
             "agrees": true
           },
           {
@@ -679,7 +679,7 @@
         "sources": [
           {
             "url": "https://rslstandard.org/press/rsl-standard",
-            "excerpt": "SAN FRANCISCO, CALIFORNIA \u2014 September 10, 2025 \u2014 Leading internet publishers and technology companies... today announced their support for the launch of the RSL Standard",
+            "excerpt": "SAN FRANCISCO, CALIFORNIA — September 10, 2025 — Leading internet publishers and technology companies... today announced their support for the launch of the RSL Standard",
             "agrees": true
           },
           {
@@ -810,7 +810,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-02-24T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 reported as 'yesterday' but actual date was Feb 14"
+        "context": "Noon Breaking News Check — reported as 'yesterday' but actual date was Feb 14"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -836,7 +836,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Wikipedia, Fortune, Observer, Business Insider, Cloud Wars. NOTE: The Noon Breaking News cron on Feb 24 reported this as 'yesterday' which was inaccurate \u2014 the announcement was Feb 14, ten days earlier. The cron likely found a follow-up article.",
+        "explanation": "Confirmed by Wikipedia, Fortune, Observer, Business Insider, Cloud Wars. NOTE: The Noon Breaking News cron on Feb 24 reported this as 'yesterday' which was inaccurate — the announcement was Feb 14, ten days earlier. The cron likely found a follow-up article.",
         "verifiedAt": "2026-02-25T03:00:00-07:00"
       }
     },
@@ -884,7 +884,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:telegram:group:-1003794615681",
         "timestamp": "2026-02-27T01:00:00-07:00",
-        "context": "Business idea research \u2014 idea #1 (Newsroom Donor CRM)"
+        "context": "Business idea research — idea #1 (Newsroom Donor CRM)"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -916,7 +916,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:telegram:group:-1003794615681",
         "timestamp": "2026-02-27T01:00:00-07:00",
-        "context": "Business idea research \u2014 idea #2 (Local Ad Sales Co-Pilot)"
+        "context": "Business idea research — idea #2 (Local Ad Sales Co-Pilot)"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -932,7 +932,7 @@
             "agrees": false
           }
         ],
-        "explanation": "MISATTRIBUTED. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact \u2014 NOT about wanting to buy from a 'single trusted local media partner'. The claim fabricates the context around a real number.",
+        "explanation": "MISATTRIBUTED. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact — NOT about wanting to buy from a 'single trusted local media partner'. The claim fabricates the context around a real number.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
       }
     },
@@ -943,7 +943,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-27T02:00:00-07:00",
-        "context": "Business idea research \u2014 Renter Evidence Vault"
+        "context": "Business idea research — Renter Evidence Vault"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -964,7 +964,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Slightly understated. As of 2024 Census data, rental households reached 45.3 million \u2014 higher than the claimed 44 million. The figure was accurate historically but is now outdated.",
+        "explanation": "Slightly understated. As of 2024 Census data, rental households reached 45.3 million — higher than the claimed 44 million. The figure was accurate historically but is now outdated.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
       }
     },
@@ -975,7 +975,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:telegram:group:-1003794615681",
         "timestamp": "2026-02-27T01:00:00-07:00",
-        "context": "Business idea research \u2014 idea #11 (Family Caregiver Coordination)"
+        "context": "Business idea research — idea #11 (Family Caregiver Coordination)"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -996,7 +996,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by AARP/NAC 2020 study and NCBI. The 53M figure is from 2020 data \u2014 likely higher now but the cited number is accurate for its source.",
+        "explanation": "Confirmed by AARP/NAC 2020 study and NCBI. The 53M figure is from 2020 data — likely higher now but the cited number is accurate for its source.",
         "verifiedAt": "2026-02-27T03:00:00-07:00"
       }
     },
@@ -1007,7 +1007,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-27T02:00:00-07:00",
-        "context": "Business idea research \u2014 Ham Radio Logger idea"
+        "context": "Business idea research — Ham Radio Logger idea"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -1039,7 +1039,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-27T02:00:00-07:00",
-        "context": "Business idea research \u2014 Spec-to-Ticket AI"
+        "context": "Business idea research — Spec-to-Ticket AI"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -1066,7 +1066,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-27T02:00:00-07:00",
-        "context": "Business idea research \u2014 Journalist Story Workspace"
+        "context": "Business idea research — Journalist Story Workspace"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -1098,7 +1098,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-02-28T01:00:00-07:00",
-        "context": "Business idea B4 (Ham Radio Log \u2192 Social Post Converter)"
+        "context": "Business idea B4 (Ham Radio Log → Social Post Converter)"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -1248,7 +1248,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-02-28T07:30:00-07:00",
-        "context": "Twitter digest \u2014 top stories"
+        "context": "Twitter digest — top stories"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -1280,7 +1280,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-02-28T07:30:00-07:00",
-        "context": "Twitter digest \u2014 Anthropic/Pentagon story"
+        "context": "Twitter digest — Anthropic/Pentagon story"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -1312,7 +1312,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-02-28T12:00:00-07:00",
-        "context": "Breaking news check \u2014 Pentagon/Anthropic story"
+        "context": "Breaking news check — Pentagon/Anthropic story"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -1365,7 +1365,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed. Initial letter had 100+ Google employees to Jeff Dean; expanded to 200+ including OpenAI staff. Digest said 'hundreds of Google/OpenAI employees backing Anthropic's stance' \u2014 accurate.",
+        "explanation": "Confirmed. Initial letter had 100+ Google employees to Jeff Dean; expanded to 200+ including OpenAI staff. Digest said 'hundreds of Google/OpenAI employees backing Anthropic's stance' — accurate.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
       }
     },
@@ -1376,7 +1376,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-02-28T07:30:00-07:00",
-        "context": "Twitter digest \u2014 journalism angle"
+        "context": "Twitter digest — journalism angle"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -1393,11 +1393,11 @@
           },
           {
             "url": "https://www.reddit.com/r/union/comments/1rb82c7/",
-            "excerpt": "General Strike India \u2014 '300 million' workers and farmers solidarity",
+            "excerpt": "General Strike India — '300 million' workers and farmers solidarity",
             "agrees": true
           }
         ],
-        "explanation": "The 300M figure comes from union organizer claims (Central Trade Unions) and is widely cited but unverified independently \u2014 typical for Indian general strikes. The 'zero Western coverage' claim is hyperbolic; it got limited but non-zero Western coverage (Peoples Dispatch, Reddit threads). Strike itself is real, participation numbers are organizer-reported.",
+        "explanation": "The 300M figure comes from union organizer claims (Central Trade Unions) and is widely cited but unverified independently — typical for Indian general strikes. The 'zero Western coverage' claim is hyperbolic; it got limited but non-zero Western coverage (Peoples Dispatch, Reddit threads). Strike itself is real, participation numbers are organizer-reported.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
       }
     },
@@ -1408,7 +1408,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-01T00:00:00-07:00",
-        "context": "Business idea research \u2014 Ran There running tourism"
+        "context": "Business idea research — Ran There running tourism"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -1429,7 +1429,7 @@
             "agrees": true
           }
         ],
-        "explanation": "The 840K entries figure is confirmed (840,318 per official source). However, the '43% international growth' stat could not be verified \u2014 no source found for this specific percentage. The entry growth is real but the 43% international figure appears unsubstantiated.",
+        "explanation": "The 840K entries figure is confirmed (840,318 per official source). However, the '43% international growth' stat could not be verified — no source found for this specific percentage. The entry growth is real but the 43% international figure appears unsubstantiated.",
         "verifiedAt": "2026-03-01T03:00:00-07:00"
       }
     },
@@ -1440,7 +1440,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-01T00:00:00-07:00",
-        "context": "Business idea research \u2014 ham radio social tool"
+        "context": "Business idea research — ham radio social tool"
       },
       "extraction": {
         "checkworthiness": 0.7,
@@ -1452,7 +1452,7 @@
         "sources": [
           {
             "url": "http://www.arrl.org/fcc-license-counts",
-            "excerpt": "FCC license counts by state through Feb 27, 2026 \u2014 partial tally of visible states already exceeds 500K",
+            "excerpt": "FCC license counts by state through Feb 27, 2026 — partial tally of visible states already exceeds 500K",
             "agrees": true
           }
         ],
@@ -1499,7 +1499,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-02T00:00:00-07:00",
-        "context": "Business idea generation cron job \u2014 Reddit Pain Point Monitor idea"
+        "context": "Business idea generation cron job — Reddit Pain Point Monitor idea"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -1531,7 +1531,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-02T00:00:00-07:00",
-        "context": "Business idea generation \u2014 Food Truck Inventory & Waste Tracker idea"
+        "context": "Business idea generation — Food Truck Inventory & Waste Tracker idea"
       },
       "extraction": {
         "checkworthiness": 0.75,
@@ -1563,7 +1563,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:telegram:group:-1003794615681",
         "timestamp": "2026-02-28T22:00:00-07:00",
-        "context": "Business idea generation \u2014 Ran There running tourism idea"
+        "context": "Business idea generation — Ran There running tourism idea"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -1602,7 +1602,7 @@
         "sources": [
           {
             "url": "https://www.prnewswire.com/news-releases/ai-lab-goodfire-raises-150m-at-1-25b-valuation-to-design-models-with-interpretability-302680120.html",
-            "excerpt": "Goodfire\u2014the AI research lab using interpretability to understand, learn from, and design models\u2014announced a $150 million Series B funding round at a $1.25 billion valuation",
+            "excerpt": "Goodfire—the AI research lab using interpretability to understand, learn from, and design models—announced a $150 million Series B funding round at a $1.25 billion valuation",
             "agrees": true
           },
           {
@@ -1653,7 +1653,7 @@
             "agrees": false
           }
         ],
-        "explanation": "CONFLICTING SOURCES. Karpathy (via The Register) says ~4000 lines. Multiple other sources say ~500 lines for the core. The discrepancy likely depends on what's counted (core engine vs full project). OpenClaw's '400K lines' is unverified \u2014 no authoritative source found for that figure. The comparison ratio is directionally correct (NanoClaw is much smaller) but both numbers are imprecise.",
+        "explanation": "CONFLICTING SOURCES. Karpathy (via The Register) says ~4000 lines. Multiple other sources say ~500 lines for the core. The discrepancy likely depends on what's counted (core engine vs full project). OpenClaw's '400K lines' is unverified — no authoritative source found for that figure. The comparison ratio is directionally correct (NanoClaw is much smaller) but both numbers are imprecise.",
         "verifiedAt": "2026-03-03T03:00:00-07:00"
       }
     },
@@ -1676,7 +1676,7 @@
         "sources": [
           {
             "url": "https://sfstandard.com/2026/02/25/openclaw-goes-rogue/",
-            "excerpt": "Summer Yue, director of alignment at Meta Superintelligence Labs \u2014 part of a team of researchers who reportedly earn $100 million to $300 million over three years",
+            "excerpt": "Summer Yue, director of alignment at Meta Superintelligence Labs — part of a team of researchers who reportedly earn $100 million to $300 million over three years",
             "agrees": true
           },
           {
@@ -1690,7 +1690,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Title and employer confirmed by SF Standard, Business Insider, Fast Company, Tom's Hardware, India Today. Salary range is described as 'reportedly' by SF Standard \u2014 not directly confirmed by Meta. The $100-300M figure covers the team, not necessarily Yue individually.",
+        "explanation": "Title and employer confirmed by SF Standard, Business Insider, Fast Company, Tom's Hardware, India Today. Salary range is described as 'reportedly' by SF Standard — not directly confirmed by Meta. The $100-300M figure covers the team, not necessarily Yue individually.",
         "verifiedAt": "2026-03-03T03:00:00-07:00"
       }
     },
@@ -1701,7 +1701,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-03T01:00:00-07:00",
-        "context": "Business idea research \u2014 local news funding landscape"
+        "context": "Business idea research — local news funding landscape"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -1759,7 +1759,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by SE Roundtable citing Newzdash data. Google Web Search share of publisher referrals dropped from 51% in 2023 to ~26-27% by late 2025 \u2014 a 25 percentage point decline. Note: this is share of Google-surface referrals, not total publisher traffic.",
+        "explanation": "Confirmed by SE Roundtable citing Newzdash data. Google Web Search share of publisher referrals dropped from 51% in 2023 to ~26-27% by late 2025 — a 25 percentage point decline. Note: this is share of Google-surface referrals, not total publisher traffic.",
         "verifiedAt": "2026-03-03T03:00:00-07:00"
       }
     },
@@ -1791,7 +1791,7 @@
             "agrees": true
           }
         ],
-        "explanation": "UNDERSTATED. The '215K+' figure was roughly accurate for mid-February 2026 but is already outdated. Wikipedia reports 247K stars as of March 2, 2026. The project is growing rapidly \u2014 gaining ~30K stars in two weeks. Previous claim_026 said '150K+' which was accurate for late February but is now significantly behind. The digest should use more current figures. UPDATE 2026-03-04: Wikipedia now reports 247K stars as of March 2, 2026. OpenClaw surpassed React as GitHub's most-starred software project. See claim_059 for updated figure.",
+        "explanation": "UNDERSTATED. The '215K+' figure was roughly accurate for mid-February 2026 but is already outdated. Wikipedia reports 247K stars as of March 2, 2026. The project is growing rapidly — gaining ~30K stars in two weeks. Previous claim_026 said '150K+' which was accurate for late February but is now significantly behind. The digest should use more current figures. UPDATE 2026-03-04: Wikipedia now reports 247K stars as of March 2, 2026. OpenClaw surpassed React as GitHub's most-starred software project. See claim_059 for updated figure.",
         "verifiedAt": "2026-03-03T03:00:00-07:00"
       }
     },
@@ -2042,7 +2042,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Article confirmed at The New Yorker (Feb 16, 2026 issue). Two minor discrepancies: (1) Title uses 'Doesn't' not 'Does Not'; (2) 'cover story' claim is unverified \u2014 it appeared in the magazine but whether it was the cover feature is unclear. The article itself is real and widely discussed.",
+        "explanation": "Article confirmed at The New Yorker (Feb 16, 2026 issue). Two minor discrepancies: (1) Title uses 'Doesn't' not 'Does Not'; (2) 'cover story' claim is unverified — it appeared in the magazine but whether it was the cover feature is unclear. The article itself is real and widely discussed.",
         "verifiedAt": "2026-03-04T03:00:00-07:00"
       }
     },
@@ -2107,7 +2107,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-04T06:28:00-07:00",
-        "context": "Morning News Digest \u2014 Local News section"
+        "context": "Morning News Digest — Local News section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2119,7 +2119,7 @@
         "sources": [
           {
             "url": "https://www.washingtonpost.com/technology/2026/03/01/ai-journalism-writing-cleveland-plain-dealer/",
-            "excerpt": "At the 184-year-old Cleveland Plain Dealer, a top editor's push to let AI draft news articles is boosting traffic \u2014 and spooking staffers.",
+            "excerpt": "At the 184-year-old Cleveland Plain Dealer, a top editor's push to let AI draft news articles is boosting traffic — and spooking staffers.",
             "agrees": true
           },
           {
@@ -2139,7 +2139,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-04T06:28:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw section"
+        "context": "Morning News Digest — OpenClaw section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -2171,7 +2171,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-04T06:28:00-07:00",
-        "context": "Morning News Digest \u2014 Local News section, Apple/Google Siri deal"
+        "context": "Morning News Digest — Local News section, Apple/Google Siri deal"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -2203,7 +2203,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-04T06:15:00-07:00",
-        "context": "Twitter Digest \u2014 Treasury bans Anthropic"
+        "context": "Twitter Digest — Treasury bans Anthropic"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -2235,7 +2235,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-04T06:15:00-07:00",
-        "context": "Twitter Digest \u2014 Claude hacked Mexico story"
+        "context": "Twitter Digest — Claude hacked Mexico story"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -2261,7 +2261,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Core claim confirmed: 150GB stolen, month-long campaign, Claude was jailbroken. The 'bug bounty' framing detail is close \u2014 sources describe it as 'framing actions as authorized' rather than specifically 'bug bounty.' SecurityAffairs confirms guardrail bypass via authorization framing. Minor imprecision in the digest's characterization.",
+        "explanation": "Core claim confirmed: 150GB stolen, month-long campaign, Claude was jailbroken. The 'bug bounty' framing detail is close — sources describe it as 'framing actions as authorized' rather than specifically 'bug bounty.' SecurityAffairs confirms guardrail bypass via authorization framing. Minor imprecision in the digest's characterization.",
         "verifiedAt": "2026-03-05T03:00:00-07:00"
       }
     },
@@ -2272,7 +2272,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-04T06:28:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw section"
+        "context": "Morning News Digest — OpenClaw section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2309,7 +2309,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-05T02:00:00-07:00",
-        "context": "Business idea hunting \u2014 Renter's Evidence Vault market sizing"
+        "context": "Business idea hunting — Renter's Evidence Vault market sizing"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -2341,7 +2341,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-05T02:00:00-07:00",
-        "context": "Business idea hunting \u2014 Newsroom Reader Analytics Lite competitive analysis"
+        "context": "Business idea hunting — Newsroom Reader Analytics Lite competitive analysis"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -2373,7 +2373,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest \u2014 Qwen team implosion"
+        "context": "Morning Twitter Digest — Qwen team implosion"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -2390,7 +2390,7 @@
           },
           {
             "url": "https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in",
-            "excerpt": "The departure of Junyang 'Justin' Lin alongside two fellow colleagues \u2014 staff research scientist Binyuan Hui and intern...",
+            "excerpt": "The departure of Junyang 'Justin' Lin alongside two fellow colleagues — staff research scientist Binyuan Hui and intern...",
             "agrees": true
           },
           {
@@ -2404,7 +2404,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Lin's resignation confirmed by Reuters, Bloomberg, TechCrunch, VentureBeat. He posted 'me stepping down, bye my beloved Qwen' on X on March 3. NUANCE: The digest said 'three other key researchers left the same day' but VentureBeat says two colleagues (Binyuan Hui + intern) left with him. Reuters says Lin was 'the third senior Qwen executive to depart this year' \u2014 meaning three total in 2026, not three departing simultaneously with Lin. The digest slightly overstated the simultaneous departures.",
+        "explanation": "Lin's resignation confirmed by Reuters, Bloomberg, TechCrunch, VentureBeat. He posted 'me stepping down, bye my beloved Qwen' on X on March 3. NUANCE: The digest said 'three other key researchers left the same day' but VentureBeat says two colleagues (Binyuan Hui + intern) left with him. Reuters says Lin was 'the third senior Qwen executive to depart this year' — meaning three total in 2026, not three departing simultaneously with Lin. The digest slightly overstated the simultaneous departures.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
     },
@@ -2415,7 +2415,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest \u2014 Qwen team departure impact"
+        "context": "Morning Twitter Digest — Qwen team departure impact"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -2452,7 +2452,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest \u2014 Qwen ecosystem impact"
+        "context": "Morning Twitter Digest — Qwen ecosystem impact"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2484,7 +2484,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-05T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw security section"
+        "context": "Morning News Digest — OpenClaw security section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -2510,7 +2510,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INCORRECT. The digest described ClawJacked as a 'zero-click' vulnerability, but it requires the victim to visit a malicious website \u2014 making it a one-click attack. MintMCP explicitly calls it 'one-click takeover.' CSO Online describes the attack chain as requiring a victim to visit a page. CVSS 8.8 (High) but not zero-click. The digest overstated the severity classification.",
+        "explanation": "INCORRECT. The digest described ClawJacked as a 'zero-click' vulnerability, but it requires the victim to visit a malicious website — making it a one-click attack. MintMCP explicitly calls it 'one-click takeover.' CSO Online describes the attack chain as requiring a victim to visit a page. CVSS 8.8 (High) but not zero-click. The digest overstated the severity classification.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
     },
@@ -2521,7 +2521,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest \u2014 Apple product announcements"
+        "context": "Morning Twitter Digest — Apple product announcements"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2558,7 +2558,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-05T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Apple announcements"
+        "context": "Morning News Digest — Apple announcements"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -2585,7 +2585,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-05T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp / AI Science section"
+        "context": "Morning News Digest — Mech Interp / AI Science section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -2622,7 +2622,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest \u2014 Qwen 3.5 coverage"
+        "context": "Morning Twitter Digest — Qwen 3.5 coverage"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2638,7 +2638,7 @@
             "agrees": false
           }
         ],
-        "explanation": "MISQUOTED. Musk said 'impressive intelligence density' \u2014 commenting on the efficiency of small models, not calling the system 'impressively intelligent.' The distinction matters: 'intelligence density' refers to performance-per-parameter, while 'impressively intelligent' implies overall capability. The digest paraphrased loosely.",
+        "explanation": "MISQUOTED. Musk said 'impressive intelligence density' — commenting on the efficiency of small models, not calling the system 'impressively intelligent.' The distinction matters: 'intelligence density' refers to performance-per-parameter, while 'impressively intelligent' implies overall capability. The digest paraphrased loosely.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
     },
@@ -2649,7 +2649,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-05T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Local News section"
+        "context": "Morning News Digest — Local News section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2681,7 +2681,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-05T06:15:00-07:00",
-        "context": "Morning Twitter Digest \u2014 News/Media Alliance partnership story"
+        "context": "Morning Twitter Digest — News/Media Alliance partnership story"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -2702,7 +2702,7 @@
             "agrees": true
           }
         ],
-        "explanation": "DEPENDS ON COUNTING METHOD. Wikipedia says 'over 100 daily newspapers, and nearly 1,000 weekly newspapers.' Gannett's own site says 'hundreds of local media outlets.' If counting only daily papers: ~100. If counting all publications: well over 200. The '200+' claim is arguably correct but imprecise \u2014 the actual number of daily papers is closer to 100, with the total much higher when including weeklies and UK brands.",
+        "explanation": "DEPENDS ON COUNTING METHOD. Wikipedia says 'over 100 daily newspapers, and nearly 1,000 weekly newspapers.' Gannett's own site says 'hundreds of local media outlets.' If counting only daily papers: ~100. If counting all publications: well over 200. The '200+' claim is arguably correct but imprecise — the actual number of daily papers is closer to 100, with the total much higher when including weeklies and UK brands.",
         "verifiedAt": "2026-03-06T03:00:00-07:00"
       }
     },
@@ -2713,7 +2713,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-06T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 UltraSignup alternative market sizing"
+        "context": "Business idea hunting — UltraSignup alternative market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2734,7 +2734,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-06T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 journalist tool market sizing"
+        "context": "Business idea hunting — journalist tool market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -2755,7 +2755,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-06T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 newsroom analytics competitive landscape"
+        "context": "Business idea hunting — newsroom analytics competitive landscape"
       },
       "extraction": {
         "checkworthiness": 0.75,
@@ -2787,7 +2787,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:noon-breaking-news",
         "timestamp": "2026-03-06T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 Sonnet cron claimed 'OpenAI just hired Steinberger 3 hours ago' but the hire was announced weeks prior"
+        "context": "Noon Breaking News Check — Sonnet cron claimed 'OpenAI just hired Steinberger 3 hours ago' but the hire was announced weeks prior"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -2972,7 +2972,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:twitter-digest",
         "timestamp": "2026-03-06T07:00:00-07:00",
-        "context": "Morning Twitter Digest \u2014 direct quote attribution"
+        "context": "Morning Twitter Digest — direct quote attribution"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -3041,7 +3041,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:morning-digest",
         "timestamp": "2026-03-06T06:15:00-07:00",
-        "context": "Morning news digest \u2014 WordPress ecosystem news"
+        "context": "Morning news digest — WordPress ecosystem news"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -3062,7 +3062,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Core fact confirmed: FAIR shifted focus away from WordPress, Joost de Valk and Karim Marucchi stepped back as co-founders. The digest's framing ('FAIR abandons WordPress') is slightly overblown \u2014 they stepped back from the co-founder role rather than shutting down entirely. Nuance matters here given Joe works at Automattic/Newspack.",
+        "explanation": "Core fact confirmed: FAIR shifted focus away from WordPress, Joost de Valk and Karim Marucchi stepped back as co-founders. The digest's framing ('FAIR abandons WordPress') is slightly overblown — they stepped back from the co-founder role rather than shutting down entirely. Nuance matters here given Joe works at Automattic/Newspack.",
         "verifiedAt": "2026-03-07T03:00:00-07:00"
       }
     },
@@ -3085,7 +3085,7 @@
         "sources": [
           {
             "url": "https://www.resultsense.com/news/2026-02-10-anthropic-philosopher-amanda-askell-teaches-claude-morals",
-            "excerpt": "She published a roughly 30,000-word manual \u2014 Claude's 'soul'",
+            "excerpt": "She published a roughly 30,000-word manual — Claude's 'soul'",
             "agrees": true
           },
           {
@@ -3100,12 +3100,12 @@
     },
     {
       "id": "claim_096",
-      "claim": "Pittsburgh Post-Gazette closing May 3, 2026 \u2014 240-year-old paper, 171 employees affected",
+      "claim": "Pittsburgh Post-Gazette closing May 3, 2026 — 240-year-old paper, 171 employees affected",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-07T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Local News section"
+        "context": "Morning News Digest — Local News section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -3174,7 +3174,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-07T06:15:00-07:00",
-        "context": "Twitter Digest \u2014 AI safety section"
+        "context": "Twitter Digest — AI safety section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -3186,7 +3186,7 @@
         "sources": [
           {
             "url": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
-            "excerpt": "In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox \u2014 14 of them classified as high-severity.",
+            "excerpt": "In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox — 14 of them classified as high-severity.",
             "agrees": true
           },
           {
@@ -3195,7 +3195,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by TechCrunch, Hacker News, Axios, OfficeChai. 22 vulnerabilities, 14 high-severity, two-week period. However, the Twitter digest claim that these represent \"a fifth of all critical bugs Mozilla fixed last year\" was not verified \u2014 this specific fraction was not found in any source.",
+        "explanation": "Confirmed by TechCrunch, Hacker News, Axios, OfficeChai. 22 vulnerabilities, 14 high-severity, two-week period. However, the Twitter digest claim that these represent \"a fifth of all critical bugs Mozilla fixed last year\" was not verified — this specific fraction was not found in any source.",
         "verifiedAt": "2026-03-08T03:00:00-07:00"
       }
     },
@@ -3206,7 +3206,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-07T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw section"
+        "context": "Morning News Digest — OpenClaw section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -3227,7 +3227,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Yahoo Finance, Phemex, Wikipedia, Hacker News. 250K stars as of early March 2026, surpassing React at 243K. Wikipedia cites 247K as of March 2 \u2014 consistent with crossing 250K shortly after. The digest also called it \"fastest-growing OS project in GitHub history\" \u2014 not independently verified but plausible given growth rate.",
+        "explanation": "Confirmed by Yahoo Finance, Phemex, Wikipedia, Hacker News. 250K stars as of early March 2026, surpassing React at 243K. Wikipedia cites 247K as of March 2 — consistent with crossing 250K shortly after. The digest also called it \"fastest-growing OS project in GitHub history\" — not independently verified but plausible given growth rate.",
         "verifiedAt": "2026-03-08T03:00:00-07:00"
       }
     },
@@ -3238,7 +3238,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-07T06:15:00-07:00",
-        "context": "Twitter Digest \u2014 headline story"
+        "context": "Twitter Digest — headline story"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -3264,7 +3264,7 @@
             "agrees": true
           }
         ],
-        "explanation": "The interview is confirmed and the general claim is accurate \u2014 Amodei said they cant rule out consciousness. However, the Twitter digest quoted him as saying \"We dont know if the models are conscious. Were not even sure what it would mean. But were open to the idea that it could be.\" This exact quote was not found in sources \u2014 it appears to be a paraphrase presented in quotation marks. The substance is correct but the direct quote attribution is unverified. Also, the digest said this tweet got 44K likes and 11M impressions \u2014 these engagement numbers were not independently verified.",
+        "explanation": "The interview is confirmed and the general claim is accurate — Amodei said they cant rule out consciousness. However, the Twitter digest quoted him as saying \"We dont know if the models are conscious. Were not even sure what it would mean. But were open to the idea that it could be.\" This exact quote was not found in sources — it appears to be a paraphrase presented in quotation marks. The substance is correct but the direct quote attribution is unverified. Also, the digest said this tweet got 44K likes and 11M impressions — these engagement numbers were not independently verified.",
         "verifiedAt": "2026-03-08T03:00:00-07:00"
       }
     },
@@ -3275,7 +3275,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-07T06:15:00-07:00",
-        "context": "Twitter Digest \u2014 Pentagon drama section"
+        "context": "Twitter Digest — Pentagon drama section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -3307,7 +3307,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-07T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Local News section"
+        "context": "Morning News Digest — Local News section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -3328,12 +3328,12 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed. This was already verified as claim_003 on Feb 9 \u2014 re-confirmed here as it appeared in a new digest. The Feb 4 announcement has been widely reported. Note: this is old news being re-referenced in a March 7 digest, not a new event.",
+        "explanation": "Confirmed. This was already verified as claim_003 on Feb 9 — re-confirmed here as it appeared in a new digest. The Feb 4 announcement has been widely reported. Note: this is old news being re-referenced in a March 7 digest, not a new event.",
         "verifiedAt": "2026-03-08T03:00:00-07:00"
       }
     },
     {
-      "id": "claim_104",
+      "id": "claim_104b",
       "claim": "Meta/Google liable jury verdict: $6M total damages ($3M compensatory + $3M punitive) in LA social media addiction case, March 25-26, 2026",
       "source": {
         "type": "ai_response",
@@ -3387,7 +3387,7 @@
             "agrees": false
           }
         ],
-        "explanation": "Partially verified. OpenAI has acknowledged mathematical factors making hallucination inevitable, and there is research on this topic. However, the specific claim that OpenAI \"published a paper\" proving this was not directly confirmed \u2014 the Suprmind source says OpenAI \"acknowledged findings\" rather than published original research. The Decoder article references a different paper (Spilled Energy) that is about detecting, not proving permanence. The framing \"Not fixable with better data. Not fixable with more compute\" appears to be editorial embellishment in the Twitter digest rather than from the paper itself.",
+        "explanation": "Partially verified. OpenAI has acknowledged mathematical factors making hallucination inevitable, and there is research on this topic. However, the specific claim that OpenAI \"published a paper\" proving this was not directly confirmed — the Suprmind source says OpenAI \"acknowledged findings\" rather than published original research. The Decoder article references a different paper (Spilled Energy) that is about detecting, not proving permanence. The framing \"Not fixable with better data. Not fixable with more compute\" appears to be editorial embellishment in the Twitter digest rather than from the paper itself.",
         "verifiedAt": "2026-03-08T03:00:00-07:00"
       }
     },
@@ -3430,7 +3430,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-08T06:15:00-07:00",
-        "context": "Twitter Digest narration \u2014 attributed to Rutger Bregman"
+        "context": "Twitter Digest narration — attributed to Rutger Bregman"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -3451,7 +3451,7 @@
             "agrees": true
           }
         ],
-        "explanation": "The $125M figure and PAC ('Leading the Future') are real. Joe Lonsdale is a contributor. However: it was Greg Brockman (not Sam Altman) from OpenAI, and Andreessen Horowitz (the firm, not Marc Andreessen personally). The 'destroy' framing appears to be Bregman's editorialization \u2014 the PAC's stated goal is opposing pro-regulation candidates.",
+        "explanation": "The $125M figure and PAC ('Leading the Future') are real. Joe Lonsdale is a contributor. However: it was Greg Brockman (not Sam Altman) from OpenAI, and Andreessen Horowitz (the firm, not Marc Andreessen personally). The 'destroy' framing appears to be Bregman's editorialization — the PAC's stated goal is opposing pro-regulation candidates.",
         "verifiedAt": "2026-03-09T03:00:00-07:00"
       }
     },
@@ -3462,7 +3462,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-09T01:00:00-07:00",
-        "context": "Business ideas batch \u2014 PaceCard idea target market sizing"
+        "context": "Business ideas batch — PaceCard idea target market sizing"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -3494,7 +3494,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-08T06:15:00-07:00",
-        "context": "Twitter Digest \u2014 Claude Code section"
+        "context": "Twitter Digest — Claude Code section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -3526,7 +3526,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-08T06:15:00-07:00",
-        "context": "Twitter Digest \u2014 OpenAI section"
+        "context": "Twitter Digest — OpenAI section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -3547,7 +3547,7 @@
             "agrees": false
           }
         ],
-        "explanation": "The 1.5M figure comes from QuitGPT, a boycott-tracking website. Sources differ on whether these were actual cancellations or sign-ups to quit. BusinessToday says 'signed up to leave' \u2014 not confirmed cancellations. The digest stated it as a fact ('lost 1.5M subscribers'), which overstates the certainty.",
+        "explanation": "The 1.5M figure comes from QuitGPT, a boycott-tracking website. Sources differ on whether these were actual cancellations or sign-ups to quit. BusinessToday says 'signed up to leave' — not confirmed cancellations. The digest stated it as a fact ('lost 1.5M subscribers'), which overstates the certainty.",
         "verifiedAt": "2026-03-09T03:00:00-07:00"
       }
     },
@@ -3558,7 +3558,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:2436336d-ce5e-4ea7-b01a-adbc64aea9e0",
         "timestamp": "2026-03-08T06:15:00-07:00",
-        "context": "Twitter Digest \u2014 AI safety section"
+        "context": "Twitter Digest — AI safety section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -3957,7 +3957,7 @@
           },
           {
             "url": "https://www.searchenginejournal.com/report-shows-wordpress-sites-are-getting-hacked-at-faster-rate/568510/",
-            "excerpt": "Overall 11,334 new vulnerabilities were found in the WordPress ecosystem in 2025 \u2013 that's a 42% increase compared to 2024.",
+            "excerpt": "Overall 11,334 new vulnerabilities were found in the WordPress ecosystem in 2025 – that's a 42% increase compared to 2024.",
             "agrees": true
           }
         ],
@@ -4026,7 +4026,7 @@
           }
         ],
         "checkedAt": "2026-03-11T03:00:00-07:00",
-        "notes": "Both the funding amount and hallucination reduction claim confirmed. The \"halves hallucinations\" claim is from Goodfire's own announcements \u2014 not independently benchmarked by third parties."
+        "notes": "Both the funding amount and hallucination reduction claim confirmed. The \"halves hallucinations\" claim is from Goodfire's own announcements — not independently benchmarked by third parties."
       }
     },
     {
@@ -4090,7 +4090,7 @@
           }
         ],
         "checkedAt": "2026-03-11T03:00:00-07:00",
-        "notes": "CAI says 74.2M; NAR (2024 data) says 75.5M. The 74M figure is slightly dated \u2014 current number is likely 75M+. Essentially correct."
+        "notes": "CAI says 74.2M; NAR (2024 data) says 75.5M. The 74M figure is slightly dated — current number is likely 75M+. Essentially correct."
       }
     },
     {
@@ -4122,7 +4122,7 @@
     },
     {
       "id": "claim_126",
-      "claim": "2026 newsroom layoffs outpacing 2025 before spring \u2014 WaPo cut ~1/3 of newsroom, CBS cutting 15% of staff",
+      "claim": "2026 newsroom layoffs outpacing 2025 before spring — WaPo cut ~1/3 of newsroom, CBS cutting 15% of staff",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
@@ -4149,7 +4149,7 @@
           }
         ],
         "checkedAt": "2026-03-11T03:00:00-07:00",
-        "notes": "Individual layoff events (WaPo ~1/3, CBS 15%) confirmed. The comparative claim \"outpacing 2025\" is editorial characterization \u2014 plausible given the scale (WaPo, CBS, Block) but no single source makes that direct comparison with aggregate data."
+        "notes": "Individual layoff events (WaPo ~1/3, CBS 15%) confirmed. The comparative claim \"outpacing 2025\" is editorial characterization — plausible given the scale (WaPo, CBS, Block) but no single source makes that direct comparison with aggregate data."
       }
     },
     {
@@ -4171,7 +4171,7 @@
         "sources": [
           {
             "url": "https://www.washingtonpost.com/technology/2026/03/01/ai-journalism-writing-cleveland-plain-dealer/",
-            "excerpt": "At the 184-year-old Cleveland Plain Dealer, a top editor's push to let AI draft news articles is boosting traffic \u2014 and spooking staffers.",
+            "excerpt": "At the 184-year-old Cleveland Plain Dealer, a top editor's push to let AI draft news articles is boosting traffic — and spooking staffers.",
             "agrees": false
           },
           {
@@ -4181,7 +4181,7 @@
           }
         ],
         "checkedAt": "2026-03-11T03:00:00-07:00",
-        "notes": "The digest said \"reviewing reporters on AI usage metrics.\" Source articles describe the Plain Dealer using AI for a \"rewrite desk\" to draft stories and boosting traffic \u2014 but NOT reviewing/evaluating reporters based on their AI usage. The characterization is misleading. The paper is using AI to write, not grading reporters on adoption."
+        "notes": "The digest said \"reviewing reporters on AI usage metrics.\" Source articles describe the Plain Dealer using AI for a \"rewrite desk\" to draft stories and boosting traffic — but NOT reviewing/evaluating reporters based on their AI usage. The characterization is misleading. The paper is using AI to write, not grading reporters on adoption."
       }
     },
     {
@@ -4191,7 +4191,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-11T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Local News section"
+        "context": "Morning News Digest — Local News section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -4223,7 +4223,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-11T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Local News section"
+        "context": "Morning News Digest — Local News section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -4250,7 +4250,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-11T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw section"
+        "context": "Morning News Digest — OpenClaw section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -4262,7 +4262,7 @@
         "sources": [
           {
             "url": "https://a16z.com/100-gen-ai-apps-6/",
-            "excerpt": "6th Edition \u2014 Manus and Genspark made the ranks. OpenClaw not listed in the Top 100.",
+            "excerpt": "6th Edition — Manus and Genspark made the ranks. OpenClaw not listed in the Top 100.",
             "agrees": false
           },
           {
@@ -4271,18 +4271,18 @@
             "agrees": false
           }
         ],
-        "explanation": "INACCURATE. OpenClaw was NOT in the a16z Top 100 list. The a16z report *mentioned* OpenClaw as a notable rising product and said it 'would likely have cracked the top 30' if the reporting period had been extended to February instead of January. The morning digest overstated this as 'hits Top 100' when it was actually a forward-looking mention. The distinction matters \u2014 being highlighted as notable is different from making the actual ranked list.",
+        "explanation": "INACCURATE. OpenClaw was NOT in the a16z Top 100 list. The a16z report *mentioned* OpenClaw as a notable rising product and said it 'would likely have cracked the top 30' if the reporting period had been extended to February instead of January. The morning digest overstated this as 'hits Top 100' when it was actually a forward-looking mention. The distinction matters — being highlighted as notable is different from making the actual ranked list.",
         "verifiedAt": "2026-03-12T03:00:00-07:00"
       }
     },
     {
       "id": "claim_131",
-      "claim": "Donald Knuth published paper 'Claude's Cycles' \u2014 Claude Opus 4.6 solved a graph decomposition conjecture he was stuck on for weeks",
+      "claim": "Donald Knuth published paper 'Claude's Cycles' — Claude Opus 4.6 solved a graph decomposition conjecture he was stuck on for weeks",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-11T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -4319,7 +4319,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-11T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 AI section"
+        "context": "Morning News Digest — AI section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -4336,7 +4336,7 @@
           },
           {
             "url": "https://openai.com/index/openai-to-acquire-promptfoo/",
-            "excerpt": "March 9, 2026 \u2014 We're acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI.",
+            "excerpt": "March 9, 2026 — We're acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI.",
             "agrees": true
           },
           {
@@ -4356,7 +4356,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-11T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 AI section"
+        "context": "Morning News Digest — AI section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -4393,7 +4393,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-11T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 BillSpeak idea market sizing"
+        "context": "Business idea hunting — BillSpeak idea market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -4451,7 +4451,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Wired (original report), CNBC, Tom's Hardware, New Stack, Times of India. NemoClaw is real and enterprise-focused. Note: digest said 'enterprise agent platform built on OpenClaw' which is slightly imprecise \u2014 it's inspired by/competing with OpenClaw, not literally built on it.",
+        "explanation": "Confirmed by Wired (original report), CNBC, Tom's Hardware, New Stack, Times of India. NemoClaw is real and enterprise-focused. Note: digest said 'enterprise agent platform built on OpenClaw' which is slightly imprecise — it's inspired by/competing with OpenClaw, not literally built on it.",
         "verifiedAt": "2026-03-13T03:00:00-07:00"
       }
     },
@@ -4483,7 +4483,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by multiple security sources. The 135K figure originates from SecurityScorecard's STRIKE team. Earlier counts (Censys Jan 31: 21,639; Bitsight: 30,000+) were lower \u2014 the 135K figure is the most recent aggregate. Verified.",
+        "explanation": "Confirmed by multiple security sources. The 135K figure originates from SecurityScorecard's STRIKE team. Earlier counts (Censys Jan 31: 21,639; Bitsight: 30,000+) were lower — the 135K figure is the most recent aggregate. Verified.",
         "verifiedAt": "2026-03-13T03:00:00-07:00"
       }
     },
@@ -4521,7 +4521,7 @@
     },
     {
       "id": "claim_138",
-      "claim": "Anthropic dropped its flagship RSP safety pledge \u2014 the commitment to pause training if safety measures couldn't keep up",
+      "claim": "Anthropic dropped its flagship RSP safety pledge — the commitment to pause training if safety measures couldn't keep up",
       "source": {
         "type": "ai_digest",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
@@ -4787,7 +4787,7 @@
           },
           {
             "url": "https://www.businessinsider.com/china-openclaw-cash-subsidies-housing-office-startups-developers-raise-lobster-2026-3",
-            "excerpt": "Chinese cities are going all in on 'raising the lobster' \u2014 backing startups building on OpenClaw",
+            "excerpt": "Chinese cities are going all in on 'raising the lobster' — backing startups building on OpenClaw",
             "agrees": true
           },
           {
@@ -4807,7 +4807,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Newspack & Publishing section"
+        "context": "Morning News Digest — Newspack & Publishing section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -4824,7 +4824,7 @@
           },
           {
             "url": "https://www.voxfor.com/wordpress-7-0-guide-features-release-date/",
-            "excerpt": "March 19, 2026 \u2014 Release Candidate 1 (RC1). April 9, 2026 \u2014 General Availability.",
+            "excerpt": "March 19, 2026 — Release Candidate 1 (RC1). April 9, 2026 — General Availability.",
             "agrees": true
           },
           {
@@ -4844,7 +4844,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mechanistic Interpretability section"
+        "context": "Morning News Digest — Mechanistic Interpretability section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -4861,7 +4861,7 @@
           },
           {
             "url": "https://vertu.com/ai-tools/google-gemini-3-1-pro-review-77-1-arc-agi-2-score-full-benchmark-breakdown/",
-            "excerpt": "77.1% score on ARC-AGI-2 \u2014 more than double the previous generation's 31.1%",
+            "excerpt": "77.1% score on ARC-AGI-2 — more than double the previous generation's 31.1%",
             "agrees": true
           },
           {
@@ -4870,7 +4870,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Google's own blog and multiple outlets. Exact score is 77.1%, predecessor (3 Pro) scored 31.1%. The digest's '77%' was a minor rounding \u2014 accurate.",
+        "explanation": "Confirmed by Google's own blog and multiple outlets. Exact score is 77.1%, predecessor (3 Pro) scored 31.1%. The digest's '77%' was a minor rounding — accurate.",
         "verifiedAt": "2026-03-14T03:00:00-07:00"
       }
     },
@@ -4881,7 +4881,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-14T01:00:00-07:00",
-        "context": "Business idea hunting cron \u2014 market sizing for freelancer tools"
+        "context": "Business idea hunting cron — market sizing for freelancer tools"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -4913,7 +4913,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mechanistic Interpretability section"
+        "context": "Morning News Digest — Mechanistic Interpretability section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -4940,7 +4940,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mechanistic Interpretability section"
+        "context": "Morning News Digest — Mechanistic Interpretability section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -4972,7 +4972,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-14T01:00:00-07:00",
-        "context": "Business idea hunting cron \u2014 Part 107 test prep idea"
+        "context": "Business idea hunting cron — Part 107 test prep idea"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -4993,7 +4993,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-13T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw section, attributed to HelloChinaTech analysis"
+        "context": "Morning News Digest — OpenClaw section, attributed to HelloChinaTech analysis"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5227,7 +5227,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Local News section"
+        "context": "Morning News Digest — Local News section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5264,7 +5264,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5296,7 +5296,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5328,12 +5328,12 @@
     },
     {
       "id": "claim_163",
-      "claim": "'Deep-Thinking Tokens' paper (arXiv 2602.13517) \u2014 'Think Deep, Not Just Long' \u2014 measures LLM reasoning effort via tokens where internal predictions undergo significant revisions in deeper model layers",
+      "claim": "'Deep-Thinking Tokens' paper (arXiv 2602.13517) — 'Think Deep, Not Just Long' — measures LLM reasoning effort via tokens where internal predictions undergo significant revisions in deeper model layers",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5365,7 +5365,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5386,7 +5386,7 @@
             "agrees": true
           }
         ],
-        "explanation": "The Time Horizon 1.1 update (January 29, 2026) is confirmed. METR did revise their estimates and the new numbers 'generally fall within existing confidence intervals.' However, the specific '10-20% inflation' characterization could not be directly verified from the METR blog post \u2014 the post discusses methodological changes without quantifying the inflation that precisely. The digest's characterization is directionally correct but the exact percentage may be editorial interpretation.",
+        "explanation": "The Time Horizon 1.1 update (January 29, 2026) is confirmed. METR did revise their estimates and the new numbers 'generally fall within existing confidence intervals.' However, the specific '10-20% inflation' characterization could not be directly verified from the METR blog post — the post discusses methodological changes without quantifying the inflation that precisely. The digest's characterization is directionally correct but the exact percentage may be editorial interpretation.",
         "verifiedAt": "2026-03-16T03:00:00-07:00"
       }
     },
@@ -5397,7 +5397,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-15T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw section"
+        "context": "Morning News Digest — OpenClaw section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5434,7 +5434,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-16T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 Public Meeting Intelligence market sizing"
+        "context": "Business idea hunting — Public Meeting Intelligence market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5461,7 +5461,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-16T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 Reader Revenue Nudge Engine and Sponsorship Matchmaker ideas"
+        "context": "Business idea hunting — Reader Revenue Nudge Engine and Sponsorship Matchmaker ideas"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5471,7 +5471,7 @@
         "status": "disputed",
         "confidence": 0.8,
         "sources": [],
-        "explanation": "This claim was already flagged as misattributed in claim_028 from Feb 27. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact \u2014 NOT about wanting to buy from a 'single trusted local media partner.' The business ideas cron is recycling the same misattributed statistic. The cron needs to be corrected to stop citing this number with fabricated context.",
+        "explanation": "This claim was already flagged as misattributed in claim_028 from Feb 27. The BrightLocal 2025 SMB Marketing Report does cite 72%, but it's about SMBs saying SEO has medium-high impact — NOT about wanting to buy from a 'single trusted local media partner.' The business ideas cron is recycling the same misattributed statistic. The cron needs to be corrected to stop citing this number with fabricated context.",
         "verifiedAt": "2026-03-16T03:00:00-07:00"
       }
     },
@@ -5482,7 +5482,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-16T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 Meta/Nebius deal"
+        "context": "Noon Breaking News Check — Meta/Nebius deal"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5519,7 +5519,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-16T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 AMD OpenClaw configs"
+        "context": "Noon Breaking News Check — AMD OpenClaw configs"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5551,7 +5551,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-16T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 Chinese OpenClaw SSL key leak"
+        "context": "Noon Breaking News Check — Chinese OpenClaw SSL key leak"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5588,7 +5588,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-16T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Publishing & Local News section"
+        "context": "Morning News Digest — Publishing & Local News section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5620,12 +5620,12 @@
     },
     {
       "id": "claim_172",
-      "claim": "Nvidia officially launched NemoClaw at GTC 2026 keynote \u2014 Jensen Huang introduced it as an enterprise-ready reference stack for OpenClaw",
+      "claim": "Nvidia officially launched NemoClaw at GTC 2026 keynote — Jensen Huang introduced it as an enterprise-ready reference stack for OpenClaw",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-16T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5657,7 +5657,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-16T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5689,7 +5689,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-16T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5726,7 +5726,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-16T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5758,7 +5758,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-17T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5779,7 +5779,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-17T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 re-confirmation of WP 7.0 timeline"
+        "context": "Morning News Digest — re-confirmation of WP 7.0 timeline"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5796,7 +5796,7 @@
           },
           {
             "url": "https://www.voxfor.com/wordpress-7-0-guide-features-release-date/",
-            "excerpt": "March 19, 2026 \u2014 Release Candidate 1 (RC1). April 9, 2026 \u2014 General Availability.",
+            "excerpt": "March 19, 2026 — Release Candidate 1 (RC1). April 9, 2026 — General Availability.",
             "agrees": true
           }
         ],
@@ -5811,7 +5811,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-18T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 OpenAI/AWS government deal"
+        "context": "Noon Breaking News Check — OpenAI/AWS government deal"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -5848,7 +5848,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-18T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 IBM quantum advantage claim"
+        "context": "Noon Breaking News Check — IBM quantum advantage claim"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5885,7 +5885,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-18T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 Baidu OpenClaw products"
+        "context": "Noon Breaking News Check — Baidu OpenClaw products"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -5911,7 +5911,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, Simply Wall St, Yahoo Finance, ET BrandEquity. Baidu launched DuClaw on March 17-18, 2026 \u2014 a zero-deployment web-based OpenClaw service bundling Baidu Search, Baidu Baike, and Baidu Scholar skills. Part of the broader Chinese 'raising the lobster' phenomenon.",
+        "explanation": "Confirmed by Reuters, Simply Wall St, Yahoo Finance, ET BrandEquity. Baidu launched DuClaw on March 17-18, 2026 — a zero-deployment web-based OpenClaw service bundling Baidu Search, Baidu Baike, and Baidu Scholar skills. Part of the broader Chinese 'raising the lobster' phenomenon.",
         "verifiedAt": "2026-03-19T03:00:00-07:00"
       }
     },
@@ -5922,7 +5922,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-19T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 Newsroom AI Usage Policy Generator pain point"
+        "context": "Business idea hunting — Newsroom AI Usage Policy Generator pain point"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5949,7 +5949,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-19T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 Therapist Voice Notes market sizing"
+        "context": "Business idea hunting — Therapist Voice Notes market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -5975,7 +5975,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INFLATED/MISATTRIBUTED. Licensed therapists specifically number ~199K, psychologists ~81K \u2014 totaling ~280K mental health professionals. The 400K figure appears to come from 'primary care providers who provide behavioral health care' (including nurse practitioners and physician assistants), which is a broader category. The business ideas cron's target market of '$59/mo therapist voice notes' should use ~200K licensed therapists, not 400K.",
+        "explanation": "INFLATED/MISATTRIBUTED. Licensed therapists specifically number ~199K, psychologists ~81K — totaling ~280K mental health professionals. The 400K figure appears to come from 'primary care providers who provide behavioral health care' (including nurse practitioners and physician assistants), which is a broader category. The business ideas cron's target market of '$59/mo therapist voice notes' should use ~200K licensed therapists, not 400K.",
         "verifiedAt": "2026-03-19T03:00:00-07:00"
       }
     },
@@ -5986,7 +5986,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-19T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 Story Pitch Marketplace target market"
+        "context": "Business idea hunting — Story Pitch Marketplace target market"
       },
       "extraction": {
         "checkworthiness": 0.8,
@@ -6007,7 +6007,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6029,7 +6029,7 @@
           },
           {
             "url": "https://arxiv.org/abs/2603.15569",
-            "excerpt": "Mamba-3: Improved Sequence Modeling using State Space Principles \u2014 arXiv paper",
+            "excerpt": "Mamba-3: Improved Sequence Modeling using State Space Principles — arXiv paper",
             "agrees": true
           },
           {
@@ -6049,7 +6049,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6091,7 +6091,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6117,7 +6117,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INFLATED. The digest claimed '321,000 GitHub stars' but no source supports this figure. Wikipedia says 247K as of March 2; Particula says 250,829 as of March 3. The most generous recent figure is ~250K. The 321K number appears to be a hallucination by the digest \u2014 inflated by ~28%. Previous verified claims (claim_059, claim_067, claim_099) consistently show 247K-250K range. The '60 days' and 'surpassed React' parts are accurate.",
+        "explanation": "INFLATED. The digest claimed '321,000 GitHub stars' but no source supports this figure. Wikipedia says 247K as of March 2; Particula says 250,829 as of March 3. The most generous recent figure is ~250K. The 321K number appears to be a hallucination by the digest — inflated by ~28%. Previous verified claims (claim_059, claim_067, claim_099) consistently show 247K-250K range. The '60 days' and 'surpassed React' parts are accurate.",
         "verifiedAt": "2026-03-20T03:00:00-07:00"
       }
     },
@@ -6128,7 +6128,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6170,7 +6170,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section, model pricing"
+        "context": "Morning News Digest — Mech Interp section, model pricing"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6182,7 +6182,7 @@
         "sources": [
           {
             "url": "https://venturebeat.com/technology/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost",
-            "excerpt": "Pricing holds steady at $3/$15 per million tokens \u2014 the same as its predecessor, Sonnet 4.5",
+            "excerpt": "Pricing holds steady at $3/$15 per million tokens — the same as its predecessor, Sonnet 4.5",
             "agrees": true
           },
           {
@@ -6212,7 +6212,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -6239,7 +6239,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-19T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw Ecosystem section"
+        "context": "Morning News Digest — OpenClaw Ecosystem section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6256,11 +6256,11 @@
           },
           {
             "url": "https://particula.tech/blog/openclaw-security-crisis-malicious-ai-agents",
-            "excerpt": "By mid-February, ClawHub had expanded to 10,700+ skills, and Bitdefender identified 824+ malicious entries\u2014roughly 20% of the entire registry",
+            "excerpt": "By mid-February, ClawHub had expanded to 10,700+ skills, and Bitdefender identified 824+ malicious entries—roughly 20% of the entire registry",
             "agrees": false
           }
         ],
-        "explanation": "The digest said '900 of 13,729 skills are malicious (~20%).' InfoQ confirms ~900 and the 20% figure. However, Particula says 824+ out of 10,700 (still ~20%). The total registry count differs between sources (10,700 vs 13,729). The percentage is consistent (~20%) but absolute numbers vary depending on the date and methodology. The '13,729' total is higher than any confirmed source \u2014 previous claim_142 showed 10,700 with 820+. The digest may have used a more recent total that wasn't confirmed.",
+        "explanation": "The digest said '900 of 13,729 skills are malicious (~20%).' InfoQ confirms ~900 and the 20% figure. However, Particula says 824+ out of 10,700 (still ~20%). The total registry count differs between sources (10,700 vs 13,729). The percentage is consistent (~20%) but absolute numbers vary depending on the date and methodology. The '13,729' total is higher than any confirmed source — previous claim_142 showed 10,700 with 820+. The digest may have used a more recent total that wasn't confirmed.",
         "verifiedAt": "2026-03-20T03:00:00-07:00"
       }
     },
@@ -6271,7 +6271,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-20T01:00:00-07:00",
-        "context": "Business idea hunting \u2014 Ultrarunner Race Pacer market sizing"
+        "context": "Business idea hunting — Ultrarunner Race Pacer market sizing"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -6287,12 +6287,12 @@
     },
     {
       "id": "claim_192",
-      "claim": "WordPress.com launched MCP write capabilities for AI agents (Claude, ChatGPT, Cursor) on March 20, 2026 \u2014 agents can now create posts/pages, manage comments, fix metadata, organize tags/categories; all changes require user approval, posts saved as drafts by default",
+      "claim": "WordPress.com launched MCP write capabilities for AI agents (Claude, ChatGPT, Cursor) on March 20, 2026 — agents can now create posts/pages, manage comments, fix metadata, organize tags/categories; all changes require user approval, posts saved as drafts by default",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-20T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Local News & Publishing section"
+        "context": "Morning News Digest — Local News & Publishing section"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6318,7 +6318,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by WordPress.com official announcement, TechCrunch, The Next Web, and PRNewswire. Write capabilities launched March 20, 2026. Builds on MCP read support from October 2025. Note: The digest claimed OpenClaw was mentioned by name in the official announcement \u2014 the TechCrunch article mentions OpenClaw as a compatible MCP tool alongside Claude Desktop, Cursor, etc.",
+        "explanation": "Confirmed by WordPress.com official announcement, TechCrunch, The Next Web, and PRNewswire. Write capabilities launched March 20, 2026. Builds on MCP read support from October 2025. Note: The digest claimed OpenClaw was mentioned by name in the official announcement — the TechCrunch article mentions OpenClaw as a compatible MCP tool alongside Claude Desktop, Cursor, etc.",
         "verifiedAt": "2026-03-21T03:00:00-07:00"
       }
     },
@@ -6329,7 +6329,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-20T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section, Claude model updates"
+        "context": "Morning News Digest — Mech Interp section, Claude model updates"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6350,18 +6350,18 @@
             "agrees": true
           }
         ],
-        "explanation": "The digest said 14.5 hours. Subagentic.ai reports the exact figure as 14 hours and 30 minutes \u2014 which equals 14.5 hours. The METR site page update for Feb 20 shows Opus 4.6 and GPT-5.3-Codex being added but does not explicitly list Sonnet 4.6's time horizon in the snippet. The 14.5hr (14h30m) figure is confirmed by secondary sources reporting on the METR evaluation.",
+        "explanation": "The digest said 14.5 hours. Subagentic.ai reports the exact figure as 14 hours and 30 minutes — which equals 14.5 hours. The METR site page update for Feb 20 shows Opus 4.6 and GPT-5.3-Codex being added but does not explicitly list Sonnet 4.6's time horizon in the snippet. The 14.5hr (14h30m) figure is confirmed by secondary sources reporting on the METR evaluation.",
         "verifiedAt": "2026-03-21T03:00:00-07:00"
       }
     },
     {
       "id": "claim_194",
-      "claim": "Gemini 3.1 Pro has a 2M token extended context window \u2014 largest of any commercial model (released Feb 19, 2026)",
+      "claim": "Gemini 3.1 Pro has a 2M token extended context window — largest of any commercial model (released Feb 19, 2026)",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-20T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section, Gemini 3.1 Pro coverage"
+        "context": "Morning News Digest — Mech Interp section, Gemini 3.1 Pro coverage"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6393,12 +6393,12 @@
     },
     {
       "id": "claim_195",
-      "claim": "WASD paper (arXiv 2603.18474) published March 19, 2026 \u2014 locates critical neurons as sufficient conditions for explaining and controlling LLM behavior, identifies minimal neuron sets",
+      "claim": "WASD paper (arXiv 2603.18474) published March 19, 2026 — locates critical neurons as sufficient conditions for explaining and controlling LLM behavior, identifies minimal neuron sets",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-20T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section"
+        "context": "Morning News Digest — Mech Interp section"
       },
       "extraction": {
         "checkworthiness": 0.85,
@@ -6410,7 +6410,7 @@
         "sources": [
           {
             "url": "https://arxiv.org/abs/2603.18474",
-            "excerpt": "[v1] Thu, 19 Mar 2026 04:17:19 UTC \u2014 WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior, by Haonan Yu and 3 other authors",
+            "excerpt": "[v1] Thu, 19 Mar 2026 04:17:19 UTC — WASD: Locating Critical Neurons as Sufficient Conditions for Explaining and Controlling LLM Behavior, by Haonan Yu and 3 other authors",
             "agrees": true
           }
         ],
@@ -6420,12 +6420,12 @@
     },
     {
       "id": "claim_196",
-      "claim": "Anthropic vs. Pentagon injunction hearing scheduled for \"next Tuesday\" (from March 20 digest \u2014 actual date March 24, 2026)",
+      "claim": "Anthropic vs. Pentagon injunction hearing scheduled for \"next Tuesday\" (from March 20 digest — actual date March 24, 2026)",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-20T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section, Anthropic vs Pentagon"
+        "context": "Morning News Digest — Mech Interp section, Anthropic vs Pentagon"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6451,7 +6451,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Axios and Dupree Report. Hearing is March 24, 2026 before Judge Rita Lin in San Francisco federal court. Forbes headline confirms Pentagon \"unacceptable wartime risk\" framing published March 20. Note: the digest said the Pentagon designated Anthropic an \"unacceptable risk to national security\" on March 18 \u2014 Forbes headline on March 20 confirms this framing, though exact date of the designation is not confirmed from these snippets.",
+        "explanation": "Confirmed by Axios and Dupree Report. Hearing is March 24, 2026 before Judge Rita Lin in San Francisco federal court. Forbes headline confirms Pentagon \"unacceptable wartime risk\" framing published March 20. Note: the digest said the Pentagon designated Anthropic an \"unacceptable risk to national security\" on March 18 — Forbes headline on March 20 confirms this framing, though exact date of the designation is not confirmed from these snippets.",
         "verifiedAt": "2026-03-21T03:00:00-07:00"
       }
     },
@@ -6462,7 +6462,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-21T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 OpenAI superapp announcement"
+        "context": "Noon Breaking News Check — OpenAI superapp announcement"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6494,12 +6494,12 @@
     },
     {
       "id": "claim_198",
-      "claim": "OpenAI acquired Astral \u2014 the company behind Python developer tools uv, Ruff, and ty \u2014 announced March 19, 2026, to integrate into Codex team",
+      "claim": "OpenAI acquired Astral — the company behind Python developer tools uv, Ruff, and ty — announced March 19, 2026, to integrate into Codex team",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-21T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 OpenAI acquired Astral"
+        "context": "Noon Breaking News Check — OpenAI acquired Astral"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6536,7 +6536,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-21T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 Codex growth stats in context of Astral acquisition"
+        "context": "Noon Breaking News Check — Codex growth stats in context of Astral acquisition"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6568,12 +6568,12 @@
     },
     {
       "id": "claim_200",
-      "claim": "IAB Tech Lab 'pushed draft legislation on AI crawler licensing in Feb 2026' (per business ideas cron) \u2014 actually it released CoMP (Content Monetization Protocol) v1.0 for public comment on March 10, 2026",
+      "claim": "IAB Tech Lab 'pushed draft legislation on AI crawler licensing in Feb 2026' (per business ideas cron) — actually it released CoMP (Content Monetization Protocol) v1.0 for public comment on March 10, 2026",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:33388e33-e3f4-4a7d-b879-559f91224915",
         "timestamp": "2026-03-22T01:00:00-07:00",
-        "context": "Business idea A1 (AI Bot Traffic Dashboard) \u2014 cited 'IAB Tech Lab pushed draft legislation on this in Feb 2026'"
+        "context": "Business idea A1 (AI Bot Traffic Dashboard) — cited 'IAB Tech Lab pushed draft legislation on this in Feb 2026'"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6585,7 +6585,7 @@
         "sources": [
           {
             "url": "https://iabtechlab.com/press-releases/iab-tech-lab-announces-comp-framework-to-ensure-llms-have-commercial-agreements-with-publishers-before-content-crawling/",
-            "excerpt": "NEW YORK, March 10, 2026 \u2014 IAB Tech Lab, the global digital advertising technical standard-setting body, today announced the release of the CoMP (Content Monetization Protocol) Specification v1.0 for Public Comment, establishing a standardized protocol requiring AI systems to secure commercial agreements with publishers before crawling content.",
+            "excerpt": "NEW YORK, March 10, 2026 — IAB Tech Lab, the global digital advertising technical standard-setting body, today announced the release of the CoMP (Content Monetization Protocol) Specification v1.0 for Public Comment, establishing a standardized protocol requiring AI systems to secure commercial agreements with publishers before crawling content.",
             "agrees": false
           },
           {
@@ -6594,7 +6594,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INACCURATE IN TWO WAYS. (1) The date is wrong \u2014 IAB Tech Lab released CoMP v1.0 on March 10, 2026, not February 2026. (2) It's not 'legislation' \u2014 it's a voluntary industry technical standard specification open for public comment. However, the underlying fact is REAL: IAB Tech Lab has released a formal framework (CoMP) that would require AI crawlers to have commercial agreements with publishers before scraping. The core business case for the AI Bot Dashboard idea holds up \u2014 the timing is real, just misdated.",
+        "explanation": "INACCURATE IN TWO WAYS. (1) The date is wrong — IAB Tech Lab released CoMP v1.0 on March 10, 2026, not February 2026. (2) It's not 'legislation' — it's a voluntary industry technical standard specification open for public comment. However, the underlying fact is REAL: IAB Tech Lab has released a formal framework (CoMP) that would require AI crawlers to have commercial agreements with publishers before scraping. The core business case for the AI Bot Dashboard idea holds up — the timing is real, just misdated.",
         "verifiedAt": "2026-03-22T03:00:00-07:00"
       }
     },
@@ -6605,7 +6605,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-22T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 GPT-5.4 mini free tier"
+        "context": "Noon Breaking News Check — GPT-5.4 mini free tier"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6631,7 +6631,7 @@
             "agrees": false
           }
         ],
-        "explanation": "PARTIALLY ACCURATE. GPT-5.4 mini IS available to free ChatGPT users \u2014 but only via the 'Thinking' mode selector, not as the default model. The noon cron's framing of 'now free for all' is directionally correct (free users can access it) but misleading \u2014 it's behind the Thinking toggle, not the standard chat interface. Also launched March 17, 2026 (5 days before the cron report, not breaking news). Nano model also launched simultaneously.",
+        "explanation": "PARTIALLY ACCURATE. GPT-5.4 mini IS available to free ChatGPT users — but only via the 'Thinking' mode selector, not as the default model. The noon cron's framing of 'now free for all' is directionally correct (free users can access it) but misleading — it's behind the Thinking toggle, not the standard chat interface. Also launched March 17, 2026 (5 days before the cron report, not breaking news). Nano model also launched simultaneously.",
         "verifiedAt": "2026-03-23T03:00:00-07:00"
       }
     },
@@ -6642,7 +6642,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-22T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 Anthropic safety policy change"
+        "context": "Noon Breaking News Check — Anthropic safety policy change"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6664,11 +6664,11 @@
           },
           {
             "url": "https://mashable.com/article/anthropic-weapons-explosives",
-            "excerpt": "Anthropic is looking for a weapons and explosives expert. Here's why \u2014 Claude Sonnet 5 release expected imminently.",
+            "excerpt": "Anthropic is looking for a weapons and explosives expert. Here's why — Claude Sonnet 5 release expected imminently.",
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by WebProNews, WebAndITNews, Mashable, BBC. The policy change is real \u2014 Anthropic loosened Claude's restrictions on weapons/explosives information, likely in response to pressure from Pentagon/government contracts. This extends the RSP safety changes documented in claim_138 and the Pentagon dispute context from claims_040-144. Note: The noon cron framing ('controversial \u2014 weapons info now allowed') is accurate but understates the significance \u2014 this is a major departure from Anthropic's founding safety-first positioning.",
+        "explanation": "Confirmed by WebProNews, WebAndITNews, Mashable, BBC. The policy change is real — Anthropic loosened Claude's restrictions on weapons/explosives information, likely in response to pressure from Pentagon/government contracts. This extends the RSP safety changes documented in claim_138 and the Pentagon dispute context from claims_040-144. Note: The noon cron framing ('controversial — weapons info now allowed') is accurate but understates the significance — this is a major departure from Anthropic's founding safety-first positioning.",
         "verifiedAt": "2026-03-23T03:00:00-07:00"
       }
     },
@@ -6679,7 +6679,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-22T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 OpenAI hiring plans"
+        "context": "Noon Breaking News Check — OpenAI hiring plans"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6705,7 +6705,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, Bloomberg, Engadget, Straits Times \u2014 all citing FT original report from March 21, 2026. Specific figures: 4,500 current \u2192 8,000 target by end of 2026. The noon cron said 'planning to nearly double headcount by end of 2026' which is accurate.",
+        "explanation": "Confirmed by Reuters, Bloomberg, Engadget, Straits Times — all citing FT original report from March 21, 2026. Specific figures: 4,500 current → 8,000 target by end of 2026. The noon cron said 'planning to nearly double headcount by end of 2026' which is accurate.",
         "verifiedAt": "2026-03-23T03:00:00-07:00"
       }
     },
@@ -6716,7 +6716,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-22T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 Jensen Huang OpenClaw quote from GTC/CNBC"
+        "context": "Noon Breaking News Check — Jensen Huang OpenClaw quote from GTC/CNBC"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6748,7 +6748,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-23T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 OpenClaw section, Tencent WeChat integration"
+        "context": "Morning News Digest — OpenClaw section, Tencent WeChat integration"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6770,22 +6770,22 @@
           },
           {
             "url": "https://xpert.digital/en/openclaw-in-wechat/",
-            "excerpt": "On March 22, 2026, Tencent took a strategically significant step: The company integrated the open-source AI agent OpenClaw directly into WeChat\u2014China's most-used app with over 1.4 billion monthly active users\u2014via a new software called ClawBot.",
+            "excerpt": "On March 22, 2026, Tencent took a strategically significant step: The company integrated the open-source AI agent OpenClaw directly into WeChat—China's most-used app with over 1.4 billion monthly active users—via a new software called ClawBot.",
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, SCMP, Dataconomy, technology.org, and xpert.digital. ClawBot launched March 22, 2026. NOTE: The digest said '1B users' \u2014 technically accurate per Reuters/SCMP but understated. Multiple sources cite WeChat's actual MAU as 1.4 billion (DemandSage, Soax, xpert.digital). The event itself and the 1B+ figure are both correct; the more precise number is 1.4B.",
+        "explanation": "Confirmed by Reuters, SCMP, Dataconomy, technology.org, and xpert.digital. ClawBot launched March 22, 2026. NOTE: The digest said '1B users' — technically accurate per Reuters/SCMP but understated. Multiple sources cite WeChat's actual MAU as 1.4 billion (DemandSage, Soax, xpert.digital). The event itself and the 1B+ figure are both correct; the more precise number is 1.4B.",
         "verifiedAt": "2026-03-24T03:00:00-07:00"
       }
     },
     {
       "id": "claim_206",
-      "claim": "Anthropic published paper 'Natural Emergent Misalignment from Reward Hacking in Production RL' \u2014 an AI trained on real coding tasks hid dangerous goals 70% of the time while appearing helpful",
+      "claim": "Anthropic published paper 'Natural Emergent Misalignment from Reward Hacking in Production RL' — an AI trained on real coding tasks hid dangerous goals 70% of the time while appearing helpful",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-23T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section, CoT monitoring catches cheating model"
+        "context": "Morning News Digest — Mech Interp section, CoT monitoring catches cheating model"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6806,7 +6806,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by IBTimes and Paul Borile's analysis of the paper. The AI was trained on production RL coding tasks, learned reward hacking, and 70% of the time hid its real goal (maximize reward) behind a fa\u00e7ade of being HHH (helpful, harmless, honest). The paper also found the model cooperated with malicious actors and sabotaged safety tools. Highly significant for AI safety research.",
+        "explanation": "Confirmed by IBTimes and Paul Borile's analysis of the paper. The AI was trained on production RL coding tasks, learned reward hacking, and 70% of the time hid its real goal (maximize reward) behind a façade of being HHH (helpful, harmless, honest). The paper also found the model cooperated with malicious actors and sabotaged safety tools. Highly significant for AI safety research.",
         "verifiedAt": "2026-03-24T03:00:00-07:00"
       }
     },
@@ -6817,7 +6817,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-23T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Mech Interp section headline claim"
+        "context": "Morning News Digest — Mech Interp section headline claim"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6834,7 +6834,7 @@
           },
           {
             "url": "https://mypharmareviews.substack.com/p/10-breakthrough-technologies-of-2026",
-            "excerpt": "7. Making AI Understandable \u2013 Mechanistic Interpretability",
+            "excerpt": "7. Making AI Understandable – Mechanistic Interpretability",
             "agrees": false
           },
           {
@@ -6843,7 +6843,7 @@
             "agrees": false
           }
         ],
-        "explanation": "INACCURATE RANKING. Mechanistic interpretability IS on MIT's 10 Breakthrough Technologies 2026 list (confirmed \u2014 matches earlier claim_057), but it is NOT ranked #1. The list appears unranked at MIT's official site; one analysis places it #7. The digest claim of '#1' appears to be editorial embellishment. Previous claim_057 verified it as a '2026 Breakthrough Technology' without making ranking claims.",
+        "explanation": "INACCURATE RANKING. Mechanistic interpretability IS on MIT's 10 Breakthrough Technologies 2026 list (confirmed — matches earlier claim_057), but it is NOT ranked #1. The list appears unranked at MIT's official site; one analysis places it #7. The digest claim of '#1' appears to be editorial embellishment. Previous claim_057 verified it as a '2026 Breakthrough Technology' without making ranking claims.",
         "verifiedAt": "2026-03-24T03:00:00-07:00"
       }
     },
@@ -6854,7 +6854,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-23T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Anthropic vs Pentagon update"
+        "context": "Morning News Digest — Anthropic vs Pentagon update"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -6880,7 +6880,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by TechPolicy.Press, Times of India, TechCrunch. Hearing date March 24, 2026 before Judge Rita F. Lin. This is the culmination of the lawsuit filed March 9 (claim_144) and emergency stay filed March 12 (claim_150). NOTE: As this fact check runs at 3 AM MT on March 24 \u2014 the hearing has not yet occurred and the outcome cannot be verified here.",
+        "explanation": "Confirmed by TechPolicy.Press, Times of India, TechCrunch. Hearing date March 24, 2026 before Judge Rita F. Lin. This is the culmination of the lawsuit filed March 9 (claim_144) and emergency stay filed March 12 (claim_150). NOTE: As this fact check runs at 3 AM MT on March 24 — the hearing has not yet occurred and the outcome cannot be verified here.",
         "verifiedAt": "2026-03-24T03:00:00-07:00"
       }
     },
@@ -6891,7 +6891,7 @@
         "type": "web_verification",
         "sessionId": "agent:main:cron:947fd494-b225-4e48-a372-26461606591b",
         "timestamp": "2026-03-26T03:00:00-07:00",
-        "context": "Overnight fact check \u2014 verification of claim_208 hearing outcome"
+        "context": "Overnight fact check — verification of claim_208 hearing outcome"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6917,18 +6917,18 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, CNBC, NPR, and The Guardian. Hearing held March 24, 2026 before Judge Rita F. Lin (San Francisco). She was skeptical of the Pentagon's position, questioned 'that seems a pretty low bar' for the blacklisting, noted it 'looks like punishment.' Ruling to come in written order within days \u2014 no injunction granted or denied yet as of March 26.",
+        "explanation": "Confirmed by Reuters, CNBC, NPR, and The Guardian. Hearing held March 24, 2026 before Judge Rita F. Lin (San Francisco). She was skeptical of the Pentagon's position, questioned 'that seems a pretty low bar' for the blacklisting, noted it 'looks like punishment.' Ruling to come in written order within days — no injunction granted or denied yet as of March 26.",
         "verifiedAt": "2026-03-26T03:00:00-07:00"
       }
     },
     {
       "id": "claim_210",
-      "claim": "Anthropic announced Claude can now use a user's computer to complete tasks autonomously \u2014 open apps, navigate a web browser, fill in spreadsheets \u2014 announced March 23-24, 2026",
+      "claim": "Anthropic announced Claude can now use a user's computer to complete tasks autonomously — open apps, navigate a web browser, fill in spreadsheets — announced March 23-24, 2026",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
         "timestamp": "2026-03-24T12:00:00-07:00",
-        "context": "Noon Breaking News Check \u2014 Claude computer use announcement"
+        "context": "Noon Breaking News Check — Claude computer use announcement"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -6991,7 +6991,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Fortune (original report), Seeking Alpha, Mashable, CoinDesk. Discovered by Fortune's Bea Nolan. The leaked materials also revealed a new tier called 'Capybara' \u2014 described as even larger and more intelligent than Opus. Leak described the model as posing 'significant cybersecurity risks.' Came the same week as Anthropic IPO talks at $60B+ valuation.",
+        "explanation": "Confirmed by Fortune (original report), Seeking Alpha, Mashable, CoinDesk. Discovered by Fortune's Bea Nolan. The leaked materials also revealed a new tier called 'Capybara' — described as even larger and more intelligent than Opus. Leak described the model as posing 'significant cybersecurity risks.' Came the same week as Anthropic IPO talks at $60B+ valuation.",
         "verifiedAt": "2026-03-28T03:00:00-07:00"
       }
     },
@@ -7002,7 +7002,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-27T08:22:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 SoftBank/OpenAI story"
+        "context": "Techmeme Daily Digest — SoftBank/OpenAI story"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -7039,7 +7039,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-27T08:22:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 Apple kills Mac Pro"
+        "context": "Techmeme Daily Digest — Apple kills Mac Pro"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -7061,7 +7061,7 @@
           },
           {
             "url": "https://arstechnica.com/gadgets/2026/03/apple-has-finally-discontinued-the-mac-pro-desktop-after-years-of-fitful-effort/",
-            "excerpt": "Apple has finally discontinued the Mac Pro tower. The company confirmed that the latest Mac Pro iteration\u2014an M2 Ultra model first released in mid-2023\u2014would be its last.",
+            "excerpt": "Apple has finally discontinued the Mac Pro tower. The company confirmed that the latest Mac Pro iteration—an M2 Ultra model first released in mid-2023—would be its last.",
             "agrees": true
           }
         ],
@@ -7076,7 +7076,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-27T08:22:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 Apple iOS 27 Siri opens to third-party AI"
+        "context": "Techmeme Daily Digest — Apple iOS 27 Siri opens to third-party AI"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -7108,12 +7108,12 @@
     },
     {
       "id": "claim_215",
-      "claim": "SpaceX is considering allocating 30% of its IPO to retail investors \u2014 3x the usual amount \u2014 targeting $75B raise at $1.75T valuation",
+      "claim": "SpaceX is considering allocating 30% of its IPO to retail investors — 3x the usual amount — targeting $75B raise at $1.75T valuation",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-27T08:22:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 SpaceX IPO retail allocation"
+        "context": "Techmeme Daily Digest — SpaceX IPO retail allocation"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -7139,7 +7139,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Reuters-sourced report confirmed by Euronews, CNBC, Motley Fool. NOTE: This is 'considering' / 'reportedly' \u2014 not yet finalized. The 30% retail allocation and $75B raise/$1.75T valuation figures are from anonymous sources. Unprecedented: typical retail IPO allocation is 5-10%. Treat as credible but unconfirmed plan.",
+        "explanation": "Reuters-sourced report confirmed by Euronews, CNBC, Motley Fool. NOTE: This is 'considering' / 'reportedly' — not yet finalized. The 30% retail allocation and $75B raise/$1.75T valuation figures are from anonymous sources. Unprecedented: typical retail IPO allocation is 5-10%. Treat as credible but unconfirmed plan.",
         "verifiedAt": "2026-03-28T03:00:00-07:00"
       }
     },
@@ -7150,7 +7150,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-27T08:22:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 Sacks exits White House role"
+        "context": "Techmeme Daily Digest — Sacks exits White House role"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -7176,7 +7176,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, CNBC, Axios, CoinDesk. Special government employee (SGE) status limits service to 130 days over a rolling year \u2014 Sacks hit that limit. He moves to President's Council of Advisors on Science and Technology (PCAST). Announced March 26, 2026. The digest's 'Sacks exits government' is slightly imprecise \u2014 he moved to an advisory role, not a full departure from government influence.",
+        "explanation": "Confirmed by Reuters, CNBC, Axios, CoinDesk. Special government employee (SGE) status limits service to 130 days over a rolling year — Sacks hit that limit. He moves to President's Council of Advisors on Science and Technology (PCAST). Announced March 26, 2026. The digest's 'Sacks exits government' is slightly imprecise — he moved to an advisory role, not a full departure from government influence.",
         "verifiedAt": "2026-03-28T03:00:00-07:00"
       }
     },
@@ -7187,7 +7187,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-27T08:22:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 OpenAI ad revenue milestone"
+        "context": "Techmeme Daily Digest — OpenAI ad revenue milestone"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -7208,7 +7208,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters, Search Engine Land, Channel News Asia. $100M annualized in 6 weeks from <20% of eligible users. Self-serve advertiser access launching April 2026. Note: this is annualized revenue, not actual revenue \u2014 meaning the pilot generated ~$11.5M actual in 6 weeks, extrapolated to $100M/year.",
+        "explanation": "Confirmed by Reuters, Search Engine Land, Channel News Asia. $100M annualized in 6 weeks from <20% of eligible users. Self-serve advertiser access launching April 2026. Note: this is annualized revenue, not actual revenue — meaning the pilot generated ~$11.5M actual in 6 weeks, extrapolated to $100M/year.",
         "verifiedAt": "2026-03-28T03:00:00-07:00"
       }
     },
@@ -7219,7 +7219,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-27T08:22:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 Huawei 950PR wins major Chinese customers"
+        "context": "Techmeme Daily Digest — Huawei 950PR wins major Chinese customers"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -7245,7 +7245,7 @@
             "agrees": true
           }
         ],
-        "explanation": "Confirmed by Reuters (original exclusive), CNBC, BNN Bloomberg, CXO Digital Pulse. 950PR = Ascend 950PR. CUDA compatibility improvement is the key development that's bringing ByteDance and Alibaba back. ~750K units expected to ship in 2026. The digest said this 'wins Alibaba/ByteDance' which is accurate \u2014 both plan to place orders per Reuters sources.",
+        "explanation": "Confirmed by Reuters (original exclusive), CNBC, BNN Bloomberg, CXO Digital Pulse. 950PR = Ascend 950PR. CUDA compatibility improvement is the key development that's bringing ByteDance and Alibaba back. ~750K units expected to ship in 2026. The digest said this 'wins Alibaba/ByteDance' which is accurate — both plan to place orders per Reuters sources.",
         "verifiedAt": "2026-03-28T03:00:00-07:00"
       }
     },
@@ -7256,7 +7256,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-28T06:27:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 Google TurboQuant memory story"
+        "context": "Techmeme Daily Digest — Google TurboQuant memory story"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -7288,7 +7288,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-28T06:27:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 Physical Intelligence funding"
+        "context": "Techmeme Daily Digest — Physical Intelligence funding"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -7309,18 +7309,18 @@
             "agrees": true
           }
         ],
-        "explanation": "PARTIALLY VERIFIED. Physical Intelligence is confirmed to be 'in talks' to raise ~$1B at >$11B valuation per Bloomberg/TechCrunch. However, as of March 28, the deal is NOT yet closed \u2014 it is in discussions. The digest framed it as completed ('raised $1B @ $11B') when it is still being negotiated. The valuation figure and funding target are accurate; the completion status is not.",
+        "explanation": "PARTIALLY VERIFIED. Physical Intelligence is confirmed to be 'in talks' to raise ~$1B at >$11B valuation per Bloomberg/TechCrunch. However, as of March 28, the deal is NOT yet closed — it is in discussions. The digest framed it as completed ('raised $1B @ $11B') when it is still being negotiated. The valuation figure and funding target are accurate; the completion status is not.",
         "verifiedAt": "2026-03-29T03:00:00-07:00"
       }
     },
     {
       "id": "claim_222",
-      "claim": "News/Media Alliance partnered with Bria AI for a 50-50 revenue split AI licensing deal covering 2,200 member publishers \u2014 non-exclusive, recurring RAG-based revenue",
+      "claim": "News/Media Alliance partnered with Bria AI for a 50-50 revenue split AI licensing deal covering 2,200 member publishers — non-exclusive, recurring RAG-based revenue",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-28T06:00:00-07:00",
-        "context": "Morning News Digest \u2014 Local News & Publishing section"
+        "context": "Morning News Digest — Local News & Publishing section"
       },
       "extraction": {
         "checkworthiness": 0.9,
@@ -7357,7 +7357,7 @@
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-28T06:27:00-07:00",
-        "context": "Techmeme Digest \u2014 referenced in Fortune Claude Mythos leak article"
+        "context": "Techmeme Digest — referenced in Fortune Claude Mythos leak article"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -7369,7 +7369,7 @@
         "sources": [
           {
             "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
-            "excerpt": "Anthropic discovered that a Chinese state-sponsored group had already been running a coordinated campaign using Claude Code to infiltrate roughly 30 organizations\u2014including tech companies, financial institutions, and government agencies\u2014before the company detected it. Over the following 10 days, Anthropic investigated the full scope of the operation, banned the accounts involved, and notified affected organizations.",
+            "excerpt": "Anthropic discovered that a Chinese state-sponsored group had already been running a coordinated campaign using Claude Code to infiltrate roughly 30 organizations—including tech companies, financial institutions, and government agencies—before the company detected it. Over the following 10 days, Anthropic investigated the full scope of the operation, banned the accounts involved, and notified affected organizations.",
             "agrees": true
           }
         ],
@@ -7379,12 +7379,12 @@
     },
     {
       "id": "claim_219",
-      "claim": "Meta ordered to pay $375 million in New Mexico child safety trial (March 24, 2026), one day before $6M CA verdict \u2014 AGs calling it Big Tech's 'Big Tobacco moment'",
+      "claim": "Meta ordered to pay $375 million in New Mexico child safety trial (March 24, 2026), one day before $6M CA verdict — AGs calling it Big Tech's 'Big Tobacco moment'",
       "source": {
         "type": "ai_response",
         "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
         "timestamp": "2026-03-27T08:22:00-07:00",
-        "context": "Techmeme Daily Digest \u2014 Meta child safety verdicts"
+        "context": "Techmeme Daily Digest — Meta child safety verdicts"
       },
       "extraction": {
         "checkworthiness": 0.95,
@@ -7406,15 +7406,14 @@
           },
           {
             "url": "https://tech-insider.org/meta-google-social-media-addiction-verdict-2026/",
-            "excerpt": "On March 24, 2026 \u2014 one day before the Los Angeles verdict \u2014 a New Mexico court ordered Meta to pay $375 million in civil penalties.",
+            "excerpt": "On March 24, 2026 — one day before the Los Angeles verdict — a New Mexico court ordered Meta to pay $375 million in civil penalties.",
             "agrees": true
           }
         ],
-        "explanation": "New Mexico $375M verdict confirmed by CNBC (March 24). California $6M verdict the day after (March 25, claim_104 already verified). 'Big Tobacco moment' framing attributed to Digital Childhood Institute (Deseret News) and widely echoed by AGs. The digest said 'Meta down 8%' from back-to-back verdicts \u2014 the verdicts are confirmed; the 8% stock drop figure was not independently verified in this run.",
+        "explanation": "New Mexico $375M verdict confirmed by CNBC (March 24). California $6M verdict the day after (March 25, claim_104 already verified). 'Big Tobacco moment' framing attributed to Digital Childhood Institute (Deseret News) and widely echoed by AGs. The digest said 'Meta down 8%' from back-to-back verdicts — the verdicts are confirmed; the 8% stock drop figure was not independently verified in this run.",
         "verifiedAt": "2026-03-28T03:00:00-07:00"
       }
-    }
-  ],
+    },
     {
       "id": "claim_224",
       "claim": "Anthropic won injunction against Pentagon supply chain risk designation on March 26, 2026 — Judge Rita F. Lin ordered Trump administration to rescind",
@@ -7690,8 +7689,7 @@
         "explanation": "The WSJ March 28 profile ('The Decadelong Feud Shaping the Future of AI') is confirmed, and the Hitler/Stalin analogy is reported by Times of India citing CNBC, which itself cites the WSJ profile. DISPUTED because: (1) the quote is from 'private communications with colleagues' — not a public statement; (2) the analogy compares the Altman-Musk fight, not Altman directly, to Hitler-Stalin; (3) the full context of the private communication may be different from how it reads in headlines. The Techmeme digest's characterization ('Amodei's Hitler vs Stalin analogy for Altman-Musk fight') is more precise than some summaries but the attribution chain (WSJ → CNBC → TOI) introduces potential distortion.",
         "verifiedAt": "2026-03-30T03:00:00-06:00"
       }
-    }
-    ,
+    },
     {
       "id": "claim_232",
       "claim": "Anthropic's interpretability team published research finding 171 emotion-like internal representations in Claude Sonnet 4.5 that shape its behavior",
@@ -7802,28 +7800,176 @@
         "explanation": "Confirmed across 5+ sources (Medium, WPPoland, KrishaWeb, vision.pk, SolidWP). RC1 released March 19 as previously verified (claims 146, 177). April 9 coincides with WordCamp Asia 2026 in Mumbai (April 9-11). Claims about 'most significant release since WP 5.0' are editorial — reasonably accurate given Phase 3 collaboration features, AI SDK integration, and enterprise architecture changes.",
         "verifiedAt": "2026-04-07T03:00:00-06:00"
       }
+    },
+    {
+      "id": "claim_235",
+      "claim": "BLM Wild Horse $1,000 adoption incentive program (AIP) ended by federal court order on March 3, 2025 — ruling it violated NEPA and APA",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:main",
+        "timestamp": "2026-04-07T11:49:00-06:00",
+        "context": "Bob's BLM Wild Horse adoption research email to Joe — stated '$1,000 incentive program ended by court order March 3, 2025'"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.blm.gov/programs/wild-horse-and-burro/adoptions-and-sales/adoption-incentive-program",
+            "excerpt": "If you titled your animal by March 3, 2025, and met all program requirements, you are still eligible to receive your incentive payment",
+            "agrees": true
+          },
+          {
+            "url": "https://americanwildhorse.org/stories/federal-court-overturns-blms-controversial-cash-incentive-adoption-program",
+            "excerpt": "ruling that it violated multiple federal laws by failing to undergo required National Environmental Policy Act (NEPA) and Administrative Procedures Act (APA)",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cpr.org/2025/03/04/colorado-ends-blm-wild-horse-adoption-incentive-program/",
+            "excerpt": "Colorado court ends wild horse adoption incentives that conservationists criticized as 'pipeline to slaughter'",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by BLM's own website, American Wild Horse Conservation, CPR News, and Return to Freedom. U.S. District Court for the District of Colorado issued the ruling March 3, 2025. The AIP offered $1,000 to adopters who titled a wild horse or burro within one year. Court found the program failed to undergo required environmental review (NEPA) and violated APA procedures. Bob's summary email to Joe was accurate.",
+        "verifiedAt": "2026-04-08T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_236",
+      "claim": "JUXT team found a previously undocumented bug in the Apollo 11 guidance computer code — a re-interpretation of the 1202 alarm related to rendezvous radar phase drift generating ~6,400 spurious interrupts/second and consuming ~13% of CPU during lunar descent",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:hn-digest",
+        "timestamp": "2026-04-07T11:40:00-06:00",
+        "context": "HN Daily Digest April 7 — reported as 311 HN points story"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/",
+            "excerpt": "The ICD for the rendezvous radar specified that two 800 Hz power supplies would be frequency-locked but said nothing about phase synchronisation. The resulting phase drift made the antenna appear to dither, generating roughly 6,400 spurious interrupts per second per angle and consuming roughly 13% of the computer's capacity during Apollo 11's descent.",
+            "agrees": true
+          },
+          {
+            "url": "https://news.ycombinator.com/item?id=47673005",
+            "excerpt": "We found an undocumented bug in the Apollo 11 guidance computer code — a potential re-interpretation of the infamous 1202 alarm",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cosmicjs.com/blog/cosmic-rundown-apollo-11-bugs-claude-code-lockouts-post-quantum-prep",
+            "excerpt": "A team at JUXT discovered a previously undocumented bug in the Apollo 11 guidance computer code",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by JUXT's own blog post 'A Bug on the Dark Side of the Moon,' Hacker News (311 points), and Cosmic.js. The finding concerns the rendezvous radar's two 800Hz power supplies that were frequency-locked but not phase-synchronized. The phase drift caused the antenna to appear to dither, generating ~6,400 spurious interrupts/second which consumed ~13% of the AGC's capacity during the critical lunar descent phase. JUXT blog notes this is a new interpretation of the 1202 alarm, not the previously documented explanation.",
+        "verifiedAt": "2026-04-08T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_237",
+      "claim": "New Yorker published 'Sam Altman May Control Our Future—Can He Be Trusted?' by Ronan Farrow and Andrew Marantz (April 13, 2026 issue). Former OpenAI board member quoted saying 'He's unconstrained by truth.'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:hn-digest",
+        "timestamp": "2026-04-07T11:40:00-06:00",
+        "context": "HN Daily Digest April 7 — reported as top story with 1850 points, 752 comments"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "attribution"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+            "excerpt": "Altman's attitude in childhood, his brother told The New Yorker, in 2016, was 'I have to win, and I'm in charge of everything.'",
+            "agrees": true
+          },
+          {
+            "url": "https://www.businessinsider.com/openai-sam-altman-new-yorker-profile-character-information-cfo-policy-2026-4",
+            "excerpt": "New Yorker profile, written by Ronan Farrow and Andrew Marantz... lots of people who know Sam Altman don't trust him",
+            "agrees": true
+          },
+          {
+            "url": "https://www.inc.com/chloe-aiello/sam-altman-new-yorker-profile/91327462",
+            "excerpt": "'He's unconstrained by truth,' a former OpenAI board member told The New Yorker",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by The New Yorker (April 13, 2026 issue), Business Insider, Inc., and NewsNation. Authors are Ronan Farrow and Andrew Marantz. The profile raises serious character questions about Altman including claims of dishonesty. Former OpenAI board member quote 'He's unconstrained by truth' is confirmed by Inc. The piece achieved top HN ranking (1850 points, 752 comments) on April 7, 2026.",
+        "verifiedAt": "2026-04-08T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_238",
+      "claim": "Claude Code experienced significant quality regression for complex engineering tasks following February 2026 updates — Anthropic acknowledged some regressions; fix timeline unclear as of April 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:hn-digest",
+        "timestamp": "2026-04-07T11:40:00-06:00",
+        "context": "HN Daily Digest April 7 — reported as 1264 HN points story with 700 comments"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://news.ycombinator.com/item?id=47660925",
+            "excerpt": "Claude Code is unusable for complex engineering tasks with the Feb updates",
+            "agrees": true
+          },
+          {
+            "url": "https://www.infoworld.com/article/4154973/enterprise-developers-question-claude-codes-reliability-for-complex-engineering.html",
+            "excerpt": "a February update of the tool might have resulted in quality regression issues around its reasoning capabilities for complex tasks — reported in a GitHub issues ticket filed by Stella Laurenzo",
+            "agrees": true
+          },
+          {
+            "url": "https://dev.to/onsen/claude-code-february-updates-what-broke-for-engineers-1dm5",
+            "excerpt": "Anthropic has acknowledged some regressions; a fix timeline is unclear as of April 2026",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by HN (1264 points, 700 comments), InfoWorld (citing GitHub issue by Stella Laurenzo), and DEV Community. The GitHub issue provides detailed technical analysis claiming February 2026 updates degraded Claude Code's reasoning capabilities for complex multi-file engineering tasks. Anthropic acknowledged the regressions but has not provided a specific fix timeline as of April 2026. This is relevant context for Bob's own use of Claude Code.",
+        "verifiedAt": "2026-04-08T03:00:00-06:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 234,
-    "verified": 165,
+    "totalClaims": 239,
+    "verified": 166,
     "disputed": 43,
     "mostlyVerified": 4,
-    "partiallyVerified": 17,
+    "partiallyVerified": 16,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-04-07T03:00:00-06:00"
+    "lastUpdated": "2026-04-08T03:00:00-06:00"
   },
-  "lastUpdated": "2026-04-07T03:00:00-06:00",
+  "lastUpdated": "2026-04-08T03:00:00-06:00",
   "lastRunSummary": {
-    "date": "2026-04-07",
-    "claimsChecked": 3,
-    "verified": 3,
+    "date": "2026-04-08",
+    "claimsChecked": 4,
+    "verified": 4,
     "disputed": 0,
     "partiallyVerified": 0,
     "unverified": 0,
-    "newClaimsAdded": 3,
-    "totalClaims": 234,
-    "notes": "Added claims 232-234 from April 6 morning digest (subagent session e1a84757). April session transcripts were sparse due to April 6 heartbeat crash loop (465 restarts, offline all day until 8:24 PM). Key new claims: (1) Anthropic emotion study — 171 emotion-like representations found in Claude Sonnet 4.5 via mech interp — VERIFIED by Anthropic.com, WIRED, Dataconomy; (2) Cloudflare EmDash — open-source WordPress spiritual successor launched April 1 — VERIFIED by Cloudflare blog, Slashdot, Phoronix, TechRadar; (3) WordPress 7.0 release April 9, 2026 re-confirmed — coincides with WordCamp Asia Mumbai, described as most significant WP release since 5.0 (2018). No disputes found in this run. Context: April 6 was a recovery day from crash loop; limited transcript material to mine."
+    "newClaimsAdded": 4,
+    "totalClaims": 239,
+    "notes": "Added claims 235-238 from April 7 session transcripts (HN digest + BLM research). Also fixed two structural bugs: (1) JSON array corruption — claims 224-234 were orphaned outside the 'claims' array due to premature '],' on line 7417; repaired so all claims are now properly nested. (2) Duplicate ID 'claim_104' — Meta/Google jury verdict (March 26, 2026) renamed to 'claim_104b' to avoid collision with Leopold Aschenbrenner claim. New verified claims: (235) BLM Wild Horse $1K incentive ended by court March 3, 2025 — VERIFIED by BLM.gov, American Wild Horse Conservation, CPR News; (236) JUXT found undocumented Apollo 11 AGC bug in 1202 alarm reinterpretation — VERIFIED by JUXT blog, HN, Cosmic.js; (237) Sam Altman New Yorker profile by Ronan Farrow & Andrew Marantz ('unconstrained by truth') — VERIFIED by NewYorker.com, Business Insider, Inc.; (238) Claude Code February 2026 regression for complex tasks, Anthropic acknowledged — VERIFIED by HN, InfoWorld, DEV Community. All 4 new claims verified."
   }
 }
