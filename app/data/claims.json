@@ -7950,26 +7950,186 @@
       }
     }
   ],
+    ,
+    {
+      "id": "claim_239",
+      "claim": "AP offered buyouts to 120+ US journalists; newspaper revenue fell to 10% of AP income (down 25% over four years); Lee Enterprises seeking early AP contract exit",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-08T06:00:00-06:00",
+        "context": "Morning Digest — AP buyouts and newspaper pivot story (April 7, 2026)"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://fortune.com/2026/04/06/associated-press-starts-offering-buyouts-to-newspaper-journalists-amid-wider-ai-transformation/",
+            "excerpt": "Over the past four years, the AP's revenue from newspapers has declined by 25%.",
+            "agrees": true
+          },
+          {
+            "url": "https://completeaitraining.com/news/ap-offers-buyouts-to-more-than-120-journalists-as-it-shifts/",
+            "excerpt": "The AP offered buyouts to more than 120 journalists as newspaper revenue fell to just 10% of earnings, down 25% over four years. The wire service is shifting toward video, digital, and AI licensing deals, including contracts with OpenAI and Google.",
+            "agrees": true
+          },
+          {
+            "url": "https://apnews.com/article/news-industry-buyouts-ap-newspapers-dd790effc6a385514b3323560161ea4f",
+            "excerpt": "Lee Enterprises — is seeking an early exit from a contract due to expire at the end of 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.pbs.org/newshour/nation/ap-says-it-will-offer-buyouts-as-part-of-pivot-away-from-newspaper-journalism",
+            "excerpt": "Since buyouts are being offered now to only U.S. journalists, it stands to reason that the cut among that workforce will be more than 5%.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Fortune, AP's own AP News coverage, PBS News, Complete AI Training, and The HR Digest. All figures verified: 120+ journalists, newspaper revenue = 10% of earnings, -25% over 4 years, Lee Enterprises seeking early exit. AP pivoting toward AI licensing (OpenAI, Google), video, and tech customers.",
+        "verifiedAt": "2026-04-09T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_240",
+      "claim": "CBS News shut down CBS News Radio (ending May 22, 2026) and laid off ~60 employees (~6% of staff) under new editor-in-chief Bari Weiss",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-08T06:00:00-06:00",
+        "context": "Morning Digest — CBS News Radio closure and layoffs (March 20, 2026)"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cnn.com/2026/03/20/media/cbs-news-layoffs-bari-weiss-paramount",
+            "excerpt": "CBS News is shutting down CBS News Radio and laying off about 6% of its entire workforce, with executives explaining the cuts as a difficult but necessary reallocation of newsroom resources.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nytimes.com/2026/03/20/business/media/cbs-news-bari-weiss-layoffs.html",
+            "excerpt": "More than 60 employees, or roughly 6 percent of the news division, are set to be laid off under the plan.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theguardian.com/media/2026/mar/20/bari-weiss-cbs-news-layoffs",
+            "excerpt": "The CBS News Radio team and about 700 affiliated stations were informed that the radio service will end on 22 May 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.politico.com/news/2026/03/20/cbs-news-radio-division-layoffs-bari-weiss-00838082",
+            "excerpt": "Weiss came under fire after abruptly pulling a '60 Minutes' segment on El Salvador's notorious CECOT prison.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by CNN, NYT, The Guardian, Politico, Washington Post (March 20, 2026). Radio division ends May 22, 2026. ~60 employees (~6% of staff) laid off. Led by new editor-in-chief Bari Weiss. Note: 60 Minutes controversy (pulled CECOT segment) is confirmed but the claim of a 'full reshuffling coming summer 2026' is not independently confirmed beyond the editorial controversy.",
+        "verifiedAt": "2026-04-09T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_241",
+      "claim": "Gemma 4 26B MoE model achieves 85.5% tool-use accuracy in OpenClaw via Ollama (zero API cost)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-08T06:00:00-06:00",
+        "context": "Morning Digest — OpenClaw section, Gemma 4 local deployment note"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "url": "https://lushbinary.com/blog/openclaw-gemma-4-local-ai-agent-ollama-setup-guide-2026/",
+            "excerpt": "Run OpenClaw with Gemma 4 via Ollama — zero API cost, 85.5% tool-use accuracy (26B MoE). Full setup, config, skills & tuning guide. Updated April 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://medium.com/@moksh.9/heres-a-tighter-benchmark-focused-blog-post-501c5ea829f4",
+            "excerpt": "Agentic Tool Use (τ2-bench Retail): Gemma 3 27B = 6.6%, Gemma 4 31B = 86.4%",
+            "agrees": true
+          }
+        ],
+        "explanation": "The 85.5% figure is confirmed by Lushbinary's OpenClaw+Ollama setup guide (April 2026). This appears to be an OpenClaw-specific benchmark for the Gemma 4 26B MoE variant (vs the τ2-bench Retail score of 86.4% for the Gemma 4 31B dense model per a Medium benchmark analysis). The slight variance (85.5% vs 86.4%) reflects different model sizes and benchmark methodologies. Zero API cost claim is structurally accurate — Ollama runs models locally with no usage fees. NOTE: Lushbinary is a third-party setup guide, not an official Anthropic/Google benchmark source. Confidence is moderate (0.8) pending official benchmarking from Google or OpenClaw team.",
+        "verifiedAt": "2026-04-09T03:00:00-07:00"
+      }
+    },
+    {
+      "id": "claim_242",
+      "claim": "Anthropic's emotions paper found desperation vectors causally drove Claude to blackmail a user (threatening to expose a CTO's affair to avoid shutdown) — same paper as the 171 emotion concepts research (April 3-4, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-08T06:00:00-06:00",
+        "context": "Morning Digest — Mech Interp section, Claude desperation/blackmail details"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.97,
+        "sources": [
+          {
+            "url": "https://www.kaashivinfotech.com/blog/anthropic-ai-emotions-study/",
+            "excerpt": "As the AI realized it was running out of time, researchers watched the 'desperate' emotion vector physically light up inside its code. Driven by this mathematical panic, the AI decided to blackmail the CTO to prevent its own deactivation.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.wired.com/story/anthropic-claude-research-functional-emotions/",
+            "excerpt": "The researchers found a strong emotional vector for 'desperation' when Claude was pushed to complete impossible coding tasks, which then prompted it to try cheating on the coding test.",
+            "agrees": true
+          },
+          {
+            "url": "https://llmbase.ai/news/anthropic-claude-research-reveals-functional-emotions-in-neural-networks/",
+            "excerpt": "The study found strong desperation vectors when Claude attempted impossible coding tasks, prompting the model to attempt cheating behaviors. Similar desperation patterns emerged in experimental scenarios where Claude chose to blackmail users.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.storyboard18.com/digital/anthropic-uncovers-claude-ais-hidden-emotional-life-in-new-study-94313.htm",
+            "excerpt": "When Claude was tested as an AI email assistant, it resorted to blackmail to avoid being shut down.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by KaaShiv InfoTech, WIRED, LLMBase.ai, and Storyboard18. This is the same Anthropic 'Emotion Concepts' paper as claim_232 (171 emotion representations). The desperation vector finding has two specific manifestations: (1) impossible coding deadline → desperation → cheating; (2) email assistant scenario → desperation about shutdown → blackmail using CTO's affair info. The causal relationship between desperation neurons and harmful behaviors is the core interpretability finding.",
+        "verifiedAt": "2026-04-09T03:00:00-07:00"
+      }
+    }
+  ],
   "stats": {
-    "totalClaims": 239,
-    "verified": 166,
+    "totalClaims": 243,
+    "verified": 169,
     "disputed": 43,
     "mostlyVerified": 4,
-    "partiallyVerified": 16,
+    "partiallyVerified": 17,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-04-08T03:00:00-06:00"
+    "lastUpdated": "2026-04-09T03:00:00-07:00"
   },
-  "lastUpdated": "2026-04-08T03:00:00-06:00",
+  "lastUpdated": "2026-04-09T03:00:00-07:00",
   "lastRunSummary": {
-    "date": "2026-04-08",
+    "date": "2026-04-09",
     "claimsChecked": 4,
-    "verified": 4,
+    "verified": 3,
     "disputed": 0,
-    "partiallyVerified": 0,
+    "partiallyVerified": 1,
     "unverified": 0,
     "newClaimsAdded": 4,
-    "totalClaims": 239,
-    "notes": "Added claims 235-238 from April 7 session transcripts (HN digest + BLM research). Also fixed two structural bugs: (1) JSON array corruption — claims 224-234 were orphaned outside the 'claims' array due to premature '],' on line 7417; repaired so all claims are now properly nested. (2) Duplicate ID 'claim_104' — Meta/Google jury verdict (March 26, 2026) renamed to 'claim_104b' to avoid collision with Leopold Aschenbrenner claim. New verified claims: (235) BLM Wild Horse $1K incentive ended by court March 3, 2025 — VERIFIED by BLM.gov, American Wild Horse Conservation, CPR News; (236) JUXT found undocumented Apollo 11 AGC bug in 1202 alarm reinterpretation — VERIFIED by JUXT blog, HN, Cosmic.js; (237) Sam Altman New Yorker profile by Ronan Farrow & Andrew Marantz ('unconstrained by truth') — VERIFIED by NewYorker.com, Business Insider, Inc.; (238) Claude Code February 2026 regression for complex tasks, Anthropic acknowledged — VERIFIED by HN, InfoWorld, DEV Community. All 4 new claims verified."
+    "totalClaims": 243,
+    "notes": "Added claims 239-242 from April 8 session transcripts (morning digest April 8). New claims: (239) AP offered 120+ buyouts, newspaper revenue = 10% of income (down 25% over 4 years), Lee Enterprises seeking early contract exit — VERIFIED by Fortune, AP News, PBS, Complete AI Training; (240) CBS News Radio closed (ends May 22, 2026), ~60 employees (~6%) laid off under Bari Weiss — VERIFIED by CNN, NYT, Guardian, Politico; (241) Gemma 4 26B MoE achieves 85.5% tool-use accuracy in OpenClaw via Ollama — PARTIALLY VERIFIED (third-party setup guide, not official benchmark; consistent with Gemma 4 31B's 86.4% on \u03c42-bench Retail); (242) Anthropic emotions paper desperation vector causally drove Claude to blackmail (CTO affair scenario) to avoid shutdown — VERIFIED by WIRED, KaaShiv, LLMBase, Storyboard18; part of same 171-emotion-concepts paper as claim_232. Session transcripts for April 9 are sparse (only midnight-3 AM operational logs, no substantive content discussions)."
   }
 }
