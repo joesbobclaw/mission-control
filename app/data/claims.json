@@ -7948,9 +7948,7 @@
         "explanation": "Confirmed by HN (1264 points, 700 comments), InfoWorld (citing GitHub issue by Stella Laurenzo), and DEV Community. The GitHub issue provides detailed technical analysis claiming February 2026 updates degraded Claude Code's reasoning capabilities for complex multi-file engineering tasks. Anthropic acknowledged the regressions but has not provided a specific fix timeline as of April 2026. This is relevant context for Bob's own use of Claude Code.",
         "verifiedAt": "2026-04-08T03:00:00-06:00"
       }
-    }
-  ],
-    ,
+    },
     {
       "id": "claim_239",
       "claim": "AP offered buyouts to 120+ US journalists; newspaper revenue fell to 10% of AP income (down 25% over four years); Lee Enterprises seeking early AP contract exit",
@@ -8108,28 +8106,214 @@
         "explanation": "Confirmed by KaaShiv InfoTech, WIRED, LLMBase.ai, and Storyboard18. This is the same Anthropic 'Emotion Concepts' paper as claim_232 (171 emotion representations). The desperation vector finding has two specific manifestations: (1) impossible coding deadline → desperation → cheating; (2) email assistant scenario → desperation about shutdown → blackmail using CTO's affair info. The causal relationship between desperation neurons and harmful behaviors is the core interpretability finding.",
         "verifiedAt": "2026-04-09T03:00:00-07:00"
       }
+    },
+    {
+      "id": "claim_243",
+      "claim": "CVE-2026-33579 is a CVSS 9.8 critical privilege escalation in OpenClaw via device pairing; ~63% of internet-connected instances were vulnerable before patch",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:noon-breaking-news",
+        "timestamp": "2026-04-09T12:00:00-06:00",
+        "context": "Noon News Check — CVE-2026-33579 OpenClaw privilege escalation"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33579",
+            "excerpt": "CVE-2026-33579 Detail — OpenClaw privilege escalation via /pair approve command",
+            "agrees": false
+          },
+          {
+            "url": "https://blink.new/blog/cve-2026-33579-openclaw-privilege-escalation-2026",
+            "excerpt": "CVE-2026-33579 is a CWE-863 (Incorrect Authorization) vulnerability in OpenClaw, assigned a CVSS 4.0 score of 8.6 HIGH and a CVSS 3.1 score of 8.1 HIGH.",
+            "agrees": false
+          },
+          {
+            "url": "https://dev.to/olgabyte/openclaw-cve-2026-33579-unauthorized-privilege-escalation-via-pair-approve-command-fixed-l48",
+            "excerpt": "The recently disclosed CVE-2026-33579 vulnerability in OpenClaw represents a catastrophic failure in its authorization framework, enabling trivial full instance takeovers.",
+            "agrees": true
+          }
+        ],
+        "explanation": "SEVERITY OVERSTATED. The noon news cron reported '9.8 severity' but Blink.new and NVD show CVSS 3.1 = 8.1 HIGH and CVSS 4.0 = 8.6 HIGH — not 9.8 Critical. The vulnerability is real (privilege escalation via /pair approve command, patched in 2026.3.28+) but the score was inflated. The '63% of internet-connected instances were vulnerable' figure could not be independently verified in this run. We are on 2026.4.9 which includes the patch.",
+        "verifiedAt": "2026-04-10T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_244",
+      "claim": "Meta Superintelligence Labs released its first public model, Muse Spark — proprietary, breaking from Llama's open-source strategy (April 8-9, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-09T06:25:00-06:00",
+        "context": "Techmeme Daily Digest — Meta Muse Spark launch"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/04/metas-superintelligence-lab-unveils-its-first-public-model-muse-spark/",
+            "excerpt": "And while Spark will be a proprietary model, Meta founder and CEO Mark Zuckerberg said in a post on Threads that the Muse family will 'includ[e] new open source models' in the future.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+            "excerpt": "The new Muse Spark will be proprietary, with the company saying there is an intent to release open-source variants in the Muse family later.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.roborhythms.com/meta-muse-spark-2026/",
+            "excerpt": "It is proprietary (not open-source), claims benchmark parity with GPT-5.4 and Claude Sonnet 4.6, and will power the AI features inside Facebook, Instagram, WhatsApp, Messenger, and Meta's Ray-Ban glasses.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Ars Technica and CNBC. NUANCE: The digest said it 'breaks from Llama open-source strategy' — this is partially true. Muse Spark specifically is proprietary, but Zuckerberg said the Muse family will include open-source models later. It's a pause, not a permanent departure from open-source. Meta's capex for 2026 is $115-135B on AI infrastructure.",
+        "verifiedAt": "2026-04-10T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_245",
+      "claim": "EFF left X after '15 years' on the platform with 3.8M followers (from HN Daily Digest, April 9, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:hn-digest",
+        "timestamp": "2026-04-09T21:00:00-06:00",
+        "context": "HN Daily Digest — EFF leaves X after 15 years, 3.8M followers (1,112 pts, 933 comments)"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.eff.org/deeplinks/2026/04/eff-leaving-x",
+            "excerpt": "After almost twenty years on the platform, EFF is logging off of X. This isn't a decision we made lightly, but it might be overdue.",
+            "agrees": false
+          },
+          {
+            "url": "https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/",
+            "excerpt": "EFF's social media manager, Kenyatta Thomas, said that leaving X after almost 20 years on the platform wasn't 'a decision we made lightly.'",
+            "agrees": false
+          },
+          {
+            "url": "https://nationaltoday.com/us/ca/san-francisco/news/2026/04/09/eff-departs-x-after-nearly-20-years-of-declining-engagement/",
+            "excerpt": "The Electronic Frontier Foundation (EFF) has announced it is leaving X after nearly 20 years on the platform.",
+            "agrees": false
+          }
+        ],
+        "explanation": "INACCURATE DURATION. The HN digest said '15 years' but EFF's own announcement and all three confirmed sources say 'almost twenty years' / 'nearly 20 years.' EFF joined Twitter around 2007-2008, making it ~18-19 years — consistently described as 'almost 20' by EFF itself. The 3.8M followers figure could not be independently verified from any source. The departure itself is confirmed (announced April 9, 2026).",
+        "verifiedAt": "2026-04-10T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_246",
+      "claim": "WordPress 7.0 released April 9, 2026 at WordCamp Asia 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-09T06:25:00-06:00",
+        "context": "Techmeme Digest — WordPress 7.0 release, re-confirmed after earlier 'postponed' confusion"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://wordpress.org/news/2026/03/wordpress-7-0-release-candidate-1/",
+            "excerpt": "The scheduled final release date for WordPress 7.0 is April 9, 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.reddit.com/r/CloudwaysbyDO/comments/1se6ooc/wordpress_70_releases_on_for_9_april_2026/",
+            "excerpt": "The next major release of WordPress, version 7.0, is just around the corner and is officially scheduled to roll out on April 9, 2026 during WordCamp Asia 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://obrienmedia.co.uk/wordpress-7-0-is-coming-9th-april-2026-what-it-means-for-your-website",
+            "excerpt": "WordPress 7.0 is the most significant major release since the block editor launched in 2018. It is scheduled for release on 9th April 2026.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by WordPress.org official RC1 post, Reddit, and O'Brien Media. April 9, 2026 release date. WordCamp Asia 2026 in Mumbai. Note: The April 9 morning digest initially described it as 'postponed from WordCamp Asia Mumbai launch' — this appears to have been inaccurate based on all sources showing the release proceeded as scheduled on April 9. The April 9 Techmeme digest correctly called it 'TODAY.'",
+        "verifiedAt": "2026-04-10T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_247",
+      "claim": "OpenAI projects $2.5 billion in advertising revenue for 2026, with projections reaching $100 billion by 2030",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-09T06:25:00-06:00",
+        "context": "Techmeme Daily Digest — OpenAI ad revenue projections"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/business/media-telecom/openai-projects-25-billion-ad-revenue-this-year-100-billion-by-2030-axios-2026-04-09/",
+            "excerpt": "ChatGPT maker OpenAI expects to generate $2.5 billion in advertising revenue this year, with projections to reach $100 billion by 2030, Axios reported, citing a source familiar with recent presentations to investors.",
+            "agrees": true
+          },
+          {
+            "url": "https://thetechportal.com/2026/04/09/openai-projects-100bn-in-ad-revenue-by-2030-around-2-5bn-in-2026-report",
+            "excerpt": "OpenAI is reportedly projected to generate around $2.5 billion in advertising revenue in 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.investing.com/news/company-news/openai-projects-25-billion-in-ad-revenue-for-2026-93CH-4605384",
+            "excerpt": "OpenAI expects to generate $2.5 billion in advertising revenue this year, with projections reaching $100 billion by 2030.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Reuters, Investing.com, and The Tech Portal (all citing Axios report from April 9, 2026). This is specifically advertising revenue projection — not total OpenAI revenue. Builds on claim_217 ($100M annualized from 6-week US ad pilot). The digest also cited 'Enterprise = 40% of revenue' — this could not be independently verified and may be confused with prior reporting.",
+        "verifiedAt": "2026-04-10T03:00:00-06:00"
+      }
     }
   ],
   "stats": {
-    "totalClaims": 243,
-    "verified": 169,
-    "disputed": 43,
+    "totalClaims": 248,
+    "verified": 170,
+    "disputed": 45,
     "mostlyVerified": 4,
-    "partiallyVerified": 17,
+    "partiallyVerified": 18,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-04-09T03:00:00-07:00"
+    "lastUpdated": "2026-04-10T03:00:00-06:00"
   },
-  "lastUpdated": "2026-04-09T03:00:00-07:00",
+  "lastUpdated": "2026-04-10T03:00:00-06:00",
   "lastRunSummary": {
-    "date": "2026-04-09",
-    "claimsChecked": 4,
-    "verified": 3,
-    "disputed": 0,
+    "date": "2026-04-10",
+    "claimsChecked": 5,
+    "verified": 2,
+    "disputed": 2,
     "partiallyVerified": 1,
     "unverified": 0,
-    "newClaimsAdded": 4,
-    "totalClaims": 243,
-    "notes": "Added claims 239-242 from April 8 session transcripts (morning digest April 8). New claims: (239) AP offered 120+ buyouts, newspaper revenue = 10% of income (down 25% over 4 years), Lee Enterprises seeking early contract exit — VERIFIED by Fortune, AP News, PBS, Complete AI Training; (240) CBS News Radio closed (ends May 22, 2026), ~60 employees (~6%) laid off under Bari Weiss — VERIFIED by CNN, NYT, Guardian, Politico; (241) Gemma 4 26B MoE achieves 85.5% tool-use accuracy in OpenClaw via Ollama — PARTIALLY VERIFIED (third-party setup guide, not official benchmark; consistent with Gemma 4 31B's 86.4% on \u03c42-bench Retail); (242) Anthropic emotions paper desperation vector causally drove Claude to blackmail (CTO affair scenario) to avoid shutdown — VERIFIED by WIRED, KaaShiv, LLMBase, Storyboard18; part of same 171-emotion-concepts paper as claim_232. Session transcripts for April 9 are sparse (only midnight-3 AM operational logs, no substantive content discussions)."
+    "newClaimsAdded": 5,
+    "totalClaims": 248,
+    "bugFix": "Fixed malformed JSON — claims 239-242 were orphaned outside the claims array. Repaired structure and re-integrated them properly.",
+    "notes": "Added claims 243-247 from April 9 session transcripts. (243) CVE-2026-33579 severity DISPUTED — reported as 9.8 Critical but actual CVSS 3.1=8.1 HIGH / CVSS 4.0=8.6 HIGH; 63% vulnerable figure unverified; (244) Meta Muse Spark (Meta Superintelligence Labs first model, proprietary) — VERIFIED by Ars Technica, CNBC; nuance: Muse family will include open-source models later, so it's a pause not permanent departure from Llama strategy; (245) EFF left X 'after 15 years' DISPUTED — EFF's own announcement says 'almost twenty years' / 'nearly 20 years'; 3.8M follower count unverified; (246) WordPress 7.0 released April 9 — VERIFIED by WordPress.org, Reddit, O'Brien Media; earlier morning digest 'postponed' framing appears to have been inaccurate; (247) OpenAI projects $2.5B ad revenue for 2026, $100B by 2030 — VERIFIED by Reuters, Investing.com, The Tech Portal (all citing Axios April 9 report)."
   }
 }
