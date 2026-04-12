@@ -8441,27 +8441,265 @@
         "verifiedAt": "2026-04-11T03:00:00-07:00"
       }
     }
+  ,
+    {
+      "id": "claim_252",
+      "claim": "WordPress 7.0 delayed from April 9 — core team announced delay March 31 to finalize data storage architecture for real-time collaboration; revised schedule to be published by April 22",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-11T06:00:00-06:00",
+        "context": "Morning News Digest April 11 — Publishing & Local News section, 'WordPress 7.0 delayed — DB layer for real-time collab wasn't ready, revised schedule by Apr 22'"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://webhosting.today/2026/04/06/wordpress-7-0-is-delayed-here-is-what-hosting-companies-need-to-do-before-the-release-date-is-confirmed/",
+            "excerpt": "On March 31, the core team announced a delay of a few weeks to finalize the data storage architecture for the real-time collaboration feature. A revised schedule will be published by April 22.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.liquidweb.com/blog/wordpress-7-0/",
+            "excerpt": "As of publication, the April 9, 2026, release date has been postponed '3-4 weeks.' After the slower pace of 2025, WordPress is also returning to a three-release cadence.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.copebusiness.com/wordpress/wordpress-7-0-release-date-features-delay-upgrade-guide/",
+            "excerpt": "WordPress 7.0 was originally scheduled for April 9, 2026 but has been delayed.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Webhosting.today, Liquid Web, CopeBusiness. Delay announced March 31, 2026 due to data storage architecture for real-time collaboration not being ready. Postponed 3-4 weeks from April 9; revised schedule to be published by April 22. NOTE: This UPDATES and DISPUTES previous claims_146, 177, 234 which all verified the April 9 release date. Those claims were accurate when verified but became outdated by March 31. WordCamp Asia in Mumbai (April 9-11) proceeded as planned — only the WP release was delayed.",
+        "verifiedAt": "2026-04-12T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_253",
+      "claim": "Artemis II crew splashed down in Pacific Ocean off San Diego on April 10, 2026 at 8:07 PM EDT — first crewed lunar mission since Apollo 17 in 1972. All four crew safe: Reid Wiseman, Victor Glover, Christina Koch, Jeremy Hansen. Total journey: 694,481 miles.",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:telegram:group:-1003904838530",
+        "timestamp": "2026-04-10T17:00:00-06:00",
+        "context": "Artemis II reentry tracker and crew discussion in Joe/Dean/Josh/Bob Telegram group — tracked live re-entry, confirmed splashdown"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/",
+            "excerpt": "NASA's Orion spacecraft with the Artemis II crew splashes down in the Pacific Ocean off the coast of California on April 10, 2026. The splashdown occurred at 8:07 p.m.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nasa.gov/blogs/missions/2026/04/10/artemis-ii-flight-day-10-crew-sets-for-final-burn-splashdown/",
+            "excerpt": "8:07 p.m.: Slowing to 20 mph, Orion will splash down in the Pacific Ocean off the coast of San Diego, completing the Artemis II crew's return to Earth and a 694,481-mile journey.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theguardian.com/science/2026/apr/10/artemis-ii-landing-return-moon-mission",
+            "excerpt": "The crew aboard the Orion space capsule splashed down into the Pacific Ocean off the coast of San Diego on Friday night, with all four astronauts in good health.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nytimes.com/live/2026/04/10/science/nasa-artemis-ii-splashdown-return",
+            "excerpt": "The Artemis II spacecraft has splashed down in the Pacific Ocean off the coast of San Diego.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by CBS News, NASA.gov, The Guardian, NYT, Al Jazeera. Splashdown April 10, 2026 at 8:07 PM EDT off San Diego coast. All four crew safe. Journey: 694,481 miles. Recovery via USS John P. Murtha (LPD-26). Christina Koch = first woman to lunar distance; Jeremy Hansen = first Canadian to lunar distance. Bob tracked the re-entry live in the Joe/Dean/Josh/Bob group and built the Artemis II re-entry tracker artifact.",
+        "verifiedAt": "2026-04-12T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_254",
+      "claim": "OpenAI Sora web/app shuts down April 26, 2026; Sora API shuts down September 24, 2026 — announced March 24, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:65324be1-0189-40a4-b08f-37983017e34a",
+        "timestamp": "2026-04-11T12:00:00-06:00",
+        "context": "Noon Breaking News Check April 11 — found via Wikipedia mention of OpenAI announcing Sora app shutting down"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+            "excerpt": "The Sora web and app experiences will be discontinued on April 26, 2026. The Sora API will be discontinued on September 24, 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/",
+            "excerpt": "OpenAI is killing Sora in two stages. The web and app version goes dark on April 26, 2026, with the Sora API following on September 24, 2026. OpenAI is urging users to download their content before the cutoff dates.",
+            "agrees": true
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sora_(text-to-video_model)",
+            "excerpt": "On March 24, 2026, OpenAI announced that the Sora app and API would be shutting down. The app is planned to shut down on April 26, 2026.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by OpenAI Help Center (official source), The Decoder, and Wikipedia. Two-stage shutdown: app April 26, API September 24. Announced March 24, 2026. OpenAI is urging content export before cutoffs. Noon cron noted this in passing from Wikipedia during April 11 news check.",
+        "verifiedAt": "2026-04-12T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_255",
+      "claim": "CPU-Z and HWMonitor (CPUID) supply chain attack April 9-10, 2026 — CPUID servers compromised for ~6 hours, delivering STX RAT malware via trojanized DLL sideloading. Fixed by CPUID. HN: 343 points.",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2b9d1531-c85a-4874-b8f1-ef16300b5c63",
+        "timestamp": "2026-04-11T06:00:00-06:00",
+        "context": "HN Daily Digest April 11 — ⚠️ CPU-Z / HWMonitor compromised (343 pts) — supply chain hit, check versions"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
+            "excerpt": "Investigations are still ongoing, but it appears that a secondary feature (basically a side API) was compromised for approximately six hours between April 9 and April 10, causing the main website to randomly display malicious links.",
+            "agrees": true
+          },
+          {
+            "url": "https://gist.github.com/N3mes1s/b5b0b96782b9f832819d2db7c6684f84",
+            "excerpt": "Date: 2026-04-10 Analyst: nemesis ... Status: Breach confirmed and fixed by CPUID; site was compromised ~6 hours on April 9-10, 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.cyderes.com/howler-cell/how-cpuids-hwmonitor-supply-chain-was-hijacked-to-deploy-stx-rat",
+            "excerpt": "Initial Discovery, April 9, 2026: A Reddit post surfaced raising concerns about potential malware distributed through recent versions of HWMonitor.",
+            "agrees": true
+          },
+          {
+            "url": "https://github.com/ScoopInstaller/Extras/issues/17588",
+            "excerpt": "CPUID's official servers for HWMonitor and CPU-Z were compromised April 9-10, 2026. Verified reports that downloads at download.cpuid.com delivered trojanized binaries containing a Remote Access Trojan.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Bleeping Computer, GitHub (technical analysis), Cyderes, ScoopInstaller tracker. Attack vector: Trojanized DLL sideloading (Zig-compiled CRYPTBASE.dll) deploying STX RAT. ~6-hour window April 9-10. CPUID fixed promptly. Kaspersky provided IoCs. Users who downloaded CPU-Z or HWMonitor during this window should check versions and systems. The HN digest said '343 points' — actual HN discussion confirmed at 343 points per the session transcript.",
+        "verifiedAt": "2026-04-12T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_256",
+      "claim": "Claude Opus 4.6 is available on Bedrock, added April 8, 2026 alongside Sonnet 4.6",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:discord:channel:1481028738584936602",
+        "timestamp": "2026-04-11T00:00:00-06:00",
+        "context": "Discord #chat — Skippy claimed 'Claude Opus 4.6 is on Bedrock — model ID anthropic.claude-opus-4-6-v1, available April 8th alongside Sonnet 4.6, currently in us-east-1 only'"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.9,
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/2/claude-opus-4.6-available-amazon-bedrock/",
+            "excerpt": "Claude Opus 4.6 is now available in Amazon Bedrock.",
+            "agrees": false
+          },
+          {
+            "url": "https://caylent.com/blog/claude-opus-4-6-how-its-transforming-enterprise-ai-on-aws",
+            "excerpt": "This is currently the most capable AI model in the world, and it's available on Amazon Bedrock today.",
+            "agrees": false
+          },
+          {
+            "url": "https://www.zonwizard.com/blog/claude-sonnet-4-6-on-amazon-bedrock-what-changes-for-sellers/",
+            "excerpt": "April 8, 2026: Claude Sonnet 4.6 now available within Amazon Bedrock.",
+            "agrees": false
+          }
+        ],
+        "explanation": "WRONG DATE. Claude Opus 4.6 has been on Amazon Bedrock since its launch in February 2026, not April 8. AWS whats-new page for Opus 4.6 is dated February 2026; Caylent blog confirms 'available on Amazon Bedrock today' (Feb 10, 2026). The April 8 date appears to be when Claude Sonnet 4.6 was added to Bedrock (ZonWizard's April 8 article covers Sonnet 4.6, not Opus). Skippy's claim that Opus 4.6 was added April 8 is incorrect — it was available from launch. The model ID anthropic.claude-opus-4-6-v1 in us-east-1 is confirmed correct.",
+        "verifiedAt": "2026-04-12T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_257",
+      "claim": "Claude Mythos is Anthropic's most powerful model, focused on cybersecurity (Project Glasswing), available to 40+ tech companies including Apple, Amazon, Microsoft. LessWrong/HN framing as '4× employee productivity model' is misleading.",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:ac3ada58-5e2c-47bc-8337-197a44a7e814",
+        "timestamp": "2026-04-11T06:00:00-06:00",
+        "context": "LessWrong Daily Digest April 11 — 'Mythos 4× Productivity Panic' story; Techmeme digest also cited '4× employee productivity' and '30.6% US biz adoption'"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://www.nytimes.com/2026/04/07/technology/anthropic-claims-its-new-ai-model-mythos-is-a-cybersecurity-reckoning.html",
+            "excerpt": "Anthropic said it will make the new model — known as Claude Mythos Preview — available to a consortium of more than 40 technology companies, including Apple, Amazon and Microsoft, which will use the model to find and fix security vulnerabilities.",
+            "agrees": true
+          },
+          {
+            "url": "https://red.anthropic.com/2026/mythos-preview/",
+            "excerpt": "This model performs strongly across the board, but it is strikingly capable at computer security tasks. We have launched Project Glasswing, an effort to use Mythos Preview to help secure the world's most critical software.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theguardian.com/technology/2026/apr/10/anthropic-new-ai-model-claude-mythos-implications",
+            "excerpt": "Lee Klarich, head of product management at Palo Alto Networks, said the model 'signals a dangerous shift', and warned that 'everyone needs to prepare for AI-assisted attackers.'",
+            "agrees": true
+          },
+          {
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-claude-mythos/",
+            "excerpt": "Amazon Bedrock now offers Claude Mythos Preview in gated research preview as part of Project Glasswing. Claude Mythos Preview is Anthropic's most advanced AI model to date.",
+            "agrees": true
+          }
+        ],
+        "explanation": "NUANCED. Claude Mythos Preview announced April 7, 2026. CONFIRMED: (1) Anthropic's most powerful model; (2) focused on cybersecurity/Project Glasswing; (3) available to 40+ tech companies; (4) strikingly capable at security tasks. DISPUTED: The LessWrong 'Mythos 4× Productivity Panic' framing — per LessWrong/Ryan Greenblatt's own analysis, the 4× figure was his reading of vague 'serial labor acceleration' language in Mythos's system card, and he concluded the real number is probably ~1.55×, not 4×. Anthropic's own positioning is focused on cybersecurity, not general productivity. The Techmeme digest's '30.6% US biz adoption' figure for Mythos could not be independently verified within search results. Mythos is real and significant, but the '4×' productivity framing is community speculation not Anthropic's stated claim.",
+        "verifiedAt": "2026-04-12T03:00:00-06:00"
+      }
+    }
   ],
   "stats": {
-    "totalClaims": 252,
-    "verified": 173,
-    "disputed": 45,
+    "totalClaims": 258,
+    "verified": 177,
+    "disputed": 47,
     "mostlyVerified": 4,
     "partiallyVerified": 19,
     "unverified": 10,
     "pending": 0,
-    "lastUpdated": "2026-04-11T03:00:00-07:00"
+    "lastUpdated": "2026-04-12T03:00:00-06:00"
   },
-  "lastUpdated": "2026-04-11T03:00:00-07:00",
+  "lastUpdated": "2026-04-12T03:00:00-06:00",
   "lastRunSummary": {
-    "date": "2026-04-11",
-    "claimsChecked": 4,
-    "verified": 3,
-    "disputed": 0,
-    "partiallyVerified": 1,
+    "date": "2026-04-12",
+    "claimsChecked": 6,
+    "verified": 4,
+    "disputed": 2,
+    "partiallyVerified": 0,
     "unverified": 0,
-    "newClaimsAdded": 4,
-    "totalClaims": 252,
-    "notes": "Added claims 248-251 from April 10 session transcripts. (248) ProPublica 24h strike April 8 — VERIFIED as 'first U.S. newsroom strike over AI protections' per Nieman Lab, NYT, Poynter, Verge; 150 staffers in NewsGuild union; (249) Claude Haiku 3 retires April 19 — VERIFIED by Anthropic's own API docs (announced Feb 19, retires Apr 19 on Anthropic API; different date on Google Vertex AI); Bob should audit crons for haiku usage before Apr 19; (250) Disney 1K marketing layoffs — VERIFIED by CNBC, Variety, LA Times (planned cuts 'in coming months', new CEO Josh D'Amaro); (251) PBS $1.1B CPB cut + 15% staff reduction — PARTIALLY VERIFIED: PBS 15% cut and $1.1B figure confirmed by Wikipedia; KUER/PBS Utah 10% specifically not independently confirmed; CPB formally dissolved January 2026 after Trump EO 14290."
+    "newClaimsAdded": 6,
+    "totalClaims": 258,
+    "notes": "Added claims 252-257 from April 11-12 session transcripts. (252) WordPress 7.0 DELAYED from April 9 — VERIFIED; March 31 announcement, '3-4 weeks' postponed, revised schedule by Apr 22. UPDATES/DISPUTES previous claims 146/177/234. (253) Artemis II splashdown April 10 8:07 PM EDT — VERIFIED by CBS News, NASA.gov, Guardian, NYT; all 4 crew safe; 694,481-mile journey. (254) OpenAI Sora shutdown April 26 (app) + Sept 24 (API) — VERIFIED by OpenAI Help Center, The Decoder, Wikipedia; announced March 24. (255) CPU-Z/HWMonitor CPUID supply chain attack April 9-10 — VERIFIED by Bleeping Computer, GitHub analysis, Cyderes; ~6-hour window, STX RAT malware, fixed. (256) Skippy's claim 'Opus 4.6 added to Bedrock April 8' — DISPUTED: Opus was on Bedrock since Feb launch; April 8 corresponds to Sonnet 4.6 addition. (257) Mythos '4× productivity' framing — DISPUTED: Mythos is a cybersecurity model (Project Glasswing), 40+ tech cos; the 4× figure is LessWrong community speculation, not Anthropic's stated claim. Model is real and significant."
   }
 }
