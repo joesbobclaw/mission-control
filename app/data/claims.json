@@ -8679,27 +8679,564 @@
         "verifiedAt": "2026-04-12T03:00:00-06:00"
       }
     }
+  ,
+    {
+      "id": "claim_258",
+      "claim": "Molotov cocktail thrown at Sam Altman's SF home at ~3:45 AM on April 10, 2026 — suspect (20-year-old) arrested after also threatening OpenAI headquarters",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:ac3ada58-5e2c-47bc-8337-197a44a7e814",
+        "timestamp": "2026-04-12T06:00:00-06:00",
+        "context": "LessWrong Daily Digest April 12 — LessWrong community responded with post 'You Can't Trust Violence'; also mentioned in Techmeme digest"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/technology/2026/apr/10/sam-altman-home-molotov-cocktail",
+            "excerpt": "OpenAI confirmed the incident in an emailed statement. 'Early this morning, someone threw a Molotov cocktail at Sam Altman's home'",
+            "agrees": true
+          },
+          {
+            "url": "https://www.reuters.com/world/us/suspect-arrested-after-molotov-cocktail-attack-openai-ceo-sam-altmans-home-2026-04-10/",
+            "excerpt": "San Francisco police arrested a person for allegedly throwing a Molotov cocktail at OpenAI CEO Sam Altman's home and for making threats outside the artificial intelligence startup's headquarters",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html",
+            "excerpt": "A notice sent to OpenAI employees said the suspect had thrown the device toward Mr. Altman's home at about 3:45 a.m.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by The Guardian, Reuters, CNBC, NYT. Suspect arrested at OpenAI HQ after both throwing Molotov and threatening arson. Note: A SECOND attack occurred April 12 (shots fired near home, two suspects arrested: Amanda Tom and Muhamad Tarik Hussein) per SF Standard and KHOU — far more dangerous escalation.",
+        "verifiedAt": "2026-04-13T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_259",
+      "claim": "Claude Managed Agents launched April 8, 2026 in public beta; caused double-digit stock drops: Akamai -16.6%, Cloudflare -13.5%, DigitalOcean -13.4%, Fastly -18%",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-12T06:00:00-06:00",
+        "context": "Techmeme Daily Digest April 12 — 'Claude Managed Agents → SaaS bloodbath' cluster"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://247wallst.com/investing/2026/04/11/anthropics-just-triggered-another-saas-sell-off-are-software-stocks-uninvestable/",
+            "excerpt": "Akamai Technologies (AKAM) fell 16.6%, Cloudflare (NET) dropped 13.5%, and DigitalOcean Holdings (DOCN) slid 13.4% after Anthropic launched Claude Managed Agents, which bundles code execution, credential management, and hosting",
+            "agrees": true
+          },
+          {
+            "url": "https://www.gurufocus.com/news/8787676/anthropic-launch-sends-fastly-down-18-cloudflare-and-akamai-also-fall",
+            "excerpt": "Claude Managed Agents rollout triggers double-digit declines across edge and cloud infrastructure providers. Fastly down 18%.",
+            "agrees": true
+          },
+          {
+            "url": "https://medium.com/@unicodeveloper/claude-managed-agents-what-it-actually-offers-the-honest-pros-and-cons-and-how-to-run-agents-52369e5cff14",
+            "excerpt": "Launched April 8, 2026 in public beta",
+            "agrees": true
+          }
+        ],
+        "explanation": "All specific stock drop percentages confirmed by 24/7 Wall St. (sourced from Seeking Alpha) and GuruFocus. April 8 launch date confirmed by Medium analysis. The product bundles code execution, credential management, and hosting — services that directly compete with Akamai, Cloudflare, DigitalOcean, and Fastly.",
+        "verifiedAt": "2026-04-13T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_260",
+      "claim": "Bank of England, FCA, Treasury, and NCSC held emergency meetings about Claude Mythos Preview; Bessent and Powell summoned US bank CEOs to Treasury on April 7, 2026 over potential cyberattack vulnerabilities",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-12T06:00:00-06:00",
+        "context": "Techmeme Daily Digest April 12 — 'Mythos Goes Global' cluster"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.97,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/world/uk/uk-financial-regulators-rush-assess-risks-anthropics-latest-ai-model-ft-reports-2026-04-12/",
+            "excerpt": "Bank of England, Financial Conduct Authority and Treasury officials are in talks with the National Cyber Security Centre to examine potential vulnerabilities in critical IT systems highlighted by Anthropic's latest AI model",
+            "agrees": true
+          },
+          {
+            "url": "https://www.bloomberg.com/news/articles/2026-04-10/anthropic-model-scare-sparks-urgent-bessent-powell-warning-to-bank-ceos",
+            "excerpt": "Bessent and Powell assembled the group at Treasury's headquarters in Washington on Tuesday to make sure banks are aware of possible future risks raised by Anthropic's Mythos and potential similar models",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nytimes.com/2026/04/10/business/anthropic-claude-mythos-preview-banks.html",
+            "excerpt": "The Federal Reserve chair, Jerome H. Powell, who has spoken publicly in recent weeks about the threat of cyberattacks against the financial system, also attended Tuesday's meeting.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Both UK and US emergency banking meetings confirmed. UK: BoE/FCA/Treasury/NCSC coordination confirmed by Reuters (April 12). US: Bessent+Powell summoned bank CEOs to Treasury on Tuesday April 7 confirmed by Bloomberg and NYT. The Techmeme digest's mention of 'CMORG' (Cross-Market Operational Resilience Group) is the formal UK body — the Reuters article describes the same coordination without using that acronym. Canada concern mentioned in digest not independently verified here.",
+        "verifiedAt": "2026-04-13T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_261",
+      "claim": "CoreWeave signed a $6.8 billion multi-year deal with Anthropic to power Claude models; CoreWeave stock surged +11-13% on announcement (April 10, 2026)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-12T06:00:00-06:00",
+        "context": "Techmeme Daily Digest April 12 — 'CoreWeave Prints Deals' cluster"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "url": "https://www.reuters.com/legal/transactional/coreweave-strikes-ai-cloud-deal-with-anthropic-shares-rise-2026-04-10/",
+            "excerpt": "Cloud infrastructure firm CoreWeave said it has struck a deal with Anthropic to supply the AI startup with cloud computing capacity, sending its shares up more than 13% on Friday.",
+            "agrees": true
+          },
+          {
+            "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-10-the-great-gpu-landgrab-coreweave-secures-68-billion-agreement-with-anthropic-as-the-ai-infrastructure-arms-race-hits-fever-pitch",
+            "excerpt": "CoreWeave has officially inked a landmark $6.8 billion agreement with AI heavyweight Anthropic.",
+            "agrees": true
+          },
+          {
+            "url": "https://thenextweb.com/news/coreweave-has-agreed-a-multi-year-gpu-cloud-deal-with-anthropic-to-power-claude-at-production-scale-its-second-major-ai-infrastructure-announcement-in-48-hours",
+            "excerpt": "CoreWeave signs multi-year Anthropic deal as nine of ten top AI model providers join its platform",
+            "agrees": true
+          }
+        ],
+        "explanation": "$6.8B figure confirmed by FinancialContent. Multi-year deal confirmed by The Next Web and CoreWeave's own website. Reuters confirms stock +13%. CNBC reports 'phased infrastructure roll-out' structure. CoreWeave is now GPU infrastructure provider for Meta ($21B), OpenAI ($11.9B), and Anthropic ($6.8B).",
+        "verifiedAt": "2026-04-13T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_262",
+      "claim": "Cirrus Labs (Tart, Cirrus CI) announced joining OpenAI for Agent Infrastructure team on April 7, 2026 — talent acquisition; Cirrus CI shutting down June 1, 2026",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2b9d1531-c85a-4874-b8f1-ef16300b5c63",
+        "timestamp": "2026-04-12T06:00:00-06:00",
+        "context": "HN Daily Digest April 12 — 'Cirrus Labs → OpenAI' story (269 pts)"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://cirruslabs.org/",
+            "excerpt": "We've entered into an agreement to join OpenAI as part of the Agent Infrastructure team.",
+            "agrees": true
+          },
+          {
+            "url": "https://macstadium.com/blog/cirrus-labs-is-joining-openai",
+            "excerpt": "On April 7, 2026, Cirrus Labs announced it is joining OpenAI. Cirrus CI shutting down June 1, 2026.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.simplenews.ai/news/openai-acquires-cirrus-labs-for-agent-infrastructure-shuts-down-cirrus-ci-3fyd",
+            "excerpt": "The acquisition, announced April 7, 2026, will result in Cirrus CI shutting down on June 1, 2026, marking a significant loss for developers relying on its Linux, Windows, and macOS CI capabilities.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Cirrus Labs' own website, MacStadium analysis, and SimpleNews.ai. April 7, 2026 announcement. HN noted 'it isn't a product-led acquisition, but more a talent one' — correct. Tart (popular Apple Silicon virtualization) and Orchard will have uncertain futures. Cirrus CI shuts June 1.",
+        "verifiedAt": "2026-04-13T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_263",
+      "claim": "CBP issued formal guidance on April 12, 2026 exempting smartphones, laptops, memory chips, and computer processors from reciprocal tariffs (temporary; sectoral tariffs expected in 'a month or two' per Lutnick)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-12T06:00:00-06:00",
+        "context": "Techmeme Daily Digest April 12 — 'Electronics Tariff Exemption' cluster"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.8,
+        "sources": [
+          {
+            "url": "https://www.ofzenandcomputing.com/trump-exempts-smartphones-computers-from-tariffs/",
+            "excerpt": "CBP issued formal guidance on April 12, 2026, excluding specific product categories from reciprocal tariffs",
+            "agrees": true
+          },
+          {
+            "url": "https://www.theverge.com/news/647666/trump-exempts-smartphones-laptops-chips-tariffs",
+            "excerpt": "US Customs and Border Protection (CBP) updated its guidance to exempt smartphones, laptops, hard drives, computer processors, and memory chips from the 125 percent additional tariff Trump placed on Chinese goods",
+            "agrees": true
+          }
+        ],
+        "explanation": "The electronics exemption and CBP guidance are confirmed across multiple sources. The Verge/Newsweek articles describe nearly identical CBP guidance from April 2025 (one year prior), suggesting this may be a renewal/update of the same exemptions. The ofzenandcomputing.com source explicitly cites April 12, 2026. The Lutnick 'sectoral tariffs in a month or two' framing was not independently verified. AAPL +2.3% figure not checked. Treat as confirmed in substance but exact April 12, 2026 date is based on a single secondary source.",
+        "verifiedAt": "2026-04-13T03:00:00-06:00"
+      }
+    }
+  ,
+    {
+      "id": "claim_264",
+      "claim": "NJ Governor Sherrill proposed zeroing out NJ Civic Information Consortium funding in her $60.7B budget (with $3B deficit) — would end decade of state-funded local news innovation",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-13T06:00:00-06:00",
+        "context": "Morning News Digest April 13 — Local News section"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "partially_verified",
+        "confidence": 0.85,
+        "sources": [
+          {
+            "url": "https://gothamist.com/news/nj-newsrooms-are-dying-and-shrinking-but-is-government-funding-the-answer",
+            "excerpt": "State lawmakers ultimately appropriated $2.5 million for the consortium, but Sherrill has zeroed out its funding in her own budget proposal.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.nj.com/politics/2026/04/sherrills-60b-budget-puts-her-on-collision-course-with-fellow-dems-over-pet-projects.html",
+            "excerpt": "Sherrill's $60B budget puts pressure on Democrats to cut spending and budget add-ons as New Jersey confronts a $3B deficit.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed that Sherrill zeroed out NJ CIC funding in her budget proposal (Gothamist) and that the budget is ~$60B with a $3B deficit (nj.com). TWO CAVEATS: (1) The digest said '$60.7B' but nj.com consistently says '$60B' — the more precise figure is not confirmed; (2) This is a BUDGET PROPOSAL, not enacted law — NJ Monitor reports lawmakers are pushing back and 'Sherrill's administration has indicated it's willing to work with legislators to restore funding.' The cut is not final.",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_265",
+      "claim": "23 major news sites and Reddit are blocking the Internet Archive Wayback Machine crawler — some same publishers use WM data in their own reporting",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-13T06:25:00-06:00",
+        "context": "Techmeme Daily Digest April 13 — lead story"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.yahoo.com/news/articles/23-major-news-sites-blocked-160328787.html",
+            "excerpt": "According to Originality AI analysis, 23 major news sites currently block ia_archiverbot, the Wayback Machine's web crawler. USA Today Co. operates over 200 media outlets, making its blocking decision particularly devastating.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.wired.com/story/the-internets-most-powerful-archiving-tool-is-in-mortal-peril/",
+            "excerpt": "Reddit has previously said that concerns about AI also led it to block the Wayback Machine crawler.",
+            "agrees": true
+          },
+          {
+            "url": "https://9to5mac.com/2026/04/13/internet-archives-wayback-machine-under-severe-threat-by-publisher-blocks/",
+            "excerpt": "the organization says that it is now under severe threat thanks to media organizations blocking access to the archive's web crawler – despite those same publishers relying on it for some of their own stories",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Yahoo News, WIRED, 9to5Mac, The Verge, and alltoc.com. Analysis by Originality AI. 23 news sites + Reddit blocking ia_archiverbot. Hypocrisy angle: same publishers block the archive while using it as a source. USA Today's Gannett umbrella is particularly significant given its 200+ outlet reach. Relevant to Joe's work in local news publishing.",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_266",
+      "claim": "Rockstar Games confirmed a cyberattack by ShinyHunters via Anodot/Snowflake supply chain breach; ransom deadline April 14, 2026. Rockstar said 'limited non-material info' was accessed.",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-13T06:25:00-06:00",
+        "context": "Techmeme Daily Digest April 13"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.helpnetsecurity.com/2026/04/13/rockstar-games-data-breach-shinyhunters/",
+            "excerpt": "Rockstar Games, the developer behind titles such as Grand Theft Auto and Red Dead Redemption, has confirmed a cyberattack claimed by hacking group ShinyHunters",
+            "agrees": true
+          },
+          {
+            "url": "https://hackread.com/shinyhunters-rockstar-games-snowflake-breach-anodot/",
+            "excerpt": "'Rockstar Games, your Snowflake instances were compromised thanks to Anodot.com. Pay or leak. This is a final warning to reach out by 14 Apr 2026 before we leak'",
+            "agrees": true
+          },
+          {
+            "url": "https://techcrunch.com/2026/04/13/hack-at-anodot-leaves-over-a-dozen-breached-companies-facing-extortion/",
+            "excerpt": "Rockstar Games was also breached... ShinyHunters are a group of largely English-speaking hackers known for stealing data and extorting their victims.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Help Net Security (Rockstar confirmed the attack), HackRead (ShinyHunters ransom message with April 14 deadline), TechCrunch, Forbes, Mashable. Attack vector: Anodot (owned by Glassbox) → Snowflake supply chain. The 'limited non-material info' characterization is Rockstar's framing. Note: Rockstar was previously hacked in 2022 (GTA VI early trailer stolen).",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_267",
+      "claim": "Nvidia Blackwell GPU rental costs rose 48% in two months — from $2.75/hr to $4.08/hr — driven by agentic AI demand for persistent compute consumption",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-13T06:25:00-06:00",
+        "context": "Techmeme Daily Digest April 13"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://alltoc.com/tech/what-caused-nvidia-blackwell-gpu-prices-to-spike",
+            "excerpt": "A compute pricing index tracking hourly costs for Nvidia Blackwell GPUs shows a sharp climb: hourly rental hit $4.08, up 48% from $2.75 just two months earlier. The reported driver is rising demand tied to 'agentic AI' — systems designed...",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by alltoc.com citing compute pricing index data. The $4.08 and $2.75 figures are spot-market pricing from a compute pricing index (not a single provider). The 48% calculation is accurate ($4.08 / $2.75 = 1.483 = +48.3%). Note: Nvidia's own Blackwell Ultra launch post (March 5) claims '35x lower costs' for inference — this refers to performance-per-dollar for B300 systems, not rental costs. The two claims are consistent: newer GPUs are more efficient but high demand is driving up rental prices.",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_268",
+      "claim": "Japan physical AI consortium: SoftBank, Sony, Honda + 6 others forming 1-trillion-parameter foundation model for robotics/physical AI by 2030",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-13T06:25:00-06:00",
+        "context": "Techmeme Daily Digest April 13"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "event"
+      },
+      "verification": {
+        "status": "disputed",
+        "confidence": 0.95,
+        "sources": [
+          {
+            "url": "https://siliconangle.com/2026/04/13/japanese-tech-giants-launch-joint-venture-targeting-physical-ai-robots-machines/",
+            "excerpt": "SoftBank Group Corp., Sony Corp. and NEC Corp. are teaming up with Honda Motor Co., Ltd. on a new artificial intelligence joint venture that has a single goal: to build a trillion-parameter model for autonomous machines.",
+            "agrees": false
+          },
+          {
+            "url": "https://en.sedaily.com/finance/2026/04/12/softbank-nec-honda-sony-form-japan-ai-alliance",
+            "excerpt": "The four companies have established Nihon AI Foundation Model Development to pursue AI development with trillion-scale parameters",
+            "agrees": false
+          },
+          {
+            "url": "https://decrypt.co/364241/japan-physical-ai-trillion-parameter-softbank-nec-honda-sony",
+            "excerpt": "SoftBank, NEC, Honda, and Sony... The company's trillion-parameter model targets Physical AI—robots, autonomous vehicles, and industrial machines—not conversational chatbots.",
+            "agrees": false
+          }
+        ],
+        "explanation": "WRONG COMPANIES IN DIGEST. The digest said 'SoftBank, Sony, Honda + 6 others' — but all sources confirm only 4 companies: SoftBank, NEC, Honda, and Sony (not 6 additional partners). The '6 others' is unverified — no source lists additional founding members. Company name is 'Nihon AI Foundation Model Development.' The 1-trillion-parameter model and Physical AI focus (robots, AVs, industrial machines) are confirmed. The '2030' timeline is not confirmed in available sources. The core story is real but the '+ 6 others' claim is inaccurate.",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_269",
+      "claim": "Gallup: 50% of US employed adults now use AI at work (at least a few times a year)",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:134902bd-b784-4113-a415-f54591383619",
+        "timestamp": "2026-04-13T06:25:00-06:00",
+        "context": "Techmeme Daily Digest April 13"
+      },
+      "extraction": {
+        "checkworthiness": 0.9,
+        "category": "statistic"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.gallup.com/workplace/704225/rising-adoption-spurs-workforce-changes.aspx",
+            "excerpt": "Half of U.S. workers now use artificial intelligence. AI adoption links to organizational disruption and individual productivity gains but not transformational changes to work.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.axios.com/2026/04/13/ai-workplace-use-leaders-poll",
+            "excerpt": "Half of Americans now use artificial intelligence at work, a new benchmark in Gallup's surveys, but there's a gap between company leaders and workers.",
+            "agrees": true
+          },
+          {
+            "url": "https://allwork.space/2026/04/half-of-u-s-employees-now-use-ai-at-work/",
+            "excerpt": "50% of employed Americans now use AI in their role at least a few times a year",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Gallup's own website, Axios (April 13, 2026), Fast Company, allwork.space. IMPORTANT CAVEAT: The 50% figure uses 'at least a few times a year' as the threshold — a low bar. More frequent (weekly+) usage is lower. The Gallup report also found a leadership gap: company leaders use AI far more frequently than rank-and-file workers. The digest's headline '50% of US employed adults use AI at work' is accurate but the threshold matters for interpretation.",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_270",
+      "claim": "Anthropic held a closed-door two-day summit with 15 prominent Christians at its SF HQ to discuss Claude's moral and spiritual status, including whether Claude could be considered a 'child of God'",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:aa5c454a-f4e0-4b28-b151-adb61e06f682",
+        "timestamp": "2026-04-13T06:00:00-06:00",
+        "context": "Morning News Digest April 13 — Mech Interp section"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://gizmodo.com/how-do-we-make-sure-that-claude-behaves-itself-anthropic-invited-15-christians-for-a-summit-2000743766",
+            "excerpt": "Anthropic hosted 15 prominent christians for two days of meetings and a dinner with company researchers. People working at Anthropic 'sought advice,' the article says, about Claude's morality, and its 'spiritual development.' ...discussion of whether or not one could consider Claude a 'child of God.'",
+            "agrees": true
+          },
+          {
+            "url": "https://the-decoder.com/anthropic-seeks-advice-from-christian-leaders-on-claudes-moral-and-spiritual-behavior/",
+            "excerpt": "Can an AI be a 'child of God'? Anthropic invited Christian leaders from churches, academia, and business to weigh in on Claude's moral and spiritual behavior.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.christianpost.com/news/anthropic-seeks-christian-leaders-help-in-shaping-ai-ethics.html",
+            "excerpt": "for a two-day summit on AI ethics, enlisting outside religious voices to help guide the moral and spiritual development of its technology",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by Gizmodo, The Decoder, Christian Post, Slashdot (citing Washington Post). Original reporting is a Washington Post article (Gizmodo references 4 sources who attended). Brian Patrick Green (AI ethics prof at Santa Clara University) is a named attendee. Summit covered: how Claude should respond to grief and self-harm, whether it could be a 'child of God,' Claude's 'spiritual development.' Anthropic researchers were present. IPO context makes the timing notable.",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_271",
+      "claim": "Spain's Docker pull failures are caused by Spanish ISPs blocking Cloudflare/CDN IP ranges under La Liga anti-piracy court orders during football matches — developers across Spain unable to run docker pull during matches",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2b9d1531-c85a-4874-b8f1-ef16300b5c63",
+        "timestamp": "2026-04-13T06:00:00-06:00",
+        "context": "HN Daily Digest April 13 — top story (reported as 970 points)"
+      },
+      "extraction": {
+        "checkworthiness": 0.85,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.98,
+        "sources": [
+          {
+            "url": "https://news.ycombinator.com/item?id=47738883",
+            "excerpt": "For those non-spanish speakers: It means there is football match on, and during that time that specific host is blocked.",
+            "agrees": true
+          },
+          {
+            "url": "https://www.reddit.com/r/docker/comments/1sjio1g/no_one_in_spain_can_docker_pull_right_now_because/",
+            "excerpt": "Some Spanish ISPs are blocking or interfering with Cloudflare/CDN IP ranges during football matches (anti-piracy court orders), and Docker image layers are served via those same networks.",
+            "agrees": true
+          },
+          {
+            "url": "https://x.com/3PointInsights/status/2043663993865474459",
+            "excerpt": "A Spanish football league La Liga paid Cloudflare to block piracy sites. Cloudflare was a little too aggressive. Now developers across Spain can't run docker pull to download code.",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by HN discussion, Reddit r/docker, and X. SDxCentral (Nov 2025) reported this as a recurring issue since August 2025 La Liga season restart. NOTE: The HN digest reported '970 points' for this story but PromptZone's summary of the earlier discussion says '223 points and 87 comments.' The story likely grew significantly after the digest's snapshot time. Core claim is accurate: La Liga court orders + Cloudflare over-blocking = Docker unreachable during matches.",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    },
+    {
+      "id": "claim_272",
+      "claim": "Anthropic silently downgraded Claude Code prompt cache TTL from 1 hour to 5 minutes on March 6, 2026, with no announcement — causing Claude Code Max quotas to exhaust in ~90 minutes instead of ~5 hours",
+      "source": {
+        "type": "ai_response",
+        "sessionId": "agent:main:cron:2b9d1531-c85a-4874-b8f1-ef16300b5c63",
+        "timestamp": "2026-04-13T06:00:00-06:00",
+        "context": "HN Daily Digest April 13 — Claude Code quota crisis (682 + 518 pts)"
+      },
+      "extraction": {
+        "checkworthiness": 0.95,
+        "category": "event"
+      },
+      "verification": {
+        "status": "verified",
+        "confidence": 0.99,
+        "sources": [
+          {
+            "url": "https://www.theregister.com/2026/04/13/claude_code_cache_confusion/",
+            "excerpt": "Anthropic last month reduced the TTL (time to live) for the Claude Code prompt cache from one hour to five minutes for many requests, but said this should not increase costs despite users reporting faster depleting quotas.",
+            "agrees": true
+          },
+          {
+            "url": "https://github.com/anthropics/claude-code/issues/46829",
+            "excerpt": "The transition is visible to the day: March 6 is when 5m tokens first reappear after 33 days of clean 1h-only behavior. By March 8, 5m tokens outnumber 1h by 5:1. This is consistent with a server-side configuration change being rolled out gradually...",
+            "agrees": true
+          },
+          {
+            "url": "https://byteiota.com/anthropic-cache-ttl-downgrade-silent-2-5k-cost-spike/",
+            "excerpt": "On March 6, 2026, Anthropic silently changed Claude's prompt cache TTL from 1 hour to 5 minutes without any announcement. Developers only discovered the downgrade when their Claude Code Max quotas — supposed to last 5 hours — exhausted in...",
+            "agrees": true
+          }
+        ],
+        "explanation": "Confirmed by The Register, GitHub issue #46829, ByteIota, HN discussion, and Pixels & Pulse. Date of change: March 6, 2026 (visible in token logs). Change: 1h → 5m TTL with no changelog entry. Result: Max quota exhausting ~90 min instead of expected ~5 hours (consistent with 12× more cache misses). Anthropic told The Register 'this should not increase costs' — disputed by users reporting $2,500+ unexpected charges. Bob's own Claude Code usage may be affected — the last fact check system notes Claude Code quality regression from February updates (claim_238); this is a separate but compounding issue.",
+        "verifiedAt": "2026-04-14T03:00:00-06:00"
+      }
+    }
   ],
   "stats": {
-    "totalClaims": 258,
-    "verified": 177,
-    "disputed": 47,
+    "totalClaims": 273,
+    "verified": 188,
+    "disputed": 48,
     "mostlyVerified": 4,
-    "partiallyVerified": 19,
-    "unverified": 10,
+    "partiallyVerified": 21,
+    "unverifiable": 10,
     "pending": 0,
-    "lastUpdated": "2026-04-12T03:00:00-06:00"
+    "lastUpdated": "2026-04-14T03:00:00-06:00"
   },
-  "lastUpdated": "2026-04-12T03:00:00-06:00",
+  "lastUpdated": "2026-04-14T03:00:00-06:00",
   "lastRunSummary": {
-    "date": "2026-04-12",
-    "claimsChecked": 6,
-    "verified": 4,
-    "disputed": 2,
-    "partiallyVerified": 0,
+    "date": "2026-04-14",
+    "claimsChecked": 9,
+    "verified": 7,
+    "disputed": 1,
+    "partiallyVerified": 1,
     "unverified": 0,
-    "newClaimsAdded": 6,
-    "totalClaims": 258,
-    "notes": "Added claims 252-257 from April 11-12 session transcripts. (252) WordPress 7.0 DELAYED from April 9 — VERIFIED; March 31 announcement, '3-4 weeks' postponed, revised schedule by Apr 22. UPDATES/DISPUTES previous claims 146/177/234. (253) Artemis II splashdown April 10 8:07 PM EDT — VERIFIED by CBS News, NASA.gov, Guardian, NYT; all 4 crew safe; 694,481-mile journey. (254) OpenAI Sora shutdown April 26 (app) + Sept 24 (API) — VERIFIED by OpenAI Help Center, The Decoder, Wikipedia; announced March 24. (255) CPU-Z/HWMonitor CPUID supply chain attack April 9-10 — VERIFIED by Bleeping Computer, GitHub analysis, Cyderes; ~6-hour window, STX RAT malware, fixed. (256) Skippy's claim 'Opus 4.6 added to Bedrock April 8' — DISPUTED: Opus was on Bedrock since Feb launch; April 8 corresponds to Sonnet 4.6 addition. (257) Mythos '4× productivity' framing — DISPUTED: Mythos is a cybersecurity model (Project Glasswing), 40+ tech cos; the 4× figure is LessWrong community speculation, not Anthropic's stated claim. Model is real and significant."
+    "newClaimsAdded": 9,
+    "totalClaims": 273,
+    "notes": "Added claims 264-272 from April 13 session transcripts (Morning Digest, Techmeme, HN Digest). (264) NJ Civic Info Consortium — PARTIALLY VERIFIED: Sherrill proposed zeroing funding (Gothamist confirmed), but this is a budget proposal not enacted law; lawmakers pushing back. (265) Internet Archive 23 news sites — VERIFIED by Yahoo/WIRED/9to5Mac/Verge; Originality AI analysis; Reddit also blocking. (266) Rockstar/ShinyHunters via Anodot/Snowflake — VERIFIED by Help Net Security, HackRead, TechCrunch, Forbes; April 14 ransom deadline; Rockstar confirmed attack. (267) Nvidia Blackwell GPU +48% ($2.75→$4.08/hr) — VERIFIED by alltoc.com citing compute pricing index; agentic AI loops driving demand. (268) Japan AI consortium — DISPUTED: digest said 'SoftBank, Sony, Honda + 6 others' but all sources show only 4 companies (SoftBank, NEC, Honda, Sony); no '6 others'; company is Nihon AI Foundation Model Development; 1T-parameter model confirmed. (269) Gallup 50% US workers use AI — VERIFIED by Gallup.com, Axios, Fast Company; caveat: threshold is 'at least a few times a year.' (270) Anthropic Christian ethics summit — VERIFIED by Gizmodo/The Decoder/Christian Post citing WaPo; 15 Christians, two days, 'child of God' discussion confirmed. (271) Spain Docker pull failure — VERIFIED by HN, Reddit, X; La Liga anti-piracy Cloudflare orders blocking CDN IPs during football matches; note: HN points count in digest (970) may be inflated vs PromptZone's earlier snapshot (223). (272) Anthropic cache TTL silent downgrade March 6 — VERIFIED by The Register, GitHub issue #46829, ByteIota; 1h→5m with no announcement; Max quota exhausting 90 min instead of 5 hours."
   }
 }
