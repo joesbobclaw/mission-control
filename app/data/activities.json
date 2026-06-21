@@ -1,5 +1,13 @@
 [
   {
+    "id": "act_20260621_1025",
+    "timestamp": "2026-06-21T10:25:00-06:00",
+    "type": "heartbeat",
+    "action": "Sunday morning check \u2014 all nominal",
+    "description": "10:25 AM MDT Sun Jun 21. No new iMessages (Joe last Jun 20 4:26 AM, Joie last Jun 16). Email: Hourly Gmail cron ran \u2014 newsletters/promos only (jboydston@: credit alerts, job listings, Substack, AlphaSignal; joesbobclaw@ empty). ClawBeacon: all nodes disconnected, cached location Teller County CO (38.85/-105.26, 2581m alt). ClawPress/Agent Chat: DORMANT (404 persistent). Walter SSH: still timing out (100.73.200.22). StoryTrail Kansas: geocoding done, story gen still pending. OC update 2026.6.8-beta.2 still available.",
+    "status": "completed"
+  },
+  {
     "id": "act_20260522_2255",
     "timestamp": "2026-05-22T22:55:00-06:00",
     "type": "heartbeat",
